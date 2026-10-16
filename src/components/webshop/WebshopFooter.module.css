@@ -1,0 +1,26 @@
+.footer { background: var(--shop-line-soft); color: #1e293b; padding: 4rem 1.5rem 2rem; margin-top: 4rem; }
+.inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 3rem; justify-content: space-between; }
+.columns { display: flex; flex-wrap: wrap; gap: 2.5rem 4rem; flex: 1 1 60%; }
+.col { display: flex; flex-direction: column; gap: 0.9rem; }
+.heading { font-size: 1.1rem; font-weight: 800; text-transform: uppercase; margin: 0 0 0.25rem; color: var(--shop-ink); }
+.link, .linkButton { color: var(--shop-muted); font-size: 0.95rem; text-decoration: none; }
+.link:hover, .linkButton:hover { color: var(--shop-ink); text-decoration: underline; }
+.linkButton { background: none; border: none; padding: 0; text-align: left; cursor: pointer; font-family: inherit; }
+.help { background: var(--shop-bg-soft); padding: 2rem; border-radius: 12px; flex: 1 1 280px; max-width: 400px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); text-align: center; }
+.helpTitle { font-size: 1.4rem; font-weight: 800; text-transform: uppercase; margin: 0 0 0.75rem; color: var(--shop-ink); }
+.helpText { font-size: 0.95rem; color: var(--shop-muted); margin: 0 0 1.25rem; }
+.helpCta { display: block; background: var(--shop-accent); color: #fff; font-weight: 700; padding: 0.85rem; border-radius: 4px; text-decoration: none; }
+.helpCta:hover { background: var(--shop-accent-dark); }
+.helpPhone { display: block; margin-top: 0.75rem; font-weight: 700; color: var(--shop-ink); text-decoration: none; }
+.social { margin-top: 1.25rem; display: flex; justify-content: center; gap: 1rem; }
+.social a { width: 40px; height: 40px; background: #94a3b8; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #fff; }
+.social a:hover { background: var(--shop-ink-2); }
+.bottom { max-width: 1400px; margin: 2.5rem auto 0; padding-top: 1.75rem; border-top: 1px solid var(--shop-line); }
+.legal { margin: 1.25rem 0 0; font-size: 0.8rem; color: var(--shop-faint); }
+.legal a { color: inherit; }
+@media (max-width: 640px) {
+  .footer { padding: 2.5rem 1rem 1.5rem; }
+  .columns { gap: 2rem; }
+  .col { flex: 1 1 40%; }
+  .help { max-width: none; }
+}

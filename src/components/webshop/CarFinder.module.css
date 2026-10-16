@@ -1,0 +1,15 @@
+.finder {
+  max-width: 1100px; margin: 1.5rem auto; padding: 1rem 1.25rem; background: #fff;
+  border: 1px solid var(--shop-line-soft); border-radius: 12px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+  display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center;
+}
+.label { font-weight: 800; color: var(--shop-ink); margin-right: 0.25rem; }
+.field { flex: 1 1 180px; min-width: 0; padding: 0.7rem 0.75rem; border: 1.5px solid var(--shop-line); border-radius: var(--shop-radius); background: #fff; font-size: 1rem; color: var(--shop-ink); }
+.field:disabled { background: #f1f5f9; }
+.go { flex: 0 1 auto; background: var(--shop-accent); color: #fff; border: none; border-radius: var(--shop-radius); padding: 0.75rem 1.4rem; font-weight: 700; font-size: 1rem; cursor: pointer; }
+.go:hover { background: var(--shop-accent-dark); }
+@media (max-width: 640px) {
+  .finder { margin: 1rem; }
+  .label { width: 100%; }
+  .go { width: 100%; }
+}

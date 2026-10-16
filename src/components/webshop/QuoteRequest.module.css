@@ -1,0 +1,13 @@
+.box { width: 100%; max-width: 760px; box-sizing: border-box; background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; gap: .85rem; text-align: left; }
+.title { font-size: 1.2rem; margin: 0; color: #0f172a; }
+.lead { margin: 0; color: #475569; font-size: .95rem; }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .75rem; }
+.wide { grid-column: 1 / -1; }
+.box label { display: flex; flex-direction: column; gap: .3rem; font-size: .85rem; font-weight: 600; color: #334155; }
+.box input, .box select, .box textarea { font: inherit; font-size: 16px; font-weight: 400; padding: .65rem .75rem; border: 1px solid #cbd5e1; border-radius: 8px; min-height: 44px; background: #fff; width: 100%; min-width: 0; box-sizing: border-box; }
+.box .hp { position: absolute; left: -9999px; width: 1px; height: 1px; min-height: 0; padding: 0; }
+.error { color: #b91c1c; margin: 0; font-size: .9rem; }
+.send { min-height: 48px; border: 0; border-radius: 8px; background: var(--shop-accent, #b93c20); color: #fff; font-weight: 700; font-size: 1rem; cursor: pointer; }
+.send:disabled { opacity: .6; }
+.wa { text-align: center; color: #15803d; font-weight: 600; font-size: .9rem; }
+@media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }

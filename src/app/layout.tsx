@@ -1,0 +1,88 @@
+import type { Metadata } from 'next';
+import './globals.css';
+import Script from 'next/script';
+import ConsentBanner from '@/components/ConsentBanner/ConsentBanner';
+import WhatsAppButton from '@/components/WhatsAppButton/WhatsAppButton';
+import WebshopNavigation from '@/components/webshop/WebshopNavigation';
+import WebshopFooter from '@/components/webshop/WebshopFooter';
+import { SITE_CONFIG } from '@/config/site.config';
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_CONFIG.domain),
+  title: {
+    template: '%s | Autosleutel24 Shop',
+    default: 'Autosleutels, behuizingen en afstandsbedieningen | Autosleutel24 Shop',
+  },
+  description: 'Autosleutels, sleutelbehuizingen, afstandsbedieningen en batterijen voor alle merken. Prijzen incl. btw, verzonden binnen 2-3 werkdagen.',
+  openGraph: {
+    type: 'website',
+    locale: 'nl_NL',
+    siteName: `${SITE_CONFIG.name} Shop`,
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
+  /*
+   * Not indexed until the product copy is our own: most descriptions still come
+   * from the supplier, and publishing that is a duplicate-content problem for
+   * the whole domain. Remove together with the Disallow in robots.ts.
+   */
+  robots: { index: false, follow: false, googleBot: { index: false, follow: false } },
+};
+
+const storeSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'OnlineStore',
+  '@id': `${SITE_CONFIG.domain}/#store`,
+  name: `${SITE_CONFIG.name} Shop`,
+  url: SITE_CONFIG.domain,
+  email: SITE_CONFIG.email,
+  telephone: SITE_CONFIG.phoneTel,
+  ...(SITE_CONFIG.btw ? { vatID: SITE_CONFIG.btw } : {}),
+  inLanguage: 'nl-NL',
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="nl">
+      <head>
+        <meta name="theme-color" content="#0d2137" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <script
+          id="schema-store"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }}
+        />
+      </head>
+      <body>
+        {/* Consent Mode v2 defaults: nothing is stored until the visitor accepts. */}
+        <Script id="consent-defaults">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent','default',{
+              ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied',
+              analytics_storage:'denied', functionality_storage:'granted',
+              security_storage:'granted', personalization_storage:'denied',
+              wait_for_update: 500
+            });
+            gtag('set','ads_data_redaction', true);
+          `}
+        </Script>
+        {/* ponytail: GTM not loaded until the shop domain and its container exist; events already go to dataLayer. */}
+        <WebshopNavigation />
+        <main className="webshop-main">{children}</main>
+        <WebshopFooter />
+        <WhatsAppButton />
+        <ConsentBanner />
+      </body>
+    </html>
+  );
+}

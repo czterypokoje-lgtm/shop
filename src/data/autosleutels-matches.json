@@ -1,0 +1,7738 @@
+{
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc102": {
+  "code": "TOY101B",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=4296",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-suzuki-surc103": {
+  "battery": "CR1616",
+  "code": "SUZ103A",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutelbehuizingen-suzuki?product_id=4295",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Vitara",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "Ignis",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc151": {
+  "code": "OPE104C",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutelbehuizingen-340691573?product_id=5973",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra K",
+    "from": 2017,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc108": {
+  "code": "OPE104C",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutelbehuizingen-340691573?product_id=5973",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra K",
+    "from": 2017,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_ope104c.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mitsubishi-mitrc101": {
+  "code": "MIT118",
+  "source": "https://www.autosleutels.info/automerken/mitsubishi-nl/sleutelbehuizingen-1280894092?product_id=5727",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_mit118.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc152": {
+  "code": "MAZ115B",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutelbehuizingen-947519966?product_id=2714",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_maz115b.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc109": {
+  "code": "HYU124K3",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutelbehuizingen-286036678?product_id=3679",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc108": {
+  "code": "HYU124K1",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutelbehuizingen-286036678?product_id=3201",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i20",
+    "from": 2012,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "ix35",
+    "from": 2013,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "i10",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "i40",
+    "from": 2013,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "from": 2012,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc102": {
+  "code": "FRD108D",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=3571",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc153": {
+  "battery": "CR2032",
+  "code": "AUD101B",
+  "source": "https://www.autosleutels.info/automerken/audi-sleutels-en-behuizingen/audi-sleutelbehuizing?product_id=5750",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "A3",
+    "from": 2000,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": 1999,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": 1997,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A8",
+    "from": 1998,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "TT",
+    "from": 1998,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A2",
+    "from": 2002,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A6 Allroad",
+    "from": 2002,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "RS6",
+    "from": 2002,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc103": {
+  "code": "AUD109",
+  "source": "https://www.autosleutels.info/automerken/audi-sleutels-en-behuizingen/audi-sleutelbehuizing?product_id=4173",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc101": {
+  "code": "FRD108D",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=3571",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for115": {
+  "code": "FRD142C",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutels-met-electronica-1228930886?product_id=5141",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Tourneo Custom",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluesselblatt-und-platine-kompatibel-fuer-volkswagen-vvr107e": {
+  "code": "VX132N",
+  "source": "https://www.autosleutels.info/automerken/seat-sleutels-en-behuizingen/sleutels-met-electronica-1889025918?product_id=4048",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Eos",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Plus",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Touran",
+    "from": 2011,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Octavia",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Ibiza",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Altea",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2009,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vagr108": {
+  "code": "VX132N",
+  "source": "https://www.autosleutels.info/automerken/seat-sleutels-en-behuizingen/sleutels-met-electronica-1889025918?product_id=4048",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Eos",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Plus",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Touran",
+    "from": 2011,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Octavia",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Ibiza",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Altea",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2009,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr125iea": {
+  "code": "OPE142",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=2648",
+  "fitment": [
+   {
+    "make": "Dacia",
+    "model": "Logan",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Dacia",
+    "model": "Duster",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Dacia",
+    "model": "Sandero",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2003,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2003,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2003,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2002,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 2002,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Interstar",
+    "from": 2004,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Primastar",
+    "from": 2004,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr115e": {
+  "code": "REN141A",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=2458",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Koleos",
+    "from": 2008,
+    "to": 2011
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr108": {
+  "code": "REN137-46",
+  "source": "https://www.autosleutels.info/automerken/dacia-nl/sleutels-met-electronica-2097566541?product_id=4571",
+  "fitment": [
+   {
+    "make": "Dacia",
+    "model": "Sandero",
+    "from": null,
+    "to": 2012
+   },
+   {
+    "make": "Dacia",
+    "model": "Logan",
+    "from": null,
+    "to": 2012
+   },
+   {
+    "make": "Dacia",
+    "model": "Duster",
+    "from": null,
+    "to": 2012
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2010,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Renault",
+    "model": "Modus",
+    "from": 2004,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 2010,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "NV400",
+    "from": 2010,
+    "to": 2017
+   },
+   {
+    "make": "Nissan",
+    "model": "Primastar",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr105": {
+  "code": "REN135-46",
+  "source": "https://www.autosleutels.info/automerken/dacia-nl/sleutels-met-electronica-2097566541?product_id=3774",
+  "fitment": [
+   {
+    "make": "Dacia",
+    "model": "Sandero",
+    "from": null,
+    "to": 2012
+   },
+   {
+    "make": "Dacia",
+    "model": "Logan",
+    "from": null,
+    "to": 2012
+   },
+   {
+    "make": "Dacia",
+    "model": "Duster",
+    "from": null,
+    "to": 2012
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2010,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Renault",
+    "model": "Modus",
+    "from": 2004,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 2010,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "NV400",
+    "from": 2010,
+    "to": 2017
+   },
+   {
+    "make": "Nissan",
+    "model": "Primastar",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101": {
+  "code": "REN140B",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=3324",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2014,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr102": {
+  "code": "REN145A",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=3553",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 1998,
+    "to": 2000
+   },
+   {
+    "make": "Renault",
+    "model": "Scenic",
+    "from": 1998,
+    "to": 2000
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151": {
+  "code": "OPE128E",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=3326",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr124iea": {
+  "code": "OPE131AD",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=5489",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Corsa D",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr110iea": {
+  "code": "OPE136MO2",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=5609",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Adam",
+    "from": 2013,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Astra J",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Cascada",
+    "from": 2013,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa E",
+    "from": 2014,
+    "to": 2020
+   },
+   {
+    "make": "Opel",
+    "model": "Insignia",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Karl",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Mokka",
+    "from": 2013,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira C",
+    "from": 2012,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir115e": {
+  "code": "FIA136",
+  "source": "https://www.autosleutels.info/automerken/fiat-sleutels-en-behuizingen/sleutels-met-electronica-744264647?product_id=2553",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": null,
+    "to": 2008
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2004,
+    "to": 2006
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir114e": {
+  "code": "FIA136",
+  "source": "https://www.autosleutels.info/automerken/fiat-sleutels-en-behuizingen/sleutels-met-electronica-744264647?product_id=2553",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": null,
+    "to": 2008
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2004,
+    "to": 2006
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_fia136.webp"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur116iea": {
+  "code": "AUD137KL-868",
+  "source": "https://www.autosleutels.info/automerken/audi-sleutels-en-behuizingen/audi-sleutels-met-electronica?product_id=4561",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S4",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "A5",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S5",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Audi",
+    "model": "S6",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Audi",
+    "model": "A7",
+    "from": 2011,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S7",
+    "from": 2011,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "A8",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S8",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "Allroad",
+    "from": 2013,
+    "to": 2015
+   },
+   {
+    "make": "Audi",
+    "model": "Q5",
+    "from": 2008,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur115iea": {
+  "code": "AUD137-434",
+  "source": "https://www.autosleutels.info/automerken/audi-sleutels-en-behuizingen/audi-sleutels-met-electronica?product_id=3301",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "Q5",
+    "from": 2008,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr111k": {
+  "battery": "CR1632",
+  "code": "TOY142H3",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=5710",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Land Cruiser Prado",
+    "from": 2010,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr116l": {
+  "code": "TOY143K4",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=5771",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "RAV4",
+    "from": 2019,
+    "to": 2020
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr117l": {
+  "code": "TOY143K4",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=5771",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "RAV4",
+    "from": 2019,
+    "to": 2020
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151hu43": {
+  "code": "OPE128E",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=3326",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_ope128e.webp"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151hu46": {
+  "code": "OPE128E",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=3326",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101va2": {
+  "code": "REN140B",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=3324",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2014,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc154": {
+  "code": "AF668",
+  "source": "accessfobs: Aftermarket Smart Key Case for Mazda - 4 Button",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2019,
+    "to": 2022
+   },
+   {
+    "make": "Mazda",
+    "model": "3",
+    "from": 2013,
+    "to": 2022
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": 2012,
+    "to": 2022
+   },
+   {
+    "make": "Mazda",
+    "model": "MX-5",
+    "from": 2015,
+    "to": 2022
+   },
+   {
+    "make": "Fiat",
+    "model": "124 Spider",
+    "from": 2017,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr101": {
+  "code": "MAZ143A",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4431",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "6 Saloon",
+    "from": 2012,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc120": {
+  "code": "HYU115A1",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutelbehuizingen-286036678?product_id=3139",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "ix35",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Hyundai",
+    "model": "i40",
+    "from": 2014,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hyu115a1.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc124": {
+  "battery": "CR2032",
+  "code": "REN114C",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/sleutelbehuizingen-1843468361?product_id=4287",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Talisman",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Espace",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_ren114c.webp"
+ },
+ "funkschluessel-kompatibel-fuer-suzuki-sur149": {
+  "battery": "CR1620",
+  "code": "AF1509",
+  "source": "accessfobs: Aftermarket Bladed Remote Key for Suzuki Swift Vitara ID46",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Grand Vitara",
+    "from": 2006,
+    "to": 2015
+   },
+   {
+    "make": "Suzuki",
+    "model": "Splash",
+    "from": 2008,
+    "to": 2014
+   },
+   {
+    "make": "Suzuki",
+    "model": "Swift",
+    "from": 2004,
+    "to": 2010
+   },
+   {
+    "make": "Suzuki",
+    "model": "SX4",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Suzuki",
+    "model": "Vitara",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr119": {
+  "code": "VX132N",
+  "source": "https://www.autosleutels.info/automerken/seat-sleutels-en-behuizingen/sleutels-met-electronica-1889025918?product_id=4048",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Eos",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Plus",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Touran",
+    "from": 2011,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Octavia",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Ibiza",
+    "from": 2008,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Altea",
+    "from": 2009,
+    "to": null
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2009,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr206x": {
+  "code": "HYU148A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5379",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr210x": {
+  "code": "HYU148A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5379",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir115x": {
+  "battery": "CR2032",
+  "code": "KIA146P3A",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=6264",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Niro",
+    "from": 2023,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir113x": {
+  "battery": "CR2032",
+  "code": "KIA146P2A",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=5719",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir114x": {
+  "battery": "CR2032",
+  "code": "KIA146P2A",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=5719",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-mcrc151": {
+  "code": "MIN109",
+  "source": "https://www.autosleutels.info/automerken/mini-nl/sleutelbehuizingen-1138657402?product_id=4652",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Clubman",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Mini",
+    "model": "Hatch",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Mini",
+    "model": "Countryman",
+    "from": 2010,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-suzuki-sur158": {
+  "code": "SUZ144A",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutels-met-electronica-376960753?product_id=4441",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-suzuki-sur157": {
+  "battery": "CR1616",
+  "code": "SUZ145B",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutels-met-electronica-376960753?product_id=4249",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Swift AZG",
+    "from": 2010,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc115": {
+  "code": "VX133-202AJ",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutels-met-electronica-1918190022?product_id=3579",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Golf VI",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc116": {
+  "code": "AF1145",
+  "source": "accessfobs: Chrome Remote Case for Mercedes Benz 3 button",
+  "fitment": [
+   {
+    "make": "Mercedes-Benz",
+    "model": "A-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "B-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "from": 2000,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CL-Class",
+    "from": 1999,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLK-Class",
+    "from": 1997,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLS-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "from": 1996,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "from": 2013,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "M-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "R-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "from": 1998,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SL-Class",
+    "from": 2001,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLK-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLS-Class",
+    "from": 2010,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "from": 2006,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Vito",
+    "from": 2003,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_6898275287145.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc105": {
+  "code": "NIS131",
+  "source": "https://www.autosleutels.info/automerken/nissan-sleutels-en-behuizingen/sleutels-met-electronica-1104280747?product_id=2352",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Cube",
+    "from": 2009,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "Juke F15",
+    "from": 2010,
+    "to": 2019
+   },
+   {
+    "make": "Nissan",
+    "model": "Leaf",
+    "from": 2013,
+    "to": 2017
+   },
+   {
+    "make": "Nissan",
+    "model": "Micra K13",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Nissan",
+    "model": "Navara",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Note E12",
+    "from": 2013,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-kia-kirc105": {
+  "code": "KIA119B",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutelbehuizingen-785485287?product_id=3875",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Sportage",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Kia",
+    "model": "Sorento",
+    "from": 2012,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc115": {
+  "code": "HYU115A1",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutelbehuizingen-286036678?product_id=3139",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "ix35",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Hyundai",
+    "model": "i40",
+    "from": 2014,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc101": {
+  "code": "NIS131B",
+  "source": "https://www.autosleutels.info/automerken/nissan-sleutels-en-behuizingen/sleutels-met-electronica-1104280747?product_id=3075",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "X-trail",
+    "from": 2013,
+    "to": 2017
+   },
+   {
+    "make": "Nissan",
+    "model": "Qashqai",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "Nissan",
+    "model": "Pulsar",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-peugeot-citroen-pgr102-ask": {
+  "battery": "CR1620",
+  "code": "AF1280",
+  "source": "accessfobs: Flip Key Remote for Citroen/ Peugeot 4 button ID46",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": 2005,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "806",
+    "from": 2005,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "807",
+    "from": 2009,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr128-org": {
+  "code": "HYU145O2",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5815",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i10",
+    "from": 2017,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "Xcent II Sedan",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc114": {
+  "code": "FRD124A",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=3740",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Ranger",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Fiesta",
+    "from": 2017,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_frd124a.webp"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor103": {
+  "battery": "CR1616",
+  "code": "HON141D",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=4466",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2011,
+    "to": 2013
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2011,
+    "to": 2014
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": 2012,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hon141d.webp"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr111": {
+  "code": "TOY143A",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=3424",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Corolla Verso",
+    "from": 2004,
+    "to": 2013
+   },
+   {
+    "make": "Toyota",
+    "model": "IQ",
+    "from": 2008,
+    "to": 2015
+   },
+   {
+    "make": "Toyota",
+    "model": "Prius",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr110": {
+  "code": "TOY143B",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=4481",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": 2008,
+    "to": 2011
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor105": {
+  "code": "HON144B",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=5014",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2012,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir112": {
+  "battery": "CR2032",
+  "code": "KIA146P2A",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=5719",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr108": {
+  "code": "TOY143A",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=3424",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Corolla Verso",
+    "from": 2004,
+    "to": 2013
+   },
+   {
+    "make": "Toyota",
+    "model": "IQ",
+    "from": 2008,
+    "to": 2015
+   },
+   {
+    "make": "Toyota",
+    "model": "Prius",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr114": {
+  "code": "VX133-202AJ",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutels-met-electronica-1918190022?product_id=3579",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Golf VI",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor106": {
+  "code": "HON144M",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=5574",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "City",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Grace",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir111": {
+  "battery": "CR2032",
+  "code": "KIA146P2A",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=5719",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir109": {
+  "battery": "CR2032",
+  "code": "KIA146P3A",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=6264",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Niro",
+    "from": 2023,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr112": {
+  "code": "VX132DAAH",
+  "source": "https://www.autosleutels.info/automerken/seat-sleutels-en-behuizingen/sleutels-met-electronica-1889025918?product_id=4059",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Mk4",
+    "from": 2002,
+    "to": 2004
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "from": 2000,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Škoda",
+    "model": "Fabia",
+    "from": 2002,
+    "to": 2010
+   },
+   {
+    "make": "Škoda",
+    "model": "Octavia",
+    "from": 2001,
+    "to": 2006
+   },
+   {
+    "make": "Škoda",
+    "model": "Roomster",
+    "from": 2006,
+    "to": 2007
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2002,
+    "to": 2005
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2001,
+    "to": 2003
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr115": {
+  "code": "VX133-202AJ",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutels-met-electronica-1918190022?product_id=3579",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Golf VI",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr113": {
+  "code": "VX132DAAH",
+  "source": "https://www.autosleutels.info/automerken/seat-sleutels-en-behuizingen/sleutels-met-electronica-1889025918?product_id=4059",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Mk4",
+    "from": 2002,
+    "to": 2004
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "from": 2000,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Škoda",
+    "model": "Fabia",
+    "from": 2002,
+    "to": 2010
+   },
+   {
+    "make": "Škoda",
+    "model": "Octavia",
+    "from": 2001,
+    "to": 2006
+   },
+   {
+    "make": "Škoda",
+    "model": "Roomster",
+    "from": 2006,
+    "to": 2007
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2002,
+    "to": 2005
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2001,
+    "to": 2003
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr127": {
+  "code": "HYU148A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5379",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr126": {
+  "battery": "CR2032",
+  "code": "HYU145C",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=2798",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "from": 2012,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc129": {
+  "battery": "CR2032",
+  "code": "FIA139B",
+  "source": "https://www.autosleutels.info/automerken/fiat-sleutels-en-behuizingen/sleutels-met-electronica-744264647?product_id=5001",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "500X",
+    "from": 2016,
+    "to": 2018
+   },
+   {
+    "make": "Fiat",
+    "model": "Egea",
+    "from": 2016,
+    "to": 2018
+   },
+   {
+    "make": "Fiat",
+    "model": "Tipo",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc106": {
+  "code": "PEC110A2",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutelbehuizingen-95382902?product_id=5940",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C-Elysee",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Cactus",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Peugeot",
+    "model": "508",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_pec110a2.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc159": {
+  "battery": "CR2032",
+  "code": "REN114B",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/sleutelbehuizingen-1843468361?product_id=5448",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Talisman",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Espace",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_ren114b.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-suzuki-surc106": {
+  "code": "SUZ114A",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutelbehuizingen-suzuki?product_id=4825",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Swift",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "Vitara",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "SX4",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc105": {
+  "code": "PEC110A2",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutelbehuizingen-95382902?product_id=5940",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C-Elysee",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Cactus",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Peugeot",
+    "model": "508",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_pec110a2.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc102": {
+  "battery": "CR2450",
+  "code": "AF1565",
+  "source": "accessfobs: Smart Remote for Volvo 5 Button 434Mhz ID46",
+  "fitment": [
+   {
+    "make": "Volvo",
+    "model": "S60",
+    "from": 2010,
+    "to": 2018
+   },
+   {
+    "make": "Volvo",
+    "model": "S80",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Volvo",
+    "model": "V40",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "Volvo",
+    "model": "V40 Crosscounty",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Volvo",
+    "model": "V60",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Volvo",
+    "model": "V70",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Volvo",
+    "model": "XC60",
+    "from": 2008,
+    "to": 2017
+   },
+   {
+    "make": "Volvo",
+    "model": "XC70",
+    "from": 2008,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr109": {
+  "code": "VX133-202AJ",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutels-met-electronica-1918190022?product_id=3579",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Golf VI",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr111": {
+  "battery": "CR2032",
+  "code": "AF2015",
+  "source": "accessfobs: Aftermarket Flip Key Remote for VW Volkswagen Transporter Amarock ID48 7E0837202AD",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Amarok",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "from": 2011,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr125": {
+  "code": "HYU148A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5379",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr123": {
+  "code": "HYU148A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5379",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr122a": {
+  "code": "OPE131AD",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=5489",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Corsa D",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-suzuki-sur156": {
+  "battery": "CR1616",
+  "code": "SUZ145B",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutels-met-electronica-376960753?product_id=4249",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Swift AZG",
+    "from": 2010,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc110": {
+  "code": "FRD124A",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=3740",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Ranger",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Fiesta",
+    "from": 2017,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_frd124a.webp"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr120": {
+  "code": "HYU141",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=2399",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i30",
+    "from": 2011,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "ix35",
+    "from": 2011,
+    "to": 2013
+   },
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2011,
+    "to": 2013
+   },
+   {
+    "make": "Hyundai",
+    "model": "Veloster",
+    "from": 2011,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr104": {
+  "code": "MAZ144D",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4430",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc101": {
+  "code": "VOL122B",
+  "source": "https://www.autosleutels.info/automerken/volvo-sleutels-en-behuizingen/sleutelbehuizingen-1916138735?product_id=3279",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc109": {
+  "code": "FRD124B",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=4101",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Mondeo Vignale",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Mustang",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc110": {
+  "code": "AF1145",
+  "source": "accessfobs: Chrome Remote Case for Mercedes Benz 3 button",
+  "fitment": [
+   {
+    "make": "Mercedes-Benz",
+    "model": "A-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "B-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "from": 2000,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CL-Class",
+    "from": 1999,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLK-Class",
+    "from": 1997,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLS-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "from": 1996,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "from": 2013,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "M-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "R-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "from": 1998,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SL-Class",
+    "from": 2001,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLK-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLS-Class",
+    "from": 2010,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "from": 2006,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Vito",
+    "from": 2003,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr106": {
+  "battery": "CR2025",
+  "code": "AF1308",
+  "source": "accessfobs: OEM Smart Keyless Entry Remote for Mazda 2 3 6 MX-5 ID47",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2019,
+    "to": 2022
+   },
+   {
+    "make": "Mazda",
+    "model": "3",
+    "from": 2013,
+    "to": 2022
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": 2012,
+    "to": 2022
+   },
+   {
+    "make": "Mazda",
+    "model": "MX-5",
+    "from": 2015,
+    "to": 2022
+   },
+   {
+    "make": "Fiat",
+    "model": "124 Spider",
+    "from": 2017,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc108": {
+  "code": "AF1136",
+  "source": "accessfobs: Key Case and Emergency Blade for Land Rover Freelander",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "from": 2007,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_8128164725038.png"
+ },
+ "funkschluessel-kompatibel-fuer-citroen-ctr151": {
+  "code": "CIT131D",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=3477",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr108": {
+  "battery": "CR2032",
+  "code": "HYU145H",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=6139",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i20",
+    "from": 2020,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr103": {
+  "code": "MAZ133H",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=5546",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "MX-5",
+    "from": 2000,
+    "to": 2005
+   },
+   {
+    "make": "Mazda",
+    "model": "323",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "CX-5",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr102": {
+  "code": "MAZ133GKD",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4465",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": 2004,
+    "to": 2008
+   },
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2004,
+    "to": 2008
+   },
+   {
+    "make": "Mazda",
+    "model": "Premacy",
+    "from": 2004,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr103xe": {
+  "code": "LAN133A",
+  "source": "https://www.autosleutels.info/automerken/landrover-nl/sleutels-met-electronica-467346336?product_id=4809",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir105": {
+  "battery": "CR2032",
+  "code": "KIA146C",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=5381",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Sportage",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr118": {
+  "code": "HYU141",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=2399",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i30",
+    "from": 2011,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "ix35",
+    "from": 2011,
+    "to": 2013
+   },
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2011,
+    "to": 2013
+   },
+   {
+    "make": "Hyundai",
+    "model": "Veloster",
+    "from": 2011,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr117": {
+  "code": "HYU149F3",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=6032",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Kona",
+    "from": 2021,
+    "to": 2023
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir104": {
+  "code": "KIA146P5",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=5884",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Ceed",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Kia",
+    "model": "Ceed Hybrid",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Kia",
+    "model": "Ceed Sportswagon",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Kia",
+    "model": "Proceed",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Kia",
+    "model": "Xceed",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Kia",
+    "model": "XCeed Phev",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr116k": {
+  "code": "HYU145B",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=2797",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2015,
+    "to": 2020
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir103": {
+  "battery": "CR2032",
+  "code": "KIA146D",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=4637",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Sorento",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir101": {
+  "battery": "CR2032",
+  "code": "KIA146D",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=4637",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Sorento",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr113": {
+  "code": "HYU148E",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5331",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Ioniq Electric",
+    "from": 2019,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "Ioniq Hybrid",
+    "from": 2019,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hyu148e.webp"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr101": {
+  "code": "TOY142C1",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=4411",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Prius",
+    "from": 2006,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": 2005,
+    "to": 2011
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla Verso",
+    "from": 2006,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_toy142c1.webp"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor107": {
+  "battery": "CR2032",
+  "code": "HON144C",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=5015",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2012,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor110": {
+  "code": "HON144K",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=5573",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-nissan-nir107": {
+  "battery": "CR2025",
+  "code": "NIS131D",
+  "source": "https://www.autosleutels.info/automerken/nissan-sleutels-en-behuizingen/sleutels-met-electronica-1104280747?product_id=4629",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Lannia",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Sentra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "NV200",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Nissan",
+    "model": "Leaf",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Nissan",
+    "model": "Juke",
+    "from": 2010,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur114x": {
+  "code": "AUD137KL-868",
+  "source": "https://www.autosleutels.info/automerken/audi-sleutels-en-behuizingen/audi-sleutels-met-electronica?product_id=4561",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S4",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "A5",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S5",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Audi",
+    "model": "S6",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Audi",
+    "model": "A7",
+    "from": 2011,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S7",
+    "from": 2011,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "A8",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "S8",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Audi",
+    "model": "Allroad",
+    "from": 2013,
+    "to": 2015
+   },
+   {
+    "make": "Audi",
+    "model": "Q5",
+    "from": 2008,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr121": {
+  "battery": "CR2032",
+  "code": "HYU140H",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=3818",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "from": 2012,
+    "to": 2017
+   },
+   {
+    "make": "Hyundai",
+    "model": "ix45",
+    "from": 2012,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-peugeot-citroen-pgr102-fsk": {
+  "battery": "CR1620",
+  "code": "AF1280",
+  "source": "accessfobs: Flip Key Remote for Citroen/ Peugeot 4 button ID46",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": 2005,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "806",
+    "from": 2005,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "807",
+    "from": 2009,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc102": {
+  "code": "MAZ131B2KD",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4184",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "CX7",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "SKE126-01 DJ5976",
+    "from": null,
+    "to": 2014
+   },
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2011,
+    "to": 2014
+   },
+   {
+    "make": "Mazda",
+    "model": "MX-5",
+    "from": 2006,
+    "to": 2012
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr104": {
+  "code": "VX133-202BN",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutels-met-electronica-1918190022?product_id=4409",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Beetle Cabriolet",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caddy",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for114": {
+  "code": "FRD142C",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutels-met-electronica-1228930886?product_id=5141",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Tourneo Custom",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr109iea": {
+  "code": "OPE131F",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutels-met-electronica-405888206?product_id=3558",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Vectra C",
+    "from": 2002,
+    "to": 2008
+   },
+   {
+    "make": "Opel",
+    "model": "Signum",
+    "from": 2002,
+    "to": 2008
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-dacia-rnrc120": {
+  "code": "REN119A",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/sleutelbehuizingen-1843468361?product_id=3034",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc117-obatteriefach-va2": {
+  "code": "CIT133D-VA2",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=3700",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2009,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc101": {
+  "code": "MB103B",
+  "source": "https://www.autosleutels.info/automerken/mercedes-sleutels-en-behuizingen/sleutelbehuizingen-1495619294?product_id=2344",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_mb103b.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc112": {
+  "code": "VX102",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutelbehuizingen-volkswagen?product_id=4834",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc104-mbatteriefach-va2": {
+  "code": "CIT133D-VA2",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=3700",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2009,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc153": {
+  "code": "MAZ113B",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutelbehuizingen-947519966?product_id=2715",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_maz113b.webp"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc112-obatteriefach-va2": {
+  "code": "AF1133",
+  "source": "accessfobs: Flip Key Remote Case for Peugeot Citroen with HU83 blade (2 button) Battery on Board",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "207",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "307",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-dacia-rnrc116": {
+  "code": "REN119A",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/sleutelbehuizingen-1843468361?product_id=3034",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-kia-hyr158": {
+  "battery": "CR2032",
+  "code": "HYU145Q",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5143",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Sonata",
+    "from": 2018,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-suzuki-surc151": {
+  "code": "SUZ114A",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutelbehuizingen-suzuki?product_id=4825",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Swift",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "Vitara",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "SX4",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc114": {
+  "code": "CHE119",
+  "source": "https://www.autosleutels.info/automerken/opel-sleutels-en-behuizingen/sleutelbehuizingen-340691573?product_id=2430",
+  "fitment": [
+   {
+    "make": "Chevrolet",
+    "model": "Volt",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc152": {
+  "code": "FRD103G",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=3694",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_frd103g.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc153": {
+  "code": "FRD108D",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=3571",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_frd108d.webp"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc118-mbatteriefach-hu83": {
+  "code": "CIT134DK",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=2332",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc102-obatteriefach-hu83": {
+  "code": "AF1133",
+  "source": "accessfobs: Flip Key Remote Case for Peugeot Citroen with HU83 blade (2 button) Battery on Board",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "207",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "307",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc112": {
+  "code": "REN108B",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/sleutelbehuizingen-1843468361?product_id=2457",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Laguna",
+    "from": 2004,
+    "to": 2008
+   },
+   {
+    "make": "Renault",
+    "model": "Espace",
+    "from": 2004,
+    "to": 2008
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_ren108b.webp"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc103-mbatteriefach-hu83": {
+  "code": "AF1133",
+  "source": "accessfobs: Flip Key Remote Case for Peugeot Citroen with HU83 blade (2 button) Battery on Board",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "207",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "307",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc104": {
+  "code": "TOY113C",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=3303",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc155": {
+  "code": "TOY113B",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=3302",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc156": {
+  "code": "TOY103A",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=2394",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc153": {
+  "code": "TOY111A",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=3050",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc101": {
+  "code": "TOY111",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=2393",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_toy111.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc105": {
+  "code": "TOY139",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=2389",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "RAV4 - Corolla",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-mcrc150": {
+  "code": "MIN109",
+  "source": "https://www.autosleutels.info/automerken/mini-nl/sleutelbehuizingen-1138657402?product_id=4652",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Clubman",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Mini",
+    "model": "Hatch",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Mini",
+    "model": "Countryman",
+    "from": 2010,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc103": {
+  "code": "AF1105",
+  "source": "accessfobs: Smart Key Fob CASE for Jaguar Land Rover Range Rover",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Land Rover",
+    "model": "Discovery Sport",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Land Rover",
+    "model": "Velar",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Land Rover",
+    "model": "Vogue",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Evoque",
+    "from": 2011,
+    "to": 2019
+   },
+   {
+    "make": "Jaguar",
+    "model": "F-Pace",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "F-Type",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "XE",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Jaguar",
+    "model": "XF",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Jaguar",
+    "model": "XJ",
+    "from": 2010,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc112": {
+  "code": "HON102",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutelbehuizingen-1577166156?product_id=5240",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Honda",
+    "model": "Accord",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hon102.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc113": {
+  "code": "HON101",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutelbehuizingen-1577166156?product_id=5239",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Honda",
+    "model": "Accord",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hon101.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc101": {
+  "code": "HON122",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutelbehuizingen-1577166156?product_id=2838",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Accord",
+    "from": 2009,
+    "to": 2012
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hon122.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc110": {
+  "code": "HON109A",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutelbehuizingen-1577166156?product_id=3116",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hon109a.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc102": {
+  "code": "HON121",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutelbehuizingen-1577166156?product_id=3368",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2013,
+    "to": 2013
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": 2010,
+    "to": 2015
+   },
+   {
+    "make": "Honda",
+    "model": "CR-Z",
+    "from": 2010,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc109": {
+  "code": "VX133-202AJ",
+  "source": "https://www.autosleutels.info/automerken/volkswagen-sleutels-en-behuizingen/sleutels-met-electronica-1918190022?product_id=3579",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Golf VI",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr101": {
+  "code": "HYU131A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=2843",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i30",
+    "from": 2012,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hyu131a.webp"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr150hu43": {
+  "battery": "CR2032",
+  "code": "AF1556",
+  "source": "accessfobs: Remote Head for Opel/Vauxhall ID40",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Corsa C",
+    "from": 2001,
+    "to": 2007
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2002,
+    "to": 2011
+   },
+   {
+    "make": "Opel",
+    "model": "Meriva",
+    "from": 2002,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Tigra",
+    "from": 2002,
+    "to": 2008
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc104": {
+  "code": "HON103A",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutelbehuizingen-1577166156?product_id=6004",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Honda",
+    "model": "Jade",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Honda",
+    "model": "Crosstour",
+    "from": 2014,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_hon103a.webp"
+ },
+ "funkschluessel-kompatibel-mit-mitsubishi-mitr107": {
+  "code": "MIT139E",
+  "source": "https://www.autosleutels.info/automerken/mitsubishi-nl/sleutels-met-electronica-874725220?product_id=5786",
+  "fitment": [
+   {
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "Attrage",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "Space Star",
+    "from": 2019,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc119": {
+  "code": "AF77",
+  "source": "accessfobs: Flip Key Remote Case for VW Seat 4 Button (Sliding Doors)",
+  "fitment": [
+   {
+    "make": "Seat",
+    "model": "Alhambra",
+    "from": 2016,
+    "to": 2020
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caravelle",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Multivan",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": 2015,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/back-in-stock-collection_15216517513593.jpg"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir106": {
+  "battery": "CR2032",
+  "code": "AF1316",
+  "source": "accessfobs: OEM Smart Remote for Fiat Croma PCF7961M",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Croma",
+    "from": 2013,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/fiat_6880724844649.jpg"
+ },
+ "funkschluessel-3-tasten-kompatibel-fuer-peugeot-citroen-cpr124-fsk": {
+  "battery": "CR1620",
+  "code": "AF1659",
+  "source": "accessfobs: Aftermarket Flip Key Remote Key for Peugeot Citroen Fiat 3 button ID46 (FSK)",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "C3 Picasso",
+    "from": 2010,
+    "to": 2012
+   },
+   {
+    "make": "Citroën",
+    "model": "C4",
+    "from": 2011,
+    "to": 2012
+   },
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2007,
+    "to": 2017
+   },
+   {
+    "make": "Citroën",
+    "model": "Dispatch",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "Scudo",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "208",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "RCZ",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2007,
+    "to": 2013
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "407",
+    "from": 2008,
+    "to": 2010
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2009,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc117": {
+  "code": "CIT113-HU83",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutelbehuizingen-95382902?product_id=2364",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc103": {
+  "code": "AF708",
+  "source": "accessfobs: Smart Key Remote Case for Ford HU101 (battery on case)",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Galaxy",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Ford",
+    "model": "Mondeo",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Ford",
+    "model": "S-Max",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Ford",
+    "model": "Mustang",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Ford",
+    "model": "Edge",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/just-arrived_15364178870649.webp"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr110": {
+  "battery": "CR1220",
+  "code": "AF1079",
+  "source": "accessfobs: Remote Key Fob and blade for Renault Nissan ID46",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 2000,
+    "to": 2002
+   },
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": 1998,
+    "to": 2008
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2002,
+    "to": 2007
+   },
+   {
+    "make": "Nissan",
+    "model": "Kubistar",
+    "from": 2004,
+    "to": 2005
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc110": {
+  "code": "AF1173",
+  "source": "accessfobs: Flip Key Remote Case for Peugeot Citroen HU83 (Lights)",
+  "fitment": [
+   {
+    "make": "Peugeot",
+    "model": "208",
+    "from": 2013,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2013,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2017,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "508",
+    "from": 2013,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "Expert",
+    "from": 2016,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "Rifter",
+    "from": 2018,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "Traveller",
+    "from": 2016,
+    "to": 2022
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Citroën",
+    "model": "Dispatch",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Cactus",
+    "from": 2017,
+    "to": 2022
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mercedes-benz-bzr119iea": {
+  "battery": "CR2025",
+  "code": "AF1434",
+  "source": "accessfobs: Dash Remote for Mercedes Benz 3 NEC, BGA, BE",
+  "fitment": [
+   {
+    "make": "Mercedes-Benz",
+    "model": "A-Class",
+    "from": 2004,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "B-Class",
+    "from": 2005,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "from": 2003,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CL",
+    "from": 2001,
+    "to": 2011
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLK",
+    "from": 2001,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLS",
+    "from": 2004,
+    "to": 2014
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "from": 2002,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "from": 2002,
+    "to": 2009
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "GL",
+    "from": 2006,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML",
+    "from": 2005,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "R-Class",
+    "from": 2005,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "from": 2001,
+    "to": 2013
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLK",
+    "from": 2004,
+    "to": 2015
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Viano",
+    "from": 2004,
+    "to": 2014
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Vito",
+    "from": 2004,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc114": {
+  "code": "AF77",
+  "source": "accessfobs: Flip Key Remote Case for VW Seat 4 Button (Sliding Doors)",
+  "fitment": [
+   {
+    "make": "Seat",
+    "model": "Alhambra",
+    "from": 2016,
+    "to": 2020
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caravelle",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Multivan",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": 2015,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr112": {
+  "battery": "CR2032",
+  "code": "AF1522",
+  "source": "accessfobs: Smart Remote for Toyota Yaris 2 Button 8A ID74H (Board No. 0010)",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": 2016,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-5-tasten-kompatibel-fuer-jaguar-jag152": {
+  "code": "AF1367",
+  "source": "accessfobs: Smart Remote for Jaguar Land Rover Discovery Sport Range Rover Vogue Evoque",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Evoque",
+    "from": 2011,
+    "to": 2019
+   },
+   {
+    "make": "Land Rover",
+    "model": "Velar",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Land Rover",
+    "model": "Vogue",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Discovery Sport",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Jaguar",
+    "model": "F-Pace",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "F-Type",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "XE",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Jaguar",
+    "model": "XF",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "XJ",
+    "from": 2010,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr102": {
+  "battery": "CR2032",
+  "code": "AF1522",
+  "source": "accessfobs: Smart Remote for Toyota Yaris 2 Button 8A ID74H (Board No. 0010)",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": 2016,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc112": {
+  "code": "AF708",
+  "source": "accessfobs: Smart Key Remote Case for Ford HU101 (battery on case)",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Galaxy",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Ford",
+    "model": "Mondeo",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Ford",
+    "model": "S-Max",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Ford",
+    "model": "Mustang",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Ford",
+    "model": "Edge",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc104": {
+  "code": "AF1196",
+  "source": "accessfobs: Proximity Smart Key Remote Case for Peugeot Citroen Vauxhall - HU83",
+  "fitment": [
+   {
+    "make": "Peugeot",
+    "model": "208",
+    "from": 2016,
+    "to": 2024
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Cactus",
+    "from": 2016,
+    "to": 2019
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Picasso",
+    "from": 2016,
+    "to": 2019
+   },
+   {
+    "make": "Citroën",
+    "model": "Dispatch",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Citroën",
+    "model": "Spacetourer",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2016,
+    "to": 2021
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2016,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2016,
+    "to": 2022
+   },
+   {
+    "make": "Peugeot",
+    "model": "Expert",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Peugeot",
+    "model": "Traveller",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa",
+    "from": 2019,
+    "to": 2021
+   },
+   {
+    "make": "Opel",
+    "model": "Crossland X",
+    "from": 2017,
+    "to": 2021
+   },
+   {
+    "make": "Opel",
+    "model": "Grandland X",
+    "from": 2017,
+    "to": 2020
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr124": {
+  "code": "HYU148A",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=5379",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for120-or": {
+  "battery": "CR2032",
+  "code": "AF345",
+  "source": "accessfobs: Keyless 3 button Remote Key for Ford PCF7953P HITAG Pro ID47 CHIP",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "C-Max",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Ford",
+    "model": "Focus",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Ford",
+    "model": "Grand C-Max",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Ford",
+    "model": "Kuga",
+    "from": 2016,
+    "to": 2020
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-jaguar-jagc151": {
+  "code": "AF1105",
+  "source": "accessfobs: Smart Key Fob CASE for Jaguar Land Rover Range Rover",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Land Rover",
+    "model": "Discovery Sport",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Land Rover",
+    "model": "Velar",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Land Rover",
+    "model": "Vogue",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "Land Rover",
+    "model": "Evoque",
+    "from": 2011,
+    "to": 2019
+   },
+   {
+    "make": "Jaguar",
+    "model": "F-Pace",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "F-Type",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "Jaguar",
+    "model": "XE",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Jaguar",
+    "model": "XF",
+    "from": 2012,
+    "to": 2015
+   },
+   {
+    "make": "Jaguar",
+    "model": "XJ",
+    "from": 2010,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_9103197667630.jpg"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr115": {
+  "battery": "CR2032",
+  "code": "AF1536",
+  "source": "accessfobs: Aftermarket Flip Key Remote for Opel/Vauxhall Insignia Astra J 3 button ID46",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Adam",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Cascada",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Insignia",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Karl",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Opel",
+    "model": "Mokka",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": 2012,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-kia-kir106": {
+  "battery": "CR2032",
+  "code": "KIA139G",
+  "source": "https://www.autosleutels.info/automerken/kia-sleutels-en-behuizingen/sleutels-met-electronica-1020299516?product_id=4656",
+  "fitment": [
+   {
+    "make": "Kia",
+    "model": "Sportage",
+    "from": 2016,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-lexus-lexr101": {
+  "battery": "CR1632",
+  "code": "LEX142B",
+  "source": "https://www.autosleutels.info/automerken/lexus-sleutels-en-behuizingen/sleutels-met-electronica-1183900624?product_id=4761",
+  "fitment": [
+   {
+    "make": "Lexus",
+    "model": "CT200H",
+    "from": 2010,
+    "to": 2014
+   },
+   {
+    "make": "Lexus",
+    "model": "RX350",
+    "from": 2018,
+    "to": 2015
+   },
+   {
+    "make": "Lexus",
+    "model": "RX450H",
+    "from": 2008,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-3-tasten-kompatibel-fuer-peugeot-citroen-cpr124-ask": {
+  "code": "PEU133D-HU83",
+  "source": "https://www.autosleutels.info/automerken/peugeot-sleutels-en-behuizingen/sleutels-met-electronica-1118416820?product_id=5406",
+  "fitment": [
+   {
+    "make": "Peugeot",
+    "model": "208",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "RCZ",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "Expert",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2008,
+    "to": 2010
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc103": {
+  "code": "AF1117",
+  "source": "accessfobs: Flip Key Remote Case for Fiat Ducato Boxer Relay",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Jumper",
+    "from": 2008,
+    "to": 2021
+   },
+   {
+    "make": "Citroën",
+    "model": "Nemo",
+    "from": 2011,
+    "to": 2021
+   },
+   {
+    "make": "Citroën",
+    "model": "Relay",
+    "from": 2009,
+    "to": 2023
+   },
+   {
+    "make": "Fiat",
+    "model": "500",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "500L",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Bravo",
+    "from": 2007,
+    "to": 2015
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Ducato",
+    "from": 2009,
+    "to": 2023
+   },
+   {
+    "make": "Fiat",
+    "model": "Fiorino",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Grande Punto",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Panda",
+    "from": 2011,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2002,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto Evo",
+    "from": 2009,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Qubo",
+    "from": 2008,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "KA",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "Bipper",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Peugeot",
+    "model": "Boxer",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2012,
+    "to": 2023
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_8991068422446.png"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc104": {
+  "code": "AF1117",
+  "source": "accessfobs: Flip Key Remote Case for Fiat Ducato Boxer Relay",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Jumper",
+    "from": 2008,
+    "to": 2021
+   },
+   {
+    "make": "Citroën",
+    "model": "Nemo",
+    "from": 2011,
+    "to": 2021
+   },
+   {
+    "make": "Citroën",
+    "model": "Relay",
+    "from": 2009,
+    "to": 2023
+   },
+   {
+    "make": "Fiat",
+    "model": "500",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "500L",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Bravo",
+    "from": 2007,
+    "to": 2015
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Ducato",
+    "from": 2009,
+    "to": 2023
+   },
+   {
+    "make": "Fiat",
+    "model": "Fiorino",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Grande Punto",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Panda",
+    "from": 2011,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2002,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto Evo",
+    "from": 2009,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Qubo",
+    "from": 2008,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "KA",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "Bipper",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Peugeot",
+    "model": "Boxer",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2012,
+    "to": 2023
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_8991068422446.png"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc106": {
+  "code": "FRD129C",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=4692",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": 2012,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc110": {
+  "code": "AF1129",
+  "source": "accessfobs: Remote Key Case for Renault Megane Clio Kangoo 1 Button",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 1998,
+    "to": 2002
+   },
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": 1998,
+    "to": 2007
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 1998,
+    "to": 2007
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 1997,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2002,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "Interstar",
+    "from": 2000,
+    "to": 2004
+   },
+   {
+    "make": "Nissan",
+    "model": "Kubistar",
+    "from": 2000,
+    "to": 2003
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_242650087451.jpg"
+ },
+ "funkschluessel-5-tasten-kompatibel-fuer-jaguar-jag151": {
+  "battery": "CR2032",
+  "code": "AF1369",
+  "source": "accessfobs: Proximity SMART Remote for Jaguar XF XK",
+  "fitment": [
+   {
+    "make": "Jaguar",
+    "model": "XF",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Jaguar",
+    "model": "XK",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc114-obatteriefach-hu83": {
+  "code": "AF1133",
+  "source": "accessfobs: Flip Key Remote Case for Peugeot Citroen with HU83 blade (2 button) Battery on Board",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Citroën",
+    "model": "DS3",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "207",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "307",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "3008",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "5008",
+    "from": 2009,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc115": {
+  "code": "AF1145",
+  "source": "accessfobs: Chrome Remote Case for Mercedes Benz 3 button",
+  "fitment": [
+   {
+    "make": "Mercedes-Benz",
+    "model": "A-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "B-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "from": 2000,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CL-Class",
+    "from": 1999,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLK-Class",
+    "from": 1997,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "CLS-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "from": 1996,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "from": 2013,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "M-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "R-Class",
+    "from": 2005,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "from": 1998,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SL-Class",
+    "from": 2001,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLK-Class",
+    "from": 2004,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "SLS-Class",
+    "from": 2010,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "from": 2006,
+    "to": 2018
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "Vito",
+    "from": 2003,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_6898275287145.jpg"
+ },
+ "funkschluessel-kompatibel-fuer-smart-smr151": {
+  "battery": "CR1620",
+  "code": "AF1436",
+  "source": "accessfobs: Remote Key for Mercedes-Benz Smart City ForTwo Passion Roadster",
+  "fitment": [
+   {
+    "make": "Smart",
+    "model": "City",
+    "from": 2000,
+    "to": 2004
+   },
+   {
+    "make": "Smart",
+    "model": "ForTwo",
+    "from": 2003,
+    "to": 2006
+   },
+   {
+    "make": "Smart",
+    "model": "Roadster",
+    "from": 2003,
+    "to": 2006
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr104": {
+  "battery": "CR2032",
+  "code": "AF1269",
+  "source": "accessfobs: Ignition Remote for Chrysler Jeep Dodge ID46",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "Town and Country",
+    "from": 2008,
+    "to": 2010
+   },
+   {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "from": 2008,
+    "to": 2013
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc150": {
+  "code": "AF1126",
+  "source": "accessfobs: Aftermarket Flip Key Remote Case for VW Skoda Seat",
+  "fitment": [
+   {
+    "make": "Seat",
+    "model": "Alhambra",
+    "from": 2016,
+    "to": 2020
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Amarok",
+    "from": 2009,
+    "to": 2022
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": 2016,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "California",
+    "from": 2009,
+    "to": 2022
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caddy",
+    "from": 2016,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": 2016,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": 2016,
+    "to": 2022
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "from": 2009,
+    "to": 2022
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc116": {
+  "code": "AF34",
+  "source": "accessfobs: Remote Key Case for Vauxhall Opel Astra H",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": 2004,
+    "to": 2009
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2007,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Meriva",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Opel",
+    "model": "Tigra",
+    "from": 2004,
+    "to": 2009
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": 2005,
+    "to": 2014
+   },
+   {
+    "make": "Opel",
+    "model": "Astra H",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc109": {
+  "code": "AF1122",
+  "source": "accessfobs: Flip Key Case HU100- Astra J Style 3 button",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Opel",
+    "model": "Cascada",
+    "from": 2013,
+    "to": 2019
+   },
+   {
+    "make": "Opel",
+    "model": "Insignia",
+    "from": 2009,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_14963786318201.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc105": {
+  "code": "AF34",
+  "source": "accessfobs: Remote Key Case for Vauxhall Opel Astra H",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": 2004,
+    "to": 2009
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2007,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Meriva",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Opel",
+    "model": "Tigra",
+    "from": 2004,
+    "to": 2009
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": 2005,
+    "to": 2014
+   },
+   {
+    "make": "Opel",
+    "model": "Astra H",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc108": {
+  "code": "AF1117",
+  "source": "accessfobs: Flip Key Remote Case for Fiat Ducato Boxer Relay",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Jumper",
+    "from": 2008,
+    "to": 2021
+   },
+   {
+    "make": "Citroën",
+    "model": "Nemo",
+    "from": 2011,
+    "to": 2021
+   },
+   {
+    "make": "Citroën",
+    "model": "Relay",
+    "from": 2009,
+    "to": 2023
+   },
+   {
+    "make": "Fiat",
+    "model": "500",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "500L",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Bravo",
+    "from": 2007,
+    "to": 2015
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Ducato",
+    "from": 2009,
+    "to": 2023
+   },
+   {
+    "make": "Fiat",
+    "model": "Fiorino",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Grande Punto",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Panda",
+    "from": 2011,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2002,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto Evo",
+    "from": 2009,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Qubo",
+    "from": 2008,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "KA",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Peugeot",
+    "model": "Bipper",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Peugeot",
+    "model": "Boxer",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2012,
+    "to": 2023
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_8991068422446.png"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc107": {
+  "code": "AF710",
+  "source": "accessfobs: Flip Key Remote Case for Fiat 500 Punto",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Nemo",
+    "from": 2011,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "500",
+    "from": 2007,
+    "to": 2021
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Fiorino",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Grande Punto",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto Evo",
+    "from": 2009,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Qubo",
+    "from": 2008,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "KA",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "Bipper",
+    "from": 2012,
+    "to": 2020
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/just-arrived_15358784799097.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc105": {
+  "code": "AF1108",
+  "source": "accessfobs: Remote Key Case for Renault Trafic Master Kangoo 2 Button with blade",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Interstar",
+    "from": 2004,
+    "to": 2010
+   },
+   {
+    "make": "Nissan",
+    "model": "Kubistar",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Nissan",
+    "model": "Primastar",
+    "from": 2003,
+    "to": 2015
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2002,
+    "to": 2015
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2004,
+    "to": 2012
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2003,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 2004,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2002,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc107": {
+  "code": "REN119A",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/sleutelbehuizingen-1843468361?product_id=3034",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2007,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc102": {
+  "code": "AF1129",
+  "source": "accessfobs: Remote Key Case for Renault Megane Clio Kangoo 1 Button",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 1998,
+    "to": 2002
+   },
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": 1998,
+    "to": 2007
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 1998,
+    "to": 2007
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 1997,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2002,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "Interstar",
+    "from": 2000,
+    "to": 2004
+   },
+   {
+    "make": "Nissan",
+    "model": "Kubistar",
+    "from": 2000,
+    "to": 2003
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_242650087451.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc151": {
+  "code": "AF1108",
+  "source": "accessfobs: Remote Key Case for Renault Trafic Master Kangoo 2 Button with blade",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Interstar",
+    "from": 2004,
+    "to": 2010
+   },
+   {
+    "make": "Nissan",
+    "model": "Kubistar",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Nissan",
+    "model": "Primastar",
+    "from": 2003,
+    "to": 2015
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2002,
+    "to": 2015
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 2004,
+    "to": 2012
+   },
+   {
+    "make": "Renault",
+    "model": "Master",
+    "from": 2003,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 2004,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2002,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_242604179483.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc110": {
+  "code": "AF1126",
+  "source": "accessfobs: Aftermarket Flip Key Remote Case for VW Skoda Seat",
+  "fitment": [
+   {
+    "make": "Seat",
+    "model": "Alhambra",
+    "from": 2016,
+    "to": 2020
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Amarok",
+    "from": 2009,
+    "to": 2022
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": 2016,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "California",
+    "from": 2009,
+    "to": 2022
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caddy",
+    "from": 2016,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": 2016,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": 2016,
+    "to": 2022
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "from": 2009,
+    "to": 2022
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_8878889992494.jpg"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr150hu46": {
+  "battery": "CR2032",
+  "code": "AF1556",
+  "source": "accessfobs: Remote Head for Opel/Vauxhall ID40",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Corsa C",
+    "from": 2001,
+    "to": 2007
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2002,
+    "to": 2011
+   },
+   {
+    "make": "Opel",
+    "model": "Meriva",
+    "from": 2002,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Tigra",
+    "from": 2002,
+    "to": 2008
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc105": {
+  "code": "AF77",
+  "source": "accessfobs: Flip Key Remote Case for VW Seat 4 Button (Sliding Doors)",
+  "fitment": [
+   {
+    "make": "Seat",
+    "model": "Alhambra",
+    "from": 2016,
+    "to": 2020
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caravelle",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Multivan",
+    "from": 2015,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": 2015,
+    "to": 2019
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/back-in-stock-collection_15216517513593.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc109": {
+  "code": "AF1129",
+  "source": "accessfobs: Remote Key Case for Renault Megane Clio Kangoo 1 Button",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 1998,
+    "to": 2002
+   },
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": 1998,
+    "to": 2007
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": 1998,
+    "to": 2007
+   },
+   {
+    "make": "Opel",
+    "model": "Movano",
+    "from": 1997,
+    "to": 2010
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2002,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "Interstar",
+    "from": 2000,
+    "to": 2004
+   },
+   {
+    "make": "Nissan",
+    "model": "Kubistar",
+    "from": 2000,
+    "to": 2003
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc107": {
+  "code": "AF34",
+  "source": "accessfobs: Remote Key Case for Vauxhall Opel Astra H",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": 2004,
+    "to": 2009
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2007,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Opel",
+    "model": "Meriva",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Opel",
+    "model": "Tigra",
+    "from": 2004,
+    "to": 2009
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": 2005,
+    "to": 2014
+   },
+   {
+    "make": "Opel",
+    "model": "Astra H",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc101": {
+  "code": "AF1143",
+  "source": "accessfobs: Remote Key CASE for Range Rover Sport Land Rover Discovery HU101",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "from": 2004,
+    "to": 2009
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/key-cases_9103274246446.jpg"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc123": {
+  "code": "TOY104B",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutelbehuizingen-2096732525?product_id=4373",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "MR2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-2-tasten-kompatibel-fuer-peugeot-citroen-cpr121iea": {
+  "battery": "CR1620",
+  "code": "AF1273",
+  "source": "accessfobs: Aftermarket Flip Key Remote for Peugeot Citroen 2 Button (ASK)",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C2",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Citroën",
+    "model": "C4",
+    "from": 2004,
+    "to": 2010
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Picasso",
+    "from": 2007,
+    "to": 2010
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Grand Picasso",
+    "from": 2007,
+    "to": 2010
+   },
+   {
+    "make": "Citroën",
+    "model": "C5",
+    "from": 2007,
+    "to": 2017
+   },
+   {
+    "make": "Citroën",
+    "model": "C6",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": 2006,
+    "to": 2009
+   },
+   {
+    "make": "Citroën",
+    "model": "Dispatch",
+    "from": 2006,
+    "to": 2009
+   },
+   {
+    "make": "Citroën",
+    "model": "Jumpy",
+    "from": 2007,
+    "to": 2011
+   },
+   {
+    "make": "Fiat",
+    "model": "Scudo",
+    "from": 2007,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "207",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Peugeot",
+    "model": "307",
+    "from": 2005,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "308",
+    "from": 2007,
+    "to": 2013
+   },
+   {
+    "make": "Peugeot",
+    "model": "406",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Peugeot",
+    "model": "407",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Peugeot",
+    "model": "607",
+    "from": 2005,
+    "to": 2010
+   },
+   {
+    "make": "Peugeot",
+    "model": "807",
+    "from": 2005,
+    "to": 2009
+   },
+   {
+    "make": "Peugeot",
+    "model": "Expert",
+    "from": 2006,
+    "to": 2009
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr144iea": {
+  "code": "REN141A",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=2458",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Koleos",
+    "from": 2008,
+    "to": 2011
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hon112e": {
+  "code": "HON141B",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=4814",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 2014,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2015,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor108": {
+  "code": "HON131D1",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=5291",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2006,
+    "to": 2008
+   },
+   {
+    "make": "Honda",
+    "model": "FRV",
+    "from": 2007,
+    "to": 2009
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": 2006,
+    "to": 2008
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr109iea-868mhz": {
+  "battery": "CR2450",
+  "code": "AF1226",
+  "source": "accessfobs: SMART Key Remote Fob compatible with BMW CAS 4 & FEM F-Series and 7 Series 868mhz",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "1 Series F20",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F21",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "2 Series F22",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F23",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F46",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "3 Series F30",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F31",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F34",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "4 Series F32",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "BMW",
+    "model": "F33",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "BMW",
+    "model": "F36",
+    "from": 2013,
+    "to": 2020
+   },
+   {
+    "make": "BMW",
+    "model": "5 Series F10",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F11",
+    "from": 2009,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "6 Series F06",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F12",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "F13",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "7 Series F01",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "BMW",
+    "model": "F02",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "BMW",
+    "model": "X1 F48",
+    "from": 2015,
+    "to": 2022
+   },
+   {
+    "make": "BMW",
+    "model": "X2 F39",
+    "from": 2017,
+    "to": 2022
+   },
+   {
+    "make": "BMW",
+    "model": "X3 F25",
+    "from": 2010,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "X4 F26",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "X5 F15",
+    "from": 2013,
+    "to": 2018
+   },
+   {
+    "make": "BMW",
+    "model": "X6 F16",
+    "from": 2014,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc103": {
+  "code": "MAZ132A3KD",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4083",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2007,
+    "to": 2011
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": 2007,
+    "to": 2010
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr117-hu179": {
+  "battery": "CR2032",
+  "code": "AF1096",
+  "source": "accessfobs: Aftermarket Flip Remote Key for Dacia Renault Vauxhall ID4A",
+  "fitment": [
+   {
+    "make": "Dacia",
+    "model": "Duster",
+    "from": 2013,
+    "to": 2018
+   },
+   {
+    "make": "Dacia",
+    "model": "Logan",
+    "from": 2013,
+    "to": 2019
+   },
+   {
+    "make": "Dacia",
+    "model": "Sandero",
+    "from": 2013,
+    "to": 2019
+   },
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2015,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr115": {
+  "code": "TOY142B",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=4749",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "RAV4",
+    "from": 2010,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Auris",
+    "from": 2009,
+    "to": 2012
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr103": {
+  "code": "TOY142B",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=4749",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "RAV4",
+    "from": 2010,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Auris",
+    "from": 2009,
+    "to": 2012
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc105": {
+  "code": "VOL138",
+  "source": "https://www.autosleutels.info/automerken/volvo-sleutels-en-behuizingen/sleutels-met-electronica-1164106489?product_id=4627",
+  "fitment": [
+   {
+    "make": "Volvo",
+    "model": "S70",
+    "from": 1997,
+    "to": 2000
+   },
+   {
+    "make": "Volvo",
+    "model": "V70",
+    "from": 1997,
+    "to": 2000
+   },
+   {
+    "make": "Volvo",
+    "model": "C70",
+    "from": 1997,
+    "to": 2000
+   },
+   {
+    "make": "Volvo",
+    "model": "XC70",
+    "from": 1997,
+    "to": 2000
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc106": {
+  "code": "VOL138",
+  "source": "https://www.autosleutels.info/automerken/volvo-sleutels-en-behuizingen/sleutels-met-electronica-1164106489?product_id=4627",
+  "fitment": [
+   {
+    "make": "Volvo",
+    "model": "S70",
+    "from": 1997,
+    "to": 2000
+   },
+   {
+    "make": "Volvo",
+    "model": "V70",
+    "from": 1997,
+    "to": 2000
+   },
+   {
+    "make": "Volvo",
+    "model": "C70",
+    "from": 1997,
+    "to": 2000
+   },
+   {
+    "make": "Volvo",
+    "model": "XC70",
+    "from": 1997,
+    "to": 2000
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr122": {
+  "code": "HYU103B",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutelbehuizingen-286036678?product_id=6163",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2020,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc168": {
+  "battery": "CR2032",
+  "code": "AF1270",
+  "source": "accessfobs: Proximity Remote Fob for Chrysler Dodge Fiat Jeep ID46",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "300",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "Fiat",
+    "model": "500X",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "Freemont",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Jeep",
+    "model": "Cherokee",
+    "from": 2014,
+    "to": 2019
+   },
+   {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "from": 2014,
+    "to": 2019
+   },
+   {
+    "make": "Jeep",
+    "model": "Renegade",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Chrysler",
+    "model": "Dodge",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc166": {
+  "battery": "CR2032",
+  "code": "AF1270",
+  "source": "accessfobs: Proximity Remote Fob for Chrysler Dodge Fiat Jeep ID46",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "300",
+    "from": 2011,
+    "to": 2018
+   },
+   {
+    "make": "Fiat",
+    "model": "500X",
+    "from": 2014,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "Freemont",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Jeep",
+    "model": "Cherokee",
+    "from": 2014,
+    "to": 2019
+   },
+   {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "from": 2014,
+    "to": 2019
+   },
+   {
+    "make": "Jeep",
+    "model": "Renegade",
+    "from": 2015,
+    "to": 2017
+   },
+   {
+    "make": "Chrysler",
+    "model": "Dodge",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc163": {
+  "battery": "CR2032",
+  "code": "AF1266",
+  "source": "accessfobs: Smart Key Remote for Chrysler Dodge Jeep - 5 button Fobik Remote PCF7941",
+  "fitment": [
+   {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Jeep",
+    "model": "Commander",
+    "from": 2009,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "Grand Voyager",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "Town",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "Country",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "300",
+    "from": 2008,
+    "to": 2012
+   },
+   {
+    "make": "Chrysler",
+    "model": "Dodge",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc160": {
+  "battery": "CR2032",
+  "code": "AF1266",
+  "source": "accessfobs: Smart Key Remote for Chrysler Dodge Jeep - 5 button Fobik Remote PCF7941",
+  "fitment": [
+   {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Jeep",
+    "model": "Commander",
+    "from": 2009,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "Grand Voyager",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "Town",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "Country",
+    "from": 2008,
+    "to": 2013
+   },
+   {
+    "make": "Chrysler",
+    "model": "300",
+    "from": 2008,
+    "to": 2012
+   },
+   {
+    "make": "Chrysler",
+    "model": "Dodge",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc159": {
+  "battery": "CR2032",
+  "code": "AF1269",
+  "source": "accessfobs: Ignition Remote for Chrysler Jeep Dodge ID46",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "Town and Country",
+    "from": 2008,
+    "to": 2010
+   },
+   {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "from": 2008,
+    "to": 2013
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-nissan-nir108": {
+  "code": "AF1218",
+  "source": "accessfobs: Smart Key Case for Nissan 3 button NSN14",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "X-Trail",
+    "from": 2023,
+    "to": 2024
+   },
+   {
+    "make": "Nissan",
+    "model": "Rogue",
+    "from": 2023,
+    "to": 2024
+   },
+   {
+    "make": "Nissan",
+    "model": "Ariya",
+    "from": 2023,
+    "to": 2024
+   },
+   {
+    "make": "Nissan",
+    "model": "Kicks",
+    "from": 2023,
+    "to": 2024
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-mitsubishi-mitr103": {
+  "code": "AF1195",
+  "source": "accessfobs: Remote Key Case for Mitsubishi L200 Shogun Triton (MIT8)",
+  "fitment": [
+   {
+    "make": "Mitsubishi",
+    "model": "L200",
+    "from": 2005,
+    "to": 2015
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "Montero",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "Pajero",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "Shogun",
+    "from": 2006,
+    "to": 2014
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "Triton",
+    "from": 2005,
+    "to": 2015
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "L200 Shogun Triton",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "smrc103-funkschluessel-gehaeuse-kompatibel-fuer-smart": {
+  "battery": "CR1620",
+  "code": "AF1436",
+  "source": "accessfobs: Remote Key for Mercedes-Benz Smart City ForTwo Passion Roadster",
+  "fitment": [
+   {
+    "make": "Smart",
+    "model": "City",
+    "from": 2000,
+    "to": 2004
+   },
+   {
+    "make": "Smart",
+    "model": "ForTwo",
+    "from": 2003,
+    "to": 2006
+   },
+   {
+    "make": "Smart",
+    "model": "Roadster",
+    "from": 2003,
+    "to": 2006
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr106-315mhz": {
+  "battery": "CR2025",
+  "code": "BMW109A",
+  "source": "https://www.autosleutels.info/automerken/bmw-sleutels-en-behuizingen/sleutelbehuizingen-869613995?product_id=2526",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "1 - 3 - 5 - Z",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr102": {
+  "code": "AF1103",
+  "source": "accessfobs: Aftermarket Flip Key Remote Fob Case for VW Seat Skoda 3 buttons",
+  "fitment": [
+   {
+    "make": "Seat",
+    "model": "Alhambra",
+    "from": 2010,
+    "to": 2021
+   },
+   {
+    "make": "Seat",
+    "model": "Altea",
+    "from": 2009,
+    "to": 2015
+   },
+   {
+    "make": "Seat",
+    "model": "Ibiza",
+    "from": 2009,
+    "to": 2014
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2009,
+    "to": 2013
+   },
+   {
+    "make": "Seat",
+    "model": "Mii",
+    "from": 2012,
+    "to": 2021
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Škoda",
+    "model": "Citigo",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Škoda",
+    "model": "Fabia",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Škoda",
+    "model": "Rapid",
+    "from": 2012,
+    "to": 2017
+   },
+   {
+    "make": "Škoda",
+    "model": "Roomster",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Škoda",
+    "model": "Superb",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Škoda",
+    "model": "Yeti",
+    "from": 2013,
+    "to": 2018
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": 2011,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caddy",
+    "from": 2011,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "California",
+    "from": 2016,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Caravelle",
+    "from": 2009,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Eos",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Plus",
+    "from": 2009,
+    "to": 2014
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": 2010,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2011,
+    "to": 2015
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": 2010,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Touran",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "from": 2009,
+    "to": 2021
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Scirocco",
+    "from": 2009,
+    "to": 2019
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Up",
+    "from": 2011,
+    "to": 2021
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr104": {
+  "code": "LAN119",
+  "source": "https://www.autosleutels.info/automerken/landrover-nl/sleutelbehuizingen-1862249569?product_id=3641",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc152": {
+  "code": "NIS130B",
+  "source": "https://www.autosleutels.info/automerken/nissan-sleutels-en-behuizingen/sleutels-met-electronica-1104280747?product_id=3007",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Qashqai",
+    "from": 2006,
+    "to": 2013
+   },
+   {
+    "make": "Nissan",
+    "model": "Micra K12",
+    "from": 2003,
+    "to": 2012
+   },
+   {
+    "make": "Nissan",
+    "model": "Note E11",
+    "from": 2006,
+    "to": 2013
+   },
+   {
+    "make": "Nissan",
+    "model": "X-Trail T30",
+    "from": 2003,
+    "to": 2007
+   },
+   {
+    "make": "Nissan",
+    "model": "Tiida C11",
+    "from": 2007,
+    "to": 2011
+   },
+   {
+    "make": "Nissan",
+    "model": "Euro Spec",
+    "from": 2007,
+    "to": 2011
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-dacia-rnrc115": {
+  "code": "REN140B",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=3324",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2014,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc100": {
+  "code": "MAZ131B2KD",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4184",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "CX7",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mitsubishi",
+    "model": "SKE126-01 DJ5976",
+    "from": null,
+    "to": 2014
+   },
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2011,
+    "to": 2014
+   },
+   {
+    "make": "Mazda",
+    "model": "MX-5",
+    "from": 2006,
+    "to": 2012
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc101": {
+  "code": "MAZ132A3KD",
+  "source": "https://www.autosleutels.info/automerken/mazda-sleutels-en-behuizingen/sleutels-met-electronica-940291695?product_id=4083",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2007,
+    "to": 2011
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": 2007,
+    "to": 2010
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc102": {
+  "code": "FIA136",
+  "source": "https://www.autosleutels.info/automerken/fiat-sleutels-en-behuizingen/sleutels-met-electronica-744264647?product_id=2553",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": null,
+    "to": 2008
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2004,
+    "to": 2006
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_fia136.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc101": {
+  "code": "FIA135",
+  "source": "https://www.autosleutels.info/automerken/fiat-sleutels-en-behuizingen/sleutels-met-electronica-744264647?product_id=2554",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 1999,
+    "to": 2004
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11",
+  "image": "/images/products/asi_fia135.webp"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc104": {
+  "code": "REN140B",
+  "source": "https://www.autosleutels.info/automerken/renault-sleutels-en-behuizingen/renault-autosleutels-met-afstandsbediening?product_id=3324",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Opel",
+    "model": "Vivaro",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2014,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc152": {
+  "code": "PEU146A-807",
+  "source": "https://www.autosleutels.info/automerken/peugeot-sleutels-en-behuizingen/sleutels-met-electronica-1118416820?product_id=4387",
+  "fitment": [
+   {
+    "make": "Peugeot",
+    "model": "807",
+    "from": 2005,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc105": {
+  "code": "HON131D",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=3320",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2007,
+    "to": 2009
+   },
+   {
+    "make": "Honda",
+    "model": "Insight",
+    "from": 2009,
+    "to": 2011
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": 2009,
+    "to": 2011
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc116": {
+  "code": "TOY139",
+  "source": "https://www.autosleutels.info/automerken/toyota-sleutels-en-behuizingen/sleutels-met-electronica-1108861759?product_id=2389",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "RAV4 - Corolla",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-suzuki-surc150": {
+  "code": "SUZ146",
+  "source": "https://www.autosleutels.info/automerken/suzuki-nl/sleutels-met-electronica-376960753?product_id=4131",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Swift",
+    "from": 2010,
+    "to": 2015
+   },
+   {
+    "make": "Suzuki",
+    "model": "SX4",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-umbausatz-kompatibel-fuer-peugeot-pgrc108-obatteriefach-va2": {
+  "code": "PEU133D-VA2",
+  "source": "https://www.autosleutels.info/automerken/peugeot-sleutels-en-behuizingen/sleutels-met-electronica-1118416820?product_id=4144",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc103": {
+  "code": "HYU132C",
+  "source": "https://www.autosleutels.info/automerken/hyundai-sleutels-en-behuizingen/sleutels-met-electronica-494938109?product_id=4620",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2006,
+    "to": 2010
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc106": {
+  "code": "HON132C3",
+  "source": "https://www.autosleutels.info/automerken/honda-sleutels-en-behuizingen/sleutels-met-electronica-2055516292?product_id=3560",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Accord",
+    "from": 2003,
+    "to": 2005
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2003,
+    "to": 2006
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc111-mbatteriefach-ne73": {
+  "code": "CIT133D-HU83",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=2331",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C4 Grand Picasso",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Picasso",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": 2009,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc105-obatteriehalter-sx9": {
+  "code": "CIT133D-HU83",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=2331",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C4 Grand Picasso",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Picasso",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": 2009,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc106-obatteriefach-sx9": {
+  "code": "CIT133D-HU83",
+  "source": "https://www.autosleutels.info/automerken/citroen-sleutels-en-behuizingen/sleutels-met-electronica?product_id=2331",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C4 Grand Picasso",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Citroën",
+    "model": "C4 Picasso",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": 2009,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for101": {
+  "code": "AF1106",
+  "source": "accessfobs: Remote Key Case With Blade for Ford Transit Mk7 2006>",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": 2006,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-nissan-nir111": {
+  "code": "AF1146",
+  "source": "accessfobs: Remote Case for Nissan Micra X-Trail Qashqai Pathfinder",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Micra",
+    "from": 2003,
+    "to": 2012
+   },
+   {
+    "make": "Nissan",
+    "model": "Note",
+    "from": 2006,
+    "to": 2013
+   },
+   {
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "from": 2010,
+    "to": 2015
+   },
+   {
+    "make": "Nissan",
+    "model": "Qashqai",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "make": "Nissan",
+    "model": "X-Trail",
+    "from": 2007,
+    "to": 2015
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr103": {
+  "code": "LAN119",
+  "source": "https://www.autosleutels.info/automerken/landrover-nl/sleutelbehuizingen-1862249569?product_id=3641",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr102": {
+  "code": "AF1143",
+  "source": "accessfobs: Remote Key CASE for Range Rover Sport Land Rover Discovery HU101",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "from": 2004,
+    "to": 2009
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for105": {
+  "code": "FRD124B",
+  "source": "https://www.autosleutels.info/automerken/ford-sleutels-en-behuizingen/sleutelbehuizingen-2027864238?product_id=4101",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Mondeo Vignale",
+    "from": 2016,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Mustang",
+    "from": 2016,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir116e": {
+  "battery": "CR2032",
+  "code": "AF344",
+  "source": "accessfobs: Remote Key Fob for Fiat Ford Peugeot Citroen Alfa ID46 (Delphi)",
+  "fitment": [
+   {
+    "make": "Alfa Romeo",
+    "model": "MiTo",
+    "from": 2008,
+    "to": 2020
+   },
+   {
+    "make": "Citroën",
+    "model": "Nemo",
+    "from": 2011,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "500",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": 2009,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Fiorino",
+    "from": 2007,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Grande Punto",
+    "from": 2005,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Panda",
+    "from": 2011,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto Evo",
+    "from": 2009,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Qubo",
+    "from": 2008,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "KA",
+    "from": 2009,
+    "to": 2016
+   },
+   {
+    "make": "Peugeot",
+    "model": "Bipper",
+    "from": 2012,
+    "to": 2020
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": 2012,
+    "to": 2017
+   },
+   {
+    "make": "Citroën",
+    "model": "Alfa ID46",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr112-433mhz": {
+  "code": "AF1152",
+  "source": "accessfobs: Diamond Remote Key Case with HU58 Blade compatible with BMW 3 5 7 Series",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "3 Series",
+    "from": 1995,
+    "to": 2002
+   },
+   {
+    "make": "BMW",
+    "model": "5 Series",
+    "from": 1995,
+    "to": 2003
+   },
+   {
+    "make": "BMW",
+    "model": "7 Series",
+    "from": 1994,
+    "to": 2001
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "from": 1999,
+    "to": 2002
+   },
+   {
+    "make": "BMW",
+    "model": "Z3",
+    "from": 1996,
+    "to": 2002
+   },
+   {
+    "make": "BMW",
+    "model": "Z8",
+    "from": 1996,
+    "to": 2002
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ }
+}

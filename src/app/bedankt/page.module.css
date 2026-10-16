@@ -1,0 +1,10 @@
+.page { max-width: 680px; margin: 0 auto; padding: 3.5rem 1.25rem 5rem; text-align: center; color: var(--shop-ink); }
+.title { font-size: 1.9rem; font-weight: 800; margin: 0 0 0.75rem; }
+.number { font-family: monospace; font-size: 1.05rem; background: #f1f5f9; display: inline-block; padding: 0.4rem 0.8rem; border-radius: 7px; margin: 0 0 1.25rem; }
+.text { color: var(--shop-muted); line-height: 1.7; margin: 0 0 1.5rem; }
+.text a { color: var(--shop-accent); font-weight: 700; }
+.lines { list-style: none; padding: 0; margin: 0 0 2rem; text-align: left; border-top: 1px solid var(--shop-line-soft); }
+.lines li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--shop-line-soft); font-size: 0.95rem; }
+.total { font-weight: 800; }
+.cta { display: inline-block; background: var(--shop-accent); color: #fff; font-weight: 700; padding: 0.85rem 1.5rem; border-radius: 6px; text-decoration: none; margin-bottom: 1.5rem; }
+.more { display: block; color: var(--shop-accent); font-weight: 700; }

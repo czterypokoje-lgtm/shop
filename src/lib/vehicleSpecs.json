@@ -1,0 +1,11724 @@
+{
+ "Toyota Land Cruiser": {
+  "make": "Toyota",
+  "model": "Land Cruiser",
+  "from": 2007,
+  "to": 9999,
+  "chips": [
+   "8A",
+   "DST 80Bit - Plus",
+   "4A"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "TOY49"
+  ],
+  "frequencies": [
+   "433.58 / 434.42 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "printplaten": 1,
+   "accessoires": 1,
+   "behuizingen": 1
+  }
+ },
+ "Mazda 2": {
+  "make": "Mazda",
+  "model": "2",
+  "from": 2004,
+  "to": 2022,
+  "chips": [
+   "PCF7953P - Hitag Pro - Type 3",
+   "4D63",
+   "PCF7953P"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "MAZ24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "behuizingen": 5,
+   "smart-keys": 1,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mazda 6": {
+  "make": "Mazda",
+  "model": "6",
+  "from": 2004,
+  "to": 2022,
+  "chips": [
+   "PCF7953P",
+   "PCF7953P - Hitag Pro - Type 3",
+   "4D63"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "MAZ24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "behuizingen": 5,
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Toyota Camry": {
+  "make": "Toyota",
+  "model": "Camry",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "8A"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2,
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Toyota Prius": {
+  "make": "Toyota",
+  "model": "Prius",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "DST 80Bit - Plus",
+   "4A",
+   "DST 80Bit - Plus 6F - TMS37126",
+   "DST 80 BIT"
+  ],
+  "blades": [
+   "TOY49",
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "accessoires": 1,
+   "smart-keys": 2,
+   "behuizingen": 1
+  }
+ },
+ "Toyota Land Cruiser Prado": {
+  "make": "Toyota",
+  "model": "Land Cruiser Prado",
+  "from": 2007,
+  "to": 2017,
+  "chips": [
+   "DST 80Bit - Plus"
+  ],
+  "blades": [
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Toyota Crown": {
+  "make": "Toyota",
+  "model": "Crown",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "8A - AA",
+   "8A",
+   "4A"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "printplaten": 1,
+   "accessoires": 1
+  }
+ },
+ "Toyota C-HR": {
+  "make": "Toyota",
+  "model": "C-HR",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "8A",
+   "4A"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433.42 / 433.58 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "accessoires": 1
+  }
+ },
+ "Toyota RAV4": {
+  "make": "Toyota",
+  "model": "RAV4",
+  "from": 2010,
+  "to": 9999,
+  "chips": [
+   "8A",
+   "4A",
+   "DST 4D"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "accessoires": 1,
+   "smart-keys": 1,
+   "behuizingen": 3
+  }
+ },
+ "Toyota Yaris": {
+  "make": "Toyota",
+  "model": "Yaris",
+  "from": 2016,
+  "to": 2021,
+  "chips": [
+   "8A",
+   "DST AES 8A / LKP-04",
+   "DST AES 8A / LKP04"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433.30 / 433.58 MHz",
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 7
+  }
+ },
+ "Toyota Tundra": {
+  "make": "Toyota",
+  "model": "Tundra",
+  "from": 2021,
+  "to": 2024,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Toyota Sienna": {
+  "make": "Toyota",
+  "model": "Sienna",
+  "from": 2020,
+  "to": 2024,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Toyota Harrier": {
+  "make": "Toyota",
+  "model": "Harrier",
+  "from": 2020,
+  "to": 2024,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "printplaten": 1,
+   "behuizingen": 1
+  }
+ },
+ "Toyota Venza": {
+  "make": "Toyota",
+  "model": "Venza",
+  "from": 2022,
+  "to": 2024,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Toyota Alphard": {
+  "make": "Toyota",
+  "model": "Alphard",
+  "from": 2022,
+  "to": 9999,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "printplaten": 1,
+   "behuizingen": 2
+  }
+ },
+ "Toyota Sequoia": {
+  "make": "Toyota",
+  "model": "Sequoia",
+  "from": 2023,
+  "to": 2024,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Toyota Vellfire": {
+  "make": "Toyota",
+  "model": "Vellfire",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "8A",
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "printplaten": 1,
+   "accessoires": 1
+  }
+ },
+ "Toyota Corolla Cross": {
+  "make": "Toyota",
+  "model": "Corolla Cross",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Corolla Sport": {
+  "make": "Toyota",
+  "model": "Corolla Sport",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Corolla Sport Hv": {
+  "make": "Toyota",
+  "model": "Corolla Sport Hv",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Corolla Touring": {
+  "make": "Toyota",
+  "model": "Corolla Touring",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Corolla Touring Hv": {
+  "make": "Toyota",
+  "model": "Corolla Touring Hv",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Corolla Hv": {
+  "make": "Toyota",
+  "model": "Corolla Hv",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Levin": {
+  "make": "Toyota",
+  "model": "Levin",
+  "from": 2019,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Levin Hv": {
+  "make": "Toyota",
+  "model": "Levin Hv",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Allion": {
+  "make": "Toyota",
+  "model": "Allion",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Highlander": {
+  "make": "Toyota",
+  "model": "Highlander",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Izoa": {
+  "make": "Toyota",
+  "model": "Izoa",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Alpharo": {
+  "make": "Toyota",
+  "model": "Alpharo",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Lexus Lc": {
+  "make": "Lexus",
+  "model": "Lc",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Rav4 Hv": {
+  "make": "Toyota",
+  "model": "Rav4 Hv",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Toyota Avalon": {
+  "make": "Toyota",
+  "model": "Avalon",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 1
+  }
+ },
+ "Toyota Crown Kluger Hv": {
+  "make": "Toyota",
+  "model": "Crown Kluger Hv",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Lexus Es": {
+  "make": "Lexus",
+  "model": "Es",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Lexus Ux": {
+  "make": "Lexus",
+  "model": "Ux",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Lexus Rx": {
+  "make": "Lexus",
+  "model": "Rx",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Lexus Ls": {
+  "make": "Lexus",
+  "model": "Ls",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Renault Clio 5": {
+  "make": "Renault",
+  "model": "Clio 5",
+  "from": 2020,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Renault Captur": {
+  "make": "Renault",
+  "model": "Captur",
+  "from": 2020,
+  "to": 9999,
+  "chips": [
+   "4A",
+   "PCF7953M - AES"
+  ],
+  "blades": [
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "accessoires": 1,
+   "smart-keys": 1
+  }
+ },
+ "Renault Arkana": {
+  "make": "Renault",
+  "model": "Arkana",
+  "from": 2020,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Renault Kangoo": {
+  "make": "Renault",
+  "model": "Kangoo",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "4A",
+   "PCF7946"
+  ],
+  "blades": [
+   "VAC102",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 16,
+  "categories": {
+   "accessoires": 1,
+   "afstandsbedieningen": 4,
+   "behuizingen": 11
+  }
+ },
+ "Renault Espace": {
+  "make": "Renault",
+  "model": "Espace",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 4,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 3
+  }
+ },
+ "Renault Scenic": {
+  "make": "Renault",
+  "model": "Scenic",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "4A",
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "accessoires": 1,
+   "afstandsbedieningen": 2,
+   "behuizingen": 3
+  }
+ },
+ "Renault Zoe": {
+  "make": "Renault",
+  "model": "Zoe",
+  "from": 2020,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Renault Trafic": {
+  "make": "Renault",
+  "model": "Trafic",
+  "from": 2002,
+  "to": 9999,
+  "chips": [
+   "4A",
+   "7961M - NEW HITAG AES",
+   "PCF7961M - NEW HITAG AES",
+   "PCF7953M - AES",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "HU136",
+   "VAC102",
+   "naar keuze",
+   "VA2 / VA6",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 18,
+  "categories": {
+   "accessoires": 1,
+   "afstandsbedieningen": 8,
+   "behuizingen": 8,
+   "smart-keys": 1
+  }
+ },
+ "Renault Megane 4 Ph2": {
+  "make": "Renault",
+  "model": "Megane 4 Ph2",
+  "from": 2021,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Dodge Charger": {
+  "make": "Dodge",
+  "model": "Charger",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Dodge Ram": {
+  "make": "Dodge",
+  "model": "Ram",
+  "from": 2019,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Dodge Challenger": {
+  "make": "Dodge",
+  "model": "Challenger",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Dodge Durango": {
+  "make": "Dodge",
+  "model": "Durango",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "accessoires": 2
+  }
+ },
+ "Dodge Journey": {
+  "make": "Dodge",
+  "model": "Journey",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Jeep Renegade Prox": {
+  "make": "Jeep",
+  "model": "Renegade Prox",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Jeep Renegade": {
+  "make": "Jeep",
+  "model": "Renegade",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "4A",
+   "Megamos AES",
+   "MEGAMOS AES"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 2,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Jeep Compass Blade": {
+  "make": "Jeep",
+  "model": "Compass Blade",
+  "from": 2019,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Jeep Compass Prox": {
+  "make": "Jeep",
+  "model": "Compass Prox",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Jeep Cherokee": {
+  "make": "Jeep",
+  "model": "Cherokee",
+  "from": 2014,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 2
+  }
+ },
+ "Jeep Grand Cherokee": {
+  "make": "Jeep",
+  "model": "Grand Cherokee",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "4A",
+   "ID46 - HITAG2"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 5,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Jeep Wrangler": {
+  "make": "Jeep",
+  "model": "Wrangler",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Chrysler Pacifica Prox": {
+  "make": "Chrysler",
+  "model": "Pacifica Prox",
+  "from": 2017,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Chrysler 300c": {
+  "make": "Chrysler",
+  "model": "300c",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Peugeot Boxer 3": {
+  "make": "Peugeot",
+  "model": "Boxer 3",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Citroën Relay 3": {
+  "make": "Citroën",
+  "model": "Relay 3",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Citroën Jumper 3": {
+  "make": "Citroën",
+  "model": "Jumper 3",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Opel Movano": {
+  "make": "Opel",
+  "model": "Movano",
+  "from": 1997,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "accessoires": 1,
+   "afstandsbedieningen": 3,
+   "behuizingen": 6
+  }
+ },
+ "Dodge Ram ProMaster": {
+  "make": "Dodge",
+  "model": "Ram ProMaster",
+  "from": 2021,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Fiat Ducato": {
+  "make": "Fiat",
+  "model": "Ducato",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "NCF2960M HITAG AES",
+   "ID46"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
+  }
+ },
+ "Opel Astra": {
+  "make": "Opel",
+  "model": "Astra",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "PCF7937E"
+  ],
+  "blades": [
+   "HU43",
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 7
+  }
+ },
+ "Opel Omega": {
+  "make": "Opel",
+  "model": "Omega",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [
+   "HU43"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 2
+  }
+ },
+ "Opel Vectra": {
+  "make": "Opel",
+  "model": "Vectra",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "HU43"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 3
+  }
+ },
+ "Opel Zafira": {
+  "make": "Opel",
+  "model": "Zafira",
+  "from": 2005,
+  "to": 9999,
+  "chips": [
+   "PCF7937E"
+  ],
+  "blades": [
+   "HU43",
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 6
+  }
+ },
+ "Opel Agila": {
+  "make": "Opel",
+  "model": "Agila",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [
+   "HU46"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Combo": {
+  "make": "Opel",
+  "model": "Combo",
+  "from": 2002,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "HU46",
+   "HU43AT",
+   "SIP22",
+   "HU46AT"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 14,
+  "categories": {
+   "afstandsbedieningen": 8,
+   "behuizingen": 6
+  }
+ },
+ "Opel Corsa": {
+  "make": "Opel",
+  "model": "Corsa",
+  "from": 2005,
+  "to": 2021,
+  "chips": [
+   "PCF7937E"
+  ],
+  "blades": [
+   "HU46",
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
+  }
+ },
+ "Opel Meriva": {
+  "make": "Opel",
+  "model": "Meriva",
+  "from": 2002,
+  "to": 2014,
+  "chips": [],
+  "blades": [
+   "HU46",
+   "HU43AT",
+   "HU46AT"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "behuizingen": 3
+  }
+ },
+ "Opel Vivaro": {
+  "make": "Opel",
+  "model": "Vivaro",
+  "from": 2002,
+  "to": 9999,
+  "chips": [
+   "7961M - NEW HITAG AES",
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 17,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "behuizingen": 12
+  }
+ },
+ "Renault Symbol": {
+  "make": "Renault",
+  "model": "Symbol",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "7961M - NEW HITAG AES",
+   "PCF7961M - NEW HITAG AES",
+   "PCF7961M - HITAG - AES"
+  ],
+  "blades": [
+   "VA2",
+   "HU136",
+   "VAC102",
+   "naar keuze"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 6,
+   "behuizingen": 2
+  }
+ },
+ "Renault Twingo": {
+  "make": "Renault",
+  "model": "Twingo",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "7961M - NEW HITAG AES"
+  ],
+  "blades": [
+   "VA2",
+   "HU136",
+   "VAC102"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 3
+  }
+ },
+ "Opel Corsa C": {
+  "make": "Opel",
+  "model": "Corsa C",
+  "from": 2001,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "HU43AT",
+   "HU46AT"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 1
+  }
+ },
+ "Opel Tigra": {
+  "make": "Opel",
+  "model": "Tigra",
+  "from": 2002,
+  "to": 2009,
+  "chips": [],
+  "blades": [
+   "HU43AT",
+   "HU46AT"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 3
+  }
+ },
+ "Saab Produkt": {
+  "make": "Saab",
+  "model": "Produkt",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Audi J518": {
+  "make": "Audi",
+  "model": "J518",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Opel Ascona": {
+  "make": "Opel",
+  "model": "Ascona",
+  "from": 1975,
+  "to": 1981,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Opel Kadett": {
+  "make": "Opel",
+  "model": "Kadett",
+  "from": 1973,
+  "to": 1983,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Opel Manta": {
+  "make": "Opel",
+  "model": "Manta",
+  "from": 1975,
+  "to": 1981,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Mazda 3": {
+  "make": "Mazda",
+  "model": "3",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "4D",
+   "Electronic Chip FSK / OE: BCYB-67-5DY",
+   "PCF7953P",
+   "PCF7953P - Hitag Pro - Type 3"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mazda MX-5": {
+  "make": "Mazda",
+  "model": "MX-5",
+  "from": 2000,
+  "to": 2022,
+  "chips": [
+   "PCF7953P",
+   "PCF7953P - Hitag Pro - Type 3",
+   "4D63"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "MAZ24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 3,
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Fiat 124 Spider": {
+  "make": "Fiat",
+  "model": "124 Spider",
+  "from": 2017,
+  "to": 2019,
+  "chips": [
+   "PCF7953P - Hitag Pro - Type 3"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
+  }
+ },
+ "Volkswagen Crafter": {
+  "make": "Volkswagen",
+  "model": "Crafter",
+  "from": 2006,
+  "to": 2016,
+  "chips": [
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Master": {
+  "make": "Renault",
+  "model": "Master",
+  "from": 2003,
+  "to": 9999,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 12,
+  "categories": {
+   "behuizingen": 9,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Nissan X-Trail": {
+  "make": "Nissan",
+  "model": "X-Trail",
+  "from": 2003,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - HITAG AES - ID4A - 128Bits",
+   "Farbe: schwarz",
+   "PCF7961M Type 4",
+   "PCF7946 HITAG-AES"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 3,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Nissan Kicks": {
+  "make": "Nissan",
+  "model": "Kicks",
+  "from": 2023,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - HITAG AES - ID4A - 128Bits",
+   "PCF7961M Type 4"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Rogue": {
+  "make": "Nissan",
+  "model": "Rogue",
+  "from": 2023,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - HITAG AES - ID4A - 128Bits",
+   "PCF7961M Type 4"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Ariya": {
+  "make": "Nissan",
+  "model": "Ariya",
+  "from": 2023,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - HITAG AES - ID4A - 128Bits",
+   "PCF7961M Type 4"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mazda 6 Saloon": {
+  "make": "Mazda",
+  "model": "6 Saloon",
+  "from": 2012,
+  "to": 2015,
+  "chips": [
+   "4D"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Hyundai ix35": {
+  "make": "Hyundai",
+  "model": "ix35",
+  "from": 2011,
+  "to": 9999,
+  "chips": [
+   "NCF2951X 47",
+   "PCF7952A Typ7"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "HYN14R"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Hyundai i40": {
+  "make": "Hyundai",
+  "model": "i40",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "8A Texas Crypto 128-bits AES"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW Cas1": {
+  "make": "BMW",
+  "model": "Cas1",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "noodsleutels": 1
+  }
+ },
+ "Renault Koleos": {
+  "make": "Renault",
+  "model": "Koleos",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "PCF7961M - HITAG-AES",
+   "PCF7952A"
+  ],
+  "blades": [
+   "VA2, VA6",
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 1,
+   "smart-keys": 1
+  }
+ },
+ "Renault Kadjar": {
+  "make": "Renault",
+  "model": "Kadjar",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Renault Megane": {
+  "make": "Renault",
+  "model": "Megane",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "VAC102",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "behuizingen": 7,
+   "afstandsbedieningen": 2,
+   "accessoires": 1
+  }
+ },
+ "Renault Clio": {
+  "make": "Renault",
+  "model": "Clio",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "VAC102",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "behuizingen": 6,
+   "afstandsbedieningen": 4
+  }
+ },
+ "Renault Talisman": {
+  "make": "Renault",
+  "model": "Talisman",
+  "from": 2016,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Honda CR-V": {
+  "make": "Honda",
+  "model": "CR-V",
+  "from": 2003,
+  "to": 9999,
+  "chips": [
+   "PCF7936 / HITAG2 / 46 Crypto WR",
+   "PCF7945A / PCF7953A / HITAG2 / 46",
+   "PCF7941",
+   "ID 47",
+   "PCF7936"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 14,
+  "categories": {
+   "behuizingen": 7,
+   "afstandsbedieningen": 6,
+   "smart-keys": 1
+  }
+ },
+ "Honda Jade": {
+  "make": "Honda",
+  "model": "Jade",
+  "from": 2014,
+  "to": 2017,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Honda Crosstour": {
+  "make": "Honda",
+  "model": "Crosstour",
+  "from": 2014,
+  "to": 2016,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Volkswagen Golf": {
+  "make": "Volkswagen",
+  "model": "Golf",
+  "from": 1999,
+  "to": 9999,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "afstandsbedieningen": 7,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Eos": {
+  "make": "Volkswagen",
+  "model": "Eos",
+  "from": 2009,
+  "to": 2016,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 6
+  }
+ },
+ "Volkswagen Tiguan": {
+  "make": "Volkswagen",
+  "model": "Tiguan",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 6,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Sharan": {
+  "make": "Volkswagen",
+  "model": "Sharan",
+  "from": 2010,
+  "to": 2022,
+  "chips": [
+   "48 Crypto",
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 5
+  }
+ },
+ "Volkswagen Jetta": {
+  "make": "Volkswagen",
+  "model": "Jetta",
+  "from": 2009,
+  "to": 2021,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "48 Crypto",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 7
+  }
+ },
+ "Suzuki Grand Vitara": {
+  "make": "Suzuki",
+  "model": "Grand Vitara",
+  "from": 2006,
+  "to": 2015,
+  "chips": [
+   "47 Chip ASK Model 37182-78M00"
+  ],
+  "blades": [
+   "HU133R"
+  ],
+  "frequencies": [
+   "433,92 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Suzuki Splash": {
+  "make": "Suzuki",
+  "model": "Splash",
+  "from": 2008,
+  "to": 2014,
+  "chips": [
+   "47 Chip ASK Model 37182-78M00"
+  ],
+  "blades": [
+   "HU133R"
+  ],
+  "frequencies": [
+   "433,92 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Suzuki Swift": {
+  "make": "Suzuki",
+  "model": "Swift",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "47 Chip ASK Model 37182-78M00"
+  ],
+  "blades": [
+   "HU133R"
+  ],
+  "frequencies": [
+   "433,92 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 4,
+   "noodsleutels": 1
+  }
+ },
+ "Suzuki SX4": {
+  "make": "Suzuki",
+  "model": "SX4",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "47 Chip ASK Model 37182-78M00"
+  ],
+  "blades": [
+   "HU133R"
+  ],
+  "frequencies": [
+   "433,92 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 4,
+   "noodsleutels": 1
+  }
+ },
+ "Suzuki Vitara": {
+  "make": "Suzuki",
+  "model": "Vitara",
+  "from": 2015,
+  "to": 0,
+  "chips": [
+   "47 Chip ASK Model 37182-78M00"
+  ],
+  "blades": [
+   "HU133R"
+  ],
+  "frequencies": [
+   "433,92 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 4
+  }
+ },
+ "Mitsubishi Mirage": {
+  "make": "Mitsubishi",
+  "model": "Mirage",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7961XXT"
+  ],
+  "blades": [
+   "MIT11R"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mitsubishi Attrage": {
+  "make": "Mitsubishi",
+  "model": "Attrage",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7961XXT"
+  ],
+  "blades": [
+   "MIT11R"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mitsubishi Space Star": {
+  "make": "Mitsubishi",
+  "model": "Space Star",
+  "from": 2019,
+  "to": 0,
+  "chips": [
+   "PCF7961XXT"
+  ],
+  "blades": [
+   "MIT11R"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Volkswagen Golf Plus": {
+  "make": "Volkswagen",
+  "model": "Golf Plus",
+  "from": 2009,
+  "to": 2014,
+  "chips": [
+   "MQB Megamos",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 4
+  }
+ },
+ "Volkswagen Polo": {
+  "make": "Volkswagen",
+  "model": "Polo",
+  "from": 2002,
+  "to": 9999,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 6,
+   "sleutelbaarden": 1
+  }
+ },
+ "Volkswagen Scirocco": {
+  "make": "Volkswagen",
+  "model": "Scirocco",
+  "from": 2009,
+  "to": 2019,
+  "chips": [
+   "MQB Megamos",
+   "48 Crypto",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Touran": {
+  "make": "Volkswagen",
+  "model": "Touran",
+  "from": 2010,
+  "to": 9999,
+  "chips": [
+   "MQB Megamos",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "sleutelbaarden": 1
+  }
+ },
+ "Škoda Superb": {
+  "make": "Škoda",
+  "model": "Superb",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "MQB Megamos",
+   "TS48",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "afstandsbedieningen": 6,
+   "behuizingen": 2,
+   "smart-keys": 1
+  }
+ },
+ "Škoda Octavia": {
+  "make": "Škoda",
+  "model": "Octavia",
+  "from": 2001,
+  "to": 2006,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 5
+  }
+ },
+ "Škoda Yeti": {
+  "make": "Škoda",
+  "model": "Yeti",
+  "from": 2009,
+  "to": 2018,
+  "chips": [
+   "MQB Megamos",
+   "TS48",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "afstandsbedieningen": 6,
+   "behuizingen": 2,
+   "smart-keys": 1
+  }
+ },
+ "Seat Ibiza": {
+  "make": "Seat",
+  "model": "Ibiza",
+  "from": 2008,
+  "to": 2014,
+  "chips": [
+   "MQB Megamos",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 4
+  }
+ },
+ "Seat Leon": {
+  "make": "Seat",
+  "model": "Leon",
+  "from": 2002,
+  "to": 2013,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 6
+  }
+ },
+ "Seat Altea": {
+  "make": "Seat",
+  "model": "Altea",
+  "from": 2009,
+  "to": 2015,
+  "chips": [
+   "MQB Megamos",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 4
+  }
+ },
+ "Seat Toledo": {
+  "make": "Seat",
+  "model": "Toledo",
+  "from": 2001,
+  "to": 2016,
+  "chips": [
+   "MQB Megamos",
+   "ID48",
+   "PCF7942 - HITAG2",
+   "ID88",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 6
+  }
+ },
+ "Hyundai Style Xhorse": {
+  "make": "Hyundai",
+  "model": "Style Xhorse",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "universal-remotes": 1
+  }
+ },
+ "Alfa Romeo 159": {
+  "make": "Alfa Romeo",
+  "model": "159",
+  "from": 2005,
+  "to": 2011,
+  "chips": [
+   "PCF7941 Hitag ID46"
+  ],
+  "blades": [
+   "SIP22 Notschlüssel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Alfa Romeo Brera": {
+  "make": "Alfa Romeo",
+  "model": "Brera",
+  "from": 2005,
+  "to": 2011,
+  "chips": [
+   "PCF7941 Hitag ID46"
+  ],
+  "blades": [
+   "SIP22 Notschlüssel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Alfa Romeo Spider": {
+  "make": "Alfa Romeo",
+  "model": "Spider",
+  "from": 2005,
+  "to": 2011,
+  "chips": [
+   "PCF7941 Hitag ID46"
+  ],
+  "blades": [
+   "SIP22 Notschlüssel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Talento": {
+  "make": "Renault",
+  "model": "Talento",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "7946 / 7947 / 7961 Hitag 2 46 Cripto"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Micra": {
+  "make": "Nissan",
+  "model": "Micra",
+  "from": 2003,
+  "to": 9999,
+  "chips": [
+   "7946 / 7947 / 7961 Hitag 2 46 Cripto",
+   "PCF7952A - HITAG2 46 Crypto",
+   "PCF7961M",
+   "PCF7952M - Type7",
+   "4D60Chip",
+   "PCF7946 HITAG-AES"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "smart-keys": 2,
+   "behuizingen": 2
+  }
+ },
+ "Nissan Micra K14": {
+  "make": "Nissan",
+  "model": "Micra K14",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "7946 / 7947 / 7961 Hitag 2 46 Cripto"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Pulsar": {
+  "make": "Nissan",
+  "model": "Pulsar",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "7946 / 7947 / 7961 Hitag 2 46 Cripto"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 1
+  }
+ },
+ "Nissan Pulsar C13": {
+  "make": "Nissan",
+  "model": "Pulsar C13",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "7946 / 7947 / 7961 Hitag 2 46 Cripto"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz Citan": {
+  "make": "Mercedes-Benz",
+  "model": "Citan",
+  "from": 2012,
+  "to": 2021,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Megane III": {
+  "make": "Renault",
+  "model": "Megane III",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7961 ID46",
+   "PCF7961"
+  ],
+  "blades": [
+   "VA2",
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 1
+  }
+ },
+ "Renault Fluence": {
+  "make": "Renault",
+  "model": "Fluence",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7961 ID46",
+   "PCF7961"
+  ],
+  "blades": [
+   "VA2",
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 1
+  }
+ },
+ "Renault Latitude": {
+  "make": "Renault",
+  "model": "Latitude",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7961 ID46",
+   "PCF7961"
+  ],
+  "blades": [
+   "VA2",
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 4
+  }
+ },
+ "Renault Trafic II": {
+  "make": "Renault",
+  "model": "Trafic II",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Dacia Sandero": {
+  "make": "Dacia",
+  "model": "Sandero",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7961M - NEW HITAG AES",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "naar keuze",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 4
+  }
+ },
+ "Dacia Logan": {
+  "make": "Dacia",
+  "model": "Logan",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7961M - NEW HITAG AES",
+   "PCF7961M - HITAG - AES",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "naar keuze",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 5
+  }
+ },
+ "Dacia Duster": {
+  "make": "Dacia",
+  "model": "Duster",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7961M - NEW HITAG AES",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "naar keuze",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 4
+  }
+ },
+ "Renault Clio II": {
+  "make": "Renault",
+  "model": "Clio II",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Clio III": {
+  "make": "Renault",
+  "model": "Clio III",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7947"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Renault Kangoo II": {
+  "make": "Renault",
+  "model": "Kangoo II",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Kangoo III": {
+  "make": "Renault",
+  "model": "Kangoo III",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7947"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Hyundai Sonata": {
+  "make": "Hyundai",
+  "model": "Sonata",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "DST AES - 8A",
+   "PCF7936"
+  ],
+  "blades": [
+   "TOY48",
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Hyundai Elantra": {
+  "make": "Hyundai",
+  "model": "Elantra",
+  "from": 2016,
+  "to": 9999,
+  "chips": [
+   "DST AES - 8A",
+   "4D63",
+   "PCF7936",
+   "PCF7945A en 7953A"
+  ],
+  "blades": [
+   "TOY48",
+   "Notschlüssel TOY48",
+   "TOY49",
+   "Notschlüssel KIA7"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Hyundai Tucson": {
+  "make": "Hyundai",
+  "model": "Tucson",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "NCF2952X - HITAG3",
+   "NCF2952X / HITAG3",
+   "ID47",
+   "NCF2951X 47",
+   "DST 80 BIT - Typ 60 WR",
+   "PCF7945A en 7953A"
+  ],
+  "blades": [
+   "TOY48",
+   "HU135T",
+   "met noodsleutel",
+   "Notschlüssel KIA7"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 14,
+  "categories": {
+   "smart-keys": 6,
+   "afstandsbedieningen": 6,
+   "behuizingen": 2
+  }
+ },
+ "Hyundai Creta": {
+  "make": "Hyundai",
+  "model": "Creta",
+  "from": 2015,
+  "to": 2018,
+  "chips": [
+   "DST AES - 8A"
+  ],
+  "blades": [
+   "TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Hyundai Genesis": {
+  "make": "Hyundai",
+  "model": "Genesis",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "DST AES - 8A"
+  ],
+  "blades": [
+   "TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Hyundai Equus": {
+  "make": "Hyundai",
+  "model": "Equus",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "DST AES - 8A"
+  ],
+  "blades": [
+   "TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Seat Alhambra": {
+  "make": "Seat",
+  "model": "Alhambra",
+  "from": 2010,
+  "to": 2021,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 5,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Volkswagen Caravelle": {
+  "make": "Volkswagen",
+  "model": "Caravelle",
+  "from": 2009,
+  "to": 2021,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Volkswagen Multivan": {
+  "make": "Volkswagen",
+  "model": "Multivan",
+  "from": 2015,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Hyundai Sonata Hybrid": {
+  "make": "Hyundai",
+  "model": "Sonata Hybrid",
+  "from": 2018,
+  "to": 2019,
+  "chips": [
+   "DST AES - 8A"
+  ],
+  "blades": [
+   "TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Jeep Compass": {
+  "make": "Jeep",
+  "model": "Compass",
+  "from": 2014,
+  "to": 2022,
+  "chips": [
+   "PCF7953M - HITAG AES - 4A"
+  ],
+  "blades": [
+   "CY16 / CY24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 2
+  }
+ },
+ "Kia Niro": {
+  "make": "Kia",
+  "model": "Niro",
+  "from": 2017,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - Type E - HITAG AES - 4A",
+   "Farbe: schwarz / silber"
+  ],
+  "blades": [
+   "HU134",
+   "KIA9TE"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Volkswagen Golf Iv": {
+  "make": "Volkswagen",
+  "model": "Golf Iv",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "sleutelbaarden": 3
+  }
+ },
+ "Kia Sportage": {
+  "make": "Kia",
+  "model": "Sportage",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "NCF29A2X - Type E - HITAG3 - ID47",
+   "ID47",
+   "ID47 / NCF2951X / NCF2952X",
+   "DST 80 BIT Typ 60 WR"
+  ],
+  "blades": [
+   "HU134",
+   "TOY48",
+   "KIA8R",
+   "KIA8RS"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 1,
+   "afstandsbedieningen": 4
+  }
+ },
+ "Renault Scenic III": {
+  "make": "Renault",
+  "model": "Scenic III",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7961 ID46",
+   "PCF7961"
+  ],
+  "blades": [
+   "VA2",
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 3
+  }
+ },
+ "Fiat Croma": {
+  "make": "Fiat",
+  "model": "Croma",
+  "from": 2013,
+  "to": 0,
+  "chips": [
+   "PCF7961M / HITAG AES"
+  ],
+  "blades": [
+   "CY16 / CY24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Fiat Fiorino": {
+  "make": "Fiat",
+  "model": "Fiorino",
+  "from": 2007,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "ID46",
+   "Delphi PCF7946",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "behuizingen": 4
+  }
+ },
+ "Fiat Doblo": {
+  "make": "Fiat",
+  "model": "Doblo",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "ID46",
+   "48",
+   "ID48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 13,
+  "categories": {
+   "afstandsbedieningen": 7,
+   "behuizingen": 6
+  }
+ },
+ "Fiat Grande Punto": {
+  "make": "Fiat",
+  "model": "Grande Punto",
+  "from": 2005,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "ID46",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "behuizingen": 4,
+   "accessoires": 1
+  }
+ },
+ "Fiat Punto Evo": {
+  "make": "Fiat",
+  "model": "Punto Evo",
+  "from": 2009,
+  "to": 2012,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "48"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
+  }
+ },
+ "Fiat Punto": {
+  "make": "Fiat",
+  "model": "Punto",
+  "from": 1999,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "ID46",
+   "48",
+   "ID48"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 13,
+  "categories": {
+   "afstandsbedieningen": 6,
+   "behuizingen": 7
+  }
+ },
+ "Fiat Qubo": {
+  "make": "Fiat",
+  "model": "Qubo",
+  "from": 2008,
+  "to": 2020,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "48"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
+  }
+ },
+ "Fiat 500": {
+  "make": "Fiat",
+  "model": "500",
+  "from": 2007,
+  "to": 2021,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "48"
+  ],
+  "blades": [
+   "CY16 / CY24",
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
+  }
+ },
+ "Citroën C3": {
+  "make": "Citroën",
+  "model": "C3",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE",
+   "ID46 - PCF7936"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "434 MHz"
+  ],
+  "count": 17,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 13,
+   "accessoires": 1
+  }
+ },
+ "Citroën C3 Picasso": {
+  "make": "Citroën",
+  "model": "C3 Picasso",
+  "from": 2010,
+  "to": 2012,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën C4": {
+  "make": "Citroën",
+  "model": "C4",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 3,
+   "accessoires": 1
+  }
+ },
+ "Citroën Berlingo": {
+  "make": "Citroën",
+  "model": "Berlingo",
+  "from": 2007,
+  "to": 2018,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 7
+  }
+ },
+ "Citroën Dispatch": {
+  "make": "Citroën",
+  "model": "Dispatch",
+  "from": 2006,
+  "to": 2019,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 2
+  }
+ },
+ "Citroën DS3": {
+  "make": "Citroën",
+  "model": "DS3",
+  "from": 2009,
+  "to": 2017,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 6
+  }
+ },
+ "Fiat Scudo": {
+  "make": "Fiat",
+  "model": "Scudo",
+  "from": 2007,
+  "to": 2016,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Peugeot 208": {
+  "make": "Peugeot",
+  "model": "208",
+  "from": 2012,
+  "to": 2024,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 2
+  }
+ },
+ "Peugeot RCZ": {
+  "make": "Peugeot",
+  "model": "RCZ",
+  "from": 2009,
+  "to": 2016,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Peugeot 308": {
+  "make": "Peugeot",
+  "model": "308",
+  "from": 2007,
+  "to": 2022,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 11,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 8
+  }
+ },
+ "Peugeot 3008": {
+  "make": "Peugeot",
+  "model": "3008",
+  "from": 2008,
+  "to": 2022,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 8
+  }
+ },
+ "Peugeot 407": {
+  "make": "Peugeot",
+  "model": "407",
+  "from": 2006,
+  "to": 2010,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Peugeot 5008": {
+  "make": "Peugeot",
+  "model": "5008",
+  "from": 2009,
+  "to": 2022,
+  "chips": [
+   "PCF7961 HITAG2 46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 5
+  }
+ },
+ "Kia 3rap": {
+  "make": "Kia",
+  "model": "3rap",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Mini Clubman": {
+  "make": "Mini",
+  "model": "Clubman",
+  "from": 2015,
+  "to": 2017,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "behuizingen": 6
+  }
+ },
+ "Mini Hatch": {
+  "make": "Mini",
+  "model": "Hatch",
+  "from": 2015,
+  "to": 2017,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Mini Countryman": {
+  "make": "Mini",
+  "model": "Countryman",
+  "from": 2010,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Ford Galaxy": {
+  "make": "Ford",
+  "model": "Galaxy",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "ID63 - 4D63"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Mondeo": {
+  "make": "Ford",
+  "model": "Mondeo",
+  "from": 2011,
+  "to": 9999,
+  "chips": [
+   "PCF7953P / ID49",
+   "PCF7953P HITAG PRO KeylessGo / Proximity",
+   "DST 80 Bit",
+   "ID63 - 4D63"
+  ],
+  "blades": [
+   "incl.",
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 3,
+   "smart-keys": 1,
+   "transpondersleutels": 1
+  }
+ },
+ "Ford S-Max": {
+  "make": "Ford",
+  "model": "S-Max",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "ID63 - 4D63"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Mustang": {
+  "make": "Ford",
+  "model": "Mustang",
+  "from": 2014,
+  "to": 9999,
+  "chips": [
+   "Electronic Chip M3N - A2C31243800",
+   "PCF7953P HITAG Pro",
+   "PCF7953P- ID49",
+   "4D63",
+   "PCF7953P / ID49"
+  ],
+  "blades": [
+   "HU101",
+   "FO40",
+   "HU101 (nicht im Lieferumfang)"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "902 MHz",
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 4,
+   "smart-keys": 2
+  }
+ },
+ "Ford Edge": {
+  "make": "Ford",
+  "model": "Edge",
+  "from": 2016,
+  "to": 9999,
+  "chips": [
+   "PCF7953P HITAG Pro",
+   "PCG7953P",
+   "PCF7953P / ID49",
+   "PCF7945A / PCF7953A"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "902 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 2,
+   "smart-keys": 2,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Suzuki Swift AZG": {
+  "make": "Suzuki",
+  "model": "Swift AZG",
+  "from": 2010,
+  "to": 2015,
+  "chips": [
+   "ID46 / PCF7961",
+   "ID46 / PCF7936 - HITAG2"
+  ],
+  "blades": [
+   "HU133R"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Toyota Corolla": {
+  "make": "Toyota",
+  "model": "Corolla",
+  "from": 2005,
+  "to": 9999,
+  "chips": [
+   "ID-4D",
+   "DST 80 BIT"
+  ],
+  "blades": [
+   "TOY48",
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 12,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 10
+  }
+ },
+ "Nissan Kubistar": {
+  "make": "Nissan",
+  "model": "Kubistar",
+  "from": 2000,
+  "to": 2012,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "VAC102"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 5
+  }
+ },
+ "Volkswagen Golf VI": {
+  "make": "Volkswagen",
+  "model": "Golf VI",
+  "from": 2009,
+  "to": 2012,
+  "chips": [
+   "TS48",
+   "ID48",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 3,
+   "smart-keys": 1
+  }
+ },
+ "Renault Clio IV": {
+  "make": "Renault",
+  "model": "Clio IV",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7953M - AES"
+  ],
+  "blades": [
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
+  }
+ },
+ "Lexus Nx": {
+  "make": "Lexus",
+  "model": "Nx",
+  "from": 2022,
+  "to": 9999,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Lexus Lx": {
+  "make": "Lexus",
+  "model": "Lx",
+  "from": 2022,
+  "to": 9999,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "BMW B48": {
+  "make": "BMW",
+  "model": "B48",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "BMW B58 Liest Isn": {
+  "make": "BMW",
+  "model": "B58 Liest Isn",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Porsche Dl501 Tcu": {
+  "make": "Porsche",
+  "model": "Dl501 Tcu",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "4A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Honda Accord": {
+  "make": "Honda",
+  "model": "Accord",
+  "from": 2003,
+  "to": 2022,
+  "chips": [
+   "PCF7941"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "printplaten": 2,
+   "afstandsbedieningen": 1,
+   "behuizingen": 4
+  }
+ },
+ "Honda Odyssey": {
+  "make": "Honda",
+  "model": "Odyssey",
+  "from": 2014,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "printplaten": 2
+  }
+ },
+ "Honda Insight": {
+  "make": "Honda",
+  "model": "Insight",
+  "from": 2009,
+  "to": 2021,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "printplaten": 2,
+   "behuizingen": 1
+  }
+ },
+ "Honda Cr-v": {
+  "make": "Honda",
+  "model": "Cr-v",
+  "from": 2016,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "printplaten": 2
+  }
+ },
+ "Honda Passport": {
+  "make": "Honda",
+  "model": "Passport",
+  "from": 2019,
+  "to": 2021,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "printplaten": 2
+  }
+ },
+ "Honda Civic": {
+  "make": "Honda",
+  "model": "Civic",
+  "from": 2011,
+  "to": 9999,
+  "chips": [
+   "PCF7936 / HITAG2 / 46 Crypto WR",
+   "PCF7945A / PCF7953A / HITAG2 / 46",
+   "NCF2952X - HITAG3 Type B",
+   "ID47",
+   "PCF7941",
+   "ID 47"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 12,
+  "categories": {
+   "printplaten": 2,
+   "afstandsbedieningen": 5,
+   "smart-keys": 2,
+   "behuizingen": 3
+  }
+ },
+ "Honda Clarity": {
+  "make": "Honda",
+  "model": "Clarity",
+  "from": 2018,
+  "to": 2020,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "printplaten": 2
+  }
+ },
+ "Cadillac Ct5": {
+  "make": "Cadillac",
+  "model": "Ct5",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Cadillac Cts4": {
+  "make": "Cadillac",
+  "model": "Cts4",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Honda Xrv": {
+  "make": "Honda",
+  "model": "Xrv",
+  "from": 2018,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Honda Jazz": {
+  "make": "Honda",
+  "model": "Jazz",
+  "from": 2006,
+  "to": 2022,
+  "chips": [
+   "PCF7936 / HITAG2 / 46 Crypto WR",
+   "NCF2952X - HITAG3 Type B",
+   "PCF7941",
+   "ID 47",
+   "PCF7936"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "printplaten": 1,
+   "afstandsbedieningen": 4,
+   "smart-keys": 1,
+   "behuizingen": 4
+  }
+ },
+ "Honda City": {
+  "make": "Honda",
+  "model": "City",
+  "from": 2015,
+  "to": 2022,
+  "chips": [
+   "NCF2952X - HITAG3 Type B"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "printplaten": 1,
+   "smart-keys": 1
+  }
+ },
+ "Honda Ridgeline": {
+  "make": "Honda",
+  "model": "Ridgeline",
+  "from": 2017,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Mercedes-Benz A-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "A-Klasse",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "NEC PROCESSOR",
+   "PCF7935"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mercedes-Benz B-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "B-Klasse",
+  "from": 2005,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz C-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "C-Klasse",
+  "from": 1997,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 5,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz CL-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "CL-Klasse",
+  "from": 1999,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz CLK-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "CLK-Klasse",
+  "from": 1997,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz CLS-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "CLS-Klasse",
+  "from": 2004,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz E-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "E-Klasse",
+  "from": 1996,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz GLA-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "GLA-Klasse",
+  "from": 2013,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Mercedes-Benz M-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "M-Klasse",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 11,
+  "categories": {
+   "behuizingen": 9,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mercedes-Benz R-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "R-Klasse",
+  "from": 2005,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz S-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "S-Klasse",
+  "from": 1998,
+  "to": 2018,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz SL-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "SL-Klasse",
+  "from": 2001,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Mercedes-Benz SLK-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "SLK-Klasse",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "NEC PROCESSOR",
+   "PCF7935"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Mercedes-Benz SLS-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "SLS-Klasse",
+  "from": 2010,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Mercedes-Benz Sprinter": {
+  "make": "Mercedes-Benz",
+  "model": "Sprinter",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "NEC PROCESSOR",
+   "T5"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mercedes-Benz Vito": {
+  "make": "Mercedes-Benz",
+  "model": "Vito",
+  "from": 2003,
+  "to": 9999,
+  "chips": [
+   "NEC PROCESSOR",
+   "T5"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Nissan Cube": {
+  "make": "Nissan",
+  "model": "Cube",
+  "from": 2009,
+  "to": 2014,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan Juke F15": {
+  "make": "Nissan",
+  "model": "Juke F15",
+  "from": 2010,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan Leaf": {
+  "make": "Nissan",
+  "model": "Leaf",
+  "from": 2013,
+  "to": 2017,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
+  }
+ },
+ "Nissan Micra K13": {
+  "make": "Nissan",
+  "model": "Micra K13",
+  "from": 2010,
+  "to": 2016,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan Navara": {
+  "make": "Nissan",
+  "model": "Navara",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
+  }
+ },
+ "Nissan Note E12": {
+  "make": "Nissan",
+  "model": "Note E12",
+  "from": 2013,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Kia Sorento": {
+  "make": "Kia",
+  "model": "Sorento",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "ID47 / NCF2951X / NCF2952X",
+   "NCF2951X / NCF2952X / HITAG3"
+  ],
+  "blades": [
+   "HYN17R",
+   "KIA8RS"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 4
+  }
+ },
+ "Peugeot 508": {
+  "make": "Peugeot",
+  "model": "508",
+  "from": 2013,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Peugeot Expert": {
+  "make": "Peugeot",
+  "model": "Expert",
+  "from": 2006,
+  "to": 2022,
+  "chips": [
+   "PCF7961 HITAG2 46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Peugeot Rifter": {
+  "make": "Peugeot",
+  "model": "Rifter",
+  "from": 2018,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Peugeot Traveller": {
+  "make": "Peugeot",
+  "model": "Traveller",
+  "from": 2016,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Citroën C4 Cactus": {
+  "make": "Citroën",
+  "model": "C4 Cactus",
+  "from": 2014,
+  "to": 2022,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 4,
+  "categories": {
+   "behuizingen": 4
+  }
+ },
+ "Toyota Style": {
+  "make": "Toyota",
+  "model": "Style",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "universal-remotes": 6
+  }
+ },
+ "Lexus Style": {
+  "make": "Lexus",
+  "model": "Style",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "8A"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "universal-remotes": 6
+  }
+ },
+ "Toyota Highlander Land Cruiser": {
+  "make": "Toyota",
+  "model": "Highlander Land Cruiser",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "8a"
+  ],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "universal-remotes": 1
+  }
+ },
+ "Nissan Qashqai": {
+  "make": "Nissan",
+  "model": "Qashqai",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "4D60Chip",
+   "PCF7946 HITAG-AES"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Aprilia Gilera": {
+  "make": "Aprilia",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Honda Mbk": {
+  "make": "Honda",
+  "model": "Mbk",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Honda Triumpf": {
+  "make": "Honda",
+  "model": "Triumpf",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Citroën C8": {
+  "make": "Citroën",
+  "model": "C8",
+  "from": 2005,
+  "to": 2014,
+  "chips": [
+   "PCF7941A - Hitag2 - ID46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 4
+  }
+ },
+ "Peugeot 806": {
+  "make": "Peugeot",
+  "model": "806",
+  "from": 2005,
+  "to": 2009,
+  "chips": [
+   "PCF7941A - Hitag2 - ID46"
+  ],
+  "blades": [
+   "HU83"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Peugeot 807": {
+  "make": "Peugeot",
+  "model": "807",
+  "from": 2005,
+  "to": 2014,
+  "chips": [
+   "PCF7941A - Hitag2 - ID46",
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "HU83",
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 1
+  }
+ },
+ "Hyundai i10": {
+  "make": "Hyundai",
+  "model": "i10",
+  "from": 2016,
+  "to": 9999,
+  "chips": [
+   "PCF7938XA -"
+  ],
+  "blades": [
+   "ohne (Muss separat bestellt werden)"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 1
+  }
+ },
+ "Hyundai Xcent II Sedan": {
+  "make": "Hyundai",
+  "model": "Xcent II Sedan",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7938XA -"
+  ],
+  "blades": [
+   "ohne (Muss separat bestellt werden)"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Smart Mode": {
+  "make": "Smart",
+  "model": "Mode",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Audi Q5": {
+  "make": "Audi",
+  "model": "Q5",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC - ID46",
+   "PCF7945AC",
+   "7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz",
+   "315 MHz",
+   "434 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "programmeerapparatuur": 1,
+   "smart-keys": 5
+  }
+ },
+ "Audi A4": {
+  "make": "Audi",
+  "model": "A4",
+  "from": 1999,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC - ID46",
+   "ID48",
+   "PCF7945AC",
+   "7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz",
+   "315 MHz",
+   "434 MHz"
+  ],
+  "count": 11,
+  "categories": {
+   "programmeerapparatuur": 1,
+   "smart-keys": 5,
+   "accessoires": 1,
+   "behuizingen": 4
+  }
+ },
+ "Mercedes-Benz G-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "G-Klasse",
+  "from": 2002,
+  "to": 2009,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz GL-Klasse": {
+  "make": "Mercedes-Benz",
+  "model": "GL-Klasse",
+  "from": 2006,
+  "to": 2013,
+  "chips": [
+   "NEC PROCESSOR"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mercedes-Benz Viano": {
+  "make": "Mercedes-Benz",
+  "model": "Viano",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "NEC PROCESSOR",
+   "T5"
+  ],
+  "blades": [
+   "HU64"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 3
+  }
+ },
+ "Ford Transit": {
+  "make": "Ford",
+  "model": "Transit",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "DST PLUS 63F",
+   "PCF7945P-HITAG PRO",
+   "ID60 / 4D60"
+  ],
+  "blades": [
+   "FO21AP",
+   "FO21"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 2,
+   "transpondersleutels": 1
+  }
+ },
+ "Ford Ranger": {
+  "make": "Ford",
+  "model": "Ranger",
+  "from": 2015,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Ford Fiesta": {
+  "make": "Ford",
+  "model": "Fiesta",
+  "from": 2017,
+  "to": 9999,
+  "chips": [
+   "ID63 - 4D63"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Toyota Corolla Verso": {
+  "make": "Toyota",
+  "model": "Corolla Verso",
+  "from": 2004,
+  "to": 2013,
+  "chips": [
+   "DST 80Bit - Plus 6F - TMS37126",
+   "DST 80 BIT"
+  ],
+  "blades": [
+   "TOY49",
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Toyota IQ": {
+  "make": "Toyota",
+  "model": "IQ",
+  "from": 2008,
+  "to": 2015,
+  "chips": [
+   "DST 80Bit - Plus 6F - TMS37126"
+  ],
+  "blades": [
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 2
+  }
+ },
+ "Toyota Avensis": {
+  "make": "Toyota",
+  "model": "Avensis",
+  "from": 2008,
+  "to": 2011,
+  "chips": [
+   "DST 80Bit - Plus 6F - TMS37126"
+  ],
+  "blades": [
+   "TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 6
+  }
+ },
+ "Land Rover Range Rover Evoque": {
+  "make": "Land Rover",
+  "model": "Range Rover Evoque",
+  "from": 2011,
+  "to": 2019,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Land Rover Range Rover Velar": {
+  "make": "Land Rover",
+  "model": "Range Rover Velar",
+  "from": 2017,
+  "to": 2020,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Land Rover Range Rover Vogue": {
+  "make": "Land Rover",
+  "model": "Range Rover Vogue",
+  "from": 2009,
+  "to": 2018,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Land Rover Discovery": {
+  "make": "Land Rover",
+  "model": "Discovery",
+  "from": 1998,
+  "to": 2018,
+  "chips": [
+   "ID49",
+   "PCF7931",
+   "PCF7941A"
+  ],
+  "blades": [
+   "NE38",
+   "HU101"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 4
+  }
+ },
+ "Land Rover Discovery Sport": {
+  "make": "Land Rover",
+  "model": "Discovery Sport",
+  "from": 2015,
+  "to": 2018,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Land Rover Freelander": {
+  "make": "Land Rover",
+  "model": "Freelander",
+  "from": 2007,
+  "to": 2016,
+  "chips": [
+   "ID49",
+   "PCF7953P - HITAG PRO -",
+   "PCF7953P",
+   "PCF7945A / PCF7953A",
+   "PCF7945P"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "HU101"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 3,
+   "smart-keys": 1
+  }
+ },
+ "Jaguar F-Pace": {
+  "make": "Jaguar",
+  "model": "F-Pace",
+  "from": 2017,
+  "to": 2020,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Jaguar F-Type": {
+  "make": "Jaguar",
+  "model": "F-Type",
+  "from": 2013,
+  "to": 2020,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Jaguar XE": {
+  "make": "Jaguar",
+  "model": "XE",
+  "from": 2015,
+  "to": 2019,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Jaguar XF": {
+  "make": "Jaguar",
+  "model": "XF",
+  "from": 2012,
+  "to": 2020,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 2
+  }
+ },
+ "Jaguar XJ": {
+  "make": "Jaguar",
+  "model": "XJ",
+  "from": 2010,
+  "to": 2019,
+  "chips": [
+   "ID49"
+  ],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Toyota Auris": {
+  "make": "Toyota",
+  "model": "Auris",
+  "from": 2009,
+  "to": 2012,
+  "chips": [
+   "DST 4D"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Honda Grace": {
+  "make": "Honda",
+  "model": "Grace",
+  "from": 2016,
+  "to": 0,
+  "chips": [
+   "NCF2952X - HITAG3 Type B"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Ford Explorer": {
+  "make": "Ford",
+  "model": "Explorer",
+  "from": 2016,
+  "to": 9999,
+  "chips": [
+   "Electronic Chip M3N - A2C31243800",
+   "PCF7953P HITAG Pro",
+   "PCF7953P- ID49",
+   "PCF7953P / ID49",
+   "PCF7945A / PCF7953A"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "902 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "smart-keys": 2
+  }
+ },
+ "Ford F-150": {
+  "make": "Ford",
+  "model": "F-150",
+  "from": 2015,
+  "to": 2017,
+  "chips": [
+   "Electronic Chip M3N - A2C31243800"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford F-250": {
+  "make": "Ford",
+  "model": "F-250",
+  "from": 2015,
+  "to": 2017,
+  "chips": [
+   "Electronic Chip M3N - A2C31243800"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Škoda Fabia": {
+  "make": "Škoda",
+  "model": "Fabia",
+  "from": 2002,
+  "to": 9999,
+  "chips": [
+   "ID48",
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "sleutelbaarden": 1
+  }
+ },
+ "Volkswagen Beetle": {
+  "make": "Volkswagen",
+  "model": "Beetle",
+  "from": 2003,
+  "to": 2019,
+  "chips": [
+   "ID48",
+   "48 Crypto",
+   "PCF7942 - HITAG2",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 9,
+  "categories": {
+   "afstandsbedieningen": 7,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Golf Mk4": {
+  "make": "Volkswagen",
+  "model": "Golf Mk4",
+  "from": 2002,
+  "to": 2004,
+  "chips": [
+   "ID48"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Volkswagen Passat": {
+  "make": "Volkswagen",
+  "model": "Passat",
+  "from": 2000,
+  "to": 2005,
+  "chips": [
+   "ID48"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 3
+  }
+ },
+ "Škoda Roomster": {
+  "make": "Škoda",
+  "model": "Roomster",
+  "from": 2006,
+  "to": 2016,
+  "chips": [
+   "ID48",
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 3
+  }
+ },
+ "Volkswagen Bora": {
+  "make": "Volkswagen",
+  "model": "Bora",
+  "from": 2001,
+  "to": 2004,
+  "chips": [
+   "ID48"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Hyundai Santa Fe": {
+  "make": "Hyundai",
+  "model": "Santa Fe",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "4D60 / DST 80 BIT",
+   "NCF2952X / HITAG3",
+   "PCF7945A / 46Chip",
+   "PCF7936"
+  ],
+  "blades": [
+   "HU135",
+   "TOY48",
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "smart-keys": 2,
+   "behuizingen": 1
+  }
+ },
+ "Fiat 500X": {
+  "make": "Fiat",
+  "model": "500X",
+  "from": 2014,
+  "to": 9999,
+  "chips": [
+   "MEGAMOS AES"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Fiat Egea": {
+  "make": "Fiat",
+  "model": "Egea",
+  "from": 2016,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Fiat Tipo": {
+  "make": "Fiat",
+  "model": "Tipo",
+  "from": 2016,
+  "to": 9999,
+  "chips": [
+   "MEGAMOS AES"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mini Cooper": {
+  "make": "Mini",
+  "model": "Cooper",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7931",
+   "PCF7930AS"
+  ],
+  "blades": [
+   "HU200RS"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mini Cabrio": {
+  "make": "Mini",
+  "model": "Cabrio",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7931",
+   "PCF7930AS"
+  ],
+  "blades": [
+   "HU200RS"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mini One": {
+  "make": "Mini",
+  "model": "One",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7931",
+   "PCF7930AS"
+  ],
+  "blades": [
+   "HU200RS"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Citroën C-Elysee": {
+  "make": "Citroën",
+  "model": "C-Elysee",
+  "from": 2012,
+  "to": 2016,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Suzuki Tianyu": {
+  "make": "Suzuki",
+  "model": "Tianyu",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Citroën C4 Picasso": {
+  "make": "Citroën",
+  "model": "C4 Picasso",
+  "from": 2007,
+  "to": 2019,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën Spacetourer": {
+  "make": "Citroën",
+  "model": "Spacetourer",
+  "from": 2017,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Opel Crossland X": {
+  "make": "Opel",
+  "model": "Crossland X",
+  "from": 2017,
+  "to": 2021,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Opel Grandland X": {
+  "make": "Opel",
+  "model": "Grandland X",
+  "from": 2017,
+  "to": 2020,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Volvo S60": {
+  "make": "Volvo",
+  "model": "S60",
+  "from": 2010,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "incl. Notschlüssel"
+  ],
+  "frequencies": [
+   "902 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "smart-keys": 1
+  }
+ },
+ "Volvo S80": {
+  "make": "Volvo",
+  "model": "S80",
+  "from": 2007,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "incl. Notschlüssel"
+  ],
+  "frequencies": [
+   "902 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "smart-keys": 1
+  }
+ },
+ "Volvo V40": {
+  "make": "Volvo",
+  "model": "V40",
+  "from": 2012,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Volvo V40 Cross Country": {
+  "make": "Volvo",
+  "model": "V40 Cross Country",
+  "from": 2012,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "incl. Notschlüssel"
+  ],
+  "frequencies": [
+   "902 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
+  }
+ },
+ "Volvo V60": {
+  "make": "Volvo",
+  "model": "V60",
+  "from": 2014,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "incl. Notschlüssel"
+  ],
+  "frequencies": [
+   "902 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "smart-keys": 1
+  }
+ },
+ "Volvo V70": {
+  "make": "Volvo",
+  "model": "V70",
+  "from": 1997,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "incl. Notschlüssel"
+  ],
+  "frequencies": [
+   "902 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 4,
+   "smart-keys": 1
+  }
+ },
+ "Volvo XC60": {
+  "make": "Volvo",
+  "model": "XC60",
+  "from": 2008,
+  "to": 2017,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Volvo XC70": {
+  "make": "Volvo",
+  "model": "XC70",
+  "from": 1997,
+  "to": 2017,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 4,
+  "categories": {
+   "behuizingen": 4
+  }
+ },
+ "Volvo S40": {
+  "make": "Volvo",
+  "model": "S40",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Volvo S70": {
+  "make": "Volvo",
+  "model": "S70",
+  "from": 1997,
+  "to": 2000,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Volvo C70": {
+  "make": "Volvo",
+  "model": "C70",
+  "from": 1997,
+  "to": 2000,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Touareg": {
+  "make": "Volkswagen",
+  "model": "Touareg",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Amarok": {
+  "make": "Volkswagen",
+  "model": "Amarok",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "ID48",
+   "48 Crypto"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Transporter": {
+  "make": "Volkswagen",
+  "model": "Transporter",
+  "from": 2009,
+  "to": 2022,
+  "chips": [
+   "ID48",
+   "48 Crypto",
+   "PCF7942 - HITAG2",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 2
+  }
+ },
+ "Suzuki Grand": {
+  "make": "Suzuki",
+  "model": "Grand",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "noodsleutels": 1
+  }
+ },
+ "Suzuki Jimny": {
+  "make": "Suzuki",
+  "model": "Jimny",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "noodsleutels": 1
+  }
+ },
+ "Opel Holden": {
+  "make": "Opel",
+  "model": "Holden",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "sleutelbaarden": 5,
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Chevrolet Gm": {
+  "make": "Chevrolet",
+  "model": "Gm",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 5,
+  "categories": {
+   "sleutelbaarden": 5
+  }
+ },
+ "Opel Corsa D": {
+  "make": "Opel",
+  "model": "Corsa D",
+  "from": 2005,
+  "to": 2014,
+  "chips": [
+   "PCF7941A",
+   "HITAG-2 7941",
+   "PCF7941"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 3
+  }
+ },
+ "Porsche Cayenne": {
+  "make": "Porsche",
+  "model": "Cayenne",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 2,
+   "afstandsbedieningen": 2
+  }
+ },
+ "BMW N20 B38 N55 Ecu": {
+  "make": "BMW",
+  "model": "N20 B38 N55 Ecu",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Audi Nsu": {
+  "make": "Audi",
+  "model": "Nsu",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Mercedes-Benz Vaneo": {
+  "make": "Mercedes-Benz",
+  "model": "Vaneo",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7935"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford C-Max": {
+  "make": "Ford",
+  "model": "C-Max",
+  "from": 2010,
+  "to": 2019,
+  "chips": [
+   "PCF7953P / HITAG PRO / Typ7",
+   "DST 80 Bit"
+  ],
+  "blades": [
+   "HU101 (nicht im Lieferumfang)",
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Focus": {
+  "make": "Ford",
+  "model": "Focus",
+  "from": 2011,
+  "to": 9999,
+  "chips": [
+   "PCF7953P / HITAG PRO / Typ7",
+   "PCF7953P HITAG Pro",
+   "4D63",
+   "PCF7953P HITAG PRO KeylessGo / Proximity",
+   "PCF7945A / PCF7953A",
+   "DST 80 Bit",
+   "ID63 - 4D63"
+  ],
+  "blades": [
+   "HU101 (nicht im Lieferumfang)",
+   "HU101",
+   "FO40",
+   "incl."
+  ],
+  "frequencies": [
+   "902 MHz",
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 12,
+  "categories": {
+   "smart-keys": 3,
+   "afstandsbedieningen": 4,
+   "transpondersleutels": 1,
+   "behuizingen": 2,
+   "sleutelbaarden": 2
+  }
+ },
+ "Ford Grand C-Max": {
+  "make": "Ford",
+  "model": "Grand C-Max",
+  "from": 2010,
+  "to": 2019,
+  "chips": [
+   "PCF7953P / HITAG PRO / Typ7",
+   "DST 80 Bit"
+  ],
+  "blades": [
+   "HU101 (nicht im Lieferumfang)",
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Kuga": {
+  "make": "Ford",
+  "model": "Kuga",
+  "from": 2016,
+  "to": 2020,
+  "chips": [
+   "PCF7953P / HITAG PRO / Typ7"
+  ],
+  "blades": [
+   "HU101 (nicht im Lieferumfang)"
+  ],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 1-serie": {
+  "make": "BMW",
+  "model": "1-serie",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Saab 9-3": {
+  "make": "Saab",
+  "model": "9-3",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Saab 9-5": {
+  "make": "Saab",
+  "model": "9-5",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Opel Astra K": {
+  "make": "Opel",
+  "model": "Astra K",
+  "from": 2017,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Chrysler 300": {
+  "make": "Chrysler",
+  "model": "300",
+  "from": 2005,
+  "to": 2018,
+  "chips": [
+   "HITAG2",
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "behuizingen": 4,
+   "smart-keys": 1,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Fiat Freemont": {
+  "make": "Fiat",
+  "model": "Freemont",
+  "from": 2011,
+  "to": 2015,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Ford Tourneo": {
+  "make": "Ford",
+  "model": "Tourneo",
+  "from": 2020,
+  "to": 9999,
+  "chips": [
+   "Chip 47 / MC19-15K601-AA"
+  ],
+  "blades": [
+   "Anzahl der Tasten: 3"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Transit Custom": {
+  "make": "Ford",
+  "model": "Transit Custom",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "Chip 47 / MC19-15K601-AA",
+   "DST 80 Bit"
+  ],
+  "blades": [
+   "Anzahl der Tasten: 3",
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Opel & Gneral Motors": {
+  "make": "Opel",
+  "model": "& Gneral Motors",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Hyundai i30": {
+  "make": "Hyundai",
+  "model": "i30",
+  "from": 2011,
+  "to": 9999,
+  "chips": [
+   "NCF2951X 47",
+   "ID46",
+   "PCF7936",
+   "PCF7945A en 7953A"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "TOY48",
+   "Notschlüssel KIA7"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "behuizingen": 1
+  }
+ },
+ "Hyundai Veloster": {
+  "make": "Hyundai",
+  "model": "Veloster",
+  "from": 2011,
+  "to": 2015,
+  "chips": [
+   "NCF2951X 47"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mazda 5": {
+  "make": "Mazda",
+  "model": "5",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7953P"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 2
+  }
+ },
+ "Mazda CX-5": {
+  "make": "Mazda",
+  "model": "CX-5",
+  "from": 2012,
+  "to": 2016,
+  "chips": [
+   "PCF7953P",
+   "4D63"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "MAZ24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 1,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Mazda CX-7": {
+  "make": "Mazda",
+  "model": "CX-7",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7953P"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 2
+  }
+ },
+ "Mazda CX-9": {
+  "make": "Mazda",
+  "model": "CX-9",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7953P"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Ford Mondeo Vignale": {
+  "make": "Ford",
+  "model": "Mondeo Vignale",
+  "from": 2016,
+  "to": 0,
+  "chips": [],
+  "blades": [
+   "HU101 (nicht im Lieferumfang)"
+  ],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Chrysler 12+8-Steckers An Einem": {
+  "make": "Chrysler",
+  "model": "12+8-Steckers An Einem",
+  "from": 2020,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Alfa Romeo MiTo": {
+  "make": "Alfa Romeo",
+  "model": "MiTo",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 3
+  }
+ },
+ "Peugeot Bipper": {
+  "make": "Peugeot",
+  "model": "Bipper",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "Delphi PCF7946",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 4
+  }
+ },
+ "Peugeot Partner Tepee": {
+  "make": "Peugeot",
+  "model": "Partner Tepee",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Citroën Nemo": {
+  "make": "Citroën",
+  "model": "Nemo",
+  "from": 2011,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "Delphi PCF7946",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 4
+  }
+ },
+ "Ford Ka": {
+  "make": "Ford",
+  "model": "Ka",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "48",
+   "PCF7947 Delphi"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 4
+  }
+ },
+ "Peugeot Boxer": {
+  "make": "Peugeot",
+  "model": "Boxer",
+  "from": 2009,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "PCF7947 HITAG2 Marelli"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 3
+  }
+ },
+ "Citroën Jumper": {
+  "make": "Citroën",
+  "model": "Jumper",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "ID46",
+   "PCF7947 HITAG2 Marelli"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
+  }
+ },
+ "Subaru Legacy": {
+  "make": "Subaru",
+  "model": "Legacy",
+  "from": 2011,
+  "to": 2014,
+  "chips": [
+   "4D60"
+  ],
+  "blades": [
+   "DAT17"
+  ],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Subaru Outback": {
+  "make": "Subaru",
+  "model": "Outback",
+  "from": 2006,
+  "to": 2014,
+  "chips": [
+   "4D60",
+   "4D62"
+  ],
+  "blades": [
+   "DAT17"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Ford Fusion": {
+  "make": "Ford",
+  "model": "Fusion",
+  "from": 2017,
+  "to": 9999,
+  "chips": [
+   "PCF7953P HITAG Pro",
+   "PCF7953P- ID49",
+   "PCG7953P",
+   "PCF7953P / ID49"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "902 MHz",
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "smart-keys": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Expedition": {
+  "make": "Ford",
+  "model": "Expedition",
+  "from": 2018,
+  "to": 2020,
+  "chips": [
+   "PCF7953P HITAG Pro"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "902 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Ford Escape": {
+  "make": "Ford",
+  "model": "Escape",
+  "from": 2018,
+  "to": 9999,
+  "chips": [
+   "PCF7953P HITAG Pro",
+   "PCF7945A / PCF7953A"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "902 MHz",
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Adam": {
+  "make": "Opel",
+  "model": "Adam",
+  "from": 2006,
+  "to": 2016,
+  "chips": [
+   "PCF7937E",
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Opel Cascada": {
+  "make": "Opel",
+  "model": "Cascada",
+  "from": 2013,
+  "to": 2019,
+  "chips": [
+   "PCF7937E",
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 1
+  }
+ },
+ "Opel Insignia": {
+  "make": "Opel",
+  "model": "Insignia",
+  "from": 2008,
+  "to": 9999,
+  "chips": [
+   "PCF7937E",
+   "PCF7952",
+   "ID46",
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 2,
+   "smart-keys": 1
+  }
+ },
+ "Opel Karl": {
+  "make": "Opel",
+  "model": "Karl",
+  "from": 2015,
+  "to": 2019,
+  "chips": [
+   "PCF7937E",
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Opel Mokka": {
+  "make": "Opel",
+  "model": "Mokka",
+  "from": 2013,
+  "to": 2016,
+  "chips": [
+   "PCF7937E",
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Hyundai i20": {
+  "make": "Hyundai",
+  "model": "i20",
+  "from": 2012,
+  "to": 9999,
+  "chips": [
+   "4D63"
+  ],
+  "blades": [
+   "Notschlüssel TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Mazda 323": {
+  "make": "Mazda",
+  "model": "323",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "4D63"
+  ],
+  "blades": [
+   "MAZ24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mazda Premacy": {
+  "make": "Mazda",
+  "model": "Premacy",
+  "from": 2004,
+  "to": 0,
+  "chips": [
+   "4D63"
+  ],
+  "blades": [
+   "MAZ24"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Peugeot Neimann Psa": {
+  "make": "Peugeot",
+  "model": "Neimann Psa",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "sleutelbaarden": 3
+  }
+ },
+ "Renault Neimann Psa": {
+  "make": "Renault",
+  "model": "Neimann Psa",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "sleutelbaarden": 3
+  }
+ },
+ "Citroën Neimann Psa": {
+  "make": "Citroën",
+  "model": "Neimann Psa",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "sleutelbaarden": 3
+  }
+ },
+ "BMW Tacho": {
+  "make": "BMW",
+  "model": "Tacho",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transponders": 1
+  }
+ },
+ "Renault Scenic II": {
+  "make": "Renault",
+  "model": "Scenic II",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7943 - HITAG2 46 Crytpo WR - Type5"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Renault Megane II": {
+  "make": "Renault",
+  "model": "Megane II",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7943 - HITAG2 46 Crytpo WR - Type5",
+   "PCF7947"
+  ],
+  "blades": [
+   "met noodsleutel",
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Hyundai Kona": {
+  "make": "Hyundai",
+  "model": "Kona",
+  "from": 2017,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Kia Ceed": {
+  "make": "Kia",
+  "model": "Ceed",
+  "from": 2013,
+  "to": 2018,
+  "chips": [
+   "PCF7945A / PCF7953A - HITAG2 46 Crypto",
+   "DST 80 BIT Typ 60 WR"
+  ],
+  "blades": [
+   "KIA8RS",
+   "KIA8R"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Kia Ceed Hybrid": {
+  "make": "Kia",
+  "model": "Ceed Hybrid",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7945A / PCF7953A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "KIA8RS"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Kia Ceed Sportswagon": {
+  "make": "Kia",
+  "model": "Ceed Sportswagon",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7945A / PCF7953A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "KIA8RS"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Kia Proceed": {
+  "make": "Kia",
+  "model": "Proceed",
+  "from": 2013,
+  "to": 2018,
+  "chips": [
+   "PCF7945A / PCF7953A - HITAG2 46 Crypto",
+   "DST 80 BIT Typ 60 WR"
+  ],
+  "blades": [
+   "KIA8RS",
+   "KIA8R"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Kia Xceed": {
+  "make": "Kia",
+  "model": "Xceed",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7945A / PCF7953A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "KIA8RS"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Kia XCeed Phev": {
+  "make": "Kia",
+  "model": "XCeed Phev",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7945A / PCF7953A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "KIA8RS"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Alaskan": {
+  "make": "Renault",
+  "model": "Alaskan",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto Type7"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Alfa Romeo Stelvio": {
+  "make": "Alfa Romeo",
+  "model": "Stelvio",
+  "from": 2016,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - HITAG AES Type E"
+  ],
+  "blades": [
+   "SIP22 Notschlüssel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Alfa Romeo Giulia": {
+  "make": "Alfa Romeo",
+  "model": "Giulia",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "NCF29A1M - HITAG AES Type E"
+  ],
+  "blades": [
+   "SIP22 Notschlüssel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Hyundai Ioniq": {
+  "make": "Hyundai",
+  "model": "Ioniq",
+  "from": 2017,
+  "to": 9999,
+  "chips": [
+   "NCF2952X"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Hyundai Ioniq Electric": {
+  "make": "Hyundai",
+  "model": "Ioniq Electric",
+  "from": 2019,
+  "to": 0,
+  "chips": [
+   "NCF2952X"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Hyundai Ioniq Hybrid": {
+  "make": "Hyundai",
+  "model": "Ioniq Hybrid",
+  "from": 2019,
+  "to": 0,
+  "chips": [
+   "NCF2952X"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Lexus CT 200h": {
+  "make": "Lexus",
+  "model": "CT 200h",
+  "from": 2010,
+  "to": 2014,
+  "chips": [
+   "s. Foto"
+  ],
+  "blades": [
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Lexus RX 350": {
+  "make": "Lexus",
+  "model": "RX 350",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "s. Foto"
+  ],
+  "blades": [
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Lexus RX 450h": {
+  "make": "Lexus",
+  "model": "RX 450h",
+  "from": 2008,
+  "to": 2015,
+  "chips": [
+   "s. Foto"
+  ],
+  "blades": [
+   "TOY49"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Nissan Juke": {
+  "make": "Nissan",
+  "model": "Juke",
+  "from": 2010,
+  "to": 9999,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto",
+   "PCF7961M",
+   "PCF7952M - Type7"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Note": {
+  "make": "Nissan",
+  "model": "Note",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto",
+   "PCF7961M",
+   "PCF7952M - Type7",
+   "4D60Chip",
+   "PCF7946 HITAG-AES"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "smart-keys": 2,
+   "afstandsbedieningen": 3,
+   "behuizingen": 1
+  }
+ },
+ "Nissan Lannia": {
+  "make": "Nissan",
+  "model": "Lannia",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Nissan Sentra": {
+  "make": "Nissan",
+  "model": "Sentra",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Nissan NV200": {
+  "make": "Nissan",
+  "model": "NV200",
+  "from": 2014,
+  "to": 2016,
+  "chips": [
+   "PCF7952A - HITAG2 46 Crypto"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Audi A5": {
+  "make": "Audi",
+  "model": "A5",
+  "from": 2007,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC",
+   "7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz",
+   "434 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "smart-keys": 4,
+   "behuizingen": 2
+  }
+ },
+ "Audi A6": {
+  "make": "Audi",
+  "model": "A6",
+  "from": 1997,
+  "to": 2015,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC - ID46",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz",
+   "315 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "smart-keys": 4,
+   "behuizingen": 4
+  }
+ },
+ "Audi A7": {
+  "make": "Audi",
+  "model": "A7",
+  "from": 2010,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "smart-keys": 3,
+   "behuizingen": 2
+  }
+ },
+ "Audi S4": {
+  "make": "Audi",
+  "model": "S4",
+  "from": 2008,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 3
+  }
+ },
+ "Audi S5": {
+  "make": "Audi",
+  "model": "S5",
+  "from": 2007,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 2
+  }
+ },
+ "Audi S6": {
+  "make": "Audi",
+  "model": "S6",
+  "from": 2012,
+  "to": 2015,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 3
+  }
+ },
+ "Audi S7": {
+  "make": "Audi",
+  "model": "S7",
+  "from": 2011,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 2
+  }
+ },
+ "Audi A8": {
+  "make": "Audi",
+  "model": "A8",
+  "from": 1998,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 4
+  }
+ },
+ "Audi S8": {
+  "make": "Audi",
+  "model": "S8",
+  "from": 2009,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 3
+  }
+ },
+ "Audi A6 Allroad": {
+  "make": "Audi",
+  "model": "A6 Allroad",
+  "from": 2002,
+  "to": 2015,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "smart-keys": 2,
+   "behuizingen": 1
+  }
+ },
+ "Nissan Micra K12": {
+  "make": "Nissan",
+  "model": "Micra K12",
+  "from": 2003,
+  "to": 2012,
+  "chips": [
+   "Farbe: schwarz"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 1
+  }
+ },
+ "Nissan Note E11": {
+  "make": "Nissan",
+  "model": "Note E11",
+  "from": 2006,
+  "to": 9999,
+  "chips": [
+   "Farbe: schwarz"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 1
+  }
+ },
+ "Chrysler Crossfire": {
+  "make": "Chrysler",
+  "model": "Crossfire",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7935"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "programmeerapparatuur": 1
+  }
+ },
+ "Jeep Commander": {
+  "make": "Jeep",
+  "model": "Commander",
+  "from": 2009,
+  "to": 2013,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Chrysler Grand Voyager": {
+  "make": "Chrysler",
+  "model": "Grand Voyager",
+  "from": 2008,
+  "to": 2013,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Chrysler Town and Country": {
+  "make": "Chrysler",
+  "model": "Town and Country",
+  "from": 2008,
+  "to": 2016,
+  "chips": [
+   "ID46 - HITAG2",
+   "Chip: ID46 - HITAG2 Chip: PCF7961 , 7941"
+  ],
+  "blades": [
+   "CY16",
+   "Notschlüssel CY16"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Subaru Impreza": {
+  "make": "Subaru",
+  "model": "Impreza",
+  "from": 2007,
+  "to": 2010,
+  "chips": [
+   "4D62"
+  ],
+  "blades": [
+   "DAT17"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Subaru Liberty": {
+  "make": "Subaru",
+  "model": "Liberty",
+  "from": 2003,
+  "to": 2010,
+  "chips": [
+   "4D62"
+  ],
+  "blades": [
+   "DAT17"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Hyundai ix45": {
+  "make": "Hyundai",
+  "model": "ix45",
+  "from": 2012,
+  "to": 2017,
+  "chips": [
+   "PCF7945A / 46Chip"
+  ],
+  "blades": [
+   "TOY48"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Kymco Kymco": {
+  "make": "Kymco",
+  "model": "Kymco",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "motorsleutels": 1
+  }
+ },
+ "BMW Frm": {
+  "make": "BMW",
+  "model": "Frm",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "BMW D80": {
+  "make": "BMW",
+  "model": "D80",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Audi A6l Q7": {
+  "make": "Audi",
+  "model": "A6l Q7",
+  "from": 2005,
+  "to": 2011,
+  "chips": [],
+  "blades": [],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "printplaten": 1
+  }
+ },
+ "Mercedes-Benz SL-Klasse R129": {
+  "make": "Mercedes-Benz",
+  "model": "SL-Klasse R129",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Mercedes-Benz A-Klasse W168": {
+  "make": "Mercedes-Benz",
+  "model": "A-Klasse W168",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Mercedes-Benz Vaneo W414": {
+  "make": "Mercedes-Benz",
+  "model": "Vaneo W414",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Mercedes-Benz S-Klasse W140": {
+  "make": "Mercedes-Benz",
+  "model": "S-Klasse W140",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Mercedes-Benz G-Klasse W461": {
+  "make": "Mercedes-Benz",
+  "model": "G-Klasse W461",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "Mercedes-Benz M-Klasse W163": {
+  "make": "Mercedes-Benz",
+  "model": "M-Klasse W163",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "programmeerapparatuur": 1
+  }
+ },
+ "BMW 3-serie": {
+  "make": "BMW",
+  "model": "3-serie",
+  "from": 1995,
+  "to": 9999,
+  "chips": [
+   "ID46 Crypto / PCF 7945A",
+   "PCF7945A",
+   "7935"
+  ],
+  "blades": [
+   "HU92R Notschlüssel",
+   "HU92R",
+   "met noodsleutel",
+   "HU58"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "315 MHz",
+   "868 MHz"
+  ],
+  "count": 8,
+  "categories": {
+   "afstandsbedieningen": 5,
+   "noodsleutels": 1,
+   "smart-keys": 1,
+   "behuizingen": 1
+  }
+ },
+ "Toyota 128bit": {
+  "make": "Toyota",
+  "model": "128bit",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transponders": 1
+  }
+ },
+ "Toyota Aes": {
+  "make": "Toyota",
+  "model": "Aes",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transponders": 1
+  }
+ },
+ "Hyundai Psa": {
+  "make": "Hyundai",
+  "model": "Psa",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transponders": 1
+  }
+ },
+ "Kia Psa": {
+  "make": "Kia",
+  "model": "Psa",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transponders": 1
+  }
+ },
+ "Renault Psa": {
+  "make": "Renault",
+  "model": "Psa",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transponders": 1
+  }
+ },
+ "Toyota Carina": {
+  "make": "Toyota",
+  "model": "Carina",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "behuizingen": 5,
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Citroën Relay": {
+  "make": "Citroën",
+  "model": "Relay",
+  "from": 2009,
+  "to": 2023,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Fiat 500L": {
+  "make": "Fiat",
+  "model": "500L",
+  "from": 2012,
+  "to": 9999,
+  "chips": [],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Fiat Bravo": {
+  "make": "Fiat",
+  "model": "Bravo",
+  "from": 2007,
+  "to": 2015,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 4,
+  "categories": {
+   "behuizingen": 4
+  }
+ },
+ "Fiat Panda": {
+  "make": "Fiat",
+  "model": "Panda",
+  "from": 2011,
+  "to": 2020,
+  "chips": [
+   "48"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Audi TT": {
+  "make": "Audi",
+  "model": "TT",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "PCF7945AC - ID46"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 3
+  }
+ },
+ "Volkswagen Beetle Cabriolet": {
+  "make": "Volkswagen",
+  "model": "Beetle Cabriolet",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "48 Crypto"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Volkswagen Caddy": {
+  "make": "Volkswagen",
+  "model": "Caddy",
+  "from": 2011,
+  "to": 2021,
+  "chips": [
+   "48 Crypto",
+   "PCF7942 - HITAG2",
+   "48 Megamos"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz",
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "afstandsbedieningen": 3,
+   "behuizingen": 2
+  }
+ },
+ "Toyota Estima": {
+  "make": "Toyota",
+  "model": "Estima",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Toyota Previa": {
+  "make": "Toyota",
+  "model": "Previa",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Toyota Celica": {
+  "make": "Toyota",
+  "model": "Celica",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "General Motors Holden": {
+  "make": "General Motors",
+  "model": "Holden",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Buick Holden": {
+  "make": "Buick",
+  "model": "Holden",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "sleutels-zonder-chip": 1,
+   "transpondersleutels": 1
+  }
+ },
+ "Porsche Dom": {
+  "make": "Porsche",
+  "model": "Dom",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Hyundai Typ B16-3": {
+  "make": "Hyundai",
+  "model": "Typ B16-3",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "universal-remotes": 1
+  }
+ },
+ "Kia Typ B16-3": {
+  "make": "Kia",
+  "model": "Typ B16-3",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "universal-remotes": 1
+  }
+ },
+ "Aprilia Moto Guzzi": {
+  "make": "Aprilia",
+  "model": "Moto Guzzi",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Ducati Moto Guzzi": {
+  "make": "Ducati",
+  "model": "Moto Guzzi",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Chevrolet Holden": {
+  "make": "Chevrolet",
+  "model": "Holden",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "transpondersleutels": 6
+  }
+ },
+ "Chevrolet Pontiac": {
+  "make": "Chevrolet",
+  "model": "Pontiac",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Citroën Ds": {
+  "make": "Citroën",
+  "model": "Ds",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Dacia Ds": {
+  "make": "Dacia",
+  "model": "Ds",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Daewoo Holden": {
+  "make": "Daewoo",
+  "model": "Holden",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "transpondersleutels": 2
+  }
+ },
+ "Opel Saturn": {
+  "make": "Opel",
+  "model": "Saturn",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "transpondersleutels": 2
+  }
+ },
+ "BMW 5-serie Cas3": {
+  "make": "BMW",
+  "model": "5-serie Cas3",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "noodsleutels": 1
+  }
+ },
+ "Mitsubishi L200": {
+  "make": "Mitsubishi",
+  "model": "L200",
+  "from": 2005,
+  "to": 2015,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "MIT8"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mitsubishi Montero": {
+  "make": "Mitsubishi",
+  "model": "Montero",
+  "from": 2006,
+  "to": 2014,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "MIT8"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mitsubishi Pajero": {
+  "make": "Mitsubishi",
+  "model": "Pajero",
+  "from": 2006,
+  "to": 2014,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "MIT8"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mitsubishi Shogun": {
+  "make": "Mitsubishi",
+  "model": "Shogun",
+  "from": 2006,
+  "to": 2014,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "MIT8"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Mitsubishi Triton": {
+  "make": "Mitsubishi",
+  "model": "Triton",
+  "from": 2005,
+  "to": 2015,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "MIT8"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Logan": {
+  "make": "Renault",
+  "model": "Logan",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7961M - HITAG - AES"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Dacia Symbol": {
+  "make": "Dacia",
+  "model": "Symbol",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7961M - HITAG - AES"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Vectra C": {
+  "make": "Opel",
+  "model": "Vectra C",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / HITAG2 Crypto WR Type2"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Signum": {
+  "make": "Opel",
+  "model": "Signum",
+  "from": 2002,
+  "to": 2008,
+  "chips": [
+   "PCF7946 / HITAG2 Crypto WR Type2"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 1
+  }
+ },
+ "Chrysler 200": {
+  "make": "Chrysler",
+  "model": "200",
+  "from": 2011,
+  "to": 2014,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Chrysler Aspen": {
+  "make": "Chrysler",
+  "model": "Aspen",
+  "from": 2007,
+  "to": 2009,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Chrysler PT Cruiser": {
+  "make": "Chrysler",
+  "model": "PT Cruiser",
+  "from": 2006,
+  "to": 2010,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 1
+  }
+ },
+ "Chrysler Sebring": {
+  "make": "Chrysler",
+  "model": "Sebring",
+  "from": 2007,
+  "to": 2011,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 1
+  }
+ },
+ "Honda Integra": {
+  "make": "Honda",
+  "model": "Integra",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7941"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Honda Prelude": {
+  "make": "Honda",
+  "model": "Prelude",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7941"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Honda FR-V": {
+  "make": "Honda",
+  "model": "FR-V",
+  "from": 2007,
+  "to": 2009,
+  "chips": [
+   "PCF7941",
+   "PCF7936"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Honda Concerto": {
+  "make": "Honda",
+  "model": "Concerto",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7941"
+  ],
+  "blades": [
+   "HON66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Interstar": {
+  "make": "Nissan",
+  "model": "Interstar",
+  "from": 2000,
+  "to": 2010,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 5,
+  "categories": {
+   "behuizingen": 5
+  }
+ },
+ "Smart ForTwo": {
+  "make": "Smart",
+  "model": "ForTwo",
+  "from": 2003,
+  "to": 2006,
+  "chips": [],
+  "blades": [
+   "YM23"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Smart ForFour": {
+  "make": "Smart",
+  "model": "ForFour",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Smart Roadster": {
+  "make": "Smart",
+  "model": "Roadster",
+  "from": 2003,
+  "to": 2006,
+  "chips": [],
+  "blades": [
+   "YM23"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Smart City": {
+  "make": "Smart",
+  "model": "City",
+  "from": 2000,
+  "to": 2004,
+  "chips": [],
+  "blades": [
+   "YM23"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 5-serie": {
+  "make": "BMW",
+  "model": "5-serie",
+  "from": 1995,
+  "to": 9999,
+  "chips": [
+   "7935"
+  ],
+  "blades": [
+   "HU92R",
+   "HU58"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 7,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 3
+  }
+ },
+ "Ford Taurus": {
+  "make": "Ford",
+  "model": "Taurus",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "4D63",
+   "PCF7953P HITAG PRO KeylessGo / Proximity",
+   "PCF7945A / PCF7953A"
+  ],
+  "blades": [
+   "FO40",
+   "incl.",
+   "HU101"
+  ],
+  "frequencies": [
+   "315 MHz",
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "smart-keys": 1
+  }
+ },
+ "Ford Freestyle": {
+  "make": "Ford",
+  "model": "Freestyle",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "4D63"
+  ],
+  "blades": [
+   "FO40"
+  ],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Jaguar XK": {
+  "make": "Jaguar",
+  "model": "XK",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Seat Mii": {
+  "make": "Seat",
+  "model": "Mii",
+  "from": 2012,
+  "to": 2021,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Škoda Citigo": {
+  "make": "Škoda",
+  "model": "Citigo",
+  "from": 2012,
+  "to": 2020,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Škoda Rapid": {
+  "make": "Škoda",
+  "model": "Rapid",
+  "from": 2012,
+  "to": 2017,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Volkswagen California": {
+  "make": "Volkswagen",
+  "model": "California",
+  "from": 2009,
+  "to": 2022,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "afstandsbedieningen": 1,
+   "behuizingen": 2
+  }
+ },
+ "Volkswagen Up": {
+  "make": "Volkswagen",
+  "model": "Up",
+  "from": 2011,
+  "to": 2021,
+  "chips": [
+   "PCF7942 - HITAG2"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "SsangYong Actyon": {
+  "make": "SsangYong",
+  "model": "Actyon",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "SsangYong Kyron": {
+  "make": "SsangYong",
+  "model": "Kyron",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "SsangYong Rexton": {
+  "make": "SsangYong",
+  "model": "Rexton",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Peugeot 207": {
+  "make": "Peugeot",
+  "model": "207",
+  "from": 2006,
+  "to": 2016,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Peugeot 307": {
+  "make": "Peugeot",
+  "model": "307",
+  "from": 2005,
+  "to": 2016,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 4,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën C2": {
+  "make": "Citroën",
+  "model": "C2",
+  "from": 2003,
+  "to": 9999,
+  "chips": [
+   "PCF7941 UNLOCKABLE",
+   "ID46 - PCF7936"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "434 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Citroën C5": {
+  "make": "Citroën",
+  "model": "C5",
+  "from": 2007,
+  "to": 9999,
+  "chips": [
+   "PCF7941 UNLOCKABLE",
+   "ID46 - PCF7936"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz",
+   "434 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 2
+  }
+ },
+ "Citroën C6": {
+  "make": "Citroën",
+  "model": "C6",
+  "from": 2005,
+  "to": 2012,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Peugeot 206": {
+  "make": "Peugeot",
+  "model": "206",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7961"
+  ],
+  "blades": [
+   "NE72"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Escort": {
+  "make": "Ford",
+  "model": "Escort",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7953P HITAG PRO KeylessGo / Proximity"
+  ],
+  "blades": [
+   "incl."
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "smart-keys": 1,
+   "behuizingen": 1
+  }
+ },
+ "Nissan X-Trail T30": {
+  "make": "Nissan",
+  "model": "X-Trail T30",
+  "from": 2003,
+  "to": 2007,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan Tiida C11": {
+  "make": "Nissan",
+  "model": "Tiida C11",
+  "from": 2007,
+  "to": 2011,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Land Rover Freelander 2": {
+  "make": "Land Rover",
+  "model": "Freelander 2",
+  "from": 2010,
+  "to": 2012,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Land Rover Discovery 4": {
+  "make": "Land Rover",
+  "model": "Discovery 4",
+  "from": 2009,
+  "to": 2011,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Land Rover Range Rover Sport": {
+  "make": "Land Rover",
+  "model": "Range Rover Sport",
+  "from": 2010,
+  "to": 2012,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Audi Q7": {
+  "make": "Audi",
+  "model": "Q7",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7945AC - ID46"
+  ],
+  "blades": [],
+  "frequencies": [
+   "315 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Suzuki Maruti": {
+  "make": "Suzuki",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 6,
+  "categories": {
+   "transpondersleutels": 6
+  }
+ },
+ "Opel Astra H": {
+  "make": "Opel",
+  "model": "Astra H",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Chevrolet Volt": {
+  "make": "Chevrolet",
+  "model": "Volt",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan Terrano": {
+  "make": "Nissan",
+  "model": "Terrano",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Nissan Primera": {
+  "make": "Nissan",
+  "model": "Primera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Nissan Almera": {
+  "make": "Nissan",
+  "model": "Almera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Citroën Xsara": {
+  "make": "Citroën",
+  "model": "Xsara",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Citroën Picasso": {
+  "make": "Citroën",
+  "model": "Picasso",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Citroën Saxo": {
+  "make": "Citroën",
+  "model": "Saxo",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Chrysler Voyager": {
+  "make": "Chrysler",
+  "model": "Voyager",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Chrysler 300C": {
+  "make": "Chrysler",
+  "model": "300C",
+  "from": 2005,
+  "to": 2007,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Chevrolet Captiva": {
+  "make": "Chevrolet",
+  "model": "Captiva",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Chrysler Eagle": {
+  "make": "Chrysler",
+  "model": "Eagle",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Dodge Eagle": {
+  "make": "Dodge",
+  "model": "Eagle",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Mitsubishi Plymouth": {
+  "make": "Mitsubishi",
+  "model": "Plymouth",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Mitsubishi Sterling": {
+  "make": "Mitsubishi",
+  "model": "Sterling",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Renault Laguna": {
+  "make": "Renault",
+  "model": "Laguna",
+  "from": 2004,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 2,
+   "accessoires": 1
+  }
+ },
+ "Renault Modus": {
+  "make": "Renault",
+  "model": "Modus",
+  "from": 2004,
+  "to": 9999,
+  "chips": [
+   "PCF7946",
+   "PCF7947"
+  ],
+  "blades": [
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 3
+  }
+ },
+ "Renault Grand Modus": {
+  "make": "Renault",
+  "model": "Grand Modus",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan Primastar": {
+  "make": "Nissan",
+  "model": "Primastar",
+  "from": 2003,
+  "to": 2015,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 2
+  }
+ },
+ "BMW Z3": {
+  "make": "BMW",
+  "model": "Z3",
+  "from": 1996,
+  "to": 2002,
+  "chips": [
+   "7935"
+  ],
+  "blades": [
+   "HU58"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 7-serie": {
+  "make": "BMW",
+  "model": "7-serie",
+  "from": 1994,
+  "to": 9999,
+  "chips": [
+   "7935"
+  ],
+  "blades": [
+   "HU58"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Porsche Boxster": {
+  "make": "Porsche",
+  "model": "Boxster",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Porsche 911": {
+  "make": "Porsche",
+  "model": "911",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Porsche 944": {
+  "make": "Porsche",
+  "model": "944",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Porsche 964": {
+  "make": "Porsche",
+  "model": "964",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Porsche 968": {
+  "make": "Porsche",
+  "model": "968",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Honda CR-Z": {
+  "make": "Honda",
+  "model": "CR-Z",
+  "from": 2010,
+  "to": 2015,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Toyota Lrxus": {
+  "make": "Toyota",
+  "model": "Lrxus",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutelbaarden": 1
+  }
+ },
+ "Chevrolet Maruti": {
+  "make": "Chevrolet",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "transpondersleutels": 2
+  }
+ },
+ "Isuzu Maruti": {
+  "make": "Isuzu",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Subaru Maruti": {
+  "make": "Subaru",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "transpondersleutels": 3
+  }
+ },
+ "Ford Ldv": {
+  "make": "Ford",
+  "model": "Ldv",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Infiniti Ldv": {
+  "make": "Infiniti",
+  "model": "Ldv",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Infiniti Maruti": {
+  "make": "Infiniti",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Nissan Maruti": {
+  "make": "Nissan",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "transpondersleutels": 2
+  }
+ },
+ "Opel Maruti": {
+  "make": "Opel",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "transpondersleutels": 2
+  }
+ },
+ "Fiat Maruti": {
+  "make": "Fiat",
+  "model": "Maruti",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Buick Gmc": {
+  "make": "Buick",
+  "model": "Gmc",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Cadillac Gmc": {
+  "make": "Cadillac",
+  "model": "Gmc",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Cadillac Holden": {
+  "make": "Cadillac",
+  "model": "Holden",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "transpondersleutels": 2
+  }
+ },
+ "Chevrolet Gmc": {
+  "make": "Chevrolet",
+  "model": "Gmc",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "BMW Case Cabel": {
+  "make": "BMW",
+  "model": "Case Cabel",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Audi A3": {
+  "make": "Audi",
+  "model": "A3",
+  "from": 2000,
+  "to": 9999,
+  "chips": [
+   "ID48"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "accessoires": 1,
+   "behuizingen": 4
+  }
+ },
+ "Suzuki Ignis": {
+  "make": "Suzuki",
+  "model": "Ignis",
+  "from": 2016,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Suzuki Liana": {
+  "make": "Suzuki",
+  "model": "Liana",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Abarth Gilera": {
+  "make": "Abarth",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Alfa Romeo Gilera": {
+  "make": "Alfa Romeo",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Chrysler Gilera": {
+  "make": "Chrysler",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Citroën Gilera": {
+  "make": "Citroën",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Dodge Gilera": {
+  "make": "Dodge",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Ferrari Gilera": {
+  "make": "Ferrari",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Fiat Gilera": {
+  "make": "Fiat",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Ford Gilera": {
+  "make": "Ford",
+  "model": "Gilera",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Iveco Ram": {
+  "make": "Iveco",
+  "model": "Ram",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Jeep Ram": {
+  "make": "Jeep",
+  "model": "Ram",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Lancia Ram": {
+  "make": "Lancia",
+  "model": "Ram",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Maserati Ram": {
+  "make": "Maserati",
+  "model": "Ram",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Opel Ram": {
+  "make": "Opel",
+  "model": "Ram",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Peugeot Ram": {
+  "make": "Peugeot",
+  "model": "Ram",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "transpondersleutels": 1
+  }
+ },
+ "Land Rover Discovery 2": {
+  "make": "Land Rover",
+  "model": "Discovery 2",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Citroën C4 Grand Picasso": {
+  "make": "Citroën",
+  "model": "C4 Grand Picasso",
+  "from": 2007,
+  "to": 2013,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën C1": {
+  "make": "Citroën",
+  "model": "C1",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "ID46 - PCF7936"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "434 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 7-serie E38": {
+  "make": "BMW",
+  "model": "7-serie E38",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "BMW 5-serie E39": {
+  "make": "BMW",
+  "model": "5-serie E39",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "BMW 3-serie E46": {
+  "make": "BMW",
+  "model": "3-serie E46",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW X5 E53": {
+  "make": "BMW",
+  "model": "X5 E53",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "BMW 5-serie E60": {
+  "make": "BMW",
+  "model": "5-serie E60",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 5-serie E61": {
+  "make": "BMW",
+  "model": "5-serie E61",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "BMW 6-serie E63": {
+  "make": "BMW",
+  "model": "6-serie E63",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 6-serie E64": {
+  "make": "BMW",
+  "model": "6-serie E64",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "BMW X3 E83": {
+  "make": "BMW",
+  "model": "X3 E83",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 3-serie E90": {
+  "make": "BMW",
+  "model": "3-serie E90",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Audi A2": {
+  "make": "Audi",
+  "model": "A2",
+  "from": 2002,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 4,
+  "categories": {
+   "behuizingen": 4
+  }
+ },
+ "Audi RS6": {
+  "make": "Audi",
+  "model": "RS6",
+  "from": 2002,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Audi RS4": {
+  "make": "Audi",
+  "model": "RS4",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Audi S2": {
+  "make": "Audi",
+  "model": "S2",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Audi S3": {
+  "make": "Audi",
+  "model": "S3",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
+  }
+ },
+ "Audi Cabriolet": {
+  "make": "Audi",
+  "model": "Cabriolet",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Toyota MR2": {
+  "make": "Toyota",
+  "model": "MR2",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Mitsubishi Colt": {
+  "make": "Mitsubishi",
+  "model": "Colt",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Fiat Stilo": {
+  "make": "Fiat",
+  "model": "Stilo",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Fiat Idea": {
+  "make": "Fiat",
+  "model": "Idea",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Chevrolet Spark": {
+  "make": "Chevrolet",
+  "model": "Spark",
+  "from": 2010,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Chevrolet Aveo": {
+  "make": "Chevrolet",
+  "model": "Aveo",
+  "from": 2008,
+  "to": 2016,
+  "chips": [
+   "ID46 / PCF7952"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Chevrolet Matiz": {
+  "make": "Chevrolet",
+  "model": "Matiz",
+  "from": 2005,
+  "to": 2009,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Chevrolet Lova": {
+  "make": "Chevrolet",
+  "model": "Lova",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Chevrolet Sail": {
+  "make": "Chevrolet",
+  "model": "Sail",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Chevrolet Epica": {
+  "make": "Chevrolet",
+  "model": "Epica",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Chevrolet Lechi": {
+  "make": "Chevrolet",
+  "model": "Lechi",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "BMW X3": {
+  "make": "BMW",
+  "model": "X3",
+  "from": 2010,
+  "to": 2013,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Ford Tourneo Custom": {
+  "make": "Ford",
+  "model": "Tourneo Custom",
+  "from": 9999,
+  "to": 0,
+  "chips": [
+   "PCF7945P-HITAG PRO"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën Jumpy": {
+  "make": "Citroën",
+  "model": "Jumpy",
+  "from": 2007,
+  "to": 2011,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Peugeot 406": {
+  "make": "Peugeot",
+  "model": "406",
+  "from": 2006,
+  "to": 2010,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Peugeot 607": {
+  "make": "Peugeot",
+  "model": "607",
+  "from": 2005,
+  "to": 2010,
+  "chips": [
+   "PCF7941 UNLOCKABLE"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Flex": {
+  "make": "Ford",
+  "model": "Flex",
+  "from": 2011,
+  "to": 2016,
+  "chips": [
+   "PCF7945A / PCF7953A"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Renault Megane IV": {
+  "make": "Renault",
+  "model": "Megane IV",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7953M - AES"
+  ],
+  "blades": [
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "Renault Laguna II": {
+  "make": "Renault",
+  "model": "Laguna II",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7947"
+  ],
+  "blades": [
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan NV400": {
+  "make": "Nissan",
+  "model": "NV400",
+  "from": 2010,
+  "to": 2017,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Chevrolet Camaro": {
+  "make": "Chevrolet",
+  "model": "Camaro",
+  "from": 2008,
+  "to": 2016,
+  "chips": [
+   "ID46 / PCF7952"
+  ],
+  "blades": [],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Meriva B": {
+  "make": "Opel",
+  "model": "Meriva B",
+  "from": 2005,
+  "to": 2014,
+  "chips": [
+   "HITAG-2 7941"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Astra J": {
+  "make": "Opel",
+  "model": "Astra J",
+  "from": 2006,
+  "to": 2014,
+  "chips": [
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Zafira C": {
+  "make": "Opel",
+  "model": "Zafira C",
+  "from": 2013,
+  "to": 2018,
+  "chips": [
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Opel Corsa E": {
+  "make": "Opel",
+  "model": "Corsa E",
+  "from": 2008,
+  "to": 2018,
+  "chips": [
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Chevrolet Orlando": {
+  "make": "Chevrolet",
+  "model": "Orlando",
+  "from": 2015,
+  "to": 2018,
+  "chips": [
+   "PFC7937E/NCF2951E"
+  ],
+  "blades": [
+   "HU100"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Pathfinder": {
+  "make": "Nissan",
+  "model": "Pathfinder",
+  "from": 2010,
+  "to": 2018,
+  "chips": [
+   "PCF7945M Type 5",
+   "PCF7946 HITAG-AES"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "Nissan Murano": {
+  "make": "Nissan",
+  "model": "Murano",
+  "from": 2016,
+  "to": 2018,
+  "chips": [
+   "PCF7945M Type 5"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Titan": {
+  "make": "Nissan",
+  "model": "Titan",
+  "from": 2017,
+  "to": 2018,
+  "chips": [
+   "PCF7945M Type 5"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Almera N16": {
+  "make": "Nissan",
+  "model": "Almera N16",
+  "from": 2003,
+  "to": 2005,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Almera Tino": {
+  "make": "Nissan",
+  "model": "Almera Tino",
+  "from": 2003,
+  "to": 2005,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Nissan Primera P12": {
+  "make": "Nissan",
+  "model": "Primera P12",
+  "from": 2003,
+  "to": 2008,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "NSN14"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Ford Transit Tourneo": {
+  "make": "Ford",
+  "model": "Transit Tourneo",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "DST 80 Bit"
+  ],
+  "blades": [
+   "HU101"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Fiat Albea": {
+  "make": "Fiat",
+  "model": "Albea",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "ID48"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën DS4": {
+  "make": "Citroën",
+  "model": "DS4",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A - ID46 - Type 9"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Citroën DS5": {
+  "make": "Citroën",
+  "model": "DS5",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A - ID46 - Type 9"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Chrysler PT Cruiser Convertible": {
+  "make": "Chrysler",
+  "model": "PT Cruiser Convertible",
+  "from": 2005,
+  "to": 2007,
+  "chips": [
+   "ID46"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW 1-serie F20": {
+  "make": "BMW",
+  "model": "1-serie F20",
+  "from": 2011,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F21": {
+  "make": "BMW",
+  "model": "F21",
+  "from": 2011,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 2-serie F22": {
+  "make": "BMW",
+  "model": "2-serie F22",
+  "from": 2014,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F23": {
+  "make": "BMW",
+  "model": "F23",
+  "from": 2014,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F46": {
+  "make": "BMW",
+  "model": "F46",
+  "from": 2014,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 3-serie F30": {
+  "make": "BMW",
+  "model": "3-serie F30",
+  "from": 2012,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F31": {
+  "make": "BMW",
+  "model": "F31",
+  "from": 2012,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F34": {
+  "make": "BMW",
+  "model": "F34",
+  "from": 2012,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 4-serie F32": {
+  "make": "BMW",
+  "model": "4-serie F32",
+  "from": 2013,
+  "to": 2020,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F33": {
+  "make": "BMW",
+  "model": "F33",
+  "from": 2013,
+  "to": 2020,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F36": {
+  "make": "BMW",
+  "model": "F36",
+  "from": 2013,
+  "to": 2020,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 5-serie F10": {
+  "make": "BMW",
+  "model": "5-serie F10",
+  "from": 2009,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F11": {
+  "make": "BMW",
+  "model": "F11",
+  "from": 2009,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 6-serie F06": {
+  "make": "BMW",
+  "model": "6-serie F06",
+  "from": 2011,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F12": {
+  "make": "BMW",
+  "model": "F12",
+  "from": 2011,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F13": {
+  "make": "BMW",
+  "model": "F13",
+  "from": 2011,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW 7-serie F01": {
+  "make": "BMW",
+  "model": "7-serie F01",
+  "from": 2008,
+  "to": 2016,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW F02": {
+  "make": "BMW",
+  "model": "F02",
+  "from": 2008,
+  "to": 2016,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X1 F48": {
+  "make": "BMW",
+  "model": "X1 F48",
+  "from": 2015,
+  "to": 2022,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X2 F39": {
+  "make": "BMW",
+  "model": "X2 F39",
+  "from": 2017,
+  "to": 2022,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X3 F25": {
+  "make": "BMW",
+  "model": "X3 F25",
+  "from": 2010,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X4 F26": {
+  "make": "BMW",
+  "model": "X4 F26",
+  "from": 2014,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X5 F15": {
+  "make": "BMW",
+  "model": "X5 F15",
+  "from": 2013,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X6 F16": {
+  "make": "BMW",
+  "model": "X6 F16",
+  "from": 2014,
+  "to": 2018,
+  "chips": [
+   "PCF7945P"
+  ],
+  "blades": [
+   "HU92R"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "smart-keys": 1
+  }
+ },
+ "BMW X5": {
+  "make": "BMW",
+  "model": "X5",
+  "from": 1999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto",
+   "7935"
+  ],
+  "blades": [
+   "HU92R Notschlüssel",
+   "HU58"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "afstandsbedieningen": 2
+  }
+ },
+ "BMW X6": {
+  "make": "BMW",
+  "model": "X6",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW E65": {
+  "make": "BMW",
+  "model": "E65",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW E85": {
+  "make": "BMW",
+  "model": "E85",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW E92": {
+  "make": "BMW",
+  "model": "E92",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF 7945A / ID46 Crypto"
+  ],
+  "blades": [
+   "HU92R Notschlüssel"
+  ],
+  "frequencies": [
+   "868 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "BMW Z8": {
+  "make": "BMW",
+  "model": "Z8",
+  "from": 1996,
+  "to": 2002,
+  "chips": [
+   "7935"
+  ],
+  "blades": [
+   "HU58"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 1,
+  "categories": {
+   "afstandsbedieningen": 1
+  }
+ },
+ "Toyota Corolla G": {
+  "make": "Toyota",
+  "model": "Corolla G",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Toyota Corolla 4": {
+  "make": "Toyota",
+  "model": "Corolla 4",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Toyota Sprinter": {
+  "make": "Toyota",
+  "model": "Sprinter",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Aston Martin Gm": {
+  "make": "Aston Martin",
+  "model": "Gm",
+  "from": 9999,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutels-zonder-chip": 1
+  }
+ },
+ "Volkswagen Golf Sportsvan": {
+  "make": "Volkswagen",
+  "model": "Golf Sportsvan",
+  "from": 2014,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "sleutelbaarden": 1
+  }
+ }
+}

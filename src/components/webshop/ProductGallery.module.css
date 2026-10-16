@@ -1,0 +1,26 @@
+.gallery { display: flex; flex-direction: column; gap: 1rem; width: 100%; }
+.main {
+  width: 100%; background: #fff; border: 1px solid var(--shop-line-soft); aspect-ratio: 16 / 11;
+  position: relative; display: flex; align-items: center; justify-content: center; padding: 2rem;
+  box-sizing: border-box; touch-action: pan-y;
+}
+.photo { width: 100%; height: 100%; object-fit: contain; }
+.arrow {
+  position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid var(--shop-line); background: rgba(255, 255, 255, 0.92); color: var(--shop-ink);
+  display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;
+}
+.prev { left: 0.6rem; }
+.next { right: 0.6rem; }
+.counter {
+  position: absolute; bottom: 0.6rem; right: 0.75rem; background: rgba(15, 23, 42, 0.72); color: #fff;
+  border-radius: 999px; font-size: 0.72rem; font-weight: 600; padding: 0.15rem 0.55rem;
+}
+.thumbs { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+.thumb { width: 60px; height: 60px; border: 1px solid var(--shop-line); padding: 0.2rem; background: #fff; cursor: pointer; }
+.thumb img { width: 100%; height: 100%; object-fit: contain; }
+.thumbActive { border: 2px solid var(--shop-accent); }
+@media (max-width: 640px) {
+  .main { padding: 0.75rem; aspect-ratio: 1 / 1; }
+  .arrow { width: 34px; height: 34px; }
+}

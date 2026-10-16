@@ -1,0 +1,3581 @@
+{
+ "funkschluessel-kompatibel-fuer-opel-opr151hu43": {
+  "source": "https://www.auto-sleutel.nl/opel-3-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Omega",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Vectra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151hu46": {
+  "source": "https://www.auto-sleutel.nl/opel-3-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-rechts-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Agila",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Combo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Corsa",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Meriva",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101hu136": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101vac102": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2012,
+    "to": 2018
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2015,
+    "to": 2018
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2013,
+    "to": 2017
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr118_1": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder-ko959753ag-5ko837202aj",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "EOS",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Tiiguan",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr209x": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-behuizing",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Genesis",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "Equus",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "Elantra",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir121": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-434mhz-7946transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Fiorino",
+    "from": 2007,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": 2010,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "Grande Punto",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto Evo",
+    "from": 2010,
+    "to": 2012
+   },
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "Qubo",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Fiat",
+    "model": "500",
+    "from": 2007,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for106iea": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-sleutel-behuizing-sleutelbaard-rond-met-elektronica-434mhz-4d63-transponder-ford-transit",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": 2006,
+    "to": 2014
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc104": {
+  "source": "https://www.auto-sleutel.nl/mini-2-knops-sleutel-logo",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Cooper",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Clubman",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "One",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc103": {
+  "source": "https://www.auto-sleutel.nl/volvo-2-knops-klapsleutel-sleutelbaard-recht-met-inkeping-ombouwset",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Volvo",
+    "model": "S40",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "V40",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "S60",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "S80",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "XC70",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc104": {
+  "source": "https://www.auto-sleutel.nl/volvo-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc103": {
+  "source": "https://www.auto-sleutel.nl/mini-2-knops-sleutel-logo",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Cooper",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Clubman",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "One",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-saab-sarc102": {
+  "source": "https://www.auto-sleutel.nl/saab-4-knops-smart-key-behuizing-zonder-sleutelbaard-5",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Saab",
+    "model": "93",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Saab",
+    "model": "95",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Saab",
+    "model": "9.3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Saab",
+    "model": "Sport Sedan",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc167": {
+  "source": "https://www.auto-sleutel.nl/chrysler-5-knops-smart-key-behuizing-met-paniek-knop",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "smart key",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "smart card",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "smartkey",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "smart key behuizing",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr104": {
+  "source": "https://www.auto-sleutel.nl/mazda-3-knops-smart-key-model-2",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "CX-5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "CX-7",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "CX-9",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc101": {
+  "source": "https://www.auto-sleutel.nl/volvo-6-knops-smart-key",
+  "battery": "CR2430",
+  "fitment": [
+   {
+    "make": "Volvo",
+    "model": "S80 II",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "V70 III",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "XC60",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "S60",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volvo",
+    "model": "V60",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for122": {
+  "source": "https://www.auto-sleutel.nl/ford-4-knops-smart-key-behuizing-met-paniek-knop-model-2",
+  "battery": "CR2450",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Fusion",
+    "from": 2017,
+    "to": 2021
+   },
+   {
+    "make": "Ford",
+    "model": "Edge",
+    "from": 2017,
+    "to": 2021
+   },
+   {
+    "make": "Ford",
+    "model": "Explorer",
+    "from": 2017,
+    "to": 2021
+   },
+   {
+    "make": "Ford",
+    "model": "Mustang",
+    "from": 2017,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "Expedition",
+    "from": 2018,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "Escape",
+    "from": 2018,
+    "to": 2020
+   },
+   {
+    "make": "Ford",
+    "model": "Focus",
+    "from": 2016,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr103xe": {
+  "source": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing-model-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Freelander 4",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr102": {
+  "source": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "smart card",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr103": {
+  "source": "https://www.auto-sleutel.nl/chrysler-6-knops-smart-key-behuizing-met-paniek-knop",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-mini-mcr105": {
+  "source": "https://www.auto-sleutel.nl/mini-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Cooper",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "One",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc165": {
+  "source": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "smart card",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc156": {
+  "source": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "smart card",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc155": {
+  "source": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "smart card",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc161": {
+  "source": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "smart key behuizing",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc158": {
+  "source": "https://www.auto-sleutel.nl/chrysler-6-knops-smart-key-behuizing-met-paniek-knop",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc151": {
+  "source": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-punt-49mm",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Carina",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr103": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "EOS",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc112": {
+  "source": "https://www.auto-sleutel.nl/toyota-1-knops-sleutelbehuizing-met-uitsparing-lampje-sleutelbaard-punt",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Carina",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Estima",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Harrier",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Previa",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Celica",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr131": {
+  "source": "https://www.auto-sleutel.nl/chrysler-3-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-315mhz-id46-transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "200",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "300",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "Aspen",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "PT Cruiser",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "Sebring",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "3-tasten-funkschluessel-kompatibel-fuer-honda-hon101": {
+  "source": "https://www.auto-sleutel.nl/honda-3-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping",
+  "battery": "CR1616",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Accord",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Intergra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Prelude",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "FR-V",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "Concerto",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Honda",
+    "model": "CRV",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "smrc104-funkschluessel-gehaeuse-kompatibel-fuer-smart": {
+  "source": "https://www.auto-sleutel.nl/smart-1-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Smart",
+    "model": "Fortwo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Smart",
+    "model": "Forfour",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Smart",
+    "model": "450",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Smart",
+    "model": "451",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Smart",
+    "model": "Roadster",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc107": {
+  "source": "https://www.auto-sleutel.nl/mercedes-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR2025",
+  "fitment": [
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML320",
+    "from": 1998,
+    "to": 2003
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML55 AMG",
+    "from": 2000,
+    "to": 2003
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML430",
+    "from": 1999,
+    "to": 2000
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "C230",
+    "from": 1997,
+    "to": 2000
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mini-mcr101": {
+  "source": "https://www.auto-sleutel.nl/mini-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Cooper",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "One",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr104": {
+  "source": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing-model-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Freelander 4",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ssangyong-ssarc100": {
+  "source": "https://www.auto-sleutel.nl/ssangyong-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "SsangYong",
+    "model": "Actyon",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "SsangYong",
+    "model": "Kyron",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc150": {
+  "source": "https://www.auto-sleutel.nl/mercedes-smart-key-2-knops-sleutelbehuizing",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc108": {
+  "source": "https://www.auto-sleutel.nl/mercedes-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR2025",
+  "fitment": [
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML320",
+    "from": 1998,
+    "to": 2003
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML55 AMG",
+    "from": 2000,
+    "to": 2003
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "ML430",
+    "from": 1999,
+    "to": 2000
+   },
+   {
+    "make": "Mercedes-Benz",
+    "model": "C230",
+    "from": 1997,
+    "to": 2000
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc116-obatteriefach-va2": {
+  "source": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-ombouwset",
+  "battery": "CR1620",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C6",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur117iea": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-smart-key",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Smart",
+    "model": "Key",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "Q5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "Q7",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr133": {
+  "source": "https://www.auto-sleutel.nl/chrysler-5-knops-sleutelbehuizing-met-paniek-knop",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc101": {
+  "source": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-rechts-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Omega",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Vectra",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc103": {
+  "source": "https://www.auto-sleutel.nl/opel-3-knops-sleutel-behuizing",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Omega",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Vectra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Signum",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc103": {
+  "source": "https://www.auto-sleutel.nl/nissan-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Nissan",
+    "model": "Terrano",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Note",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Primera",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "X-Trail",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Cargo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Micra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Nissan",
+    "model": "Qashqai",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc110": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-model-1",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "i20",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "i30",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Hyundai",
+    "model": "ix35",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc152": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-sleutelbehuizing-sleutelbaard-rond",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Escort",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Focus",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Fiesta",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Mondeo",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc118-mbatteriefach-hu83": {
+  "source": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR1620",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C6",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc150-obatteriefach-sx9": {
+  "source": "https://www.auto-sleutel.nl/citroen-2-knops-sleutelbehuizing-sleutelbaard-kruisvormig-voor-oudere-modellen-met-logo",
+  "battery": "CR1620",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "Xsara",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "Picasso",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "Saxo",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc154": {
+  "source": "https://www.auto-sleutel.nl/chrysler-3-knops-sleutelbehuizing-sleutelbaard-punt-model-1",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "Voyager",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc153": {
+  "source": "https://www.auto-sleutel.nl/chrysler-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "Sebring",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "300C",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "PT Cruiser",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "Voyager",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chrysler",
+    "model": "Grand Voyager",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc114": {
+  "source": "https://www.auto-sleutel.nl/renault-3-knops-klapsleutel-sleutelbaard-recht-geen-logo",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Clio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Modus",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Grand Modus",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Renault Clio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc113": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc150": {
+  "source": "https://www.auto-sleutel.nl/toyota-3-knops-klapsleutel-sleutelbaard-punt",
+  "battery": "CR1616",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Camry",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc104": {
+  "source": "https://www.auto-sleutel.nl/toyota-4-knops-sleutelbehuizing-sleutelbaard-punt-toy43",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc155": {
+  "source": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-recht-48mm",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Corrola",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc153": {
+  "source": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-punt-49mm",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Carina",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc101": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Avalon",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Carina",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Camry",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc115": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt-48mm",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Landcruiser",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Prius",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "RAV",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc103": {
+  "source": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-punt-49mm",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Avensis",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Carina",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Corolla",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc102": {
+  "source": "https://www.auto-sleutel.nl/mini-3-knops-sleutelbehuizing-sleutelbaard-recht",
+  "battery": "CR2025",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Cooper D",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Clubman",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cooper S",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc101": {
+  "source": "https://www.auto-sleutel.nl/mini-2-knops-sleutel-logo",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Mini",
+    "model": "Cooper",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "Clubman",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Mini",
+    "model": "One",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc155": {
+  "source": "https://www.auto-sleutel.nl/bmw-2-knops-sleutel-behuizing-oude-model-sleutelbaard-recht",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "Z3",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc156": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-porsche-porc101": {
+  "source": "https://www.auto-sleutel.nl/porsche-3-knops-sleutelbehuizing-sleutelbaard-recht-model-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Porsche",
+    "model": "911",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Porsche",
+    "model": "944",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Porsche",
+    "model": "964",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Porsche",
+    "model": "968",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-porsche-porc102": {
+  "source": "https://www.auto-sleutel.nl/porsche-1-knops-sleutelbehuizing-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Porsche",
+    "model": "911",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Porsche",
+    "model": "944",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Porsche",
+    "model": "964",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Porsche",
+    "model": "968",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-jaguar-jag150": {
+  "source": "https://www.auto-sleutel.nl/jaguar-4-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr130-868mhz": {
+  "source": "https://www.auto-sleutel.nl/bmw-5-en-7-serie-smart-key-behuizing-3-knops",
+  "battery": "CR2450",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-suzuki-surc105": {
+  "source": "https://www.auto-sleutel.nl/suzuki-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-rechts",
+  "battery": "CR1616",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": "Swift",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "Vitara",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "IgnisSX4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Suzuki",
+    "model": "Liana",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc113": {
+  "source": "https://www.auto-sleutel.nl/opel-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Insignia",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc104": {
+  "source": "https://www.auto-sleutel.nl/land-rover-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Discovery 1 en 2",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc110-obatteriefach-sx9": {
+  "source": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-punt-voor-o-a-c5",
+  "battery": "CR1616",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C1",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "C8",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "Berlingo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "Jumper",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc106": {
+  "source": "https://www.auto-sleutel.nl/bmw-2-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "E38",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E39",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E46",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E53",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E60",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E61",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E63",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E64",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E83",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E95",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "BMW",
+    "model": "E90",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc104-hu92": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-recht",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc103": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc152": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-klapsleutel-sleutel-behuizing-chroom",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "A2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A8",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "RS4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S8",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc101": {
+  "source": "https://www.auto-sleutel.nl/bmw-5-en-7-serie-smart-key-behuizing-3-knops",
+  "battery": "CR2450",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc102": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "A2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A7",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A8",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "RS4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S8",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "TT coupe",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc101": {
+  "source": "https://www.auto-sleutel.nl/audi-2-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Audi",
+    "model": "A2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A5",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A7",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "A8",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "Cabrio",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "RS4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S2",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S3",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S6",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "S8",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Audi",
+    "model": "TT coupe",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mitsubishi-mitrc102": {
+  "source": "https://www.auto-sleutel.nl/mitsubishi-3-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-rechts",
+  "battery": "CR2016",
+  "fitment": [
+   {
+    "make": "Mitsubishi",
+    "model": "Colt",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc150": {
+  "source": "https://www.auto-sleutel.nl/ford-contactsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Fiesta",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Focus",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "Mondeo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Ford",
+    "model": "C-Max",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc106": {
+  "source": "https://www.auto-sleutel.nl/fiat-2-knops-klapsleutel-blauw-sleutelbaard-recht-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Punto",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Fiat",
+    "model": "Ducato",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Fiat",
+    "model": "Stilo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Fiat",
+    "model": "Panda",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Fiat",
+    "model": "Idea",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Fiat",
+    "model": "Doblo",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Fiat",
+    "model": "Bravo",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chevrolet-chrc102": {
+  "source": "https://www.auto-sleutel.nl/chevrolet-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-links",
+  "fitment": [
+   {
+    "make": "Chevrolet",
+    "model": "Captiva",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "from": 2010,
+    "to": 2015
+   },
+   {
+    "make": "Chevrolet",
+    "model": "Aveo",
+    "from": 2008,
+    "to": 2015
+   },
+   {
+    "make": "Chevrolet",
+    "model": "Matiz",
+    "from": 2005,
+    "to": 2009
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc151": {
+  "source": "https://www.auto-sleutel.nl/bmw-4-knops-smart-key-behuizing",
+  "battery": "CR2450",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "5-serie bouwjaar",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "BMW",
+    "model": "X3 - bouwjaar",
+    "from": 2010,
+    "to": 2013
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc107": {
+  "source": "https://www.auto-sleutel.nl/bmw-4-knops-smart-key-behuizing",
+  "battery": "CR2450",
+  "fitment": [
+   {
+    "make": "BMW",
+    "model": "5-serie bouwjaar",
+    "from": 2010,
+    "to": 2013
+   },
+   {
+    "make": "BMW",
+    "model": "X3 - bouwjaar",
+    "from": 2010,
+    "to": 2013
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151": {
+  "source": "https://www.auto-sleutel.nl/opel-3-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Astra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Omega",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Vectra",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Opel",
+    "model": "Zafira",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr130": {
+  "source": "https://www.auto-sleutel.nl/opel-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Insignia",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr128iea": {
+  "source": "https://www.auto-sleutel.nl/opel-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Opel",
+    "model": "Insignia",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr105": {
+  "source": "https://www.auto-sleutel.nl/mazda-2-knops-smart-key-met-elektronica-id47-pcf7953p-maz24-kdy5-675dy",
+  "battery": "CR2025",
+  "fitment": [
+   {
+    "make": "Mazda",
+    "model": "CX5",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Mazda",
+    "model": "2",
+    "from": 2015,
+    "to": 2018
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr108": {
+  "source": "https://www.auto-sleutel.nl/land-rover-freelander-5-knops-autosleutel-433mhz",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "from": 2007,
+    "to": 2013
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr103": {
+  "source": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing-model-2",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Land Rover",
+    "model": "Freelander 4",
+    "from": null,
+    "to": null
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr105": {
+  "source": "https://www.auto-sleutel.nl/chrysler-6-knops-smart-key-met-paniek-knop-met-elektronica-id46-pcf7941-m3n5wy783x",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "Town",
+    "from": 2008,
+    "to": 2016
+   },
+   {
+    "make": "Chrysler",
+    "model": "Country",
+    "from": 2008,
+    "to": 2016
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr132": {
+  "source": "https://www.auto-sleutel.nl/chrysler-3-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-433mhz",
+  "battery": "CR2032",
+  "fitment": [
+   {
+    "make": "Chrysler",
+    "model": "200",
+    "from": 2011,
+    "to": 2014
+   },
+   {
+    "make": "Chrysler",
+    "model": "300 300c",
+    "from": 2005,
+    "to": 2007
+   },
+   {
+    "make": "Chrysler",
+    "model": "Aspen",
+    "from": 2007,
+    "to": 2009
+   },
+   {
+    "make": "Chrysler",
+    "model": "PT Cruiser",
+    "from": 2006,
+    "to": 2010
+   },
+   {
+    "make": "Chrysler",
+    "model": "PT Cruiser Convertible",
+    "from": 2005,
+    "to": 2007
+   },
+   {
+    "make": "Chrysler",
+    "model": "Sebring",
+    "from": 2007,
+    "to": 2011
+   }
+  ],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr126l": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433-434mhz-toyota-yaris",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc103": {
+  "source": "https://www.auto-sleutel.nl/mazda-3-knops-klapsleutel-sleutelbaard-punt",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr110k": {
+  "source": "https://www.auto-sleutel.nl/toyota-3-knops-smart-key-met-elektronica-433-434mhz-id74-transponder-toyota-rav4",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr119l": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "battery": "CR1632",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr120l": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "battery": "CR1632",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr116l": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "battery": "CR1632",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr117l": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "battery": "CR1632",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr118l": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "battery": "CR1632",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir130or": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101va2": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr105hu46": {
+  "source": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-links-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc154": {
+  "source": "https://www.auto-sleutel.nl/mazda-4-knops-smart-key-model-1",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vagr110": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr101": {
+  "source": "https://www.auto-sleutel.nl/mazda-4-knops-smart-key-met-elektronica-id49-pcf7953-mazr24-ske13e-02",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr119": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr206x": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr210x": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc119": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir122a": {
+  "source": "https://www.auto-sleutel.nl/fiat-4-knops-smart-key-met-paniek-knop-met-elektronica-pcf7945m-hitag-aes-gq454t",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir123x": {
+  "source": "https://www.auto-sleutel.nl/fiat-4-knops-smart-key-met-paniek-knop-met-elektronica-pcf7945m-hitag-aes-gq454t",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-mcrc151": {
+  "source": "https://www.auto-sleutel.nl/mini-ronde-3-knops-smart-key-sleutelbaard-recht-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc115": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc116": {
+  "source": "https://www.auto-sleutel.nl/mercedes-3-knops-smart-key-behuizing-3",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-kia-kirc105": {
+  "source": "https://www.auto-sleutel.nl/kia-3-knops-afstandsbediening",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc110": {
+  "source": "https://www.auto-sleutel.nl/peugeot-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR1616",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr128-org": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-geschikt-voor-hyundai-i30",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc114": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc114": {
+  "source": "https://www.auto-sleutel.nl/ford-2-knops-klapsleutel-sleutelbaard-recht-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr115": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr111": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr108": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr114": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr103": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor106": {
+  "source": "https://www.auto-sleutel.nl/honda-3-knops-smart-key-behuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr112": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr115": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr113": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr127": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc106": {
+  "source": "https://www.auto-sleutel.nl/peugeot-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-ombouwset",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc105": {
+  "source": "https://www.auto-sleutel.nl/peugeot-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-ombouwset",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc105": {
+  "source": "https://www.auto-sleutel.nl/volvo-3-knops-afstandsbediening",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc106": {
+  "source": "https://www.auto-sleutel.nl/volvo-3-knops-afstandsbediening",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr125": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr124": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id46-pcf7945-transponder-voor-hyundai-ix35",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr123": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr106": {
+  "source": "https://www.auto-sleutel.nl/land-rover-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr122": {
+  "source": "https://www.auto-sleutel.nl/hyundai-4-knops-smart-key-met-elektronica-id47-95440-g2500",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr107": {
+  "source": "https://www.auto-sleutel.nl/mazda-3-knops-smart-key-behuizing-met-elektronica-433mhz-128bit-aes-crypto-3d-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volvo-vlvr102": {
+  "source": "https://www.auto-sleutel.nl/volvo-6-knops-smart-key",
+  "battery": "CR2430",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc114": {
+  "source": "https://www.auto-sleutel.nl/toyota-5-knops-smart-key-behuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc113": {
+  "source": "https://www.auto-sleutel.nl/toyota-6-knops-smart-key-behuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc110": {
+  "source": "https://www.auto-sleutel.nl/ford-2-knops-klapsleutel-sleutelbaard-recht-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc109": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-model-5",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc110": {
+  "source": "https://www.auto-sleutel.nl/mercedes-3-knops-smart-key-behuizing-3",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-subaru-subr100": {
+  "source": "https://www.auto-sleutel.nl/subaru-3-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-jaguar-jagc151": {
+  "source": "https://www.auto-sleutel.nl/jaguar-5-knops-smart-key-sleutelbehuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc108": {
+  "source": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for119": {
+  "source": "https://www.auto-sleutel.nl/ford-4-knops-smart-key-behuizing-sleutelbaard-recht",
+  "battery": "CR2450",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr103": {
+  "source": "https://www.auto-sleutel.nl/mazda-2-mazda-6-3-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts-elektronica-433mhz-id63-transponder",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr102": {
+  "source": "https://www.auto-sleutel.nl/mazda-2-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts-elektronica-433mhz-4d63-transponder",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr118": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id46-transponder-voor-hyundai-i20",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr117": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-hitag-3-id47-tfkb1g085",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr101": {
+  "source": "https://www.auto-sleutel.nl/land-rover-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-alfa-alfr101": {
+  "source": "https://www.auto-sleutel.nl/alfa-3-knops-smart-key-behuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr114": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr113": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id46-transponder-voor-hyundai-i20",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr101": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-id70e-type-1",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor110": {
+  "source": "https://www.auto-sleutel.nl/honda-3-knops-smart-key-behuizing",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur114x": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-smart-key",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur118": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-smart-key",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-subaru-subr101": {
+  "source": "https://www.auto-sleutel.nl/subaru-3-knops-sleutelbehuizing-met-elektronica-433mhz-en-transponder-4d62-sleutelbaard-recht",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc102": {
+  "source": "https://www.auto-sleutel.nl/mazda-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc103": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-9",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr104": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc106": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-model-5",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for114": {
+  "source": "https://www.auto-sleutel.nl/ford-mondeo-3-knops-klapsleutel-sleutelbaard-rond-met-elektronica-433mhz",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-nissan-nir151": {
+  "source": "https://www.auto-sleutel.nl/nissan-2-knops-smart-key-met-elektronica-434mhz-7945-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-mit-mitsubishi-mitr103": {
+  "source": "https://www.auto-sleutel.nl/mitsubishi-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-links-met-elektronica-433mhz-id46-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr109iea": {
+  "source": "https://www.auto-sleutel.nl/opel-3-knops-klapsleutel-met-elektronica-433mhz-id46-pcf7946-transponder-voor-opel-vectra-en-opel-signum",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc110": {
+  "source": "https://www.auto-sleutel.nl/renault-1-knops-sleutel-behuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc117": {
+  "source": "https://www.auto-sleutel.nl/renault-smartcard-4-knops-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr102": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc114-obatteriefach-hu83": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc104-mbatteriefach-va2": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr102iea-433mhz": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutelbehuizing-met-elektronica-oude-type-sleutelbaard-en-transponder-recht",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc115": {
+  "source": "https://www.auto-sleutel.nl/mercedes-3-knops-smart-key-behuizing-3",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-2-tasten-kompatibel-fuer-peugeot-pgr101iea": {
+  "source": "https://www.auto-sleutel.nl/peugeot-2-knops-sleutelbehuizing-met-elektronica-transponder-sleutelbaard-punt-met-inkeping-midden",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc111": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-2-knops-klapsleutel",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for151": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-smart-key-met-paniek-knop-en-elektronica-pc3t-15k601-bb-64a",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-dacia-rnrc115": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc112-obatteriefach-va2": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr105": {
+  "source": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr132iea-868mhz": {
+  "source": "https://www.auto-sleutel.nl/bmw-smart-key-behuizing-3-knops",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc150": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-2-knops-klapsleutel",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc114": {
+  "source": "https://www.auto-sleutel.nl/chevrolet-5-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "2-tasten-funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc151": {
+  "source": "https://www.auto-sleutel.nl/nissan-2-knops-sleutelbehuizing-sleutelbaard-punt-met-verbreding",
+  "battery": "CR2025",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc100": {
+  "source": "https://www.auto-sleutel.nl/mazda-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc101": {
+  "source": "https://www.auto-sleutel.nl/mazda-3-knops-klapsleutel-sleutelbaard-punt",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc107": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-9",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc102": {
+  "source": "https://www.auto-sleutel.nl/fiat-1-knops-sleutelbehuizing-sleutelbaard-punt-model-1",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc102-obatteriefach-hu83": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc102": {
+  "source": "https://www.auto-sleutel.nl/renault-1-knops-sleutel-behuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc101": {
+  "source": "https://www.auto-sleutel.nl/renault-1-knops-sleutel-behuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc103-mbatteriefach-hu83": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc105": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-mcrc150": {
+  "source": "https://www.auto-sleutel.nl/mini-ronde-3-knops-smart-key-sleutelbaard-recht-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc105": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-porsche-porc151": {
+  "source": "https://www.auto-sleutel.nl/porsche-3-knops-sleutelbehuizing-sleutelbaard-recht-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc103": {
+  "source": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc105": {
+  "source": "https://www.auto-sleutel.nl/honda-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping",
+  "battery": "CR1616",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc103": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-voor-modellen-na-2011",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc109": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-voor-modellen-na-2011",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc110": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-2-knops-klapsleutel-sleutelbaard-voor-modellen-na-2011",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr105hu100": {
+  "source": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-links-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr159": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-transponder-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-2-tasten-kompatibel-fuer-porsche-por150": {
+  "source": "https://www.auto-sleutel.nl/porsche-2-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-3tasten-kompatibel-fuer-porsche-por153": {
+  "source": "https://www.auto-sleutel.nl/porsche-3-knops-klapsleutel-sleutelbaard-recht-model-1",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir129e": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr101": {
+  "source": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-geschikt-voor-hyundai-i30",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc105": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc116": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc109": {
+  "source": "https://www.auto-sleutel.nl/renault-1-knops-sleutelbehuizing-sleutelblad-met-punt-model-2",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc153": {
+  "source": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-links",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc151": {
+  "source": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-rechts-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc101": {
+  "source": "https://www.auto-sleutel.nl/land-rover-3-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc106": {
+  "source": "https://www.auto-sleutel.nl/honda-3-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping",
+  "battery": "CR1616",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc111-mbatteriefach-ne73": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc105-obatteriehalter-sx9": {
+  "source": "https://www.auto-sleutel.nl/citroen-2-knops-sleutelbehuizing-sleutelbaard-kruisvormig-voor-oudere-modellen-met-logo",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc123": {
+  "source": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc108": {
+  "source": "https://www.auto-sleutel.nl/renault-3-knops-klapsleutel-sleutelbaard-recht-model-2",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chevrolet-chrc101": {
+  "source": "https://www.auto-sleutel.nl/chevrolet-2-knops-sleutelbehuizing-sleutelbaard-punt-model-1",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc106-obatteriefach-sx9": {
+  "source": "https://www.auto-sleutel.nl/citroen-2-knops-sleutelbehuizing-sleutelbaard-kruisvormig-voor-oudere-modellen-met-logo",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for115": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-434mhz-hitag-pro-49-chip-gk2t-15k601-aa-a2c94379402-geschikt-voor-ford-transit-oem",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for101": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-sleutelbehuizing-sleutelbaard-rond-met-elektronica-433mhz-4d60-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir102": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-pcf7946-paars",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluesselblatt-und-platine-kompatibel-fuer-volkswagen-vvr107e": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-met-elektronica-433mhz-id48-transponder-5g0959752bc-5g0959752bk",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vagr108": {
+  "source": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr144iea": {
+  "source": "https://www.auto-sleutel.nl/renault-smartcard-4-knops-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr143iea": {
+  "source": "https://www.auto-sleutel.nl/renault-smartcard-4-knops-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr133iea": {
+  "source": "https://www.auto-sleutel.nl/renault-4-knops-smartcard-met-elektronica-433-mhz-pcf7953m-hitag-aes-4a-chip-transponder",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr119": {
+  "source": "https://www.auto-sleutel.nl/renault-laguna-2-knops-smartcard-met-elektronica-433mhz-pcf7947-transponder",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr115e": {
+  "source": "https://www.auto-sleutel.nl/renault-smartcard-4-knops-sleutelbaard-punt",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr114": {
+  "source": "https://www.auto-sleutel.nl/renault-megane-3-knops-smartcard-sleutelbaard-punt-met-elektronica-transponder",
+  "battery": "CR1620",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr108": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-433mhz-7946-transponder-model-2",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr106": {
+  "source": "https://www.auto-sleutel.nl/renault-3-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-7947-transponder",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr103": {
+  "source": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-433mhz-7946-transponder-model-2",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr129": {
+  "source": "https://www.auto-sleutel.nl/opel-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-land-rover-lrr102": {
+  "source": "https://www.auto-sleutel.nl/land-rover-3-knops-klapsleutel-sleutelbaard-recht",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hon112e": {
+  "source": "https://www.auto-sleutel.nl/honda-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-434mhz-id47",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hor108": {
+  "source": "https://www.auto-sleutel.nl/honda-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping",
+  "battery": "CR1616",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for111": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id63-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for107": {
+  "source": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id63-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir115e": {
+  "source": "https://www.auto-sleutel.nl/fiat-1-knops-sleutelbehuizing-zwart-sleutelbaard-recht-met-elektronica-434mhz",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir114e": {
+  "source": "https://www.auto-sleutel.nl/fiat-1-knops-sleutelbehuizing-paars-sleutelbaard-recht-met-elektronica-434mhz",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir107e": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "fir104e-ersetzt-durch-fir134": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-pcf7941a",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir103e": {
+  "source": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-citroen-ctr107": {
+  "source": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-recht-inkeping-zijkant-elektronica-433mhz-id46-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-citroen-ctr101": {
+  "source": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur116iea": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-smart-key",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-audi-aur115iea": {
+  "source": "https://www.auto-sleutel.nl/audi-3-knops-smart-key",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr102-433mhz": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutelbehuizing-met-elektronica-oude-type-sleutelbaard-en-transponder-recht",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmr105-868mhz": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-smart-key-behuizing-met-elektronica-868mhz-7945-transponder",
+  "battery": "CR2032",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr112-433mhz": {
+  "source": "https://www.auto-sleutel.nl/bmw-3-knops-sleutelbehuizing-met-elektronica-oude-type-sleutelbaard-en-transponder-recht",
+  "battery": "CR2016",
+  "fitment": [],
+  "verified": "visual side-by-side, 2026-10-11"
+ }
+}

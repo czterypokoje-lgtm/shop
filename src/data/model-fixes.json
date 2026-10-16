@@ -1,0 +1,595 @@
+{
+ "_doc": "make|model -> [] (drop) or list of 'Make|Model' or 'Model' (same make). Applied to every fitment list by build-catalog.mjs.",
+ "Renault|Micra": [
+  "Nissan|Micra"
+ ],
+ "Renault|K14": [
+  "Nissan|Micra K14"
+ ],
+ "Renault|Pulsar": [
+  "Nissan|Pulsar"
+ ],
+ "Renault|C13": [
+  "Nissan|Pulsar C13"
+ ],
+ "Renault|Vivaro": [
+  "Opel|Vivaro"
+ ],
+ "Renault|Movano": [
+  "Opel|Movano"
+ ],
+ "Opel|Master": [
+  "Renault|Master"
+ ],
+ "Opel|Traffic": [
+  "Renault|Trafic"
+ ],
+ "Opel|Kangoo": [
+  "Renault|Kangoo"
+ ],
+ "Citroën|500l": [
+  "Fiat|500L"
+ ],
+ "Peugeot|500l": [
+  "Fiat|500L"
+ ],
+ "Iveco|500l": [
+  "Fiat|500L"
+ ],
+ "Citroën|New Grande Punto": [
+  "Fiat|Grande Punto"
+ ],
+ "Peugeot|New Grande Punto": [
+  "Fiat|Grande Punto"
+ ],
+ "Iveco|New Grande Punto": [
+  "Fiat|Grande Punto"
+ ],
+ "Ford|Ducato": [
+  "Fiat|Ducato"
+ ],
+ "Ford|Punto": [
+  "Fiat|Punto"
+ ],
+ "Lexus|Cruiser": [
+  "Toyota|Land Cruiser"
+ ],
+ "Lexus|Prado": [
+  "Toyota|Land Cruiser Prado"
+ ],
+ "Kia|Elantra": [
+  "Hyundai|Elantra"
+ ],
+ "Kia|Santa Fe": [
+  "Hyundai|Santa Fe"
+ ],
+ "Kia|Sonata": [
+  "Hyundai|Sonata"
+ ],
+ "Fiat|Mito": [
+  "Alfa Romeo|MiTo"
+ ],
+ "Mercedes-Benz|Crossfire": [
+  "Chrysler|Crossfire"
+ ],
+ "Chrysler|Dodge": [],
+ "Chrysler|Country": [
+  "Town and Country"
+ ],
+ "Chrysler|Town": [
+  "Town and Country"
+ ],
+ "Chrysler|300 Bj": [
+  "300"
+ ],
+ "Chevrolet|Mokka": [],
+ "Citroën|Alfa ID46": [],
+ "Citroën|Ds4 & Ds5": [
+  "DS4",
+  "DS5"
+ ],
+ "Ford|Escort & Taurus": [
+  "Escort",
+  "Taurus"
+ ],
+ "Ford|Mks & Mkx": [],
+ "Ford|Rand": [],
+ "Ford|M8": [],
+ "Ford|Custom 3": [
+  "Transit Custom"
+ ],
+ "Ford|Fusio": [
+  "Fusion"
+ ],
+ "Ford|Edge Fusio": [
+  "Edge",
+  "Fusion"
+ ],
+ "Ford|KA": [
+  "Ka"
+ ],
+ "Hyundai|Elit": [],
+ "Mitsubishi|SKE126-01 DJ5976": [],
+ "Volkswagen|202n": [],
+ "Volkswagen|5k 0 959 753 Ad": [],
+ "Renault|Von Bj": [],
+ "Renault|U.a. Fluence": [
+  "Fluence"
+ ],
+ "Renault|Fluence & Latituede & Scenic": [
+  "Fluence",
+  "Latitude",
+  "Scenic"
+ ],
+ "Renault|Scenic Iii & Latitude": [
+  "Scenic III",
+  "Latitude"
+ ],
+ "Renault|Twingo Megane Scenic Laguna": [
+  "Twingo",
+  "Megane",
+  "Scenic",
+  "Laguna"
+ ],
+ "Renault|Clio Ii + Iii": [
+  "Clio II",
+  "Clio III"
+ ],
+ "Renault|Kango Ii +iii": [
+  "Kangoo II",
+  "Kangoo III"
+ ],
+ "Renault|Kango": [
+  "Kangoo"
+ ],
+ "Renault|Kango Iii": [
+  "Kangoo III"
+ ],
+ "Renault|Megan Iii": [
+  "Megane III"
+ ],
+ "Renault|Megane Ii": [
+  "Megane II"
+ ],
+ "Renault|Megane Iii": [
+  "Megane III"
+ ],
+ "Renault|Megane 2": [
+  "Megane II"
+ ],
+ "Renault|Megane 3": [
+  "Megane III"
+ ],
+ "Renault|Megane 4": [
+  "Megane IV"
+ ],
+ "Renault|Traffic": [
+  "Trafic"
+ ],
+ "Renault|Traffic Ii": [
+  "Trafic II"
+ ],
+ "Renault|Clio Iii": [
+  "Clio III"
+ ],
+ "Renault|Clio Iv": [
+  "Clio IV"
+ ],
+ "Renault|Clio 4": [
+  "Clio IV"
+ ],
+ "Renault|Laguna Ii": [
+  "Laguna II"
+ ],
+ "Renault|Scenic 2": [
+  "Scenic II"
+ ],
+ "Renault|Scenic 3": [
+  "Scenic III"
+ ],
+ "Renault|Capture": [
+  "Captur"
+ ],
+ "Nissan|Note E11 + 4d60": [
+  "Note E11"
+ ],
+ "Nissan|Micra K12 4d60": [
+  "Micra K12"
+ ],
+ "Nissan|X-Trail 4d60": [
+  "X-Trail"
+ ],
+ "Nissan|X-trail": [
+  "X-Trail"
+ ],
+ "Nissan|Ariya Alle": [
+  "Ariya"
+ ],
+ "Nissan|Euro Spec": [],
+ "Nissan|Titan Xd": [
+  "Titan"
+ ],
+ "Nissan|Almera N16e": [
+  "Almera N16"
+ ],
+ "Nissan|Almera Tino V10m": [
+  "Almera Tino"
+ ],
+ "BMW|1 - 3 - 5 - Z": [
+  "1-serie",
+  "3-serie",
+  "5-serie"
+ ],
+ "Toyota|RAV4 - Corolla": [
+  "RAV4",
+  "Corolla"
+ ],
+ "Toyota|Rav4": [
+  "RAV4"
+ ],
+ "Toyota|C-hr": [
+  "C-HR"
+ ],
+ "Toyota|Yaris L": [
+  "Yaris"
+ ],
+ "Toyota|Cruiser": [
+  "Land Cruiser"
+ ],
+ "Toyota|Prado": [
+  "Land Cruiser Prado"
+ ],
+ "Opel|Corsa D Meriva B": [
+  "Corsa D",
+  "Meriva B"
+ ],
+ "Alfa Romeo|159 Brera Spider": [
+  "159",
+  "Brera",
+  "Spider"
+ ],
+ "Mitsubishi|L200 Shogun Triton": [
+  "L200",
+  "Shogun",
+  "Triton"
+ ],
+ "Land Rover|Lr4 Discovery 4": [
+  "Discovery 4"
+ ],
+ "Land Rover|Lr2": [
+  "Freelander 2"
+ ],
+ "Land Rover|Sport": [
+  "Range Rover Sport"
+ ],
+ "Land Rover|Vogue": [
+  "Range Rover Vogue"
+ ],
+ "Land Rover|Evoque": [
+  "Range Rover Evoque"
+ ],
+ "Land Rover|Velar": [
+  "Range Rover Velar"
+ ],
+ "Audi|Tt": [
+  "TT"
+ ],
+ "Audi|Allroad": [
+  "A6 Allroad"
+ ],
+ "Peugeot|Tepe": [
+  "Partner Tepee"
+ ],
+ "Peugeot|Jumper": [
+  "Citroën|Jumper"
+ ],
+ "Mazda|Mazda3 M3": [
+  "3"
+ ],
+ "Mazda|CX7": [
+  "CX-7"
+ ],
+ "Honda|Crv": [
+  "CR-V"
+ ],
+ "Honda|FRV": [
+  "FR-V"
+ ],
+ "Suzuki|Sx4": [
+  "SX4"
+ ],
+ "Mercedes-Benz|Slk": [
+  "SLK-Class"
+ ],
+ "Mercedes-Benz|SLK": [
+  "SLK-Class"
+ ],
+ "Mercedes-Benz|CL": [
+  "CL-Class"
+ ],
+ "Mercedes-Benz|CLK": [
+  "CLK-Class"
+ ],
+ "Mercedes-Benz|CLS": [
+  "CLS-Class"
+ ],
+ "Mercedes-Benz|GL": [
+  "GL-Class"
+ ],
+ "Mercedes-Benz|GLA": [
+  "GLA-Class"
+ ],
+ "Mercedes-Benz|ML": [
+  "M-Class"
+ ],
+ "Mercedes-Benz|ML-Klasse": [
+  "M-Class"
+ ],
+ "Mercedes-Benz|W168": [
+  "A-Class"
+ ],
+ "Mercedes-Benz|W414": [
+  "Vaneo"
+ ],
+ "Mercedes-Benz|W638 Vito": [
+  "Vito"
+ ],
+ "Mercedes-Benz|Sprinter W901-w905": [
+  "Sprinter"
+ ],
+ "Fiat|500l": [
+  "500L"
+ ],
+ "Fiat|500x": [
+  "500X"
+ ],
+ "Fiat|Tipo Neu": [
+  "Tipo"
+ ],
+ "Fiat|New Doblo": [
+  "Doblo"
+ ],
+ "Fiat|New Grande Punto": [
+  "Grande Punto"
+ ],
+ "Kia|Pro Ceed": [
+  "Proceed"
+ ],
+ "Hyundai|I20": [
+  "i20"
+ ],
+ "Hyundai|I30": [
+  "i30"
+ ],
+ "Hyundai|I40": [
+  "i40"
+ ],
+ "Hyundai|Ix35": [
+  "ix35"
+ ],
+ "Hyundai|Ix25 Creta": [
+  "Creta"
+ ],
+ "Volkswagen|Beatle": [
+  "Beetle"
+ ],
+ "Volkswagen|Tuareg": [
+  "Touareg"
+ ],
+ "Volkswagen|Golf 6": [
+  "Golf VI"
+ ],
+ "Jeep|Renagade": [
+  "Renegade"
+ ],
+ "Jeep|Renegade Jpr105e": [
+  "Renegade"
+ ],
+ "Volvo|S80l": [
+  "S80"
+ ],
+ "Volvo|V40 Crosscounty": [
+  "V40 Cross Country"
+ ],
+ "Volvo|V40 Cross": [
+  "V40 Cross Country"
+ ],
+ "Porsche|Cayenne Gts": [
+  "Cayenne"
+ ],
+ "Porsche|S 911": [
+  "911"
+ ],
+ "Lexus|CT200H": [
+  "CT 200h"
+ ],
+ "Lexus|RX350": [
+  "RX 350"
+ ],
+ "Lexus|RX450H": [
+  "RX 450h"
+ ],
+ "Subaru|Impreza G12": [
+  "Impreza"
+ ],
+ "Subaru|Liberty B13": [
+  "Liberty"
+ ],
+ "Subaru|Outback B13": [
+  "Outback"
+ ],
+ "BMW|3 Series": [
+  "3-serie"
+ ],
+ "BMW|5 Series": [
+  "5-serie"
+ ],
+ "BMW|7 Series": [
+  "7-serie"
+ ],
+ "BMW|5-serie bouwjaar": [
+  "5-serie"
+ ],
+ "BMW|X3 - bouwjaar": [
+  "X3"
+ ],
+ "BMW|E38": [
+  "7-serie E38"
+ ],
+ "BMW|E39": [
+  "5-serie E39"
+ ],
+ "BMW|E46": [
+  "3-serie E46"
+ ],
+ "BMW|E53": [
+  "X5 E53"
+ ],
+ "BMW|E60": [
+  "5-serie E60"
+ ],
+ "BMW|E61": [
+  "5-serie E61"
+ ],
+ "BMW|E63": [
+  "6-serie E63"
+ ],
+ "BMW|E64": [
+  "6-serie E64"
+ ],
+ "BMW|E83": [
+  "X3 E83"
+ ],
+ "BMW|E90": [
+  "3-serie E90"
+ ],
+ "BMW|E95": [],
+ "Chrysler|300 300c": [
+  "300",
+  "300C"
+ ],
+ "Chrysler|smart card": [],
+ "Chrysler|smart key": [],
+ "Chrysler|smart key behuizing": [],
+ "Chrysler|smartkey": [],
+ "Honda|CRV": [
+  "CR-V"
+ ],
+ "Honda|Intergra": [
+  "Integra"
+ ],
+ "Land Rover|Discovery 1 en 2": [
+  "Discovery",
+  "Discovery 2"
+ ],
+ "Land Rover|Freelander 4": [
+  "Freelander"
+ ],
+ "Mazda|CX5": [
+  "CX-5"
+ ],
+ "Mazda|MX-5 Miata": [
+  "MX-5"
+ ],
+ "Mercedes-Benz|C230": [
+  "C-Class"
+ ],
+ "Mercedes-Benz|ML320": [
+  "M-Class"
+ ],
+ "Mercedes-Benz|ML430": [
+  "M-Class"
+ ],
+ "Mercedes-Benz|ML55 AMG": [
+  "M-Class"
+ ],
+ "Renault|Renault Clio": [
+  "Clio"
+ ],
+ "Saab|9.3": [
+  "9-3"
+ ],
+ "Saab|93": [
+  "9-3"
+ ],
+ "Saab|95": [
+  "9-5"
+ ],
+ "Saab|Sport Sedan": [
+  "9-3"
+ ],
+ "Smart|Key": [],
+ "Smart|450": [
+  "ForTwo"
+ ],
+ "Smart|451": [
+  "ForTwo"
+ ],
+ "Smart|Fortwo": [
+  "ForTwo"
+ ],
+ "Smart|Forfour": [
+  "ForFour"
+ ],
+ "Suzuki|IgnisSX4": [
+  "Ignis",
+  "SX4"
+ ],
+ "Toyota|Corrola": [
+  "Corolla"
+ ],
+ "Toyota|Landcruiser": [
+  "Land Cruiser"
+ ],
+ "Toyota|RAV": [
+  "RAV4"
+ ],
+ "Volkswagen|Tiiguan": [
+  "Tiguan"
+ ],
+ "Volkswagen|EOS": [
+  "Eos"
+ ],
+ "Audi|TT coupe": [
+  "TT"
+ ],
+ "Audi|Cabrio": [
+  "Cabriolet"
+ ],
+ "Mini|Cooper D": [
+  "Cooper"
+ ],
+ "Mini|Cooper S": [
+  "Cooper"
+ ],
+ "Volvo|V70 III": [
+  "V70"
+ ],
+ "Volvo|S80 II": [
+  "S80"
+ ],
+ "Nissan|Cargo": [],
+ "Toyota|Smart Key-Einstellungen": [],
+ "Volkswagen|Key Unlock": [],
+ "Audi|Key Unlock": [],
+ "BMW|Key Unlock": [],
+ "Mercedes-Benz|Key Unlock": [],
+ "Mercedes-Benz|All Keys Lost": [],
+ "Mercedes-Benz|Set": [],
+ "Toyota|Universal Smart Key Pcb Xsto00gl": [],
+ "Hyundai|Universal": [],
+ "Mercedes-Benz|Fbs3": [],
+ "Mercedes-Benz|Fbs3 Smart Key 433": [],
+ "Mercedes-Benz|315 MHz": [],
+ "Ford|Smartkey": [],
+ "Mercedes-Benz|Bga Iea": [],
+ "Mercedes-Benz|Sl Class R129": [
+  "SL-Klasse R129"
+ ],
+ "Mercedes-Benz|S Class W140": [
+  "S-Klasse W140"
+ ],
+ "Mercedes-Benz|ML-Class W163": [
+  "M-Klasse W163"
+ ]
+}
