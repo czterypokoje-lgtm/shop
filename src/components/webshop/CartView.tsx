@@ -7,7 +7,7 @@ import {
   readCart, setQuantity, removeLine, priceCart,
   CART_EVENT, SERVICE_LABEL, type ServiceOption,
 } from '@/lib/cart';
-import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/catalog';
+import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
 
 /**
  * Basket contents.

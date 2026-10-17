@@ -92,8 +92,7 @@ export default async function CategoryGrid() {
   const photoFor = (slug: string) => {
     const inCat = products.filter((p) => p.category === slug && p.inStock && p.image);
     const chosen =
-      inCat.find((p) => p.slug === TILE_PRODUCT[slug]) ??
-      inCat.find((p) => !/\/akey_/.test(p.image!)) ??
+      inCat.find((p) => p.supplierSlug === TILE_PRODUCT[slug]) ??
       inCat.find((p) => p.cleanPhoto);
     return chosen?.image ?? null;
   };

@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
-import { formatPrice } from '@/lib/catalog';
+import { formatPrice } from '@/lib/money';
 import { addToCart } from '@/lib/cart';
 
 /**

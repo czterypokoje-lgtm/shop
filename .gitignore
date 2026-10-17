@@ -52,3 +52,7 @@ exports/
 # (checked against catalog.json and the whole of src/).
 unused-images/
 .claude/
+
+# product photos are published from assets/products by the catalogue build
+/public/images/products/
+/reports/artikelcodes.csv

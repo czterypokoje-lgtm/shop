@@ -1,5 +1,5 @@
 'use client';
-import { formatPrice, FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/catalog';
+import { formatPrice, FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/money';
 import React, { useState } from 'react';
 import {
   addToCart,

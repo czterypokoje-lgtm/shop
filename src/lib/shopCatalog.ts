@@ -1,5 +1,6 @@
 import 'server-only';
 import { PRODUCT_COPY } from '@/content/productCopy';
+import { publicImage } from '@/lib/publicImage';
 import { cache } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import {
@@ -145,14 +146,14 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
     titleNl: title,
     descriptionNl:
       override?.description_override ??
-      (PRODUCT_COPY[product.slug] ? `<p>${PRODUCT_COPY[product.slug]}</p>\n${product.descriptionNl}` : product.descriptionNl),
+      (PRODUCT_COPY[product.supplierSlug ?? product.slug] ? `<p>${PRODUCT_COPY[product.supplierSlug ?? product.slug]}</p>\n${product.descriptionNl}` : product.descriptionNl),
     excerpt: override?.excerpt_override ?? product.excerpt,
     directAnswer: override?.direct_answer_override ?? product.directAnswer,
     metaDescriptionNl:
       override?.meta_description_override ?? product.metaDescriptionNl,
     // The feed has no separate meta title, so the on-page one is the fallback.
     metaTitle: override?.meta_title_override ?? title,
-    image: override?.image_override ?? product.image,
+    image: publicImage(override?.image_override) ?? product.image,
     specs: product.specs ?? [],
     /*
      * The office's photo order wins when it set one; otherwise the supplier's
@@ -162,9 +163,9 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
     images: Array.isArray(override?.images) && (override!.images as unknown[]).length
       ? (override!.images as unknown[]).filter(
           (u): u is string => typeof u === 'string'
-        )
+        ).map((u) => publicImage(u)!)
       : override?.image_override
-        ? [override.image_override]
+        ? [publicImage(override.image_override)!]
         : product.images ?? [],
     price,
     priceIsManual: manual,
@@ -182,8 +183,8 @@ export async function getShopProducts(
   const map = await overrides();
   // Only what we can ship within 2-3 days: no listing, no page, for anything else.
   return getProducts(audience)
-    .filter((p) => map.get(p.slug)?.published !== false)
-    .map((p) => merge(p, map.get(p.slug)))
+    .filter((p) => map.get(p.supplierSlug ?? p.slug)?.published !== false)
+    .map((p) => merge(p, map.get(p.supplierSlug ?? p.slug)))
     .filter((p) => p.inStock);
 }
 
@@ -191,11 +192,11 @@ export async function getShopProducts(
  * One product. Returns null for an unpublished one, so a hidden product is a
  * 404 rather than a page that quietly still sells.
  */
-export async function getShopProductBySlug(slug: string): Promise<ShopProduct | null> {
-  const base = getProductBySlug(slug);
+export async function getShopProductBySlug(slug: string, internal = false): Promise<ShopProduct | null> {
+  const base = getProductBySlug(slug, internal);
   if (!base) return null;
 
-  const override = (await overrides()).get(base.slug);
+  const override = (await overrides()).get(base.supplierSlug ?? base.slug);
   if (override?.published === false) return null;
 
   const product = merge(base, override);

@@ -10,7 +10,7 @@ import {
   SERVICE_LABEL,
   SERVICE_NEEDS,
 } from '@/lib/cart';
-import { formatPrice } from '@/lib/catalog';
+import { formatPrice } from '@/lib/money';
 
 type Slim = { slug: string; titleNl: string; price: number | null; image: string | null; category: string | null };
 

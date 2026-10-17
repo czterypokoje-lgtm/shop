@@ -21,7 +21,7 @@ import sharp from 'sharp';
 import { readdirSync, statSync, unlinkSync, existsSync } from 'fs';
 import path from 'path';
 
-const DIR = path.join(process.cwd(), 'public/images/products');
+const DIR = path.join(process.cwd(), 'assets/products');
 const DRY = process.argv.includes('--dry-run');
 const QUALITY = 82;
 

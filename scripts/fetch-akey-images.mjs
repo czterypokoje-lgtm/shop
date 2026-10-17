@@ -13,7 +13,7 @@
 import { existsSync, writeFileSync, readFileSync, mkdirSync } from 'fs';
 import path from 'path';
 
-const OUT_DIR = path.join(process.cwd(), 'public/images/products');
+const OUT_DIR = path.join(process.cwd(), 'assets/products');
 const catalog = JSON.parse(readFileSync(path.join(process.cwd(), 'src/lib/catalog.json'), 'utf8'));
 const raw = JSON.parse(readFileSync(path.join(process.cwd(), 'a-key-products.json'), 'utf8'));
 const rawList = Array.isArray(raw) ? raw : Object.values(raw)[0];

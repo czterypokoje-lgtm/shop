@@ -3,7 +3,7 @@
  *
  *   node scripts/scrape-akey-accessories.mjs
  *   -> src/data/akey-accessories.json
- *   -> public/images/products/<slug>.jpg
+ *   -> assets/products/<slug>.jpg
  *
  * These four sections are not in the product export at all, and the earlier
  * attempt brought over 31 of the 187 A-Key actually lists — with German
@@ -24,7 +24,7 @@ import path from 'path';
 
 const BASE = 'https://a-key-gmbh.com';
 const OUT = path.join(process.cwd(), 'src/data/akey-accessories.json');
-const IMAGE_DIR = path.join(process.cwd(), 'public/images/products');
+const IMAGE_DIR = path.join(process.cwd(), 'assets/products');
 
 /** section slug → the subcategory it becomes in our shop. */
 const SECTIONS = [

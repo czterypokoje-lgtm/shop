@@ -5,7 +5,7 @@ import crypto from 'crypto';
 
 const AKEY_JSON = './scripts/a-key-scraper/a-key-products.json';
 const SCRAPED_JSON = './src/lib/scraped_products.json';
-const IMAGES_DIR = './public/images/products';
+const IMAGES_DIR = './assets/products';
 
 // Helper to download image
 async function downloadImage(url, filepath) {

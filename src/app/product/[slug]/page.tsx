@@ -72,7 +72,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
   if (!entry || (entry.audience === 'trade' && !(await isB2B()))) {
     notFound();
   }
-  // Old A-Key slugs (German) still resolve, to the one public URL.
+  // Any other spelling of the URL resolves to the one public URL.
   if (resolvedParams.slug !== entry.urlSlug) permanentRedirect(`/product/${entry.urlSlug}`);
 
   /*
@@ -82,7 +82,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
    * previous Shopify catalogue's slugs, with photos on a CDN that no longer
    * answers, so the block never rendered for an A-Key product.
    */
-  const batteryProduct = entry.battery ? await getShopProductBySlug(entry.battery) : null;
+  const batteryProduct = entry.battery ? await getShopProductBySlug(entry.battery, true) : null;
   const batteryData =
     batteryProduct && batteryProduct.price != null
       ? {

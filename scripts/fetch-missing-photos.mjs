@@ -18,7 +18,7 @@ import path from 'path';
 
 const RAW = path.join(process.cwd(), 'src/data/akey-catalog-raw.json');
 const CATALOG = path.join(process.cwd(), 'src/lib/catalog.json');
-const DIR = path.join(process.cwd(), 'public/images/products');
+const DIR = path.join(process.cwd(), 'assets/products');
 const UA = 'autosleutel24-catalog/2.0 (reseller catalogue sync)';
 
 /* The catalogue lower-cases slugs for the URLs; the scrape keeps A-Key's own

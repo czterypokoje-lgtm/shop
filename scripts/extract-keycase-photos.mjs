@@ -7,7 +7,7 @@
  * Why: every A-Key photo carries their watermark across the middle of the
  * product. The earlier AccessFobs scrape — the "brother's webshop backup",
  * still in git at efdc229 — brought 124 key-case photos that are clean, and
- * the files are already in public/images/products as key-cases_*.jpg.
+ * the files are already in assets/products as key-cases_*.jpg.
  *
  * The two catalogues describe the same physical parts, so a match has to be
  * made on what the part *is*, never on the wording of a title. Three things

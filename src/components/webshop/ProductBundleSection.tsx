@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { addToCart } from '@/lib/cart';
-import { formatPrice } from '@/lib/catalog';
+import { formatPrice } from '@/lib/money';
 
 /**
  * "Vaak samen gekocht" — the battery that fits this key.

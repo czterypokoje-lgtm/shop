@@ -17,8 +17,11 @@
  * gap reads exactly like a fact to the customer who acts on it.
  */
 
-import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync, linkSync, copyFileSync } from 'fs';
 import path from 'path';
+
+/** The supplier's own name: never shown to a customer. */
+const IS_SUPPLIER = (brand) => /^a[\s-]?key$/i.test(brand ?? '');
 import { CATEGORIES } from './taxonomy.mjs';
 import {
   fitmentOf,
@@ -104,7 +107,8 @@ function fixModels(list) {
   }
   list.splice(0, list.length, ...out);
 }
-const IMAGE_DIR = path.join(process.cwd(), 'public/images/products');
+// Originals keep their source names here and are never served; see "photos under neutral names" below.
+const IMAGE_DIR = path.join(process.cwd(), 'assets/products');
 const PHOTO_PICKS = existsSync(path.join(process.cwd(), 'src/data/photo-picks.json')) ? JSON.parse(readFileSync(path.join(process.cwd(), 'src/data/photo-picks.json'), 'utf8')) : {};
 const WM_SCORE = existsSync(path.join(process.cwd(), 'src/data/watermark-scores.json')) ? JSON.parse(readFileSync(path.join(process.cwd(), 'src/data/watermark-scores.json'), 'utf8')) : {};
 
@@ -610,7 +614,7 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
 
     titleNl: ((t) => (/^[A-Z][a-z]+\s*\([^)]*\)$/.test(t) && namedTitle(slug.toLowerCase(), t, [...new Set(allFitment.map((f) => f.make).filter(Boolean))])) || t)(
       dutchify(dutchTitle(product, filed, titleFitment, manufacturerOf(text)))),
-    descriptionNl: dropGerman(dutchify(descriptionHtml(product, filed, { fitment: allFitment, xrefs, tools }))),
+    descriptionNl: dropGerman(dutchify(descriptionHtml(product, filed, { fitment: allFitment, xrefs: xrefs.filter((x) => !IS_SUPPLIER(x.brand)), tools }))),
     directAnswer: sentenceSafe(dutchify(directAnswer(product, filed, allFitment)) ?? '') || null,
     metaDescriptionNl: sentenceSafe(dutchify(metaDescription(product, filed, titleFitment, cost)) ?? '') || null,
 
@@ -620,7 +624,9 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
     supplierNote: dutchNotes(german),
     articleCode: tidyArticleNumber(product.articleNumber),
     /** Article numbers the same part is sold under elsewhere in the trade. */
-    crossReferences: xrefs.length ? xrefs : null,
+    crossReferences: xrefs.some((x) => !IS_SUPPLIER(x.brand)) ? xrefs.filter((x) => !IS_SUPPLIER(x.brand)) : null,
+    /** Internal only: the supplier's other numbers for this article. */
+    supplierAltCodes: xrefs.filter((x) => IS_SUPPLIER(x.brand)).map((x) => x.code),
     /** Set by the classifier when a filing deserves a human glance. */
     needsCheck: filed.needsCheck ?? null,
     /** Ready to ship at A-Key now. "Lieferzeit 2-3 Werktage" or "Ausverkauft" would break our 2-3 day promise. */
@@ -633,6 +639,46 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
  * its housings are not sold on their own. Clean photos reach A-Key articles
  * through accessfobs-photo-matches.json (see loadPhotoOverrides above).
  */
+
+/* ── our own article numbers ───────────────────────────────────────────
+ * Customers see our code, not the supplier's: first two and last two
+ * characters swapped (OPR151HU43 → 43R151HUOP). The supplier's number stays
+ * in supplierCode, for the office ordering it. Model numbers of the tool
+ * makers (Xhorse, KeyDIY, …) are theirs and public, so they stay as they are.
+ */
+const MAKER_CODES = new Set(['Xhorse', 'KeyDIY', 'Autel', 'Lonsdor', 'OBDSTAR', 'Zed-FULL']);
+const swapEnds = (c) => (c.length >= 4 ? c.slice(-2) + c.slice(2, -2) + c.slice(0, 2) : [...c].reverse().join(''));
+// "KLA04KL" swaps into itself: then the whole code is reversed. ("AAA" stays — a battery size, not a number.)
+export const ownCode = (c) => (swapEnds(c) !== c ? swapEnds(c) : [...c].reverse().join(''));
+const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const SUPPLIER_NAME = /\s*\bA[\s-]?Key\b\s*/gi;
+for (const p of products) {
+  if (IS_SUPPLIER(p.manufacturer)) p.manufacturer = null;
+  const from = p.articleCode;
+  if (from && !MAKER_CODES.has(p.manufacturer)) {
+    const to = ownCode(from);
+    const re = new RegExp(`(?<![A-Za-z0-9])${esc(from)}(?![A-Za-z0-9])`, 'gi');
+    // A blade's number is its profile (HU83): the fit depends on it, so the text keeps it; only the article number changes.
+    const flat = (x) => String(x ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+    const isProfile = ['sleutelbaarden', 'noodsleutels'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
+    if (!isProfile) for (const k of ['titleNl', 'descriptionNl', 'metaDescriptionNl', 'directAnswer', 'supplierNote']) if (typeof p[k] === 'string') p[k] = p[k].replace(re, to);
+    p.specs = p.specs.map(([l, v]) => [l, l === 'Artikelnummer' ? to : isProfile ? v : String(v).replace(re, to)]);
+    p.supplierCode = from;
+    p.articleCode = to;
+    // A Silca or Errebi number identical to the supplier's would give it away.
+    if (p.crossReferences) {
+      const xs = p.crossReferences.filter((x) => !x.code.toUpperCase().split(/[\s,/]+/).includes(from.toUpperCase()));
+      p.crossReferences = xs.length ? xs : null;
+    }
+  }
+  // The id travels as the SKU (structured data, analytics, orders): ours too.
+  if (p.id && !MAKER_CODES.has(p.manufacturer)) {
+    if (p.id !== from) p.supplierId = p.id;
+    // No article number: the id was the supplier's slug, so it becomes a neutral one.
+    p.id = !from ? `AS${createHash('sha1').update(p.id).digest('hex').slice(0, 8).toUpperCase()}` : p.id === from ? p.articleCode : ownCode(p.id);
+  }
+  for (const k of ['titleNl', 'descriptionNl', 'metaDescriptionNl', 'directAnswer', 'supplierNote']) if (typeof p[k] === 'string') p[k] = p[k].replace(SUPPLIER_NAME, ' ').replace(/ {2,}/g, ' ').trim();
+}
 
 /*
  * The public URL: Dutch and descriptive, the way a customer searches —
@@ -651,6 +697,9 @@ for (const p of products) {
   for (let n = 2; taken.has(candidate); n++) candidate = `${base}-${n}`;
   taken.add(candidate);
   p.urlSlug = candidate;
+  // The supplier's German slug named their article number; it stays internal (CRM overrides are keyed on it).
+  p.supplierSlug = p.slug;
+  p.slug = candidate;
 }
 
 /* ── the companion files ─────────────────────────────────────────────── */
@@ -701,7 +750,29 @@ for (const p of publicProducts) {
 }
 
 // A-Key's "10+1 gratis" articles are a pack of eleven; the photo says so, the title must too.
-for (const p of products) if (/-101-gratis-/.test(p.slug)) p.titleNl = `${p.titleNl} – set van 11 (10 + 1 gratis)`;
+for (const p of products) if (/-101-gratis-/.test(p.supplierSlug)) p.titleNl = `${p.titleNl} – set van 11 (10 + 1 gratis)`;
+
+/* ── photos under neutral names ─────────────────────────────────────────
+ * "akey_3263_…" or "asi_…" in a photo URL names the supplier. Every original
+ * is published as public/images/products/p-<hash>.<ext> — a hard link, so no
+ * extra disk — and products point at those. src/lib/publicImage.ts maps the
+ * same way at runtime for photos set in the CRM.
+ */
+const PUBLIC_IMAGES = path.join(process.cwd(), 'public/images/products');
+mkdirSync(PUBLIC_IMAGES, { recursive: true });
+const neutralName = (name) => `p-${createHash('sha1').update(name).digest('hex').slice(0, 12)}${path.extname(name)}`;
+for (const name of readdirSync(IMAGE_DIR)) {
+  const dst = path.join(PUBLIC_IMAGES, neutralName(name));
+  if (!existsSync(dst)) {
+    try { linkSync(path.join(IMAGE_DIR, name), dst); } catch { copyFileSync(path.join(IMAGE_DIR, name), dst); }
+  }
+}
+const published = (url) =>
+  typeof url === 'string' && url.startsWith('/images/products/') ? `/images/products/${neutralName(url.slice('/images/products/'.length))}` : url;
+for (const p of products) {
+  p.image = published(p.image);
+  p.images = (p.images ?? []).map(published);
+}
 
 // Two articles, one name: the article code tells them apart.
 {
@@ -724,6 +795,13 @@ writeFileSync(
     null,
     1
   )}\n`
+);
+// The office's lookup: our code → the supplier's, to order with. Internal; never served.
+const csvCell = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
+mkdirSync(path.join(process.cwd(), 'reports'), { recursive: true });
+writeFileSync(
+  path.join(process.cwd(), 'reports/artikelcodes.csv'),
+  ['onze_code;leverancier_code;leverancier_slug;titel', ...products.map((p) => [p.articleCode, p.supplierCode ?? p.articleCode, p.supplierSlug, p.titleNl].map(csvCell).join(';'))].join('\n') + '\n'
 );
 writeFileSync(BRANDS_OUT, `${JSON.stringify(brands, null, 1)}\n`);
 writeFileSync(

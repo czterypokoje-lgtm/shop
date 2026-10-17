@@ -35,7 +35,7 @@ export default async function WebshopPage() {
    */
   const all = await getShopProducts('public');
   // "10+1 gratis" packs carry a promo banner as their photo: not a headline product.
-  const withPhoto = all.filter((p) => p.image && !p.image.includes('placeholder') && p.cleanPhoto && !/-gratis-/.test(p.slug));
+  const withPhoto = all.filter((p) => p.image && !p.image.includes('placeholder') && p.cleanPhoto && !/10 \+ 1 gratis/.test(p.titleNl));
   // Featured in the CRM first; then keys and housings, which is what people
   // come for — not the first rows of the feed (key rings by the hundred).
   const HEADLINE = ['afstandsbedieningen', 'behuizingen', 'smart-keys'];

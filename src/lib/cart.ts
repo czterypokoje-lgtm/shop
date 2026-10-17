@@ -1,6 +1,6 @@
 'use client';
 
-import { shippingFor, VAT_RATE } from './catalog';
+import { shippingFor, VAT_RATE } from './money';
 
 /**
  * Shopping basket.

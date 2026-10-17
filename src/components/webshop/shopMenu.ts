@@ -81,10 +81,9 @@ export const MENU: MenuGroup[] = [
     href: '/categorie/behuizingen',
     columns: [
       {
-        title: 'Twee reeksen',
+        // Named by what they are, not by who supplies them.
+        title: 'Sleutelbehuizingen',
         links: keep(
-          bySubcategory('A-Key behuizingen', 'sleutelbehuizing', 'Ruimste keuze, per artikelcode'),
-          bySubcategory('AccessFobs behuizingen', 'AccessFobs behuizing', 'Eigen foto’s, met modellijst'),
           byCategory('Alle behuizingen', 'behuizingen')
         ),
       },

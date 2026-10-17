@@ -53,10 +53,11 @@ const MARGIN_TIERS = [
 ];
 const MIN_PRICE = 2.95;
 
+const PRICE_UPLIFT = 1.3;
 function shelfPrice(cost) {
   if (cost == null || !Number.isFinite(cost)) return null;
   const tier = MARGIN_TIERS.find((t) => cost < t.upTo) ?? MARGIN_TIERS.at(-1);
-  const gross = cost * tier.multiplier * (1 + VAT_RATE);
+  const gross = cost * tier.multiplier * PRICE_UPLIFT * (1 + VAT_RATE); // keep in step with src/lib/catalog.ts
   return Math.max(MIN_PRICE, Math.round((Math.floor(gross) + 0.95) * 100) / 100);
 }
 

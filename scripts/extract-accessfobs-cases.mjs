@@ -7,7 +7,7 @@
  * We hold two ranges of key housings: A-Key's, whose photos carry their
  * watermark, and these 124 from the AccessFobs scrape — clean photos, English
  * descriptions that name the cars, the blade and the button count, and the
- * files already on disk as public/images/products/key-cases_*.jpg.
+ * files already on disk as assets/products/key-cases_*.jpg.
  *
  * scripts/extract-keycase-photos.mjs could only lend a photo to 12 of A-Key's
  * 298 housings, because a photo may only be moved when the part is provably

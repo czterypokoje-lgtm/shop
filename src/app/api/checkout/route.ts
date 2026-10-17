@@ -118,7 +118,7 @@ export async function POST(request: Request) {
   }
 
   const items: {
-    slug: string; sku: string; title: string; quantity: number;
+    slug: string; sku: string; supplierCode: string | null; title: string; quantity: number;
     service: ServiceOption; unitPrice: number; surcharge: number; lineTotal: number;
   }[] = [];
 
@@ -165,6 +165,8 @@ export async function POST(request: Request) {
     items.push({
       slug,
       sku: product.id,
+      // What the office orders at the supplier; stays in the order record, never shown to the customer.
+      supplierCode: product.supplierCode ?? null,
       title: product.titleNl,
       quantity,
       service,

@@ -40,7 +40,7 @@ import sharp from 'sharp';
 import { readdirSync, writeFileSync } from 'fs';
 import path from 'path';
 
-const IMAGE_DIR = path.join(process.cwd(), 'public/images/products');
+const IMAGE_DIR = path.join(process.cwd(), 'assets/products');
 const OUT = path.join(process.cwd(), 'src/data/watermark-flags.json');
 
 const SIZE = 400;
