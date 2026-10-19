@@ -137,7 +137,7 @@ export default function WebshopFooter() {
 
         <div className={styles.legal}>
           <p>
-            Deze webshop wordt geëxploiteerd door {SITE_CONFIG.fullName} (KvK {SITE_CONFIG.kvk}
+            Deze webshop wordt geëxploiteerd door {SITE_CONFIG.fullName}, {SITE_CONFIG.address.street}, {SITE_CONFIG.address.postal} {SITE_CONFIG.address.city} (KvK {SITE_CONFIG.kvk}
             {SITE_CONFIG.btw ? ` · btw ${SITE_CONFIG.btw}` : ''}). De mobiele sleutelservice is van Autosleutel24 (KvK 42123555).
           </p>
           <p>Alle prijzen incl. btw · <a href={SITE_CONFIG.social.facebook} target="_blank" rel="noopener noreferrer">Facebook</a> · <a href={SITE_CONFIG.social.instagram} target="_blank" rel="noopener noreferrer">Instagram</a></p>

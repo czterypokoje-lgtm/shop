@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 
       <div className="container" style={{ padding: '3rem 2rem', maxWidth: 900 }}>
         {[
-          { title: '1. Verantwoordelijke', content: `${SITE_CONFIG.fullName} is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in dit privacybeleid. KVK: ${SITE_CONFIG.kvk} | E-mail: ${SITE_CONFIG.email}` },
+          { title: '1. Verantwoordelijke', content: `${SITE_CONFIG.fullName} (${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.postal} ${SITE_CONFIG.address.city}) is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in dit privacybeleid. KVK: ${SITE_CONFIG.kvk} | E-mail: ${SITE_CONFIG.email}` },
           { title: '2. Welke Gegevens Verzamelen Wij?', content: 'Wij verzamelen: naam, telefoonnummer, e-mailadres, kenteken/voertuigdata (voor dienstverlening), factuurgegevens. Wij verzamelen géén bijzondere persoonsgegevens.' },
           { title: '3. Waarom Verwerken Wij Uw Gegevens?', content: 'Uitvoering van de overeenkomst (dienstverlening), facturatie, wettelijke verplichtingen, en op uw verzoek voor garantieclaims.' },
           { title: '4. Hoe Lang Bewaren Wij Uw Gegevens?', content: 'Factuurgegevens: 7 jaar (wettelijke bewaarplicht). Overige klantgegevens: maximaal 2 jaar na laatste contact.' },

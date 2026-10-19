@@ -35,7 +35,7 @@ export default function ContactPage() {
 
       <dl className={styles.facts}>
         <dt>Bedrijf</dt>
-        <dd>{SITE_CONFIG.fullName}, {SITE_CONFIG.address.city}</dd>
+        <dd>{SITE_CONFIG.fullName}, {SITE_CONFIG.address.street}, {SITE_CONFIG.address.postal} {SITE_CONFIG.address.city}</dd>
         <dt>KvK</dt>
         <dd>{SITE_CONFIG.kvk}</dd>
         {isBtwConfigured() && (<><dt>Btw</dt><dd>{SITE_CONFIG.btw}</dd></>)}

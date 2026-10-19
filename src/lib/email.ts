@@ -144,7 +144,7 @@ Bedenktijd: u mag de bestelling binnen 14 dagen na ontvangst retourneren. Sleute
 
 Vragen? Bel ${SITE_CONFIG.phone} of antwoord op deze e-mail.
 
-${SITE_CONFIG.fullName}, ${SITE_CONFIG.address.city}
+${SITE_CONFIG.fullName}, ${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.postal} ${SITE_CONFIG.address.city}
 KvK ${SITE_CONFIG.kvk}${SITE_CONFIG.btw ? ` · Btw ${SITE_CONFIG.btw}` : ''}
 ${SITE_CONFIG.email} · ${SITE_CONFIG.domain}
 

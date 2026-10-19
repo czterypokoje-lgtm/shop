@@ -19,13 +19,14 @@ export const SITE_CONFIG = {
   email: 'info@autosleutel24.nl',
 
   address: {
-    street: '', // Mobile service-area business — no storefront shown
+    // CarKey24's registered address: seller identity (art. 3:15d BW) and the returns address. Not a shop.
     // Matches the base city on the real Google Business Profile — "Midden-
     // Nederland" isn't a real place Google can match NAP data against, and
     // a mismatch here works against local ranking, not for it.
+    street: 'Kapelstraat 9c',
     city: 'Bussum',
     region: 'Noord-Holland',
-    postal: '',
+    postal: '1404 HT',
     country: 'NL',
   },
   // Service area: 75km radius centred on Bussum/Gooi HQ

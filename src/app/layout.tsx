@@ -47,6 +47,13 @@ const storeSchema = {
   email: SITE_CONFIG.email,
   telephone: SITE_CONFIG.phoneTel,
   ...(SITE_CONFIG.btw ? { vatID: SITE_CONFIG.btw } : {}),
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: SITE_CONFIG.address.street,
+    postalCode: SITE_CONFIG.address.postal,
+    addressLocality: SITE_CONFIG.address.city,
+    addressCountry: SITE_CONFIG.address.country,
+  },
   inLanguage: 'nl-NL',
 };
 
