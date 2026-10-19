@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { mollieKey as getMollieKey } from '@/lib/mollieKey';
 import { createClient } from '@supabase/supabase-js';
 import { sendMail, orderConfirmation, orderNotification } from '@/lib/email';
 
@@ -30,7 +31,7 @@ const STATUS_MAP: Record<string, string> = {
 };
 
 export async function POST(request: Request) {
-  const mollieKey = process.env.MOLLIE_API_KEY;
+  const mollieKey = getMollieKey();
   if (!mollieKey) {
     console.error('Webhook received but MOLLIE_API_KEY is not configured');
     return new NextResponse(null, { status: 500 });

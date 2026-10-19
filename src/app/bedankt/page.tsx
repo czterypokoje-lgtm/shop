@@ -1,4 +1,5 @@
 import React from 'react';
+import { mollieKey } from '@/lib/mollieKey';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { createClient } from '@supabase/supabase-js';
@@ -35,10 +36,10 @@ async function lookup(orderNumber: string) {
   if (!data) return null;
 
   let status: string = data.status;
-  if (status === 'pending' && data.mollie_payment_id && process.env.MOLLIE_API_KEY) {
+  if (status === 'pending' && data.mollie_payment_id && mollieKey()) {
     try {
       const res = await fetch(`https://api.mollie.com/v2/payments/${data.mollie_payment_id}`, {
-        headers: { Authorization: `Bearer ${process.env.MOLLIE_API_KEY}` },
+        headers: { Authorization: `Bearer ${mollieKey()}` },
         cache: 'no-store',
         signal: AbortSignal.timeout(5000),
       });

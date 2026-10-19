@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { mollieKey as getMollieKey } from '@/lib/mollieKey';
 import { createClient } from '@supabase/supabase-js';
 import { SITE_CONFIG } from '@/config/site.config';
 import { shippingFor, VAT_RATE } from '@/lib/catalog';
@@ -231,7 +232,7 @@ export async function POST(request: Request) {
 
   /* ── fail closed without a payment provider ── */
 
-  const mollieKey = process.env.MOLLIE_API_KEY;
+  const mollieKey = getMollieKey();
   if (!mollieKey) {
     console.error('MOLLIE_API_KEY is not configured — refusing to create an order');
     return NextResponse.json(
