@@ -11,10 +11,11 @@
  *   KV_REST_API_TOKEN / UPSTASH_REDIS_REST_TOKEN
  */
 
+// Vercel's Upstash integration may add a prefix (storage_), like Supabase's.
 const REST_URL =
-  process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || '';
+  process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || process.env.storage_KV_REST_API_URL || '';
 const REST_TOKEN =
-  process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || '';
+  process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || process.env.storage_KV_REST_API_TOKEN || '';
 
 export const rateLimitConfigured = Boolean(REST_URL && REST_TOKEN);
 
