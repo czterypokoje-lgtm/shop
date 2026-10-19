@@ -130,7 +130,9 @@ function loadPhotoOverrides() {
     if (!existsSync(file)) continue;
     const map = JSON.parse(readFileSync(file, 'utf8'));
     for (const [slug, entry] of Object.entries(map)) {
-      if (!entry.image || (entry.confidence && entry.confidence !== 'high')) continue;
+      // Only photos someone compared by eye with the supplier's: an automatic match on blade + make + buttons
+      // put an old oval Fiat key on a new rectangular one (FIR130Or). A wrong photo sells the wrong part.
+      if (!entry.image || !entry.verified) continue;
       overrides.set(slug, entry.image);
     }
   }
