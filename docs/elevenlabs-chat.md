@@ -32,4 +32,4 @@ de webshop verkoopt onderdelen, van CarKey24).
 
 ## 4. Gesprekken in de CRM
 Zet in de agent dezelfde post-call webhook als de telefoon-agent
-(`https://www.autosleutel24.nl/api/elevenlabs/webhook`), dan komen chatgesprekken ook in Gesprekken.
+(`https://www.autosleutel24.nl/api/elevenlabs/webhook`), dan horen chatgesprekken ook in Gesprekken te komen. Controleer na het eerste testgesprek of het daar staat; die webhook is gebouwd voor telefoongesprekken.
