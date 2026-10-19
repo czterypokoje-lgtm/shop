@@ -136,7 +136,7 @@ export default async function SearchPage({
           )}
 
           {/* A second search box, so a failed search can be corrected here. */}
-          <form action="/zoeken" method="get" style={{ display: 'flex', maxWidth: 620, marginTop: '1rem' }}>
+          <form action={withBase("/zoeken")} method="get" style={{ display: 'flex', maxWidth: 620, marginTop: '1rem' }}>
             <input
               type="text"
               name="q"

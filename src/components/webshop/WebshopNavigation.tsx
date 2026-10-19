@@ -91,7 +91,7 @@ export default function WebshopNavigation() {
           * query. It used to hold state and nothing else: typing an article code
           * and pressing the button did nothing at all.
           */}
-        <form action="/zoeken" method="get" className="shop-header-search">
+        <form action={withBase("/zoeken")} method="get" className="shop-header-search">
           <input 
             type="text" 
             name="q"
