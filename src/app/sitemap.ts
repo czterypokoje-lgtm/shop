@@ -16,7 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...(brands as { make: string }[]).map((b) => ({ url: `${base}/merk/${slugify(b.make)}`, priority: 0.8 })),
     ...products.map((p) => ({
       url: `${base}/product/${p.urlSlug}`,
-      images: p.image ? [`${base}${p.image}`] : undefined,
+      images: p.image ? [`${SITE_CONFIG.origin}${p.image}`] : undefined,
       priority: 0.7,
     })),
   ];
