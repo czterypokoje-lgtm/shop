@@ -527,10 +527,13 @@ function cleanFitment(entries) {
 const products = [];
 const skipped = { noCategory: 0, noPhoto: 0, noPrice: 0 };
 
+const PHOTO_SOURCES = {};
 for (const [slug, filed] of Object.entries(classification.filed)) {
   const product = raw[slug];
   if (!product) continue;
 
+  // Every supplier photo, before any filtering: for reports/photo-sources.json (internal, never served).
+  PHOTO_SOURCES[slug] = photosFor(product);
   let images = photoOverrides.has(slug.toLowerCase())
     ? [photoOverrides.get(slug.toLowerCase())]
     : photosFor(product);
@@ -849,6 +852,7 @@ writeFileSync(
   path.join(process.cwd(), 'reports/artikelcodes.csv'),
   ['onze_code;leverancier_code;leverancier_slug;titel', ...products.map((p) => [p.articleCode, p.supplierCode ?? p.articleCode, p.supplierSlug, p.titleNl].map(csvCell).join(';'))].join('\n') + '\n'
 );
+writeFileSync(path.join(process.cwd(), 'reports/photo-sources.json'), `${JSON.stringify(PHOTO_SOURCES)}\n`);
 writeFileSync(BRANDS_OUT, `${JSON.stringify(brands, null, 1)}\n`);
 writeFileSync(
   NAV_OUT,

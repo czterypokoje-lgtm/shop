@@ -56,3 +56,5 @@ unused-images/
 # product photos are published from assets/products by the catalogue build
 /public/images/products/
 /reports/artikelcodes.csv
+/reports/photo-sources.json
+/reports/foto-nodig/
