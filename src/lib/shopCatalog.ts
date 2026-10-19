@@ -133,7 +133,7 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
   const manual =
     override?.price_override !== null && override?.price_override !== undefined;
 
-  const price = manual ? Number(override!.price_override) : shelfPrice(cost);
+  const price = manual ? Number(override!.price_override) : shelfPrice(cost, product.marketPrice);
 
   const tracked = override?.track_stock === true;
   const quantity = tracked ? Number(override!.stock_quantity) : null;

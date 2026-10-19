@@ -54,8 +54,10 @@ const MARGIN_TIERS = [
 const MIN_PRICE = 2.95;
 
 const PRICE_UPLIFT = 1.3;
-function shelfPrice(cost) {
+function shelfPrice(cost, market) {
   if (cost == null || !Number.isFinite(cost)) return null;
+  // keep in step with src/lib/catalog.ts
+  if (market != null) return Math.max(MIN_PRICE, Math.round(Math.max(Math.floor(market) - 0.01, Math.ceil(cost * 1.5 * (1 + VAT_RATE)) - 0.01) * 100) / 100);
   const tier = MARGIN_TIERS.find((t) => cost < t.upTo) ?? MARGIN_TIERS.at(-1);
   const gross = cost * tier.multiplier * PRICE_UPLIFT * (1 + VAT_RATE); // keep in step with src/lib/catalog.ts
   return Math.max(MIN_PRICE, Math.round((Math.floor(gross) + 0.95) * 100) / 100);
@@ -126,7 +128,7 @@ const OFFICE_HEADERS = [
 ];
 
 const officeRows = catalog.products.map((p) => {
-  const sell = shelfPrice(p.costPrice);
+  const sell = shelfPrice(p.costPrice, p.marketPrice);
   return {
     Artikelcode: p.articleCode ?? p.id,
     Titel: p.titleNl,
@@ -184,7 +186,7 @@ const ebayRows = sellable.map((p) => ({
   '*Description': clean(p.descriptionNl),
   PicURL: imageUrl(p),
   '*Quantity': stockOf(p),
-  '*StartPrice': shelfPrice(p.costPrice)?.toFixed(2) ?? '',
+  '*StartPrice': shelfPrice(p.costPrice, p.marketPrice)?.toFixed(2) ?? '',
   '*ConditionID': '1000', // new
   '*Format': 'FixedPrice',
   '*Duration': 'GTC',
@@ -230,7 +232,7 @@ const amazonRows = sellable.map((p) => {
     manufacturer: p.manufacturer ?? 'A-Key',
     'part-number': p.articleCode ?? '',
     'item-type': CATEGORY_NAMES[p.category] ?? '',
-    'standard-price': shelfPrice(p.costPrice)?.toFixed(2) ?? '',
+    'standard-price': shelfPrice(p.costPrice, p.marketPrice)?.toFixed(2) ?? '',
     currency: 'EUR',
     quantity: stockOf(p),
     'main-image-url': imageUrl(p),

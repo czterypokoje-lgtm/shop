@@ -1,0 +1,1038 @@
+{
+ "_doc": "Price of the identical part at auto-sleutel.nl (incl. VAT). Match checked by eye (shape) on 2026-10-11, same type (housing/remote), same buttons and frequency. Our price = just under (src/lib/catalog.ts shelfPrice), never below cost × 1.5. Refresh: re-read the prices.",
+ "funkschluessel-kompatibel-fuer-opel-opr151hu43": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/opel-3-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151hu46": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/opel-3-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-rechts-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101hu136": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101vac102": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr118_1": {
+  "price": 74.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder-ko959753ag-5ko837202aj",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir121": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-434mhz-7946transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for106iea": {
+  "price": 94.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-sleutel-behuizing-sleutelbaard-rond-met-elektronica-434mhz-4d63-transponder-ford-transit",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc104": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/mini-2-knops-sleutel-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc103": {
+  "price": 25.95,
+  "url": "https://www.auto-sleutel.nl/volvo-2-knops-klapsleutel-sleutelbaard-recht-met-inkeping-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc104": {
+  "price": 25.95,
+  "url": "https://www.auto-sleutel.nl/volvo-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc103": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/mini-2-knops-sleutel-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-saab-sarc102": {
+  "price": 22.95,
+  "url": "https://www.auto-sleutel.nl/saab-4-knops-smart-key-behuizing-zonder-sleutelbaard-5",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc167": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-5-knops-smart-key-behuizing-met-paniek-knop",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volvo-volrc101": {
+  "price": 42.95,
+  "url": "https://www.auto-sleutel.nl/volvo-6-knops-smart-key",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-mini-mcr105": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/mini-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc165": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc156": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc155": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-3",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc161": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-4-knops-smart-key-behuizing-met-paniek-knop-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc158": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-6-knops-smart-key-behuizing-met-paniek-knop",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc151": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-punt-49mm",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc112": {
+  "price": 14.95,
+  "url": "https://www.auto-sleutel.nl/toyota-1-knops-sleutelbehuizing-met-uitsparing-lampje-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr131": {
+  "price": 47.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-3-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-315mhz-id46-transponder",
+  "checked": "2026-10-19"
+ },
+ "smrc104-funkschluessel-gehaeuse-kompatibel-fuer-smart": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/smart-1-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc107": {
+  "price": 21.5,
+  "url": "https://www.auto-sleutel.nl/mercedes-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-mini-mcr101": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/mini-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ssangyong-ssarc100": {
+  "price": 21.95,
+  "url": "https://www.auto-sleutel.nl/ssangyong-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc150": {
+  "price": 23.95,
+  "url": "https://www.auto-sleutel.nl/mercedes-smart-key-2-knops-sleutelbehuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc108": {
+  "price": 21.5,
+  "url": "https://www.auto-sleutel.nl/mercedes-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc116-obatteriefach-va2": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc101": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-rechts-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc103": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/opel-3-knops-sleutel-behuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc103": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/nissan-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc110": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-model-1",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc152": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-sleutelbehuizing-sleutelbaard-rond",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc118-mbatteriefach-hu83": {
+  "price": 18.95,
+  "url": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc150-obatteriefach-sx9": {
+  "price": 15.5,
+  "url": "https://www.auto-sleutel.nl/citroen-2-knops-sleutelbehuizing-sleutelbaard-kruisvormig-voor-oudere-modellen-met-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc154": {
+  "price": 13.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-3-knops-sleutelbehuizing-sleutelbaard-punt-model-1",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chrysler-chyrc153": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc114": {
+  "price": 22.95,
+  "url": "https://www.auto-sleutel.nl/renault-3-knops-klapsleutel-sleutelbaard-recht-geen-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc113": {
+  "price": 23.5,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc150": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/toyota-3-knops-klapsleutel-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc104": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/toyota-4-knops-sleutelbehuizing-sleutelbaard-punt-toy43",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc155": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-recht-48mm",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc153": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-punt-49mm",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc101": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc115": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt-48mm",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc103": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-3-knops-sleutelbehuizing-sleutelbaard-punt-49mm",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc102": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/mini-3-knops-sleutelbehuizing-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-cooper-mcrc101": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/mini-2-knops-sleutel-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc155": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/bmw-2-knops-sleutel-behuizing-oude-model-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc156": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-porsche-porc101": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/porsche-3-knops-sleutelbehuizing-sleutelbaard-recht-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-porsche-porc102": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/porsche-1-knops-sleutelbehuizing-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-suzuki-surc105": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/suzuki-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-rechts",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc113": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/opel-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc104": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/land-rover-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc110-obatteriefach-sx9": {
+  "price": 29.95,
+  "url": "https://www.auto-sleutel.nl/citroen-3-knops-klapsleutel-sleutelbaard-punt-voor-o-a-c5",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc106": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/bmw-2-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc104-hu92": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc103": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc152": {
+  "price": 23.95,
+  "url": "https://www.auto-sleutel.nl/audi-3-knops-klapsleutel-sleutel-behuizing-chroom",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc102": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/audi-3-knops-klapsleutel-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-audi-aurc101": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/audi-2-knops-klapsleutel-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mitsubishi-mitrc102": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/mitsubishi-3-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-rechts",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc150": {
+  "price": 17.95,
+  "url": "https://www.auto-sleutel.nl/ford-contactsleutel-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc106": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/fiat-2-knops-klapsleutel-blauw-sleutelbaard-recht-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc151": {
+  "price": 34.95,
+  "url": "https://www.auto-sleutel.nl/bmw-4-knops-smart-key-behuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc107": {
+  "price": 34.95,
+  "url": "https://www.auto-sleutel.nl/bmw-4-knops-smart-key-behuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr151": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/opel-3-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr105": {
+  "price": 74.95,
+  "url": "https://www.auto-sleutel.nl/mazda-2-knops-smart-key-met-elektronica-id47-pcf7953p-maz24-kdy5-675dy",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr105": {
+  "price": 49.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-6-knops-smart-key-met-paniek-knop-met-elektronica-id46-pcf7941-m3n5wy783x",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-chrysler-chyr132": {
+  "price": 47.95,
+  "url": "https://www.auto-sleutel.nl/chrysler-3-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-433mhz",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr126l": {
+  "price": 169.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433-434mhz-toyota-yaris",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc103": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/mazda-3-knops-klapsleutel-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr110k": {
+  "price": 169.95,
+  "url": "https://www.auto-sleutel.nl/toyota-3-knops-smart-key-met-elektronica-433-434mhz-id74-transponder-toyota-rav4",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr119l": {
+  "price": 149.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr120l": {
+  "price": 149.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr116l": {
+  "price": 149.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr117l": {
+  "price": 149.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr118l": {
+  "price": 149.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-8a-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir130or": {
+  "price": 72.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101va2": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr105hu46": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-links-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc154": {
+  "price": 31.5,
+  "url": "https://www.auto-sleutel.nl/mazda-4-knops-smart-key-model-1",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vagr110": {
+  "price": 69.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr101": {
+  "price": 74.95,
+  "url": "https://www.auto-sleutel.nl/mazda-4-knops-smart-key-met-elektronica-id49-pcf7953-mazr24-ske13e-02",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr119": {
+  "price": 69.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr206x": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr210x": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc119": {
+  "price": 21.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir122a": {
+  "price": 74.95,
+  "url": "https://www.auto-sleutel.nl/fiat-4-knops-smart-key-met-paniek-knop-met-elektronica-pcf7945m-hitag-aes-gq454t",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-mit-fiat-fir123x": {
+  "price": 74.95,
+  "url": "https://www.auto-sleutel.nl/fiat-4-knops-smart-key-met-paniek-knop-met-elektronica-pcf7945m-hitag-aes-gq454t",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-mcrc151": {
+  "price": 31.95,
+  "url": "https://www.auto-sleutel.nl/mini-ronde-3-knops-smart-key-sleutelbaard-recht-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc115": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc116": {
+  "price": 39.95,
+  "url": "https://www.auto-sleutel.nl/mercedes-3-knops-smart-key-behuizing-3",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc110": {
+  "price": 18.95,
+  "url": "https://www.auto-sleutel.nl/peugeot-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr128-org": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-geschikt-voor-hyundai-i30",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc114": {
+  "price": 21.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-met-paniek-knop-sleutelbaard-recht-met-inkeping-zijkant",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc114": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/ford-2-knops-klapsleutel-sleutelbaard-recht-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr111": {
+  "price": 149.96,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr108": {
+  "price": 149.96,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr114": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr103": {
+  "price": 149.96,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-433mhz-id47-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr112": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr115": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr113": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr127": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc106": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/peugeot-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-peugeot-pgrc105": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/peugeot-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr125": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr124": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id46-pcf7945-transponder-voor-hyundai-ix35",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr123": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr122": {
+  "price": 99.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-4-knops-smart-key-met-elektronica-id47-95440-g2500",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-mazda-mzr107": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/mazda-3-knops-smart-key-behuizing-met-elektronica-433mhz-128bit-aes-crypto-3d-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc114": {
+  "price": 29.95,
+  "url": "https://www.auto-sleutel.nl/toyota-5-knops-smart-key-behuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc113": {
+  "price": 29.95,
+  "url": "https://www.auto-sleutel.nl/toyota-6-knops-smart-key-behuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc110": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/ford-2-knops-klapsleutel-sleutelbaard-recht-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc109": {
+  "price": 23.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-model-5",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc110": {
+  "price": 39.95,
+  "url": "https://www.auto-sleutel.nl/mercedes-3-knops-smart-key-behuizing-3",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-jaguar-jagc151": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/jaguar-5-knops-smart-key-sleutelbehuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc108": {
+  "price": 32.95,
+  "url": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr118": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id46-transponder-voor-hyundai-i20",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr117": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-hitag-3-id47-tfkb1g085",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr114": {
+  "price": 139.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-smart-key-met-elektronica-433mhz-id47-hitag3-transponder-voor-hyundai-tucson",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr113": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id46-transponder-voor-hyundai-i20",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-toyota-toyr101": {
+  "price": 119.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-smart-key-met-elektronica-id70e-type-1",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-subaru-subr101": {
+  "price": 62.95,
+  "url": "https://www.auto-sleutel.nl/subaru-3-knops-sleutelbehuizing-met-elektronica-433mhz-en-transponder-4d62-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc102": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/mazda-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc103": {
+  "price": 31.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-9",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr104": {
+  "price": 79.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-met-elektronica-id48-hu66-5k0837202bh-5k0837202dh",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc106": {
+  "price": 23.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-model-5",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-mit-nissan-nir151": {
+  "price": 109.95,
+  "url": "https://www.auto-sleutel.nl/nissan-2-knops-smart-key-met-elektronica-434mhz-7945-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-mit-mitsubishi-mitr103": {
+  "price": 45.95,
+  "url": "https://www.auto-sleutel.nl/mitsubishi-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-links-met-elektronica-433mhz-id46-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr109iea": {
+  "price": 69.95,
+  "url": "https://www.auto-sleutel.nl/opel-3-knops-klapsleutel-met-elektronica-433mhz-id46-pcf7946-transponder-voor-opel-vectra-en-opel-signum",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc110": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/renault-1-knops-sleutel-behuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc117": {
+  "price": 22.95,
+  "url": "https://www.auto-sleutel.nl/renault-smartcard-4-knops-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vvr102": {
+  "price": 69.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc114-obatteriefach-hu83": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc104-mbatteriefach-va2": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr102iea-433mhz": {
+  "price": 59.99,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutelbehuizing-met-elektronica-oude-type-sleutelbaard-en-transponder-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mercedes-benz-bzrc115": {
+  "price": 39.95,
+  "url": "https://www.auto-sleutel.nl/mercedes-3-knops-smart-key-behuizing-3",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-2-tasten-kompatibel-fuer-peugeot-pgr101iea": {
+  "price": 49.95,
+  "url": "https://www.auto-sleutel.nl/peugeot-2-knops-sleutelbehuizing-met-elektronica-transponder-sleutelbaard-punt-met-inkeping-midden",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc111": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-2-knops-klapsleutel",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-dacia-rnrc115": {
+  "price": 23.5,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc112-obatteriefach-va2": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc150": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-2-knops-klapsleutel",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc114": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/chevrolet-5-knops-klapsleutel-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "2-tasten-funkschluessel-gehaeuse-kompatibel-fuer-nissan-nirc151": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/nissan-2-knops-sleutelbehuizing-sleutelbaard-punt-met-verbreding",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc100": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/mazda-2-knops-klapsleutel-sleutelbaard-punt-met-inkeping-rechts",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mazda-marc101": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/mazda-3-knops-klapsleutel-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc107": {
+  "price": 31.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-9",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-fiat-firc102": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/fiat-1-knops-sleutelbehuizing-sleutelbaard-punt-model-1",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc102-obatteriefach-hu83": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc102": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/renault-1-knops-sleutel-behuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc101": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/renault-1-knops-sleutel-behuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc103-mbatteriefach-hu83": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc105": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-mini-mcrc150": {
+  "price": 31.95,
+  "url": "https://www.auto-sleutel.nl/mini-ronde-3-knops-smart-key-sleutelbaard-recht-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-bmw-bmrc105": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutel-oude-type-sleutelbaard-inkeping",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-porsche-porc151": {
+  "price": 24.95,
+  "url": "https://www.auto-sleutel.nl/porsche-3-knops-sleutelbehuizing-sleutelbaard-recht-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc103": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/land-rover-5-knops-smart-key-sleutelbehuizing-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc105": {
+  "price": 17.5,
+  "url": "https://www.auto-sleutel.nl/honda-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc103": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-voor-modellen-na-2011",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc109": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-voor-modellen-na-2011",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc110": {
+  "price": 19.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-2-knops-klapsleutel-sleutelbaard-voor-modellen-na-2011",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr105hu100": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-inkeping-links-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr159": {
+  "price": 45.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-transponder-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir129e": {
+  "price": 72.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-hyundai-hyr101": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/hyundai-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-geschikt-voor-hyundai-i30",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc105": {
+  "price": 21.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-4-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc116": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc109": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/renault-1-knops-sleutelbehuizing-sleutelblad-met-punt-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc153": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-links",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-opel-oprc151": {
+  "price": 16.95,
+  "url": "https://www.auto-sleutel.nl/opel-2-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping-rechts-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-land-rover-lrrc101": {
+  "price": 21.95,
+  "url": "https://www.auto-sleutel.nl/land-rover-3-knops-klapsleutel-sleutelbaard-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc106": {
+  "price": 17.5,
+  "url": "https://www.auto-sleutel.nl/honda-3-knops-sleutelbehuizing-sleutelbaard-punt-met-inkeping",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc111-mbatteriefach-ne73": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/foto-citroen-2-knops-klapsleutel-sleutelbaard-recht-ombouwset",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc105-obatteriehalter-sx9": {
+  "price": 15.5,
+  "url": "https://www.auto-sleutel.nl/citroen-2-knops-sleutelbehuizing-sleutelbaard-kruisvormig-voor-oudere-modellen-met-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc123": {
+  "price": 15.95,
+  "url": "https://www.auto-sleutel.nl/toyota-2-knops-sleutelbehuizing-sleutelbaard-punt",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc108": {
+  "price": 20.95,
+  "url": "https://www.auto-sleutel.nl/renault-3-knops-klapsleutel-sleutelbaard-recht-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-chevrolet-chrc101": {
+  "price": 14.95,
+  "url": "https://www.auto-sleutel.nl/chevrolet-2-knops-sleutelbehuizing-sleutelbaard-punt-model-1",
+  "checked": "2026-10-19"
+ },
+ "gehaeuse-kompatibel-fuer-citroen-ctrc106-obatteriefach-sx9": {
+  "price": 15.5,
+  "url": "https://www.auto-sleutel.nl/citroen-2-knops-sleutelbehuizing-sleutelbaard-kruisvormig-voor-oudere-modellen-met-logo",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for115": {
+  "price": 115.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-434mhz-hitag-pro-49-chip-gk2t-15k601-aa-a2c94379402-geschikt-voor-ford-transit-oem",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for101": {
+  "price": 39.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-sleutelbehuizing-sleutelbaard-rond-met-elektronica-433mhz-4d60-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir102": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-pcf7946-paars",
+  "checked": "2026-10-19"
+ },
+ "funkschluesselblatt-und-platine-kompatibel-fuer-volkswagen-vvr107e": {
+  "price": 84.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-zijkant-met-elektronica-433mhz-id48-transponder-5g0959752bc-5g0959752bk",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-volkswagen-vagr108": {
+  "price": 69.95,
+  "url": "https://www.auto-sleutel.nl/volkswagen-3-knops-klapsleutel-sleutelbaard-recht-met-inkeping-met-elektronica-434mhz-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr133iea": {
+  "price": 55.95,
+  "url": "https://www.auto-sleutel.nl/renault-4-knops-smartcard-met-elektronica-433-mhz-pcf7953m-hitag-aes-4a-chip-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr119": {
+  "price": 63.95,
+  "url": "https://www.auto-sleutel.nl/renault-laguna-2-knops-smartcard-met-elektronica-433mhz-pcf7947-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr114": {
+  "price": 55.95,
+  "url": "https://www.auto-sleutel.nl/renault-megane-3-knops-smartcard-sleutelbaard-punt-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr108": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-433mhz-7946-transponder-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr106": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-3-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-7947-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr101": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-recht-met-elektronica-433mhz-pcf7939-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-renault-rnr103": {
+  "price": 57.95,
+  "url": "https://www.auto-sleutel.nl/renault-2-knops-sleutelbehuizing-sleutelbaard-punt-met-elektronica-433mhz-7946-transponder-model-2",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-opel-opr129": {
+  "price": 53.95,
+  "url": "https://www.auto-sleutel.nl/opel-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-honda-hon112e": {
+  "price": 74.95,
+  "url": "https://www.auto-sleutel.nl/honda-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-434mhz-id47",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for111": {
+  "price": 89.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id63-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-ford-for107": {
+  "price": 89.95,
+  "url": "https://www.auto-sleutel.nl/ford-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-id63-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir115e": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/fiat-1-knops-sleutelbehuizing-zwart-sleutelbaard-recht-met-elektronica-434mhz",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir114e": {
+  "price": 58.95,
+  "url": "https://www.auto-sleutel.nl/fiat-1-knops-sleutelbehuizing-paars-sleutelbaard-recht-met-elektronica-434mhz",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir107e": {
+  "price": 72.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "checked": "2026-10-19"
+ },
+ "fir104e-ersetzt-durch-fir134": {
+  "price": 69.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-sleutelbaard-recht-met-elektronica-433mhz-pcf7941a",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-fiat-fir103e": {
+  "price": 72.95,
+  "url": "https://www.auto-sleutel.nl/fiat-3-knops-klapsleutel-zwart-sleutelbaard-recht-met-elektronica-434mhz-7946-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr102-433mhz": {
+  "price": 59.99,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutelbehuizing-met-elektronica-oude-type-sleutelbaard-en-transponder-recht",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-bmr105-868mhz": {
+  "price": 59.95,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-smart-key-behuizing-met-elektronica-868mhz-7945-transponder",
+  "checked": "2026-10-19"
+ },
+ "funkschluessel-kompatibel-fuer-bmw-bmr112-433mhz": {
+  "price": 59.99,
+  "url": "https://www.auto-sleutel.nl/bmw-3-knops-sleutelbehuizing-met-elektronica-oude-type-sleutelbaard-en-transponder-recht",
+  "checked": "2026-10-19"
+ }
+}

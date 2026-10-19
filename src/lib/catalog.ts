@@ -44,6 +44,8 @@ export interface CatalogProduct {
   /** Slug of the battery this key takes, when the supplier names one. */
   battery?: string | null;
   costPrice: number | null;
+  /** The same part at autosleutels.info, incl. VAT — when one was matched (src/data/market-prices.json). */
+  marketPrice?: number | null;
   image: string | null;
   images: string[];
   cleanPhoto?: boolean;
@@ -153,8 +155,17 @@ export const MIN_PRICE = 2.95;
  */
 export const PRICE_UPLIFT = 1.3;
 
-export function shelfPrice(costPrice: number | null): number | null {
+/** Never below cost × this (ex VAT) when following a market price. */
+export const MARKET_MIN_MARKUP = 1.5;
+
+export function shelfPrice(costPrice: number | null, marketPrice?: number | null): number | null {
   if (costPrice == null || !Number.isFinite(costPrice)) return null;
+  // Where the same part is sold elsewhere, just under that price (€20,95 → €19,99) — never below our minimum profit.
+  if (marketPrice != null && Number.isFinite(marketPrice)) {
+    const under = Math.floor(marketPrice) - 0.01;
+    const floor = Math.ceil(costPrice * MARKET_MIN_MARKUP * (1 + VAT_RATE)) - 0.01;
+    return Math.max(MIN_PRICE, Math.round(Math.max(under, floor) * 100) / 100);
+  }
   const tier = MARGIN_TIERS.find((t) => costPrice < t.upTo) ?? MARGIN_TIERS.at(-1)!;
   const gross = costPrice * tier.multiplier * PRICE_UPLIFT * (1 + VAT_RATE);
   // Land on a .95 ending, which is what every competitor in this category uses.
@@ -181,7 +192,7 @@ export function sortProducts<T extends CatalogProduct>(products: T[], sort?: Sor
   }
   // The shop price (office override included) when there is one, else the margin rule.
   const priceOf = (p: T) =>
-    ('price' in p ? (p as T & { price: number | null }).price : shelfPrice(p.costPrice)) ?? Number.POSITIVE_INFINITY;
+    ('price' in p ? (p as T & { price: number | null }).price : shelfPrice(p.costPrice, p.marketPrice)) ?? Number.POSITIVE_INFINITY;
   if (sort === 'prijs-oplopend') sorted.sort((a, b) => priceOf(a) - priceOf(b));
   else if (sort === 'prijs-aflopend') sorted.sort((a, b) => priceOf(b) - priceOf(a));
   else if (sort === 'naam') {
@@ -223,7 +234,7 @@ function matches(p: CatalogProduct, f: Filters): boolean {
   if (f.chip && p.chip?.toLowerCase() !== f.chip.toLowerCase()) return false;
   if (f.blade && p.blade?.toLowerCase() !== f.blade.toLowerCase()) return false;
   if (f.maxPrice != null) {
-    const price = shelfPrice(p.costPrice);
+    const price = shelfPrice(p.costPrice, p.marketPrice);
     if (price == null || price > f.maxPrice) return false;
   }
   if (f.q) {
@@ -346,7 +357,7 @@ export function buildFacets(
 
 export function priceRange(products: CatalogProduct[]): [number, number] {
   const prices = products
-    .map((p) => shelfPrice(p.costPrice))
+    .map((p) => shelfPrice(p.costPrice, p.marketPrice))
     .filter((v): v is number => v != null);
   if (!prices.length) return [0, 0];
   return [Math.min(...prices), Math.max(...prices)];

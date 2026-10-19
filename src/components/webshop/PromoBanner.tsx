@@ -22,7 +22,7 @@ export default async function PromoBanner() {
 
   const offers = products
     .map((product) => {
-      const normal = shelfPrice(product.costPrice);
+      const normal = shelfPrice(product.costPrice, product.marketPrice);
       const discount =
         product.priceIsManual && product.price != null && normal != null && product.price < normal
           ? (normal - product.price) / normal

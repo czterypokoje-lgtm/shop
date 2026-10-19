@@ -528,6 +528,7 @@ const products = [];
 const skipped = { noCategory: 0, noPhoto: 0, noPrice: 0 };
 
 const PHOTO_SOURCES = {};
+const MARKET = Object.fromEntries(Object.entries(existsSync(path.join(process.cwd(), 'src/data/market-prices.json')) ? JSON.parse(readFileSync(path.join(process.cwd(), 'src/data/market-prices.json'), 'utf8')) : {}).filter(([k, v]) => k !== '_doc' && v?.checked).map(([k, v]) => [k.toLowerCase(), v]));
 for (const [slug, filed] of Object.entries(classification.filed)) {
   const product = raw[slug];
   if (!product) continue;
@@ -628,6 +629,8 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
     blade: tidyBlade(product.blade),
     battery: batteryCode ? `cr${batteryCode}` : (autosleutels[slug.toLowerCase()]?.battery ?? BATTERY_FAMILY[slug.toLowerCase()])?.toLowerCase() ?? null,
     costPrice: cost,
+    /** The identical part at autosleutels.info (incl. VAT), checked by eye: src/data/market-prices.json. */
+    marketPrice: MARKET[slug.toLowerCase()]?.price ?? null,
     image: images[0] ?? null,
     images,
     /** First photo is not one of A-Key's watermarked ones (by the pixel check, or not theirs at all). */
