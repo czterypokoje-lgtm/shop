@@ -1,10 +1,10 @@
 'use client';
 
-import React, { useState, useSyncExternalStore, useCallback } from 'react';
+import React, { useState, useSyncExternalStore, useCallback, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './CheckoutForm.module.css';
 import {
-  readCart,
+  readCart, pruneCart,
   priceCart,
   CART_EVENT,
   SERVICE_LABEL,
@@ -48,6 +48,9 @@ export default function CheckoutForm({
   paymentStrip?: React.ReactNode;
 }) {
   const lines = useSyncExternalStore(subscribe, snapshot, serverSnapshot);
+
+  // Lines for products that are gone would count in the badge but never show here.
+  useEffect(() => pruneCart((slug) => products.some((x) => x.slug === slug)), [products]);
 
   const lookup = useCallback(
     (slug: string) => {

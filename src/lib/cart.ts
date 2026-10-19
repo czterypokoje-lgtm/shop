@@ -60,6 +60,16 @@ export function readCart(): CartLine[] {
   }
 }
 
+/**
+ * Drop lines for products the shop no longer sells (or whose key changed), so
+ * the badge in the header — which counts what is stored — matches the basket.
+ */
+export function pruneCart(known: (slug: string) => boolean): void {
+  const lines = readCart();
+  const kept = lines.filter((l) => known(l.slug));
+  if (kept.length !== lines.length) persist(kept);
+}
+
 function persist(lines: CartLine[]): void {
   try {
     window.localStorage.setItem(CART_KEY, JSON.stringify(lines));

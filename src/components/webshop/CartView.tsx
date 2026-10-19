@@ -1,10 +1,10 @@
 'use client';
 
-import React, { useSyncExternalStore, useCallback } from 'react';
+import React, { useSyncExternalStore, useCallback, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './CartView.module.css';
 import {
-  readCart, setQuantity, removeLine, priceCart,
+  readCart, pruneCart, setQuantity, removeLine, priceCart,
   CART_EVENT, SERVICE_LABEL, type ServiceOption,
 } from '@/lib/cart';
 import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
@@ -45,6 +45,9 @@ const serverSnapshot = () => EMPTY;
 
 export default function CartView({ products }: { products: Slim[] }) {
   const lines = useSyncExternalStore(subscribe, snapshot, serverSnapshot);
+
+  // Lines for products that are gone would count in the badge but never show here.
+  useEffect(() => pruneCart((slug) => products.some((x) => x.slug === slug)), [products]);
 
   const lookup = useCallback(
     (slug: string) => {
