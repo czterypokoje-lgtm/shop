@@ -1,7 +1,7 @@
 -- ============================================================================
--- 0064: product_overrides is no longer readable with the anon key.
+-- 0076: product_overrides is no longer readable with the anon key.
 --
--- Run after 0063_call_click_whatsapp_ref.sql. Idempotent.
+-- Run after 0075_openai_qualified.sql (main project). Idempotent.
 --
 -- 0010 granted anon select because the webshop read overrides without a
 -- session. That table also holds cost_override (our purchase price) and
