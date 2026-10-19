@@ -49,6 +49,12 @@ export default function TermsPage() {
           {SITE_CONFIG.serviceAreaString}.<br />
           E-mail: {SITE_CONFIG.email} · Telefoon: {SITE_CONFIG.phone}
           <br />
+          {SITE_CONFIG.address.street && (
+            <>
+              Adres: {SITE_CONFIG.address.street}, {SITE_CONFIG.address.postal} {SITE_CONFIG.address.city}
+              <br />
+            </>
+          )}
           KvK-nummer: {SITE_CONFIG.kvk}
           {isBtwConfigured() && (
             <>
@@ -90,8 +96,10 @@ export default function TermsPage() {
         <h2 style={h2}>6. Bedenktijd en retour</h2>
         <p style={p}>
           U heeft 14 dagen bedenktijd. Op maat gemaakte artikelen zijn daarvan uitgezonderd: een
-          sleutel die op uw auto is ingeleerd of waarvan de baard is gefreesd, is op uw voertuig
-          toegesneden (BW 6:230p sub f). De volledige regeling staat op{' '}
+          sleutel die wij op uw verzoek frezen op uw sleutelcode of inleren op uw auto, is op uw
+          voertuig toegesneden (BW 6:230p onder c). Heeft u een sleutel zelf ingeleerd of
+          geprobeerd in te leren, dan is hij niet meer te verkopen: retourneren mag, maar de
+          waardevermindering is dan de volledige prijs en u krijgt niets terug (BW 6:230s). De volledige regeling staat op{' '}
           <Link href="/verzending-en-retour" style={{ color: '#b93c20' }}>verzending en retour</Link>.
         </p>
 
@@ -125,20 +133,11 @@ export default function TermsPage() {
         <p style={p}>
           Meld een klacht binnen bekwame tijd bij {SITE_CONFIG.email}. Wij reageren binnen twee
           werkdagen. Op deze voorwaarden is Nederlands recht van toepassing. Komen wij er samen
-          niet uit, dan kunt u terecht bij de bevoegde Nederlandse rechter of via het{' '}
-          <a
-            href="https://ec.europa.eu/consumers/odr"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: '#b93c20' }}
-          >
-            Europese ODR-platform
-          </a>
-          .
+          niet uit, dan kunt u terecht bij de bevoegde Nederlandse rechter.
         </p>
 
         <p style={{ ...p, marginTop: '2.5rem', fontSize: '.9rem', color: '#64748b' }}>
-          Laatst bijgewerkt: september 2026.
+          Laatst bijgewerkt: oktober 2026.
         </p>
       </div>
     </main>

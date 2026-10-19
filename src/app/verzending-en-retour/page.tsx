@@ -87,16 +87,25 @@ export default function ShippingReturnsPage() {
           Wij betalen binnen 14 dagen na ontvangst van uw melding terug, inclusief de
           standaard verzendkosten die u bij de bestelling betaalde.
         </p>
+        <p style={p}>
+          Retouradres:{' '}
+          {SITE_CONFIG.address.street
+            ? `${SITE_CONFIG.fullName}, ${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.postal} ${SITE_CONFIG.address.city}`
+            : 'dit sturen wij u direct toe zodra u de retour meldt.'}
+        </p>
         <ul style={{ ...p, paddingLeft: '1.2rem' }}>
           <li>De retourkosten zijn voor uw rekening.</li>
           <li>
-            Het artikel moet ongebruikt zijn en in de originele verpakking. Een sleutel die al
-            op een auto is ingeleerd of waarvan de baard is gefreesd, is op maat gemaakt en kan
-            niet worden teruggenomen (BW 6:230p sub f).
+            <strong>Heeft u (of iemand anders) de sleutel ingeleerd of geprobeerd in te leren, de
+            baard laten frezen of de behuizing geopend, dan krijgt u niets terug.</strong> Zo&apos;n
+            sleutel is daarna niet meer te verkopen; de waardevermindering is dan de volledige prijs
+            (BW 6:230s lid 3). Retourneren mag, maar levert geen terugbetaling op. Bekijk het artikel
+            daarom eerst zoals u dat in een winkel zou doen.
           </li>
           <li>
-            Beschadiging door onjuiste montage of door het openen van de behuizing valt niet
-            onder de bedenktijd.
+            Heeft u ons gevraagd de sleutel te frezen op uw sleutelcode of in te leren op uw auto
+            (frezen, opsturen of monteur aan huis), dan is hij op maat gemaakt en geldt de
+            bedenktijd daarvoor niet (BW 6:230p onder c). Dat ziet u ook vóór het bestellen.
           </li>
         </ul>
         <p style={p}>
@@ -138,17 +147,8 @@ export default function ShippingReturnsPage() {
         <p style={p}>
           Bel {SITE_CONFIG.phone} of mail{' '}
           <a href={`mailto:${SITE_CONFIG.email}`} style={{ color: '#b93c20' }}>{SITE_CONFIG.email}</a>.
-          Wij reageren binnen twee werkdagen. Komen wij er samen niet uit, dan kunt u uw geschil
-          voorleggen via het{' '}
-          <a
-            href="https://ec.europa.eu/consumers/odr"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: '#b93c20' }}
-          >
-            Europese ODR-platform
-          </a>
-          .
+          Wij reageren binnen twee werkdagen. Komen wij er samen niet uit, dan kunt u uw geschil voorleggen aan de bevoegde
+          Nederlandse rechter.
         </p>
 
         <p style={{ ...p, marginTop: '2.5rem', fontSize: '.9rem', color: '#64748b' }}>

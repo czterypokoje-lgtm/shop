@@ -199,18 +199,18 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 7,
+  "count": 8,
   "categories": {
    "afstandsbedieningen": 2,
    "accessoires": 1,
-   "smart-keys": 1,
-   "behuizingen": 3
+   "behuizingen": 4,
+   "smart-keys": 1
   }
  },
  "Toyota Yaris": {
   "make": "Toyota",
   "model": "Yaris",
-  "from": 2016,
+  "from": 2012,
   "to": 2021,
   "chips": [
    "8A",
@@ -224,10 +224,10 @@
    "433.30 / 433.58 MHz",
    "433 MHz"
   ],
-  "count": 10,
+  "count": 11,
   "categories": {
    "afstandsbedieningen": 3,
-   "behuizingen": 7
+   "behuizingen": 8
   }
  },
  "Toyota Tundra": {
@@ -658,7 +658,7 @@
  "Renault Captur": {
   "make": "Renault",
   "model": "Captur",
-  "from": 2020,
+  "from": 2013,
   "to": 9999,
   "chips": [
    "4A",
@@ -670,9 +670,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 2,
+  "count": 3,
   "categories": {
    "accessoires": 1,
+   "behuizingen": 1,
    "smart-keys": 1
   }
  },
@@ -748,11 +749,11 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 6,
+  "count": 7,
   "categories": {
    "accessoires": 1,
    "afstandsbedieningen": 2,
-   "behuizingen": 3
+   "behuizingen": 4
   }
  },
  "Renault Zoe": {
@@ -794,11 +795,11 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 18,
+  "count": 19,
   "categories": {
    "accessoires": 1,
    "afstandsbedieningen": 8,
-   "behuizingen": 8,
+   "behuizingen": 9,
    "smart-keys": 1
   }
  },
@@ -1344,10 +1345,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 8,
+  "count": 9,
   "categories": {
    "afstandsbedieningen": 6,
-   "behuizingen": 2
+   "behuizingen": 3
   }
  },
  "Renault Twingo": {
@@ -1366,10 +1367,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 7,
+  "count": 8,
   "categories": {
    "afstandsbedieningen": 4,
-   "behuizingen": 3
+   "behuizingen": 4
   }
  },
  "Opel Corsa C": {
@@ -1769,14 +1770,14 @@
  "Renault Kadjar": {
   "make": "Renault",
   "model": "Kadjar",
-  "from": 9999,
+  "from": 2013,
   "to": 9999,
   "chips": [],
   "blades": [],
   "frequencies": [],
-  "count": 1,
+  "count": 2,
   "categories": {
-   "behuizingen": 1
+   "behuizingen": 2
   }
  },
  "Renault Megane": {
@@ -1794,9 +1795,9 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 10,
+  "count": 11,
   "categories": {
-   "behuizingen": 7,
+   "behuizingen": 8,
    "afstandsbedieningen": 2,
    "accessoires": 1
   }
@@ -1858,9 +1859,9 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 14,
+  "count": 15,
   "categories": {
-   "behuizingen": 7,
+   "behuizingen": 8,
    "afstandsbedieningen": 6,
    "smart-keys": 1
   }
@@ -2111,6 +2112,26 @@
    "behuizingen": 4
   }
  },
+ "Toyota Auris": {
+  "make": "Toyota",
+  "model": "Auris",
+  "from": 2009,
+  "to": 2016,
+  "chips": [
+   "DST 4D"
+  ],
+  "blades": [
+   "met noodsleutel"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
+  }
+ },
  "Mitsubishi Mirage": {
   "make": "Mitsubishi",
   "model": "Mirage",
@@ -2210,9 +2231,10 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 7,
+  "count": 8,
   "categories": {
    "afstandsbedieningen": 6,
+   "behuizingen": 1,
    "sleutelbaarden": 1
   }
  },
@@ -2310,9 +2332,10 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 5,
+  "count": 6,
   "categories": {
-   "afstandsbedieningen": 5
+   "afstandsbedieningen": 5,
+   "behuizingen": 1
   }
  },
  "Škoda Yeti": {
@@ -2384,9 +2407,10 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 6,
+  "count": 7,
   "categories": {
-   "afstandsbedieningen": 6
+   "afstandsbedieningen": 6,
+   "behuizingen": 1
   }
  },
  "Seat Altea": {
@@ -2431,9 +2455,10 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 6,
+  "count": 7,
   "categories": {
-   "afstandsbedieningen": 6
+   "afstandsbedieningen": 6,
+   "behuizingen": 1
   }
  },
  "Hyundai Style Xhorse": {
@@ -2646,7 +2671,7 @@
  "Renault Fluence": {
   "make": "Renault",
   "model": "Fluence",
-  "from": 9999,
+  "from": 2009,
   "to": 9999,
   "chips": [
    "PCF7946 / PCF7947 / PCF7961",
@@ -2660,10 +2685,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 4,
+  "count": 5,
   "categories": {
    "afstandsbedieningen": 3,
-   "behuizingen": 1
+   "behuizingen": 2
   }
  },
  "Renault Latitude": {
@@ -2814,9 +2839,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 2,
+  "count": 3,
   "categories": {
-   "afstandsbedieningen": 2
+   "afstandsbedieningen": 2,
+   "behuizingen": 1
   }
  },
  "Renault Kangoo II": {
@@ -2853,9 +2879,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 2,
+  "count": 3,
   "categories": {
-   "afstandsbedieningen": 2
+   "afstandsbedieningen": 2,
+   "behuizingen": 1
   }
  },
  "Hyundai Sonata": {
@@ -2929,11 +2956,11 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 14,
+  "count": 15,
   "categories": {
    "smart-keys": 6,
-   "afstandsbedieningen": 6,
-   "behuizingen": 2
+   "behuizingen": 3,
+   "afstandsbedieningen": 6
   }
  },
  "Hyundai Creta": {
@@ -4070,12 +4097,12 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 12,
+  "count": 13,
   "categories": {
    "printplaten": 2,
    "afstandsbedieningen": 5,
    "smart-keys": 2,
-   "behuizingen": 3
+   "behuizingen": 4
   }
  },
  "Honda Clarity": {
@@ -4149,12 +4176,12 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 10,
+  "count": 11,
   "categories": {
    "printplaten": 1,
    "afstandsbedieningen": 4,
    "smart-keys": 1,
-   "behuizingen": 4
+   "behuizingen": 5
   }
  },
  "Honda City": {
@@ -5037,10 +5064,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 6,
+  "count": 7,
   "categories": {
    "afstandsbedieningen": 3,
-   "behuizingen": 2,
+   "behuizingen": 3,
    "transpondersleutels": 1
   }
  },
@@ -5354,25 +5381,6 @@
    "behuizingen": 2
   }
  },
- "Toyota Auris": {
-  "make": "Toyota",
-  "model": "Auris",
-  "from": 2009,
-  "to": 2012,
-  "chips": [
-   "DST 4D"
-  ],
-  "blades": [
-   "met noodsleutel"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 1,
-  "categories": {
-   "smart-keys": 1
-  }
- },
  "Honda Grace": {
   "make": "Honda",
   "model": "Grace",
@@ -5471,9 +5479,10 @@
   "frequencies": [
    "434 MHz"
   ],
-  "count": 4,
+  "count": 5,
   "categories": {
    "afstandsbedieningen": 3,
+   "behuizingen": 1,
    "sleutelbaarden": 1
   }
  },
@@ -5495,10 +5504,10 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 9,
+  "count": 10,
   "categories": {
    "afstandsbedieningen": 7,
-   "behuizingen": 2
+   "behuizingen": 3
   }
  },
  "Volkswagen Golf Mk4": {
@@ -5515,9 +5524,10 @@
   "frequencies": [
    "434 MHz"
   ],
-  "count": 2,
+  "count": 3,
   "categories": {
-   "afstandsbedieningen": 2
+   "afstandsbedieningen": 2,
+   "behuizingen": 1
   }
  },
  "Volkswagen Passat": {
@@ -5535,9 +5545,10 @@
    "434 MHz",
    "433 MHz"
   ],
-  "count": 3,
+  "count": 4,
   "categories": {
-   "afstandsbedieningen": 3
+   "afstandsbedieningen": 3,
+   "behuizingen": 1
   }
  },
  "Škoda Roomster": {
@@ -5555,9 +5566,10 @@
   "frequencies": [
    "434 MHz"
   ],
-  "count": 3,
+  "count": 4,
   "categories": {
-   "afstandsbedieningen": 3
+   "afstandsbedieningen": 3,
+   "behuizingen": 1
   }
  },
  "Volkswagen Bora": {
@@ -6977,6 +6989,89 @@
   "count": 2,
   "categories": {
    "afstandsbedieningen": 2
+  }
+ },
+ "Fiat Talento": {
+  "make": "Fiat",
+  "model": "Talento",
+  "from": 2016,
+  "to": 2020,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Nissan NV300": {
+  "make": "Nissan",
+  "model": "NV300",
+  "from": 2016,
+  "to": 2021,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Smart 453": {
+  "make": "Smart",
+  "model": "453",
+  "from": 2014,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
+  }
+ },
+ "Smart ForFour": {
+  "make": "Smart",
+  "model": "ForFour",
+  "from": 2014,
+  "to": 2018,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Smart ForTwo": {
+  "make": "Smart",
+  "model": "ForTwo",
+  "from": 2003,
+  "to": 2018,
+  "chips": [],
+  "blades": [
+   "YM23"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 3,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Vauxhall Vivaro": {
+  "make": "Vauxhall",
+  "model": "Vivaro",
+  "from": 2015,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
   }
  },
  "Hyundai i20": {
@@ -8852,37 +8947,6 @@
    "behuizingen": 5
   }
  },
- "Smart ForTwo": {
-  "make": "Smart",
-  "model": "ForTwo",
-  "from": 2003,
-  "to": 2006,
-  "chips": [],
-  "blades": [
-   "YM23"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 3,
-  "categories": {
-   "behuizingen": 2,
-   "afstandsbedieningen": 1
-  }
- },
- "Smart ForFour": {
-  "make": "Smart",
-  "model": "ForFour",
-  "from": 9999,
-  "to": 0,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "behuizingen": 1
-  }
- },
  "Smart Roadster": {
   "make": "Smart",
   "model": "Roadster",
@@ -9620,9 +9684,9 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 4,
+  "count": 5,
   "categories": {
-   "behuizingen": 1,
+   "behuizingen": 2,
    "afstandsbedieningen": 3
   }
  },

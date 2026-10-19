@@ -88,6 +88,8 @@ interface OrderLine {
   title: string;
   quantity: number;
   lineTotal: number;
+  /** Supplier's article number; office mail only. */
+  supplierCode?: string | null;
 }
 
 const euro = (value: number) => `€${value.toFixed(2).replace('.', ',')}`;
@@ -138,7 +140,7 @@ ${
     : 'Wij verzenden uw bestelling binnen 2 tot 3 werkdagen. U ontvangt een bericht zodra het pakket onderweg is.'
 }
 
-Bedenktijd: u mag de bestelling binnen 14 dagen na ontvangst retourneren. Sleutels die op uw auto zijn ingeleerd of waarvan de baard is gefreesd zijn op maat gemaakt en vallen daarbuiten. De volledige regeling staat op ${SITE_CONFIG.domain}/verzending-en-retour.
+Bedenktijd: u mag de bestelling binnen 14 dagen na ontvangst retourneren. Sleutels die wij op uw verzoek hebben gefreesd of ingeleerd zijn op maat gemaakt en vallen daarbuiten; heeft u een sleutel zelf ingeleerd of geprobeerd in te leren, dan is hij niet meer te verkopen en krijgt u bij retour niets terug. De volledige regeling staat op ${SITE_CONFIG.domain}/verzending-en-retour.
 
 Vragen? Bel ${SITE_CONFIG.phone} of antwoord op deze e-mail.
 
@@ -179,7 +181,7 @@ export function orderNotification(order: {
 }): Mail {
   const text = `Nieuwe betaalde bestelling: ${order.order_number}
 
-${order.items.map((i) => `  ${i.quantity}× ${i.title}`).join('\n')}
+${order.items.map((i) => `  ${i.quantity}× ${i.title}${i.supplierCode ? `  → bestellen als ${i.supplierCode}` : ''}`).join('\n')}
 
 Totaal: ${euro(order.total_inc)}
 Klant: ${order.name} — ${order.email}${order.phone ? ` — ${order.phone}` : ''}
@@ -194,4 +196,44 @@ Open in het CRM: ${SITE_CONFIG.domain}/admin/orders`;
     text,
     replyTo: order.email,
   };
+}
+
+/** Where the customer follows the parcel. PostNL needs the postcode in the link. */
+export function trackingUrl(carrier: string | null, code: string, postcode = ''): string {
+  const c = encodeURIComponent(code.trim());
+  const pc = postcode.replace(/\s/g, '').toUpperCase();
+  switch ((carrier ?? '').toLowerCase().replace(/[^a-z]/g, '')) {
+    case 'postnl': return `https://jouw.postnl.nl/track-and-trace/${c}-NL-${pc}`;
+    case 'dhl': return `https://www.dhl.com/nl-nl/home/tracking/tracking-parcel.html?submit=1&tracking-id=${c}`;
+    case 'ups': return `https://www.ups.com/track?loc=nl_NL&tracknum=${c}`;
+    case 'gls': return `https://gls-group.com/NL/nl/pakket-volgen?match=${c}`;
+    case 'dpd': return `https://tracking.dpd.de/status/nl_NL/parcel/${c}`;
+    default: return '';
+  }
+}
+
+/** Sent once, when the office marks the order shipped in the CRM. */
+export function orderShipped(order: {
+  order_number: string;
+  name: string;
+  email: string;
+  postcode: string;
+  carrier: string | null;
+  tracking_code: string;
+}): Mail {
+  const url = trackingUrl(order.carrier, order.tracking_code, order.postcode);
+  const text = `Beste ${order.name},
+
+Uw bestelling ${order.order_number} is onderweg.
+
+Vervoerder: ${order.carrier ?? '—'}
+Track & trace: ${order.tracking_code}${url ? `\nVolg uw pakket: ${url}` : ''}
+
+Meestal wordt het pakket binnen 1 tot 2 werkdagen bezorgd.
+
+Vragen? Bel ${SITE_CONFIG.phone} of antwoord op deze e-mail.
+
+${SITE_CONFIG.fullName} · ${SITE_CONFIG.domain}`;
+
+  return { to: order.email, subject: `Uw bestelling ${order.order_number} is verzonden`, text };
 }

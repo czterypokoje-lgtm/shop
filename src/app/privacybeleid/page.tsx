@@ -15,7 +15,7 @@ export default function PrivacyPage() {
       <section style={{ background: 'linear-gradient(135deg, #070e1a 0%, #0a1628 100%)', padding: '4rem 2rem' }}>
         <div style={{ maxWidth: 800, margin: '0 auto' }}>
           <h1 style={{ color: '#fff' }}>Privacybeleid</h1>
-          <p style={{ color: 'rgba(255,255,255,0.6)' }}>Laatste update: {new Date().toLocaleDateString('nl-NL')}</p>
+          <p style={{ color: 'rgba(255,255,255,0.6)' }}>Laatste update: oktober 2026</p>
         </div>
       </section>
 
@@ -25,6 +25,7 @@ export default function PrivacyPage() {
           { title: '2. Welke Gegevens Verzamelen Wij?', content: 'Wij verzamelen: naam, telefoonnummer, e-mailadres, kenteken/voertuigdata (voor dienstverlening), factuurgegevens. Wij verzamelen géén bijzondere persoonsgegevens.' },
           { title: '3. Waarom Verwerken Wij Uw Gegevens?', content: 'Uitvoering van de overeenkomst (dienstverlening), facturatie, wettelijke verplichtingen, en op uw verzoek voor garantieclaims.' },
           { title: '4. Hoe Lang Bewaren Wij Uw Gegevens?', content: 'Factuurgegevens: 7 jaar (wettelijke bewaarplicht). Overige klantgegevens: maximaal 2 jaar na laatste contact.' },
+          { title: '4a. Met Wie Delen Wij Uw Gegevens?', content: 'Alleen met partijen die nodig zijn om uw bestelling uit te voeren, elk onder een verwerkersovereenkomst: Mollie (betalingen), de vervoerder die uw pakket bezorgt (naam en adres), Resend (verzending van onze e-mails), Supabase (opslag van bestellingen en klantgegevens) en Vercel (hosting van de website). Sommige van deze partijen kunnen gegevens buiten de EU verwerken; dat gebeurt dan op basis van het EU-VS-gegevensprivacykader of standaardcontractbepalingen van de Europese Commissie. Wij verkopen uw gegevens nooit.' },
           { title: '5. Uw Rechten (AVG/GDPR)', content: 'U heeft het recht op inzage, correctie, verwijdering, bezwaar en dataportabiliteit. Neem contact op via ' + SITE_CONFIG.email },
           { title: '6. Cookies', content: 'Deze website gebruikt noodzakelijke cookies (nodig om de site te laten werken) en, uitsluitend met uw toestemming, cookies voor statistieken (Google Analytics 4, Microsoft Clarity — inclusief opnames van websessies) en marketing (Google Ads, DoubleClick). Zonder uw toestemming worden deze niet geplaatst. U kunt uw keuze op elk moment wijzigen of intrekken via "Cookie-instellingen" onderaan elke pagina. Een volledig overzicht per cookie staat in ons cookiebeleid op /cookiebeleid.' },
           { title: '7. Contact & Klachten', content: `Vragen? Mail naar ${SITE_CONFIG.email}. U kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).` },

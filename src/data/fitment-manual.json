@@ -1,7 +1,292 @@
 {
-  "_doc": "Hand-checked against A-Key's own text where their wording hides the make. Same format as autosleutel-nl-matches.json.",
-  "su25p-canas-fahrzeugschluessel": { "source": "A-Key: 'div. Suzukimodelle u.a.'", "fitment": [{ "make": "Suzuki", "model": null, "from": null, "to": null }] },
-  "va2-c-notschluessel-schluesselblatt-fuer-psa": { "source": "A-Key: 'Smartkey für z.B.: Citoen C4 & DS5'", "fitment": [{ "make": "Citroën", "model": "C4", "from": null, "to": null }, { "make": "Citroën", "model": "DS5", "from": null, "to": null }] },
-  "hu83-man-leergehaeuse-kompatibel-fuer-man": { "source": "A-Key title: 'kompatibel für MAN'", "fitment": [{ "make": "MAN", "model": null, "from": null, "to": null }] },
-  "nsn14a-notschluessel-fuer-smartkeycard": { "source": "A-Key: 'folgende Smartcards: RNR133' (Renault card)", "fitment": [{ "make": "Renault", "model": null, "from": null, "to": null }] }
+ "_doc": "Hand-checked against A-Key's own text where their wording hides the make. Same format as autosleutel-nl-matches.json.",
+ "su25p-canas-fahrzeugschluessel": {
+  "source": "A-Key: 'div. Suzukimodelle u.a.'",
+  "fitment": [
+   {
+    "make": "Suzuki",
+    "model": null,
+    "from": null,
+    "to": null
+   }
+  ]
+ },
+ "va2-c-notschluessel-schluesselblatt-fuer-psa": {
+  "source": "A-Key: 'Smartkey für z.B.: Citoen C4 & DS5'",
+  "fitment": [
+   {
+    "make": "Citroën",
+    "model": "C4",
+    "from": null,
+    "to": null
+   },
+   {
+    "make": "Citroën",
+    "model": "DS5",
+    "from": null,
+    "to": null
+   }
+  ]
+ },
+ "hu83-man-leergehaeuse-kompatibel-fuer-man": {
+  "source": "A-Key title: 'kompatibel für MAN'",
+  "fitment": [
+   {
+    "make": "MAN",
+    "model": null,
+    "from": null,
+    "to": null
+   }
+  ]
+ },
+ "nsn14a-notschluessel-fuer-smartkeycard": {
+  "source": "A-Key: 'folgende Smartcards: RNR133' (Renault card)",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": null,
+    "from": null,
+    "to": null
+   }
+  ]
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-hyundai-hyrc116": {
+  "source": "Same shell as remote HYR116K, photos compared side by side",
+  "fitment": [
+   {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "from": 2015,
+    "to": 2020
+   }
+  ]
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-honda-horc103": {
+  "source": "Same shell as remote HOR103, photos compared side by side",
+  "fitment": [
+   {
+    "make": "Honda",
+    "model": "Civic",
+    "from": 0,
+    "to": 9999
+   },
+   {
+    "make": "Honda",
+    "model": "CR-V",
+    "from": 2011,
+    "to": 2014
+   },
+   {
+    "make": "Honda",
+    "model": "Jazz",
+    "from": 2012,
+    "to": 2015
+   }
+  ]
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-volkswagen-vvrc112": {
+  "source": "Same shell as remote VVR112, photos compared side by side",
+  "fitment": [
+   {
+    "make": "Škoda",
+    "model": "Fabia",
+    "from": 0,
+    "to": 9999
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Golf Mk4",
+    "from": 2002,
+    "to": 2004
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "from": 2000,
+    "to": null
+   },
+   {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "from": 2003,
+    "to": 2009
+   },
+   {
+    "make": "Škoda",
+    "model": "Octavia",
+    "from": 2001,
+    "to": 2006
+   },
+   {
+    "make": "Škoda",
+    "model": "Roomster",
+    "from": 2006,
+    "to": 2007
+   },
+   {
+    "make": "Seat",
+    "model": "Leon",
+    "from": 2002,
+    "to": 2005
+   },
+   {
+    "make": "Seat",
+    "model": "Toledo",
+    "from": 2001,
+    "to": 2003
+   }
+  ]
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-renault-rnrc106": {
+  "source": "Same shell as remote RNR106, photos compared side by side",
+  "fitment": [
+   {
+    "make": "Renault",
+    "model": "Clio III",
+    "from": 0,
+    "to": 9999
+   },
+   {
+    "make": "Renault",
+    "model": "Kangoo III",
+    "from": 0,
+    "to": 9999
+   },
+   {
+    "make": "Renault",
+    "model": "Modus",
+    "from": 0,
+    "to": 9999
+   }
+  ]
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-ford-forc101": {
+  "source": "Same shell as remote FOR101, photos compared side by side",
+  "fitment": [
+   {
+    "make": "Ford",
+    "model": "Transit",
+    "from": 2006,
+    "to": 2014
+   }
+  ]
+ },
+ "funkschluessel-gehaeuse-kompatibel-fuer-toyota-toyrc158": {
+  "source": "AccessFobs \"Aftermarket Smart Remote Key Case for Toyota 2 button TOY48\" (accessfobs.co.uk/products/aftermarket-smart-remote-key-case-for-toyota-2-button-toy48), shell and blade compared by eye",
+  "fitment": [
+   {
+    "make": "Toyota",
+    "model": "Auris",
+    "from": 2012,
+    "to": 2016
+   },
+   {
+    "make": "Toyota",
+    "model": "RAV4",
+    "from": 2013,
+    "to": 2016
+   },
+   {
+    "make": "Toyota",
+    "model": "Yaris",
+    "from": 2012,
+    "to": 2017
+   }
+  ]
+ },
+ "smrc102-funkschluessel-gehaeuse-kompatibel-fuer-smart": {
+  "source": "AccessFobs \"Flip Key Remote Key CASE for Renault Nissan Smart Vauxhall 3 button VA2\" (accessfobs.co.uk/products/flip-key-remote-key-case-for-renault-mercedes-3-button-va2), shell and blade compared by eye",
+  "fitment": [
+   {
+    "make": "Fiat",
+    "model": "Talento",
+    "from": 2016,
+    "to": 2020
+   },
+   {
+    "make": "Nissan",
+    "model": "NV300",
+    "from": 2016,
+    "to": 2021
+   },
+   {
+    "make": "Renault",
+    "model": "Captur",
+    "from": 2013,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Fluence",
+    "from": 2009,
+    "to": 2015
+   },
+   {
+    "make": "Renault",
+    "model": "Kadjar",
+    "from": 2013,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Megane",
+    "from": 2009,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Scenic",
+    "from": 2009,
+    "to": 2015
+   },
+   {
+    "make": "Renault",
+    "model": "Symbol",
+    "from": 2013,
+    "to": 2017
+   },
+   {
+    "make": "Renault",
+    "model": "Trafic",
+    "from": 2014,
+    "to": 2021
+   },
+   {
+    "make": "Renault",
+    "model": "Twingo",
+    "from": 2014,
+    "to": 2023
+   },
+   {
+    "make": "Smart",
+    "model": "453",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Smart",
+    "model": "ForFour",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Smart",
+    "model": "Fortwo",
+    "from": 2014,
+    "to": 2018
+   },
+   {
+    "make": "Vauxhall",
+    "model": "Vivaro",
+    "from": 2015,
+    "to": 2019
+   }
+  ]
+ }
 }
