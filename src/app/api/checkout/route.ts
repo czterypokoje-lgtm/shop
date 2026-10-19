@@ -16,7 +16,6 @@ import {
   servicesFor,
   type ServiceOption,
 } from '@/lib/services';
-import { PAYMENT_METHODS } from '@/lib/payments';
 import { isB2B } from '@/lib/b2b';
 import { rateLimit, rateLimitConfigured, getClientIp, tooManyRequests } from '@/lib/rateLimit';
 
@@ -76,7 +75,6 @@ const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const POSTCODE_NL = /^[1-9]\d{3}\s?[A-Za-z]{2}$/;
 const POSTCODE_BE = /^[1-9]\d{3}$/;
 
-const METHODS = PAYMENT_METHODS.map((m) => m.id);
 
 export async function POST(request: Request) {
   // An unthrottled order endpoint in production is a config error, not a
@@ -305,7 +303,8 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         amount: { currency: 'EUR', value: totalInc.toFixed(2) },
         description: `Autosleutel24 ${order.order_number}`,
-        method: METHODS,
+        // No method list: Mollie shows whatever is switched on in the profile. Asking for one that is
+        // not active (e.g. creditcard before approval) made Mollie refuse the whole payment.
         locale: 'nl_NL',
         redirectUrl: `${base}/bedankt?order=${order.order_number}`,
         // Mollie refuses a webhook it cannot reach; locally the webhook is called by hand.
@@ -316,9 +315,12 @@ export async function POST(request: Request) {
     });
 
     if (!payment.ok) {
-      console.error('Mollie rejected the payment', await payment.text());
+      const reason = await payment.text();
+      console.error('Mollie rejected the payment', reason);
       await supabase.from('orders').update({ status: 'cancelled' }).eq('id', order.id);
-      return NextResponse.json({ error: 'Betaling kon niet worden gestart' }, { status: 502 });
+      // Mollie's own title (e.g. "Unauthorized request") helps whoever reads the error; no key or customer data in it.
+      const title = (() => { try { return JSON.parse(reason).title as string; } catch { return ''; } })();
+      return NextResponse.json({ error: 'Betaling kon niet worden gestart', mollie: title || undefined }, { status: 502 });
     }
 
     createdId = null; // a payment exists now: never cancel this order from here on

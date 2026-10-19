@@ -108,9 +108,9 @@ export default function CheckoutForm({
       const json = await res.json();
 
       if (!res.ok) {
-        track('checkout_error', { reason: String(json.error ?? res.status).slice(0, 100), status: res.status });
+        track('checkout_error', { reason: String(json.mollie ?? json.error ?? res.status).slice(0, 100), status: res.status });
         tagSession('checkout_error', res.status);
-        setError(json.error ?? 'Er ging iets mis. Probeer het opnieuw.');
+        setError(json.mollie ? `${json.error} (${json.mollie})` : (json.error ?? 'Er ging iets mis. Probeer het opnieuw.'));
         setBusy(false);
         return;
       }
