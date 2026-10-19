@@ -34,6 +34,7 @@ import {
   spellMake,
   tidyFrequency,
   tidyChip,
+  chipsIn,
   buttonCount,
   buttonLabel,
   tidyBlade,
@@ -55,7 +56,9 @@ const autosleutels = existsSync(AUTOSLEUTELS) ? JSON.parse(readFileSync(AUTOSLEU
 const BATTERY_FAMILY = existsSync(path.join(process.cwd(), 'src/data/battery-by-family.json')) ? JSON.parse(readFileSync(path.join(process.cwd(), 'src/data/battery-by-family.json'), 'utf8')) : {};
 /* auto-sleutel.nl (with permission): model list, years and battery only — never photos or text. */
 const AUTOSLEUTEL_NL = path.join(process.cwd(), 'src/data/autosleutel-nl-matches.json');
-for (const [slug, e] of Object.entries(existsSync(AUTOSLEUTEL_NL) ? JSON.parse(readFileSync(AUTOSLEUTEL_NL, 'utf8')) : {})) {
+const FITMENT_MANUAL = path.join(process.cwd(), 'src/data/fitment-manual.json');
+const extraFitment = (file) => Object.entries(existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : {}).filter(([k]) => k !== '_doc');
+for (const [slug, e] of [...extraFitment(AUTOSLEUTEL_NL), ...extraFitment(FITMENT_MANUAL)]) {
   const a = (autosleutels[slug] ??= { fitment: [] });
   a.fitment = [...(a.fitment ?? []), ...e.fitment];
   a.battery ??= e.battery;
@@ -231,8 +234,8 @@ const costOf = (price) => {
 
 const SPEC_LABELS = [
   ['Frequentie', (p) => tidyFrequency(p.frequency)],
-  ['Transponder', (p) => tidyChip(p.transponder)],
-  ['Aantal knoppen', (p) => buttonLabel(p.buttons)],
+  ['Transponder', (p) => chipOf(p)],
+  ['Aantal knoppen', (p) => buttonLabel(p.buttons) ?? buttonsOf(p)?.toString() ?? null],
   ['Sleutelbaard', (p) => tidyBlade(p.blade)],
   ['Sleutelrohling', (p) => p.blank],
   ['Printplaat', (p) => p.boardNumber],
@@ -267,9 +270,23 @@ const translateMaterial = (value) => {
 // A-Key's spec fields bleed into each other ("schwarz Material: hochwertiger Kunststoff"):
 // keep the part before the next label, drop a value that is only another label.
 const NEXT_LABEL = /\s*\b(?:Material|Farbe|Anzahl der Tasten|Produkttyp|Funkeinheit|Transponder)\s*:.*$/is;
+// The button field, else the count A-Key writes in the title ("3 Tasten"), else in the text.
+const BUTTONS_IN = /\b([1-6])[\s-]?(?:Tasten|Knöpfe|btn|buttons?)\b/i;
+const buttonsOf = (product) =>
+  buttonCount(product.buttons) ??
+  (Number(product.title?.match(BUTTONS_IN)?.[1] ?? (product.description ?? []).join(' ').match(BUTTONS_IN)?.[1]) || null);
+
+// The chip field first; for keys and chips whose field is empty, the type named in A-Key's title or text.
+const CHIP_CATEGORIES = new Set(['afstandsbedieningen', 'smart-keys', 'transpondersleutels', 'transponders', 'printplaten', 'universal-remotes', 'motorsleutels']);
+function chipOf(product, filed = classification.filed[product.slug]) {
+  const own = tidyChip(product.transponder);
+  if (own || /^\s*ohne\s*$/i.test(product.transponder ?? '')) return own;
+  return CHIP_CATEGORIES.has(filed?.category) ? chipsIn(product.title, product.description ?? [], product.frequency ?? '') : null;
+}
+
 const specsFor = (p) =>
   SPEC_LABELS.map(([label, read]) => [label, read(p)])
-    .map(([label, value]) => [label, value && dutchify(String(value).replace(NEXT_LABEL, '').replace(/[,;]\s*$/, ''))])
+    .map(([label, value]) => [label, value && dutchify(String(value).replace(NEXT_LABEL, '').replace(/\s*\bKein\b.*$/is, '').replace(/[,;]\s*$/, ''))])
     .filter(([, value]) => value && !STILL_GERMAN.test(value));
 
 /**
@@ -597,9 +614,9 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
     makes,
     manufacturer: manufacturerOf(text),
     condition: 'aftermarket',
-    buttons: buttonCount(product.buttons),
+    buttons: buttonsOf(product),
     frequency: tidyFrequency(product.frequency),
-    chip: tidyChip(product.transponder),
+    chip: chipOf(product, filed),
     blade: tidyBlade(product.blade),
     battery: batteryCode ? `cr${batteryCode}` : (autosleutels[slug.toLowerCase()]?.battery ?? BATTERY_FAMILY[slug.toLowerCase()])?.toLowerCase() ?? null,
     costPrice: cost,
@@ -660,7 +677,7 @@ for (const p of products) {
     const re = new RegExp(`(?<![A-Za-z0-9])${esc(from)}(?![A-Za-z0-9])`, 'gi');
     // A blade's number is its profile (HU83): the fit depends on it, so the text keeps it; only the article number changes.
     const flat = (x) => String(x ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
-    const isProfile = ['sleutelbaarden', 'noodsleutels'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
+    const isProfile = ['sleutelbaarden', 'noodsleutels', 'transponders'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
     if (!isProfile) for (const k of ['titleNl', 'descriptionNl', 'metaDescriptionNl', 'directAnswer', 'supplierNote']) if (typeof p[k] === 'string') p[k] = p[k].replace(re, to);
     p.specs = p.specs.map(([l, v]) => [l, l === 'Artikelnummer' ? to : isProfile ? v : String(v).replace(re, to)]);
     p.supplierCode = from;

@@ -477,8 +477,26 @@ const NOT_A_CHIP = /^(kein|keine|nein|ohne|nicht|siehe|-|n\.?v\.?)\b/i;
 const CHIP_PROSE =
   /\b(wird|werden|kann|muss|ist|sind|bei|der|die|das|dem|den|nicht|im|Lieferumfang|enthalten|geliefert|erforderlich|vorbereitet|Generierung)\b/i;
 
+/** Chip types by name — what a customer or locksmith matches a key on. */
+const CHIP_TYPE = /\b(PCF\s?79\d{2}[A-Z]{0,3}|NCF\s?29\d{2}[A-Z]?|Hitag[\s-]?(?:2|3|AES|Pro|Extended)|Megamos(?:\s?(?:Crypto|AES|48|13))?|ID\s?-?(?:4[0-9][A-Z]?|1[1-3]|33|4C|4D|4E|8A|8E)|4D\s?-?(?:6[0-9]|7[0-9]|8[0-9])|Texas\s?(?:Crypto|4D)|DST\s?(?:40|80|AES)|XT27[AB]?|XM38|T5|8A|4C|4E)\b/gi;
+const NO_CHIP_HERE = /leergeh|\bohne\b|nicht im|\bkein|not included|without|zonder/i;
+
+/** "PCF7945A / PCF 7953A - HITAG2 46 Crypto WR" → "PCF7945A / PCF7953A / HITAG2". Skips lines saying the chip is absent. */
+export const chipsIn = (...texts) => {
+  const found = [];
+  for (const line of texts.flat().flatMap((t) => String(t ?? '').split(/\s*\|\s*|\n/))) {
+    if (NO_CHIP_HERE.test(line)) continue;
+    for (const m of line.matchAll(CHIP_TYPE)) {
+      const chip = m[1].replace(/\s+/g, '').replace(/^(PCF|NCF)/i, (x) => x.toUpperCase()).replace(/^HITAG/i, 'HITAG').replace(/^4D-?/i, '4D');
+      if (!found.some((f) => f.toUpperCase() === chip.toUpperCase())) found.push(chip);
+    }
+  }
+  return found.length ? found.join(' / ') : null;
+};
+
 export const tidyChip = (value) => {
   if (!value) return null;
+  if (String(value).replace(/\s+/g, ' ').trim().length > 40) return chipsIn(value);
   let cleaned = String(value).replace(/\s+/g, ' ').trim();
   if (NOT_A_CHIP.test(cleaned)) return null;
   // "PCF7936 (wird mit Superchip geliefert)" — keep the chip, drop the aside.
@@ -491,8 +509,9 @@ export const tidyChip = (value) => {
     .replace(/\bModell f[üu]r\b/gi, 'model voor')
     .replace(/\s{2,}/g, ' ')
     .trim();
-  if (!cleaned || cleaned.length > 40) return null;
-  return CHIP_PROSE.test(cleaned) ? null : cleaned;
+  if (!cleaned) return null;
+  // "Farbe: schwarz" is the next field run into this one, not a chip.
+  return CHIP_PROSE.test(cleaned) || cleaned.includes(':') ? chipsIn(cleaned) : cleaned;
 };
 
 /** Same treatment for the key blade: "mit" and "ohne" are not profiles. */

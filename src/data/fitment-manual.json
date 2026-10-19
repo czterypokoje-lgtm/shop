@@ -1,0 +1,7 @@
+{
+  "_doc": "Hand-checked against A-Key's own text where their wording hides the make. Same format as autosleutel-nl-matches.json.",
+  "su25p-canas-fahrzeugschluessel": { "source": "A-Key: 'div. Suzukimodelle u.a.'", "fitment": [{ "make": "Suzuki", "model": null, "from": null, "to": null }] },
+  "va2-c-notschluessel-schluesselblatt-fuer-psa": { "source": "A-Key: 'Smartkey für z.B.: Citoen C4 & DS5'", "fitment": [{ "make": "Citroën", "model": "C4", "from": null, "to": null }, { "make": "Citroën", "model": "DS5", "from": null, "to": null }] },
+  "hu83-man-leergehaeuse-kompatibel-fuer-man": { "source": "A-Key title: 'kompatibel für MAN'", "fitment": [{ "make": "MAN", "model": null, "from": null, "to": null }] },
+  "nsn14a-notschluessel-fuer-smartkeycard": { "source": "A-Key: 'folgende Smartcards: RNR133' (Renault card)", "fitment": [{ "make": "Renault", "model": null, "from": null, "to": null }] }
+}

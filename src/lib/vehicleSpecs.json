@@ -1482,7 +1482,6 @@
   "to": 9999,
   "chips": [
    "4D",
-   "Electronic Chip FSK / OE: BCYB-67-5DY",
    "PCF7953P",
    "PCF7953P - Hitag Pro - Type 3"
   ],
@@ -1590,7 +1589,7 @@
   "to": 9999,
   "chips": [
    "NCF29A1M - HITAG AES - ID4A - 128Bits",
-   "Farbe: schwarz",
+   "PCF7936 / 4D60",
    "PCF7961M Type 4",
    "PCF7946 HITAG-AES"
   ],
@@ -1845,6 +1844,7 @@
   "from": 2003,
   "to": 9999,
   "chips": [
+   "PCF7945A / PCF7953A / HITAG2",
    "PCF7936 / HITAG2 / 46 Crypto WR",
    "PCF7945A / PCF7953A / HITAG2 / 46",
    "PCF7941",
@@ -2914,6 +2914,7 @@
   "chips": [
    "NCF2952X - HITAG3",
    "NCF2952X / HITAG3",
+   "PCF7945A / HITAG2",
    "ID47",
    "NCF2951X 47",
    "DST 80 BIT - Typ 60 WR",
@@ -3089,8 +3090,7 @@
   "from": 2017,
   "to": 9999,
   "chips": [
-   "NCF29A1M - Type E - HITAG AES - 4A",
-   "Farbe: schwarz / silber"
+   "NCF29A1M - Type E - HITAG AES - 4A"
   ],
   "blades": [
    "HU134",
@@ -3410,9 +3410,10 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 6,
+  "count": 7,
   "categories": {
    "afstandsbedieningen": 2,
+   "noodsleutels": 1,
    "behuizingen": 3,
    "accessoires": 1
   }
@@ -3746,7 +3747,7 @@
   "from": 2014,
   "to": 9999,
   "chips": [
-   "Electronic Chip M3N - A2C31243800",
+   "PCF7953P",
    "PCF7953P HITAG Pro",
    "PCF7953P- ID49",
    "4D63",
@@ -5322,7 +5323,8 @@
   "from": 2012,
   "to": 2020,
   "chips": [
-   "ID49"
+   "ID49",
+   "PCF7945A / PCF7953A / HITAG2"
   ],
   "blades": [],
   "frequencies": [
@@ -5396,7 +5398,7 @@
   "from": 2016,
   "to": 9999,
   "chips": [
-   "Electronic Chip M3N - A2C31243800",
+   "PCF7953P",
    "PCF7953P HITAG Pro",
    "PCF7953P- ID49",
    "PCF7953P / ID49",
@@ -5422,7 +5424,7 @@
   "from": 2015,
   "to": 2017,
   "chips": [
-   "Electronic Chip M3N - A2C31243800"
+   "PCF7953P"
   ],
   "blades": [
    "HU101"
@@ -5441,7 +5443,7 @@
   "from": 2015,
   "to": 2017,
   "chips": [
-   "Electronic Chip M3N - A2C31243800"
+   "PCF7953P"
   ],
   "blades": [
    "HU101"
@@ -5812,7 +5814,9 @@
   "model": "S60",
   "from": 2010,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / HITAG2"
+  ],
   "blades": [
    "incl. Notschlüssel"
   ],
@@ -5830,7 +5834,9 @@
   "model": "S80",
   "from": 2007,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / HITAG2"
+  ],
   "blades": [
    "incl. Notschlüssel"
   ],
@@ -5861,7 +5867,9 @@
   "model": "V40 Cross Country",
   "from": 2012,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / HITAG2"
+  ],
   "blades": [
    "incl. Notschlüssel"
   ],
@@ -5879,7 +5887,9 @@
   "model": "V60",
   "from": 2014,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / HITAG2"
+  ],
   "blades": [
    "incl. Notschlüssel"
   ],
@@ -5897,7 +5907,9 @@
   "model": "V70",
   "from": 1997,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / HITAG2"
+  ],
   "blades": [
    "incl. Notschlüssel"
   ],
@@ -6279,7 +6291,9 @@
   "model": "1-serie",
   "from": 9999,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / ID46"
+  ],
   "blades": [
    "HU92R"
   ],
@@ -6324,7 +6338,9 @@
   "model": "Astra K",
   "from": 2017,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7937 / NCF2951E / HITAG2"
+  ],
   "blades": [
    "HU100"
   ],
@@ -6549,6 +6565,26 @@
   "count": 1,
   "categories": {
    "smart-keys": 1
+  }
+ },
+ "Citroën DS5": {
+  "make": "Citroën",
+  "model": "DS5",
+  "from": 9999,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A - ID46 - Type 9"
+  ],
+  "blades": [
+   "VA2"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "noodsleutels": 1,
+   "afstandsbedieningen": 1
   }
  },
  "Ford Mondeo Vignale": {
@@ -7727,7 +7763,7 @@
   "from": 2003,
   "to": 2012,
   "chips": [
-   "Farbe: schwarz"
+   "PCF7936 / 4D60"
   ],
   "blades": [],
   "frequencies": [
@@ -7745,7 +7781,7 @@
   "from": 2006,
   "to": 9999,
   "chips": [
-   "Farbe: schwarz"
+   "PCF7936 / 4D60"
   ],
   "blades": [],
   "frequencies": [
@@ -7808,7 +7844,7 @@
   "to": 2016,
   "chips": [
    "ID46 - HITAG2",
-   "Chip: ID46 - HITAG2 Chip: PCF7961 , 7941"
+   "ID46 / HITAG2 / PCF7961"
   ],
   "blades": [
    "CY16",
@@ -8019,6 +8055,7 @@
   "to": 9999,
   "chips": [
    "ID46 Crypto / PCF 7945A",
+   "PCF7945A / PCF7953A / ID46",
    "PCF7945A",
    "7935"
   ],
@@ -8072,7 +8109,9 @@
   "model": "Psa",
   "from": 9999,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7939MA"
+  ],
   "blades": [],
   "frequencies": [],
   "count": 1,
@@ -8085,7 +8124,9 @@
   "model": "Psa",
   "from": 9999,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7939MA"
+  ],
   "blades": [],
   "frequencies": [],
   "count": 1,
@@ -8098,7 +8139,9 @@
   "model": "Psa",
   "from": 9999,
   "to": 9999,
-  "chips": [],
+  "chips": [
+   "PCF7939MA"
+  ],
   "blades": [],
   "frequencies": [],
   "count": 1,
@@ -8882,6 +8925,7 @@
   "from": 1995,
   "to": 9999,
   "chips": [
+   "PCF7945A / PCF7953A / ID46",
    "7935"
   ],
   "blades": [
@@ -8947,7 +8991,9 @@
   "model": "XK",
   "from": 9999,
   "to": 0,
-  "chips": [],
+  "chips": [
+   "PCF7945A / PCF7953A / HITAG2"
+  ],
   "blades": [],
   "frequencies": [
    "434 MHz"
@@ -11029,25 +11075,6 @@
  "Citroën DS4": {
   "make": "Citroën",
   "model": "DS4",
-  "from": 9999,
-  "to": 9999,
-  "chips": [
-   "PCF7945A / PCF7953A - ID46 - Type 9"
-  ],
-  "blades": [
-   "VA2"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 1,
-  "categories": {
-   "afstandsbedieningen": 1
-  }
- },
- "Citroën DS5": {
-  "make": "Citroën",
-  "model": "DS5",
   "from": 9999,
   "to": 9999,
   "chips": [
