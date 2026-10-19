@@ -11,12 +11,12 @@ import { PAYMENT_METHODS as METHODS } from '@/lib/payments';
  */
 
 /** Who we hand the parcel to. Never list a carrier we do not actually ship with. */
-const CARRIERS = [
+export const CARRIERS = [
   { id: 'dhl', label: 'DHL' }, { id: 'postnl', label: 'PostNL' }, { id: 'ups', label: 'UPS' }, { id: 'gls', label: 'GLS' },
 ];
 
 /* Official vector logos (public/images/logos); "creditcard" at Mollie is Visa and Mastercard. */
-const LOGOS: Record<string, { id: string; label: string }[]> = {
+export const LOGOS: Record<string, { id: string; label: string }[]> = {
   ideal: [{ id: 'ideal', label: 'iDEAL' }],
   bancontact: [{ id: 'bancontact', label: 'Bancontact' }],
   creditcard: [{ id: 'visa', label: 'Visa' }, { id: 'mastercard', label: 'Mastercard' }],
