@@ -826,17 +826,6 @@ for (const p of products) {
   if (!p.image) p.cleanPhoto = false;
 }
 
-// A €1 product for a live payment test: reachable only by its URL, no shipping cost (TEST_SLUG in src/lib/catalog.ts).
-// ponytail: remove this block (and TEST_SLUG) after the test.
-products.push({
-  id: 'TEST1', slug: 'testproduct-1-euro', urlSlug: 'testproduct-1-euro', supplierSlug: 'testproduct-1-euro', audience: 'public', hidden: true,
-  title: 'Testproduct', titleNl: 'Testproduct €1 (alleen voor een betaaltest)', category: 'accessoires', subcategory: null, makes: [],
-  manufacturer: null, condition: 'aftermarket', buttons: null, frequency: null, chip: null, blade: null, battery: null,
-  costPrice: 0.5, fixedPrice: 1, marketPrice: null, image: null, images: [], cleanPhoto: false, fitment: [], excerpt: '',
-  descriptionNl: '<p>Alleen bedoeld om een echte betaling te testen. Er wordt niets verzonden.</p>', directAnswer: 'Testproduct voor een betaaltest.',
-  metaDescriptionNl: 'Testproduct.', specs: [], vehiclesRaw: null, replacedBy: null, supplierNote: null, articleCode: 'TEST1', crossReferences: null, needsCheck: null, inStock: true,
-});
-
 // Two articles, one name: the article code tells them apart.
 {
   const seen = new Map();

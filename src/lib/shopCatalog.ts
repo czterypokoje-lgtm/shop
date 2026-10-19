@@ -133,7 +133,7 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
   const manual =
     override?.price_override !== null && override?.price_override !== undefined;
 
-  const price = manual ? Number(override!.price_override) : product.fixedPrice ?? shelfPrice(cost, product.marketPrice);
+  const price = manual ? Number(override!.price_override) : shelfPrice(cost, product.marketPrice);
 
   const tracked = override?.track_stock === true;
   const quantity = tracked ? Number(override!.stock_quantity) : null;
@@ -178,12 +178,11 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
 
 /** Everything for sale to this audience. Products set to unpublished are gone. */
 export async function getShopProducts(
-  audience: Audience | 'all' = 'public',
-  withHidden = false
+  audience: Audience | 'all' = 'public'
 ): Promise<ShopProduct[]> {
   const map = await overrides();
   // Only what we can ship within 2-3 days: no listing, no page, for anything else.
-  return getProducts(audience, withHidden)
+  return getProducts(audience)
     .filter((p) => map.get(p.supplierSlug ?? p.slug)?.published !== false)
     .map((p) => merge(p, map.get(p.supplierSlug ?? p.slug)))
     .filter((p) => p.inStock);

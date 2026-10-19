@@ -180,8 +180,7 @@ export function priceCart(lines: CartLine[], lookup: Lookup): CartTotals {
   }
 
   const subtotalInc = Math.round(priced.reduce((s, l) => s + l.lineTotal, 0) * 100) / 100;
-  const onlyTest = priced.length > 0 && priced.every((l) => l.slug === 'testproduct-1-euro');
-  const shipping = priced.length && !onlyTest ? shippingFor(subtotalInc) : 0;
+  const shipping = priced.length ? shippingFor(subtotalInc) : 0;
   const totalInc = Math.round((subtotalInc + shipping) * 100) / 100;
   const totalExVat = Math.round((totalInc / (1 + VAT_RATE)) * 100) / 100;
 

@@ -42,7 +42,6 @@ export async function generateMetadata(
   const { slug } = await props.params;
   const entry = await getShopProductBySlug(slug);
   const url = `${SITE_CONFIG.domain}/product/${entry?.urlSlug ?? slug}`;
-  if (entry?.hidden) return { title: { absolute: entry.titleNl }, robots: { index: false, follow: false } };
 
   if (!entry) {
     return { title: { absolute: 'Product niet gevonden | Autosleutel24' } };
