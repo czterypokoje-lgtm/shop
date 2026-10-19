@@ -85,11 +85,11 @@ export default function MerkenPage() {
           </section>
         ))}
         {/* Required by the CC licences: who took each photo, under which licence. */}
-        <details className="brand-credits">
+        <details className="brand-credits" id="fotos">
           <summary>Foto&apos;s: Wikimedia Commons</summary>
           <p>
             {Object.values(credits as Record<string, { model: string; author: string; license: string; source: string }>).map((c, i) => (
-              <span key={c.source}>{i > 0 && ' · '}<a href={c.source} rel="nofollow noopener" target="_blank">{c.model}</a> — {c.author}, {c.license}</span>
+              <span key={c.source}>{i > 0 && ' · '}<a href={c.source} rel="nofollow noopener" target="_blank">{c.model}</a> — {c.author}, {c.license}, achtergrond verwijderd</span>
             ))}
           </p>
         </details>

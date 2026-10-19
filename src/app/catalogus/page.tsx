@@ -89,7 +89,7 @@ export default async function CatalogPage({
   const heading = onlyCategory
     ? facetLabel('category', onlyCategory)
     : onlyMake
-      ? `${onlyMake} autosleutels en onderdelen`
+      ? `Autosleutels en onderdelen voor ${onlyMake}`
       : filters.make && filters.category
         ? `${facetLabel('category', filters.category)} voor ${filters.make}`
         : 'Catalogus';

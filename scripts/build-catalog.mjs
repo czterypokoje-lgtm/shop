@@ -472,7 +472,9 @@ const manufacturerOf = (text) => MANUFACTURERS.find(([, re]) => re.test(text))?.
  * The subcategory the classifier assigned is precise enough to gate on.
  */
 const TRADE_SUBCATEGORIES = new Set(['opengereedschap']);
-const TRADE_TITLE = /\b(pick|dietrich|aufsperr|lockpick|schlagschl[üu]ssel|bump)/i;
+// Key programmers, "All Keys Lost" kits and smart-key emulators make a car's keys without the car's keys:
+// trade only, like opening tools.
+const TRADE_TITLE = /\b(pick|dietrich|aufsperr|lockpick|schlagschl[üu]ssel|bump|emulator|g-?box|all keys lost|akl|reflash|key ?master|kw100|key tool|obd)/i;
 
 /**
  * Stock that stays out of the shop window.
@@ -487,7 +489,7 @@ const TRADE_TITLE = /\b(pick|dietrich|aufsperr|lockpick|schlagschl[üu]ssel|bump
  * Gated rather than dropped: the articles keep their category, their photo and
  * their price, and appear for a signed-in business account.
  */
-const TRADE_CATEGORIES = new Set(['woningsleutels', 'sloten', 'sleutelmachines', 'frezen-en-tasters']);
+const TRADE_CATEGORIES = new Set(['woningsleutels', 'sloten', 'sleutelmachines', 'frezen-en-tasters', 'programmeerapparatuur']);
 
 /*
  * Words from A-Key's page that the fitment reader takes for a model:
@@ -657,6 +659,22 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
  * through accessfobs-photo-matches.json (see loadPhotoOverrides above).
  */
 
+/* ── brand names only as "geschikt voor" ────────────────────────────────
+ * "Opel afstandsbediening" reads as an Opel part; these are aftermarket. A car
+ * maker's name may only say what a part fits (EUTMR art. 14(1)(c)), so every
+ * title names the part first: "Afstandsbediening voor Opel …".
+ */
+const PART = /^(.+?) (afstandsbediening|sleutelbehuizing|smart key|transpondersleutel|noodsleutel|printplaat|sleutel zonder chip|autosleutel|sleutelbaard|sleutelpunt|motorsleutel|universele afstandsbediening|universele sleutel|gereedschap|programmeerapparaat|transponder|accessoire|batterij)\b(.*)$/;
+const TOOL_MAKERS = /^(Xhorse|KeyDIY|Autel|Lonsdor|OBDSTAR|Silca|Keyline|JMA|Börkey)\b\s*/;
+for (const p of products) {
+  const m = p.titleNl.match(PART);
+  if (!m || !p.makes.some((mk) => m[1].includes(mk))) continue;
+  const maker = m[1].match(TOOL_MAKERS)?.[0] ?? '';
+  const car = m[1].slice(maker.length).trim();
+  const part = m[2][0].toUpperCase() + m[2].slice(1);
+  p.titleNl = `${maker}${maker ? m[2] : part}${car ? ` voor ${car}` : ''}${m[3]}`.replace(/\s{2,}/g, ' ');
+}
+
 /* ── our own article numbers ───────────────────────────────────────────
  * Customers see our code, not the supplier's: first two and last two
  * characters swapped (OPR151HU43 → 43R151HUOP). The supplier's number stays
@@ -664,9 +682,10 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
  * makers (Xhorse, KeyDIY, …) are theirs and public, so they stay as they are.
  */
 const MAKER_CODES = new Set(['Xhorse', 'KeyDIY', 'Autel', 'Lonsdor', 'OBDSTAR', 'Zed-FULL']);
-const swapEnds = (c) => (c.length >= 4 ? c.slice(-2) + c.slice(2, -2) + c.slice(0, 2) : [...c].reverse().join(''));
+// Letters and digits only: "KS-9" swapped with its hyphen read as "-9KS".
+const swapEnds = (raw) => { const c = raw.replace(/[^A-Za-z0-9]/g, '').toUpperCase(); return c.length >= 4 ? c.slice(-2) + c.slice(2, -2) + c.slice(0, 2) : [...c].reverse().join(''); };
 // "KLA04KL" swaps into itself: then the whole code is reversed. ("AAA" stays — a battery size, not a number.)
-export const ownCode = (c) => (swapEnds(c) !== c ? swapEnds(c) : [...c].reverse().join(''));
+export const ownCode = (c) => { const sw = swapEnds(c); return sw !== c.replace(/[^A-Za-z0-9]/g, '').toUpperCase() ? sw : [...sw].reverse().join(''); };
 const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const SUPPLIER_NAME = /\s*\bA[\s-]?Key\b\s*/gi;
 for (const p of products) {
@@ -677,7 +696,8 @@ for (const p of products) {
     const re = new RegExp(`(?<![A-Za-z0-9])${esc(from)}(?![A-Za-z0-9])`, 'gi');
     // A blade's number is its profile (HU83): the fit depends on it, so the text keeps it; only the article number changes.
     const flat = (x) => String(x ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
-    const isProfile = ['sleutelbaarden', 'noodsleutels', 'transponders'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
+    // Tools are sold by their maker's model name (T-300+, AK90+): that name stays, only the article number changes.
+    const isProfile = ['sleutelbaarden', 'noodsleutels', 'transponders', 'programmeerapparatuur', 'gereedschap', 'accessoires'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
     if (!isProfile) for (const k of ['titleNl', 'descriptionNl', 'metaDescriptionNl', 'directAnswer', 'supplierNote']) if (typeof p[k] === 'string') p[k] = p[k].replace(re, to);
     p.specs = p.specs.map(([l, v]) => [l, l === 'Artikelnummer' ? to : isProfile ? v : String(v).replace(re, to)]);
     p.supplierCode = from;

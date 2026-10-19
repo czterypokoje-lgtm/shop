@@ -5,31 +5,27 @@
  },
  {
   "make": "Opel",
-  "count": 109
+  "count": 108
  },
  {
   "make": "Renault",
-  "count": 103
+  "count": 104
  },
  {
   "make": "Toyota",
-  "count": 100
- },
- {
-  "make": "Ford",
-  "count": 79
+  "count": 95
  },
  {
   "make": "Citroën",
+  "count": 79
+ },
+ {
+  "make": "Ford",
   "count": 78
  },
  {
   "make": "Kia",
   "count": 74
- },
- {
-  "make": "BMW",
-  "count": 72
  },
  {
   "make": "Honda",
@@ -40,20 +36,24 @@
   "count": 69
  },
  {
+  "make": "BMW",
+  "count": 68
+ },
+ {
   "make": "Volkswagen",
-  "count": 67
+  "count": 66
  },
  {
   "make": "Fiat",
-  "count": 64
+  "count": 65
  },
  {
   "make": "Mercedes-Benz",
-  "count": 64
+  "count": 59
  },
  {
   "make": "Chrysler",
-  "count": 55
+  "count": 53
  },
  {
   "make": "Nissan",
@@ -61,7 +61,7 @@
  },
  {
   "make": "Audi",
-  "count": 38
+  "count": 37
  },
  {
   "make": "Dacia",
@@ -69,18 +69,18 @@
  },
  {
   "make": "Seat",
-  "count": 32
+  "count": 33
  },
  {
   "make": "Škoda",
-  "count": 32
- },
- {
-  "make": "Lexus",
-  "count": 30
+  "count": 33
  },
  {
   "make": "Suzuki",
+  "count": 30
+ },
+ {
+  "make": "Lexus",
   "count": 29
  },
  {
@@ -92,12 +92,12 @@
   "count": 25
  },
  {
-  "make": "Land Rover",
-  "count": 25
- },
- {
   "make": "Yamaha",
   "count": 24
+ },
+ {
+  "make": "Land Rover",
+  "count": 23
  },
  {
   "make": "Volvo",
@@ -120,20 +120,20 @@
   "count": 15
  },
  {
-  "make": "Mini",
-  "count": 14
+  "make": "Subaru",
+  "count": 13
  },
  {
   "make": "Jeep",
-  "count": 13
+  "count": 12
+ },
+ {
+  "make": "Mini",
+  "count": 11
  },
  {
   "make": "Smart",
-  "count": 13
- },
- {
-  "make": "Subaru",
-  "count": 13
+  "count": 11
  },
  {
   "make": "Jaguar",
@@ -144,11 +144,11 @@
   "count": 10
  },
  {
-  "make": "Dodge",
-  "count": 9
+  "make": "Daewoo",
+  "count": 8
  },
  {
-  "make": "Daewoo",
+  "make": "Dodge",
   "count": 8
  },
  {
@@ -236,11 +236,19 @@
   "count": 1
  },
  {
+  "make": "MAN",
+  "count": 1
+ },
+ {
   "make": "Maserati",
   "count": 1
  },
  {
   "make": "MG",
+  "count": 1
+ },
+ {
+  "make": "Vauxhall",
   "count": 1
  }
 ]

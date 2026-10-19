@@ -70,6 +70,7 @@ export function HomeBrands({ products }: { products: Products }) {
             </Link>
           ))}
         </div>
+        <p className={s.credit}>Foto&apos;s: Wikimedia Commons (CC BY / CC BY-SA), bewerkt — <Link href="/merken#fotos">bronvermelding</Link></p>
       </div>
     </section>
   );

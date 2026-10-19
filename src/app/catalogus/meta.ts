@@ -38,7 +38,7 @@ export function catalogMetadata(sp: Params, path?: string): Metadata {
   const title = onlyCategory
     ? `${facetLabel('category', f.category!)} kopen`
     : onlyMake
-      ? `${f.make} autosleutels en onderdelen`
+      ? `Autosleutels en onderdelen voor ${f.make}`
       : f.make && f.category
         ? `${facetLabel('category', f.category)} voor ${f.make}`
         : 'Catalogus — autosleutels en onderdelen';

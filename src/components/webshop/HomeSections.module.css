@@ -100,3 +100,6 @@
   .bandItem svg { width: 48px; height: 48px; }
   .bandBottom { grid-template-columns: 1fr; padding: 1rem; gap: 1rem; }
 }
+
+.credit { margin: .5rem 0 0; font-size: .72rem; color: #94a3b8; }
+.credit a { color: inherit; }

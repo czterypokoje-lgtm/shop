@@ -3,11 +3,10 @@
   "make": "Toyota",
   "model": "Land Cruiser",
   "from": 2007,
-  "to": 9999,
+  "to": 2024,
   "chips": [
    "8A",
-   "DST 80Bit - Plus",
-   "4A"
+   "DST 80Bit - Plus"
   ],
   "blades": [
    "met noodsleutel",
@@ -17,11 +16,10 @@
    "433.58 / 434.42 MHz",
    "433 MHz"
   ],
-  "count": 5,
+  "count": 4,
   "categories": {
    "afstandsbedieningen": 2,
    "printplaten": 1,
-   "accessoires": 1,
    "behuizingen": 1
   }
  },
@@ -101,7 +99,6 @@
   "to": 9999,
   "chips": [
    "DST 80Bit - Plus",
-   "4A",
    "DST 80Bit - Plus 6F - TMS37126",
    "DST 80 BIT"
   ],
@@ -112,10 +109,9 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 6,
+  "count": 5,
   "categories": {
    "afstandsbedieningen": 2,
-   "accessoires": 1,
    "smart-keys": 2,
    "behuizingen": 1
   }
@@ -142,12 +138,11 @@
  "Toyota Crown": {
   "make": "Toyota",
   "model": "Crown",
-  "from": 2018,
+  "from": 2022,
   "to": 9999,
   "chips": [
    "8A - AA",
-   "8A",
-   "4A"
+   "8A"
   ],
   "blades": [
    "met noodsleutel"
@@ -155,21 +150,19 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 3,
+  "count": 2,
   "categories": {
    "afstandsbedieningen": 1,
-   "printplaten": 1,
-   "accessoires": 1
+   "printplaten": 1
   }
  },
  "Toyota C-HR": {
   "make": "Toyota",
   "model": "C-HR",
   "from": 2018,
-  "to": 9999,
+  "to": 2022,
   "chips": [
-   "8A",
-   "4A"
+   "8A"
   ],
   "blades": [
    "met noodsleutel"
@@ -177,20 +170,18 @@
   "frequencies": [
    "433.42 / 433.58 MHz"
   ],
-  "count": 2,
+  "count": 1,
   "categories": {
-   "afstandsbedieningen": 1,
-   "accessoires": 1
+   "afstandsbedieningen": 1
   }
  },
  "Toyota RAV4": {
   "make": "Toyota",
   "model": "RAV4",
   "from": 2010,
-  "to": 9999,
+  "to": 2024,
   "chips": [
    "8A",
-   "4A",
    "DST 4D"
   ],
   "blades": [
@@ -199,10 +190,9 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 8,
+  "count": 7,
   "categories": {
    "afstandsbedieningen": 2,
-   "accessoires": 1,
    "behuizingen": 4,
    "smart-keys": 1
   }
@@ -325,723 +315,16 @@
  "Toyota Vellfire": {
   "make": "Toyota",
   "model": "Vellfire",
-  "from": 2018,
-  "to": 9999,
+  "from": 2022,
+  "to": 2024,
   "chips": [
-   "8A",
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 2,
-  "categories": {
-   "printplaten": 1,
-   "accessoires": 1
-  }
- },
- "Toyota Corolla Cross": {
-  "make": "Toyota",
-  "model": "Corolla Cross",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
+   "8A"
   ],
   "blades": [],
   "frequencies": [],
   "count": 1,
   "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Corolla Sport": {
-  "make": "Toyota",
-  "model": "Corolla Sport",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Corolla Sport Hv": {
-  "make": "Toyota",
-  "model": "Corolla Sport Hv",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Corolla Touring": {
-  "make": "Toyota",
-  "model": "Corolla Touring",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Corolla Touring Hv": {
-  "make": "Toyota",
-  "model": "Corolla Touring Hv",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Corolla Hv": {
-  "make": "Toyota",
-  "model": "Corolla Hv",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Levin": {
-  "make": "Toyota",
-  "model": "Levin",
-  "from": 2019,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Levin Hv": {
-  "make": "Toyota",
-  "model": "Levin Hv",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Allion": {
-  "make": "Toyota",
-  "model": "Allion",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Highlander": {
-  "make": "Toyota",
-  "model": "Highlander",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Izoa": {
-  "make": "Toyota",
-  "model": "Izoa",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Alpharo": {
-  "make": "Toyota",
-  "model": "Alpharo",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Lexus Lc": {
-  "make": "Lexus",
-  "model": "Lc",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Rav4 Hv": {
-  "make": "Toyota",
-  "model": "Rav4 Hv",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Toyota Avalon": {
-  "make": "Toyota",
-  "model": "Avalon",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 2,
-  "categories": {
-   "accessoires": 1,
-   "behuizingen": 1
-  }
- },
- "Toyota Crown Kluger Hv": {
-  "make": "Toyota",
-  "model": "Crown Kluger Hv",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Lexus Es": {
-  "make": "Lexus",
-  "model": "Es",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Lexus Ux": {
-  "make": "Lexus",
-  "model": "Ux",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Lexus Rx": {
-  "make": "Lexus",
-  "model": "Rx",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Lexus Ls": {
-  "make": "Lexus",
-  "model": "Ls",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Renault Clio 5": {
-  "make": "Renault",
-  "model": "Clio 5",
-  "from": 2020,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Renault Captur": {
-  "make": "Renault",
-  "model": "Captur",
-  "from": 2013,
-  "to": 9999,
-  "chips": [
-   "4A",
-   "PCF7953M - AES"
-  ],
-  "blades": [
-   "VA2 / VA6"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 3,
-  "categories": {
-   "accessoires": 1,
-   "behuizingen": 1,
-   "smart-keys": 1
-  }
- },
- "Renault Arkana": {
-  "make": "Renault",
-  "model": "Arkana",
-  "from": 2020,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Renault Kangoo": {
-  "make": "Renault",
-  "model": "Kangoo",
-  "from": 1998,
-  "to": 9999,
-  "chips": [
-   "4A",
-   "PCF7946"
-  ],
-  "blades": [
-   "VAC102",
-   "NE73CI",
-   "NE73"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 16,
-  "categories": {
-   "accessoires": 1,
-   "afstandsbedieningen": 4,
-   "behuizingen": 11
-  }
- },
- "Renault Espace": {
-  "make": "Renault",
-  "model": "Espace",
-  "from": 2004,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 4,
-  "categories": {
-   "accessoires": 1,
-   "behuizingen": 3
-  }
- },
- "Renault Scenic": {
-  "make": "Renault",
-  "model": "Scenic",
-  "from": 1998,
-  "to": 9999,
-  "chips": [
-   "4A",
-   "PCF7946 / PCF7947 / PCF7961",
-   "PCF7946"
-  ],
-  "blades": [
-   "VA2",
-   "NE73"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 7,
-  "categories": {
-   "accessoires": 1,
-   "afstandsbedieningen": 2,
-   "behuizingen": 4
-  }
- },
- "Renault Zoe": {
-  "make": "Renault",
-  "model": "Zoe",
-  "from": 2020,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Renault Trafic": {
-  "make": "Renault",
-  "model": "Trafic",
-  "from": 2002,
-  "to": 9999,
-  "chips": [
-   "4A",
-   "7961M - NEW HITAG AES",
-   "PCF7961M - NEW HITAG AES",
-   "PCF7953M - AES",
-   "PCF7946"
-  ],
-  "blades": [
-   "VA2",
-   "HU136",
-   "VAC102",
-   "naar keuze",
-   "VA2 / VA6",
-   "NE73CI",
-   "NE73"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 19,
-  "categories": {
-   "accessoires": 1,
-   "afstandsbedieningen": 8,
-   "behuizingen": 9,
-   "smart-keys": 1
-  }
- },
- "Renault Megane 4 Ph2": {
-  "make": "Renault",
-  "model": "Megane 4 Ph2",
-  "from": 2021,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Dodge Charger": {
-  "make": "Dodge",
-  "model": "Charger",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Dodge Ram": {
-  "make": "Dodge",
-  "model": "Ram",
-  "from": 2019,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Dodge Challenger": {
-  "make": "Dodge",
-  "model": "Challenger",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Dodge Durango": {
-  "make": "Dodge",
-  "model": "Durango",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 2,
-  "categories": {
-   "accessoires": 2
-  }
- },
- "Dodge Journey": {
-  "make": "Dodge",
-  "model": "Journey",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Jeep Renegade Prox": {
-  "make": "Jeep",
-  "model": "Renegade Prox",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Jeep Renegade": {
-  "make": "Jeep",
-  "model": "Renegade",
-  "from": 2015,
-  "to": 9999,
-  "chips": [
-   "4A",
-   "Megamos AES",
-   "MEGAMOS AES"
-  ],
-  "blades": [
-   "SIP22"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 5,
-  "categories": {
-   "accessoires": 1,
-   "behuizingen": 2,
-   "afstandsbedieningen": 2
-  }
- },
- "Jeep Compass Blade": {
-  "make": "Jeep",
-  "model": "Compass Blade",
-  "from": 2019,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Jeep Compass Prox": {
-  "make": "Jeep",
-  "model": "Compass Prox",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Jeep Cherokee": {
-  "make": "Jeep",
-  "model": "Cherokee",
-  "from": 2014,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 3,
-  "categories": {
-   "accessoires": 1,
-   "behuizingen": 2
-  }
- },
- "Jeep Grand Cherokee": {
-  "make": "Jeep",
-  "model": "Grand Cherokee",
-  "from": 2008,
-  "to": 9999,
-  "chips": [
-   "4A",
-   "ID46 - HITAG2"
-  ],
-  "blades": [
-   "CY16"
-  ],
-  "frequencies": [
-   "433 MHz"
-  ],
-  "count": 7,
-  "categories": {
-   "accessoires": 1,
-   "behuizingen": 5,
-   "afstandsbedieningen": 1
-  }
- },
- "Jeep Wrangler": {
-  "make": "Jeep",
-  "model": "Wrangler",
-  "from": 2018,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Chrysler Pacifica Prox": {
-  "make": "Chrysler",
-  "model": "Pacifica Prox",
-  "from": 2017,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
-  }
- },
- "Chrysler 300c": {
-  "make": "Chrysler",
-  "model": "300c",
-  "from": 2015,
-  "to": 9999,
-  "chips": [
-   "4A"
-  ],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "accessoires": 1
+   "printplaten": 1
   }
  },
  "Peugeot Boxer 3": {
@@ -1300,6 +583,36 @@
   "categories": {
    "afstandsbedieningen": 5,
    "behuizingen": 3
+  }
+ },
+ "Renault Trafic": {
+  "make": "Renault",
+  "model": "Trafic",
+  "from": 2002,
+  "to": 9999,
+  "chips": [
+   "7961M - NEW HITAG AES",
+   "PCF7961M - NEW HITAG AES",
+   "PCF7953M - AES",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "HU136",
+   "VAC102",
+   "naar keuze",
+   "VA2 / VA6",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 18,
+  "categories": {
+   "afstandsbedieningen": 8,
+   "behuizingen": 9,
+   "smart-keys": 1
   }
  },
  "Opel Vivaro": {
@@ -1824,6 +1137,19 @@
   "categories": {
    "behuizingen": 6,
    "afstandsbedieningen": 4
+  }
+ },
+ "Renault Espace": {
+  "make": "Renault",
+  "model": "Espace",
+  "from": 2004,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 3,
+  "categories": {
+   "behuizingen": 3
   }
  },
  "Renault Talisman": {
@@ -2711,6 +2037,28 @@
   "count": 4,
   "categories": {
    "afstandsbedieningen": 4
+  }
+ },
+ "Renault Scenic": {
+  "make": "Renault",
+  "model": "Scenic",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "PCF7946 / PCF7947 / PCF7961",
+   "PCF7946"
+  ],
+  "blades": [
+   "VA2",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "afstandsbedieningen": 2,
+   "behuizingen": 4
   }
  },
  "Renault Trafic II": {
@@ -3864,6 +3212,28 @@
    "behuizingen": 10
   }
  },
+ "Renault Kangoo": {
+  "make": "Renault",
+  "model": "Kangoo",
+  "from": 1998,
+  "to": 9999,
+  "chips": [
+   "PCF7946"
+  ],
+  "blades": [
+   "VAC102",
+   "NE73CI",
+   "NE73"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 15,
+  "categories": {
+   "afstandsbedieningen": 4,
+   "behuizingen": 11
+  }
+ },
  "Nissan Kubistar": {
   "make": "Nissan",
   "model": "Kubistar",
@@ -4916,76 +4286,6 @@
   "count": 1,
   "categories": {
    "afstandsbedieningen": 1
-  }
- },
- "Smart Mode": {
-  "make": "Smart",
-  "model": "Mode",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "Audi Q5": {
-  "make": "Audi",
-  "model": "Q5",
-  "from": 2008,
-  "to": 9999,
-  "chips": [
-   "PCF7945A / PCF7953A",
-   "PCF7945AC / 46Crypto Type9",
-   "PCF7945AC - ID46",
-   "PCF7945AC",
-   "7945AC"
-  ],
-  "blades": [
-   "HU66"
-  ],
-  "frequencies": [
-   "868 MHz",
-   "433 MHz",
-   "315 MHz",
-   "434 MHz"
-  ],
-  "count": 6,
-  "categories": {
-   "programmeerapparatuur": 1,
-   "smart-keys": 5
-  }
- },
- "Audi A4": {
-  "make": "Audi",
-  "model": "A4",
-  "from": 1999,
-  "to": 9999,
-  "chips": [
-   "PCF7945A / PCF7953A",
-   "PCF7945AC / 46Crypto Type9",
-   "PCF7945AC - ID46",
-   "ID48",
-   "PCF7945AC",
-   "7945AC"
-  ],
-  "blades": [
-   "HU66"
-  ],
-  "frequencies": [
-   "868 MHz",
-   "433 MHz",
-   "315 MHz",
-   "434 MHz"
-  ],
-  "count": 11,
-  "categories": {
-   "programmeerapparatuur": 1,
-   "smart-keys": 5,
-   "accessoires": 1,
-   "behuizingen": 4
   }
  },
  "Mercedes-Benz G-Klasse": {
@@ -6401,6 +5701,60 @@
    "behuizingen": 2
   }
  },
+ "Jeep Cherokee": {
+  "make": "Jeep",
+  "model": "Cherokee",
+  "from": 2014,
+  "to": 2019,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 2,
+  "categories": {
+   "behuizingen": 2
+  }
+ },
+ "Jeep Grand Cherokee": {
+  "make": "Jeep",
+  "model": "Grand Cherokee",
+  "from": 2008,
+  "to": 2019,
+  "chips": [
+   "ID46 - HITAG2"
+  ],
+  "blades": [
+   "CY16"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 6,
+  "categories": {
+   "behuizingen": 5,
+   "afstandsbedieningen": 1
+  }
+ },
+ "Jeep Renegade": {
+  "make": "Jeep",
+  "model": "Renegade",
+  "from": 2015,
+  "to": 9999,
+  "chips": [
+   "Megamos AES",
+   "MEGAMOS AES"
+  ],
+  "blades": [
+   "SIP22"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 4,
+  "categories": {
+   "behuizingen": 2,
+   "afstandsbedieningen": 2
+  }
+ },
  "Ford Tourneo": {
   "make": "Ford",
   "model": "Tourneo",
@@ -6619,6 +5973,19 @@
   "make": "Chrysler",
   "model": "12+8-Steckers An Einem",
   "from": 2020,
+  "to": 9999,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "accessoires": 1
+  }
+ },
+ "Dodge Durango": {
+  "make": "Dodge",
+  "model": "Durango",
+  "from": 9999,
   "to": 9999,
   "chips": [],
   "blades": [],
@@ -7015,6 +6382,26 @@
   "count": 1,
   "categories": {
    "behuizingen": 1
+  }
+ },
+ "Renault Captur": {
+  "make": "Renault",
+  "model": "Captur",
+  "from": 2013,
+  "to": 9999,
+  "chips": [
+   "PCF7953M - AES"
+  ],
+  "blades": [
+   "VA2 / VA6"
+  ],
+  "frequencies": [
+   "433 MHz"
+  ],
+  "count": 2,
+  "categories": {
+   "behuizingen": 1,
+   "smart-keys": 1
   }
  },
  "Smart 453": {
@@ -7634,6 +7021,35 @@
    "smart-keys": 1
   }
  },
+ "Audi A4": {
+  "make": "Audi",
+  "model": "A4",
+  "from": 1999,
+  "to": 9999,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC - ID46",
+   "ID48",
+   "PCF7945AC",
+   "7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz",
+   "315 MHz",
+   "434 MHz"
+  ],
+  "count": 10,
+  "categories": {
+   "smart-keys": 5,
+   "accessoires": 1,
+   "behuizingen": 4
+  }
+ },
  "Audi A5": {
   "make": "Audi",
   "model": "A5",
@@ -7705,6 +7121,32 @@
   "categories": {
    "smart-keys": 3,
    "behuizingen": 2
+  }
+ },
+ "Audi Q5": {
+  "make": "Audi",
+  "model": "Q5",
+  "from": 2008,
+  "to": 2017,
+  "chips": [
+   "PCF7945A / PCF7953A",
+   "PCF7945AC / 46Crypto Type9",
+   "PCF7945AC - ID46",
+   "PCF7945AC",
+   "7945AC"
+  ],
+  "blades": [
+   "HU66"
+  ],
+  "frequencies": [
+   "868 MHz",
+   "433 MHz",
+   "315 MHz",
+   "434 MHz"
+  ],
+  "count": 5,
+  "categories": {
+   "smart-keys": 5
   }
  },
  "Audi S4": {
@@ -7900,10 +7342,9 @@
   "frequencies": [
    "433 MHz"
   ],
-  "count": 2,
+  "count": 1,
   "categories": {
-   "afstandsbedieningen": 1,
-   "programmeerapparatuur": 1
+   "afstandsbedieningen": 1
   }
  },
  "Jeep Commander": {
@@ -8024,32 +7465,6 @@
    "motorsleutels": 1
   }
  },
- "BMW Frm": {
-  "make": "BMW",
-  "model": "Frm",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "BMW D80": {
-  "make": "BMW",
-  "model": "D80",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
  "Audi A6l Q7": {
   "make": "Audi",
   "model": "A6l Q7",
@@ -8063,84 +7478,6 @@
   "count": 1,
   "categories": {
    "printplaten": 1
-  }
- },
- "Mercedes-Benz SL-Klasse R129": {
-  "make": "Mercedes-Benz",
-  "model": "SL-Klasse R129",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "Mercedes-Benz A-Klasse W168": {
-  "make": "Mercedes-Benz",
-  "model": "A-Klasse W168",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "Mercedes-Benz Vaneo W414": {
-  "make": "Mercedes-Benz",
-  "model": "Vaneo W414",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "Mercedes-Benz S-Klasse W140": {
-  "make": "Mercedes-Benz",
-  "model": "S-Klasse W140",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "Mercedes-Benz G-Klasse W461": {
-  "make": "Mercedes-Benz",
-  "model": "G-Klasse W461",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
-  }
- },
- "Mercedes-Benz M-Klasse W163": {
-  "make": "Mercedes-Benz",
-  "model": "M-Klasse W163",
-  "from": 9999,
-  "to": 9999,
-  "chips": [],
-  "blades": [],
-  "frequencies": [],
-  "count": 1,
-  "categories": {
-   "programmeerapparatuur": 1
   }
  },
  "BMW 3-serie": {
@@ -9722,6 +9059,19 @@
   "categories": {
    "behuizingen": 2,
    "afstandsbedieningen": 2
+  }
+ },
+ "Toyota Avalon": {
+  "make": "Toyota",
+  "model": "Avalon",
+  "from": 9999,
+  "to": 0,
+  "chips": [],
+  "blades": [],
+  "frequencies": [],
+  "count": 1,
+  "categories": {
+   "behuizingen": 1
   }
  },
  "BMW Z3": {
