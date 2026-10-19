@@ -537,8 +537,9 @@ for (const [slug, filed] of Object.entries(classification.filed)) {
   /* Hand-picked by eye where the colour detector cannot tell (green PCBs, coloured backgrounds). */
   // A clean third-party override beats a hand pick of A-Key photos.
   const picked = photoOverrides.has(slug.toLowerCase()) ? undefined : PHOTO_PICKS[slug.toLowerCase()];
-  const cleanOnes = picked ?? images.filter((f) => WM_SCORE[f] != null && WM_SCORE[f] < 0.0003);
-  images = cleanOnes.length ? cleanOnes : [...images].sort((a, b) => (WM_SCORE[a] ?? 1) - (WM_SCORE[b] ?? 1));
+  // Never a photo with A-Key's logo: an article with only those shows our placeholder instead.
+  // Partner photos (AccessFobs, autosleutels.info) carry no logo; an A-Key photo counts as clean only when scored clean or picked by eye.
+  images = picked ?? images.filter((f) => !/\/akey_/.test(f) || (WM_SCORE[f] != null && WM_SCORE[f] < 0.0003));
   if (!images.length) skipped.noPhoto++;
 
   /* "für Fahrzeugmarke: Toyota / Lexus" names two makes, and a model listed
@@ -691,7 +692,10 @@ const SUPPLIER_NAME = /\s*\bA[\s-]?Key\b\s*/gi;
 for (const p of products) {
   if (IS_SUPPLIER(p.manufacturer)) p.manufacturer = null;
   const from = p.articleCode;
-  if (from && !MAKER_CODES.has(p.manufacturer)) {
+  // A maker's model number (Xhorse XKB526EN) stays; the supplier's own numbering (HYRC119, BZR120, AU-prefix) never does,
+  // whichever maker the text mentions.
+  const supplierStyle = /^[A-Z]{2,4}(R|RC|K|B)\d{3}|^AU[A-Z]/.test(from ?? '');
+  if (from && (!MAKER_CODES.has(p.manufacturer) || supplierStyle)) {
     const to = ownCode(from);
     const re = new RegExp(`(?<![A-Za-z0-9])${esc(from)}(?![A-Za-z0-9])`, 'gi');
     // A blade's number is its profile (HU83): the fit depends on it, so the text keeps it; only the article number changes.
@@ -709,7 +713,7 @@ for (const p of products) {
     }
   }
   // The id travels as the SKU (structured data, analytics, orders): ours too.
-  if (p.id && !MAKER_CODES.has(p.manufacturer)) {
+  if (p.id && (!MAKER_CODES.has(p.manufacturer) || supplierStyle)) {
     if (p.id !== from) p.supplierId = p.id;
     // No article number: the id was the supplier's slug, so it becomes a neutral one.
     p.id = !from ? `AS${createHash('sha1').update(p.id).digest('hex').slice(0, 8).toUpperCase()}` : p.id === from ? p.articleCode : ownCode(p.id);
@@ -806,9 +810,12 @@ for (const name of readdirSync(IMAGE_DIR)) {
 }
 const published = (url) =>
   typeof url === 'string' && url.startsWith('/images/products/') ? `/images/products/${neutralName(url.slice('/images/products/'.length))}` : url;
+// Photos with the supplier's name or German text that the colour check missed (OCR, src/data/photo-blocklist.json).
+const BLOCKED = new Set((existsSync(path.join(process.cwd(), 'src/data/photo-blocklist.json')) ? JSON.parse(readFileSync(path.join(process.cwd(), 'src/data/photo-blocklist.json'), 'utf8')).photos : []).map((n) => `/images/products/${n}`));
 for (const p of products) {
-  p.image = published(p.image);
-  p.images = (p.images ?? []).map(published);
+  p.images = (p.images ?? []).map(published).filter((u) => !BLOCKED.has(u));
+  p.image = p.images[0] ?? null;
+  if (!p.image) p.cleanPhoto = false;
 }
 
 // Two articles, one name: the article code tells them apart.
