@@ -11,6 +11,7 @@ import {
   SERVICE_NEEDS,
 } from '@/lib/cart';
 import { formatPrice } from '@/lib/money';
+import { track, tagSession } from '@/lib/track';
 
 type Slim = { slug: string; titleNl: string; price: number | null; image: string | null; category: string | null };
 
@@ -69,6 +70,14 @@ export default function CheckoutForm({
   const needsKenteken = totals.lines.some((l) => SERVICE_NEEDS[l.service].kenteken);
   const needsOldKey = totals.lines.some((l) => SERVICE_NEEDS[l.service].oldKey);
 
+  // Funnel: begin_checkout when the form is shown, add_shipping_info on submit, add_payment_info when Mollie opens.
+  const funnelItems = () => totals.lines.map((l) => ({ item_id: l.slug, item_name: l.title, item_variant: l.service, quantity: l.quantity, price: Math.round((l.lineTotal / l.quantity) * 100) / 100 }));
+  const shown = totals.lines.length > 0;
+  useEffect(() => {
+    if (shown) { track('begin_checkout', { value: totals.totalInc, items: funnelItems() }); tagSession('step', 'checkout'); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shown]);
+
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [honeypot, setHoneypot] = useState('');
@@ -79,6 +88,7 @@ export default function CheckoutForm({
     setError(null);
 
     const fd = new FormData(e.currentTarget);
+    track('add_shipping_info', { value: totals.totalInc, needs_technician: needsTechnician, items: funnelItems() });
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
@@ -98,6 +108,8 @@ export default function CheckoutForm({
       const json = await res.json();
 
       if (!res.ok) {
+        track('checkout_error', { reason: String(json.error ?? res.status).slice(0, 100), status: res.status });
+        tagSession('checkout_error', res.status);
         setError(json.error ?? 'Er ging iets mis. Probeer het opnieuw.');
         setBusy(false);
         return;
@@ -105,12 +117,15 @@ export default function CheckoutForm({
       if (json.checkoutUrl) {
         // The basket is cleared on /bedankt once Mollie says paid, so a
         // cancelled payment comes back to a full basket.
+        track('add_payment_info', { value: totals.totalInc, payment_type: 'mollie', items: funnelItems() });
         window.location.href = json.checkoutUrl;
         return;
       }
+      track('checkout_error', { reason: 'no_checkout_url' });
       setError('De betaling kon niet worden gestart.');
       setBusy(false);
     } catch {
+      track('checkout_error', { reason: 'network' });
       setError('Netwerkfout. Controleer uw verbinding en probeer het opnieuw.');
       setBusy(false);
     }

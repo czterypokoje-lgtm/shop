@@ -2,8 +2,9 @@
 
 import { useEffect } from 'react';
 import { clearCart } from '@/lib/cart';
+import { track, tagSession } from '@/lib/track';
 
-/** Once per paid order: empty the basket and report the purchase to GA4/Ads via dataLayer. */
+/** Once per paid order: empty the basket and report the purchase to GA4 (key event) and Clarity. */
 export default function PaidEffects({ orderNumber, value, items }: {
   orderNumber: string;
   value: number;
@@ -16,12 +17,8 @@ export default function PaidEffects({ orderNumber, value, items }: {
       if (localStorage.getItem(key)) return;
       localStorage.setItem(key, '1');
     } catch {}
-    const w = window as unknown as { dataLayer?: unknown[] };
-    (w.dataLayer ??= []).push({ ecommerce: null });
-    w.dataLayer.push({
-      event: 'purchase',
-      ecommerce: { transaction_id: orderNumber, currency: 'EUR', value, items },
-    });
+    track('purchase', { transaction_id: orderNumber, value, items });
+    tagSession('order', orderNumber);
   }, [orderNumber, value, items]);
   return null;
 }

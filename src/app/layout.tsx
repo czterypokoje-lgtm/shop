@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Script from 'next/script';
+import { ContactClicks } from '@/components/webshop/TrackView';
 import ConsentBanner from '@/components/ConsentBanner/ConsentBanner';
 import WhatsAppButton from '@/components/WhatsAppButton/WhatsAppButton';
 import WebshopNavigation from '@/components/webshop/WebshopNavigation';
@@ -76,12 +77,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('set','ads_data_redaction', true);
           `}
         </Script>
-        {/* ponytail: GTM not loaded until the shop domain and its container exist; events already go to dataLayer. */}
+        {/*
+          GA4 straight through gtag.js, into the same property as the service site (G-C4WR7TYCTV): one
+          journey from ad or search through service page and shop to payment. Only on the real domain —
+          the Vercel demo and localhost never count as visitors. Consent Mode above decides what is stored.
+        */}
+        <Script id="ga4">
+          {`
+            if (['www.autosleutel24.nl','autosleutel24.nl'].indexOf(location.hostname) !== -1) {
+              var g = document.createElement('script'); g.async = true;
+              g.src = 'https://www.googletagmanager.com/gtag/js?id=G-C4WR7TYCTV';
+              document.head.appendChild(g);
+              gtag('js', new Date());
+              gtag('config', 'G-C4WR7TYCTV', { content_group: 'webshop' });
+            }
+          `}
+        </Script>
         <WebshopNavigation />
         <main className="webshop-main">{children}</main>
         <WebshopFooter />
         <WhatsAppButton />
         <ConsentBanner />
+        <ContactClicks />
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import TrackView from '@/components/webshop/TrackView';
 import Link from 'next/link';
 import QuoteRequest from '@/components/webshop/QuoteRequest';
 import ProductCardList from '@/components/webshop/ProductCardList';
@@ -112,6 +113,8 @@ export default async function SearchPage({
 
   return (
     <div style={{ background: '#f6f4eb', minHeight: '100vh', paddingBottom: '6rem', fontFamily: 'Inter, sans-serif' }}>
+      {/* A search without results is a customer we are about to lose: its own event, to read what they wanted. */}
+      {query && <TrackView event={hits.length ? 'search' : 'search_no_results'} tag={['page_type', 'search']} params={{ search_term: query, results: hits.length }} />}
       <div style={{ background: '#fff', padding: '1.5rem 0 2rem', borderBottom: '1px solid #e5e5e5' }}>
         <div style={{ maxWidth: 1600, width: 'calc(100% - 2rem)', margin: '0 auto' }}>
           <div style={{ fontSize: '0.85rem', color: '#64748b', marginBottom: '0.75rem' }}>

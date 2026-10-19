@@ -55,7 +55,7 @@ export default function StickyBuyBar({
   useEffect(() => () => window.clearTimeout(timer.current), []);
 
   const handleAdd = () => {
-    addToCart(slug);
+    addToCart(slug, 'product_only', { name: title, price });
     setAdded(true);
     timer.current = window.setTimeout(() => setAdded(false), 2200);
   };

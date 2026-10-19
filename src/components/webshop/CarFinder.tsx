@@ -1,5 +1,6 @@
 'use client';
 
+import { track } from '@/lib/track';
 import React, { useState } from 'react';
 import { CAR_MODELS } from '@/data/carModels';
 import brands from '@/lib/brands.json';
@@ -23,7 +24,7 @@ export default function CarFinder() {
   const models = key ? CAR_MODELS[key] : [];
 
   return (
-    <form action="/catalogus" method="get" className={styles.finder}>
+    <form action="/catalogus" method="get" className={styles.finder} onSubmit={(e) => { const f = new FormData(e.currentTarget); track('car_finder', { make: f.get('make'), model: f.get('model') || f.get('q') || undefined, year: f.get('year') || undefined }); }}>
       <span className={styles.label}>Zoek op uw auto</span>
       <select name="make" required aria-label="Merk" value={make} onChange={(e) => setMake(e.target.value)} className={styles.field}>
         <option value="">Merk</option>

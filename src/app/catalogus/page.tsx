@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react';
+import TrackView from '@/components/webshop/TrackView';
 import Link from 'next/link';
 import QuoteRequest from '@/components/webshop/QuoteRequest';
 import { isB2B } from '@/lib/b2b';
@@ -106,6 +107,11 @@ export default async function CatalogPage({
 
   return (
     <div style={{ maxWidth: 1240, margin: '0 auto', padding: '2rem 1.25rem 4rem' }}>
+      <TrackView
+        event={pageItems.length ? 'view_item_list' : 'empty_list'}
+        tag={['page_type', 'list']}
+        params={{ item_list_name: heading, results: results.length, make: filters.make, category: filters.category, items: pageItems.slice(0, 20).map((p, i) => ({ item_id: p.slug, item_name: p.titleNl, item_category: p.category ?? undefined, price: p.price, index: i })) }}
+      />
       <nav style={{ fontSize: '.85rem', color: '#64748b', marginBottom: '1rem' }}>
         <Link href="/" style={{ color: '#64748b' }}>Home</Link>
         <span aria-hidden="true"> › </span>

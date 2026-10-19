@@ -33,6 +33,7 @@ export {
 } from './services';
 
 import { SERVICE_OPTIONS, serviceTotal } from './services';
+import { track } from './track';
 import type { ServiceOption } from './services';
 
 export interface CartLine {
@@ -79,7 +80,12 @@ function persist(lines: CartLine[]): void {
   window.dispatchEvent(new CustomEvent(CART_EVENT));
 }
 
-export function addToCart(slug: string, service: ServiceOption = 'product_only'): void {
+/** `meta` is only for analytics: what GA4 shows as the item's name and value. */
+export function addToCart(slug: string, service: ServiceOption = 'product_only', meta?: { name?: string; price?: number | null; category?: string; brand?: string }): void {
+  track('add_to_cart', {
+    value: meta?.price ?? undefined,
+    items: [{ item_id: slug, item_name: meta?.name ?? slug, price: meta?.price, item_category: meta?.category, item_brand: meta?.brand, item_variant: service, quantity: 1 }],
+  });
   const lines = readCart();
   // Same product with a different service is a separate line: one customer may
   // want two shells, one fitted and one to post.
@@ -97,6 +103,7 @@ export function setQuantity(slug: string, service: ServiceOption, quantity: numb
 }
 
 export function removeLine(slug: string, service: ServiceOption): void {
+  track('remove_from_cart', { items: [{ item_id: slug, item_name: slug, item_variant: service }] });
   persist(readCart().filter((l) => !(l.slug === slug && l.service === service)));
 }
 

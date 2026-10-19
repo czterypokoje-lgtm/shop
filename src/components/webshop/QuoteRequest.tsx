@@ -1,6 +1,7 @@
 'use client';
 
-import { useActionState } from 'react';
+import { useActionState, useEffect } from 'react';
+import { track } from '@/lib/track';
 import { requestQuote, type QuoteState } from '@/app/offerte/actions';
 import { SITE_CONFIG, WHATSAPP_URL } from '@/config/site.config';
 import styles from './QuoteRequest.module.css';
@@ -11,6 +12,9 @@ const NEEDS = ['Autosleutel met afstandsbediening', 'Sleutelbehuizing', 'Smart k
 export default function QuoteRequest({ make = '', model = '', title = 'Niet gevonden? Wij zoeken het voor u.' }: { make?: string; model?: string; title?: string }) {
   const [state, action, pending] = useActionState<QuoteState, FormData>(requestQuote, { ok: false });
   const wa = `${WHATSAPP_URL}?text=${encodeURIComponent(`Hallo, ik zoek een sleutel voor mijn ${[make, model].filter(Boolean).join(' ') || 'auto'}.`)}`;
+
+  // Same event name the service site counts as a key event.
+  useEffect(() => { if (state.ok) track('generate_lead', { lead_source: 'webshop_quote', make: make || undefined }); }, [state.ok, make]);
 
   if (state.ok) {
     return (

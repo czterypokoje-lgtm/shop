@@ -34,7 +34,7 @@ declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
-    clarity?: unknown;
+    clarity?: (...args: unknown[]) => void;
     oaiq?: ((...args: unknown[]) => void) & { q: unknown[][] };
   }
 }
@@ -132,9 +132,11 @@ export function applyConsent(state: ConsentState | null): void {
   const marketing = state?.marketing ?? false;
 
   window.dataLayer = window.dataLayer || [];
-  const gtag = (...args: unknown[]) => {
-    window.dataLayer!.push(args);
-  };
+  // gtag only reads its own `arguments` object; a plain array was ignored, so "Accepteren" never reached GA4.
+  function gtag(..._args: unknown[]) {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer!.push(arguments);
+  }
 
   gtag('consent', 'update', {
     analytics_storage: statistics ? 'granted' : 'denied',
@@ -161,7 +163,7 @@ export function applyConsent(state: ConsentState | null): void {
 const CLARITY_ID = 'y9gjejwp8z';
 let clarityRequested = false;
 
-const PROD_HOSTNAMES = ['www.autosleutel24.nl', 'autosleutel24.nl'];
+export const PROD_HOSTNAMES = ['www.autosleutel24.nl', 'autosleutel24.nl'];
 
 export function loadClarity(): void {
   if (typeof window === 'undefined' || clarityRequested) return;

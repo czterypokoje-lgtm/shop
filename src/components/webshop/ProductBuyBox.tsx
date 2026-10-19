@@ -59,7 +59,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
 
   const handleAdd = () => {
     if (!slug || !inStock) return;
-    addToCart(slug, purchaseType);
+    addToCart(slug, purchaseType, { name: title, price, category, brand });
     setAdded(true);
   };
 

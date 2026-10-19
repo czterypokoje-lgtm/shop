@@ -1,4 +1,5 @@
 import React from 'react';
+import TrackView from '@/components/webshop/TrackView';
 import Link from 'next/link';
 import { notFound, permanentRedirect } from 'next/navigation';
 import { isB2B } from '@/lib/b2b';
@@ -203,6 +204,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
 
   return (
     <div className="shop-product-page" style={{ background: '#f9fafb', minHeight: '100vh', padding: '2rem 0', fontFamily: 'Inter, sans-serif' }}>
+      <TrackView event="view_item" tag={['page_type', 'product']} params={{ value: sellPrice ?? undefined, items: [{ item_id: entry.slug, item_name: entry.titleNl, item_brand: entry.makes[0], item_category: entry.category ?? undefined, price: sellPrice, item_variant: entry.inStock ? 'op_voorraad' : 'niet_op_voorraad' }] }} />
       {/* Plain <script>, not next/script: schema injected after hydration is
           absent from the HTML Googlebot fetches first. */}
       <script

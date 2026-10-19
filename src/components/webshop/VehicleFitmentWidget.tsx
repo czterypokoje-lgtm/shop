@@ -1,5 +1,6 @@
 'use client';
 
+import { track } from '@/lib/track';
 import React, { useState } from 'react';
 import { VEHICLE_DATA, FALLBACK_MODELS, getYears } from '@/lib/vehicleData';
 import type { Fitment } from '@/lib/catalog';
@@ -53,8 +54,11 @@ export default function VehicleFitmentWidget({
   const years = getYears();
   const part = { chip: productChip, blade: productBlade, frequency: productFrequency };
 
-  const judge = (make: string, mdl: string, yr: number) =>
-    setResult(fitmentVerdict({ make, model: mdl, year: yr }, fitment, part, specFor(make, mdl)));
+  const judge = (make: string, mdl: string, yr: number) => {
+    const v = fitmentVerdict({ make, model: mdl, year: yr }, fitment, part, specFor(make, mdl));
+    track('fitment_check', { make, model: mdl, year: yr, verdict: v });
+    setResult(v);
+  };
 
   const checkKenteken = async () => {
     if (!kenteken) return;

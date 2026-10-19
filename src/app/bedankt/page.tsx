@@ -5,6 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 import { SITE_CONFIG, WHATSAPP_URL } from '@/config/site.config';
 import { formatPrice } from '@/lib/catalog';
 import PaidEffects from './PaidEffects';
+import TrackView from '@/components/webshop/TrackView';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 
 export const dynamic = 'force-dynamic';
 
-type Line = { sku?: string; title: string; quantity: number; unitPrice?: number; lineTotal: number };
+type Line = { slug?: string; sku?: string; title: string; quantity: number; unitPrice?: number; lineTotal: number };
 
 /**
  * Mollie redirects here for every outcome. The status shown is read back from
@@ -62,6 +63,7 @@ export default async function ThankYouPage({
 
   return (
     <div className={styles.page}>
+      {failed && <TrackView event="payment_failed" tag={['step', 'payment_failed']} params={{ status: order.status, value: Number(order.total_inc) }} />}
       {paid ? (
         <>
           <h1 className={styles.title}>Bedankt, uw betaling is ontvangen</h1>
@@ -79,7 +81,7 @@ export default async function ThankYouPage({
             orderNumber={order.order_number}
             value={Number(order.total_inc)}
             items={order.items.map((l) => ({
-              item_id: l.sku ?? l.title,
+              item_id: l.slug ?? l.sku ?? l.title,
               item_name: l.title,
               price: l.unitPrice ?? l.lineTotal / l.quantity,
               quantity: l.quantity,

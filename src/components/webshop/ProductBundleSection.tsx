@@ -73,8 +73,8 @@ export default function ProductBundleSection({
   const total = mainProductPrice + batteryData.price;
 
   const handleAdd = () => {
-    if (mainProductSlug) addToCart(mainProductSlug);
-    addToCart(batteryData.slug);
+    if (mainProductSlug) addToCart(mainProductSlug, 'product_only', { name: mainProductTitle, price: mainProductPrice });
+    addToCart(batteryData.slug, 'product_only', { name: batteryData.title, price: batteryData.price, category: 'batterijen' });
     setAdded(true);
     window.setTimeout(() => setAdded(false), 2200);
   };

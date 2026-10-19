@@ -8,6 +8,7 @@ import {
   CART_EVENT, SERVICE_LABEL, type ServiceOption,
 } from '@/lib/cart';
 import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
+import { track, tagSession } from '@/lib/track';
 
 /**
  * Basket contents.
@@ -60,6 +61,11 @@ export default function CartView({ products }: { products: Slim[] }) {
   );
 
   const totals = priceCart(lines, lookup);
+  const shown = totals.lines.length;
+  useEffect(() => {
+    if (shown) { track('view_cart', { value: totals.totalInc, items: totals.lines.map((l) => ({ item_id: l.slug, item_name: l.title, item_variant: l.service, quantity: l.quantity, price: Math.round((l.lineTotal / l.quantity) * 100) / 100 })) }); tagSession('step', 'cart'); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shown]);
 
   if (!totals.lines.length) {
     return (
