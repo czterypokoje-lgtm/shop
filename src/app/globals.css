@@ -794,49 +794,42 @@ details[open] summary { color: var(--orange-500); }
   scroll-snap-align: start;
 }
 
+/* Category tiles: white card, the photo on white, title, "vanaf" price, one clear button. */
 .category-card {
-  background-color: var(--webshop-lime);
-  border-radius: 16px;
-  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #e8eaee;
+  border-radius: 14px;
+  padding: 1.25rem 1rem 1.1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+  gap: .35rem;
   text-decoration: none;
-  transition: transform 0.2s;
-  width: 220px;
-  height: 220px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, .04);
+  transition: box-shadow .2s, transform .2s, border-color .2s;
 }
-.category-card:hover {
-  transform: translateY(-4px);
-}
-.category-card-img-wrapper {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+.category-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(15, 23, 42, .10); border-color: #dfe3ea; }
+.category-card-img-wrapper { width: 100%; height: 150px; display: flex; align-items: center; justify-content: center; margin-bottom: .6rem; }
 .category-card-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, .55);
-  color: var(--webshop-dark);
-  transition: transform .2s ease, background .2s ease;
+  display: flex; align-items: center; justify-content: center;
+  width: 72px; height: 72px; border-radius: 50%;
+  background: #fdece7; color: #b93c20;
 }
-.category-card:hover .category-card-icon {
-  background: rgba(255, 255, 255, .8);
-  transform: scale(1.06);
+.category-card-title { font-weight: 700; color: var(--webshop-dark); font-size: 1.05rem; line-height: 1.3; }
+.category-card-meta { font-size: .86rem; color: #64748b; margin-bottom: .7rem; }
+.category-card-meta strong { color: #b93c20; font-weight: 700; }
+.category-card-btn {
+  margin-top: auto; display: inline-flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0 1.4rem; border: 1.5px solid #1e293b; border-radius: 8px;
+  font-size: .9rem; font-weight: 600; color: #1e293b; background: #fff;
+  transition: background .2s, color .2s, border-color .2s;
 }
-.category-card-title {
-  font-weight: 600;
-  color: var(--webshop-dark);
-  font-size: 1.05rem;
-  margin-top: 1rem;
+.category-card:hover .category-card-btn { background: #ea520c; border-color: #ea520c; color: #fff; }
+.section-title { text-align: center; margin: 0 0 2.25rem; font-size: clamp(1.5rem, 4vw, 2rem); color: var(--webshop-dark); }
+.section-title span {
+  display: inline-block; margin-left: .35rem; padding: .1rem 1.1rem .15rem .9rem; color: #fff; background: #ea520c;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 12px) 50%, 100% 100%, 0 100%, 12px 50%);
 }
 
 .product-card {
@@ -1738,17 +1731,20 @@ details[open] summary { color: var(--orange-500); }
    The tiles were a fixed 220×220 in a wrapping flex row, so on a 375px
    screen exactly one fitted per line and the grid read as a list.
    ───────────────────────────────────────────────────────────────────────── */
+.category-card-photo { max-width: 100%; max-height: 100%; object-fit: contain; }
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr));
   gap: 1.25rem;
 }
-.category-grid .category-card { width: auto; height: auto; aspect-ratio: 1 / 1; }
 
 @media (max-width: 640px) {
   .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
-  .category-grid .category-card { padding: 1rem .75rem; border-radius: 12px; }
-  .category-card-title { font-size: .92rem; margin-top: .5rem; text-align: center; }
+  .category-grid .category-card { padding: .9rem .6rem 1rem; }
+  .category-card-img-wrapper { height: 110px; }
+  .category-card-title { font-size: .92rem; }
+  .category-card-btn { min-height: 36px; padding: 0 1rem; font-size: .84rem; }
+  .category-card-count { display: none; }
 }
 
 /* ── brand chips on the home page ────────────────────────────────────── */
@@ -2144,8 +2140,7 @@ details[open] summary { color: var(--orange-500); }
   .webshop-hero-visual { max-width: 420px; margin: 0 auto; }
   .webshop-hero-facts { font-size: 0.85rem; margin-top: 1rem; }
 }
-/* On orange a multiplied photo turns orange: the photo sits on its own white plate. */
-.category-card-photo { width: 100%; height: 100%; max-height: 140px; object-fit: contain; background: #fff; border-radius: 12px; padding: 8px; box-sizing: border-box; }
+
 .merken-hero-keys { position: absolute; right: 2%; top: 50%; transform: translateY(-50%); height: 92%; width: auto; pointer-events: none; }
 @media (max-width: 900px) { .merken-hero-keys { display: none; } }
 

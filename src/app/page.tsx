@@ -57,9 +57,7 @@ export default async function WebshopPage() {
 
       <section className="section" id="categorieen" style={{ background: 'var(--webshop-bg)' }}>
         <div className="container">
-          <h2 style={{ textAlign: 'center', marginBottom: '2.5rem', fontSize: '2rem', color: 'var(--webshop-dark)' }}>
-            Meest gezochte categorieën
-          </h2>
+          <h2 className="section-title">Meest gezochte <span>categorieën</span></h2>
           <CategoryGrid />
         </div>
       </section>

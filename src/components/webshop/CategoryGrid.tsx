@@ -22,7 +22,7 @@ import {
   Ruler,
   type LucideIcon,
 } from 'lucide-react';
-import { facetLabel } from '@/lib/catalog';
+import { facetLabel, formatPrice } from '@/lib/catalog';
 import { getShopProducts } from '@/lib/shopCatalog';
 
 /**
@@ -97,6 +97,12 @@ export default async function CategoryGrid() {
     return chosen?.image ?? null;
   };
 
+  // "vanaf €9,95" tells a visitor more than a count does: the cheapest in-stock price in the category.
+  const fromPrice = (slug: string) => {
+    const prices = products.filter((p) => p.category === slug && p.inStock && p.price != null).map((p) => p.price as number);
+    return prices.length ? Math.min(...prices) : null;
+  };
+
   const categories = [...counts.entries()]
     .filter(([, count]) => count >= MIN_PRODUCTS)
     .sort((a, b) => b[1] - a[1]);
@@ -124,9 +130,11 @@ export default async function CategoryGrid() {
               )}
             </div>
             <div className="category-card-title">{facetLabel('category', slug)}</div>
-            <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'rgba(15, 23, 42, .75)', fontWeight: 600, paddingBottom: '0.75rem' }}>
-              {count} artikelen
+            <div className="category-card-meta">
+              {fromPrice(slug) != null ? <>vanaf <strong>{formatPrice(fromPrice(slug))}</strong><span className="category-card-count"> · </span></> : null}
+              <span className={fromPrice(slug) != null ? 'category-card-count' : undefined}>{count} artikelen</span>
             </div>
+            <span className="category-card-btn">Bekijk</span>
           </Link>
         );
       })}
