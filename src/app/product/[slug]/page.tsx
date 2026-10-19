@@ -337,13 +337,16 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
 
       <div style={{ padding: '0 1rem' }}>
         <ProductTrustBar />
+        {/* Reviews straight under the product, where a buyer still decides. */}
+        <div style={{ maxWidth: 1136, margin: '0 auto' }}>
+          <ProductReviews reviews={reviews} />
+        </div>
       </div>
 
       {/* Below the Fold: Product Highlights (Beige Background) */}
       <div style={{ background: '#f6f4eb', padding: 'clamp(2rem, 6vw, 4rem) 1rem', marginTop: '2rem' }}>
         <div style={{ maxWidth: 1000, margin: '0 auto' }}>
           <ProductAccordions product={entry} />
-          <ProductReviews reviews={reviews} />
         </div>
 
         <ProductAlternatives product={entry} />
