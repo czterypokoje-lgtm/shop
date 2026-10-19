@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { mollieKey as getMollieKey } from '@/lib/mollieKey';
 import { createClient } from '@supabase/supabase-js';
 import { SITE_CONFIG } from '@/config/site.config';
-import { shippingFor, VAT_RATE } from '@/lib/catalog';
+import { shippingFor, VAT_RATE, TEST_SLUG } from '@/lib/catalog';
 import { getShopProductBySlug, overridesHealthy } from '@/lib/shopCatalog';
 /*
  * From lib/services, not lib/cart: cart.ts is a client module, and a server
@@ -189,7 +189,7 @@ export async function POST(request: Request) {
   }
 
   const subtotal = Math.round(items.reduce((s, i) => s + i.lineTotal, 0) * 100) / 100;
-  const shipping = shippingFor(subtotal);
+  const shipping = items.every((i) => i.slug === TEST_SLUG) ? 0 : shippingFor(subtotal);
   const totalInc = Math.round((subtotal + shipping) * 100) / 100;
   const totalExVat = Math.round((totalInc / (1 + VAT_RATE)) * 100) / 100;
 

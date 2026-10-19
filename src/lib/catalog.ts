@@ -44,6 +44,10 @@ export interface CatalogProduct {
   /** Slug of the battery this key takes, when the supplier names one. */
   battery?: string | null;
   costPrice: number | null;
+  /** Not listed anywhere (catalogue, search, home, sitemap); reachable by URL. */
+  hidden?: boolean;
+  /** A price that is not derived from cost (test product). */
+  fixedPrice?: number | null;
   /** The same part at autosleutels.info, incl. VAT — when one was matched (src/data/market-prices.json). */
   marketPrice?: number | null;
   image: string | null;
@@ -100,8 +104,10 @@ const catalog = catalogJson as unknown as {
  * public catalogue. Callers must opt in explicitly, and only behind a verified
  * business login — see the audience note in scripts/build-catalog.mjs.
  */
-export function getProducts(audience: Audience | 'all' = 'public'): CatalogProduct[] {
-  return audience === 'all' ? catalog.products : catalog.products.filter((p) => p.audience === audience);
+export const TEST_SLUG = 'testproduct-1-euro';
+
+export function getProducts(audience: Audience | 'all' = 'public', withHidden = false): CatalogProduct[] {
+  return catalog.products.filter((p) => (audience === 'all' || p.audience === audience) && (withHidden || !p.hidden));
 }
 
 /** `internal` also finds the supplier's slug — for our own data (batteries, CRM), never for a URL. */

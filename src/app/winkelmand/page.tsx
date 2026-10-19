@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default async function CartPage() {
   // Only the fields the basket needs, so the full catalogue stays on the
   // server instead of shipping ~2 MB of JSON to the browser.
-  const slim = (await getShopProducts((await isB2B()) ? 'all' : 'public')).map((p) => ({
+  const slim = (await getShopProducts((await isB2B()) ? 'all' : 'public', true)).map((p) => ({
     slug: p.slug,
     titleNl: p.titleNl,
     price: p.price,

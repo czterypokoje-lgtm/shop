@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default async function CheckoutPage() {
-  const slim = (await getShopProducts((await isB2B()) ? 'all' : 'public')).map((p) => ({
+  const slim = (await getShopProducts((await isB2B()) ? 'all' : 'public', true)).map((p) => ({
     slug: p.slug, titleNl: p.titleNl, price: p.price, image: p.image, category: p.category,
   }));
 
