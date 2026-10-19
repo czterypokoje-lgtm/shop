@@ -320,7 +320,7 @@ export async function POST(request: Request) {
       console.error('Mollie rejected the payment', reason);
       await supabase.from('orders').update({ status: 'cancelled' }).eq('id', order.id);
       // Mollie's own title (e.g. "Unauthorized request") helps whoever reads the error; no key or customer data in it.
-      const title = (() => { try { return JSON.parse(reason).title as string; } catch { return ''; } })();
+      const title = (() => { try { const j = JSON.parse(reason); return [j.title, j.detail, j.field && `veld: ${j.field}`].filter(Boolean).join(' — '); } catch { return ''; } })();
       return NextResponse.json({ error: 'Betaling kon niet worden gestart', mollie: title || undefined }, { status: 502 });
     }
 
