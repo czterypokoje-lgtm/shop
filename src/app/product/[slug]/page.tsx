@@ -13,6 +13,7 @@ import VehicleFitmentWidget from '@/components/webshop/VehicleFitmentWidget';
 import ProductAccordions from '@/components/webshop/ProductAccordions';
 import ProductGallery from '@/components/webshop/ProductGallery';
 import ProductAlternatives from '@/components/webshop/ProductAlternatives';
+import ProductTrustBar from '@/components/webshop/ProductTrustBar';
 import ProductFitmentList from '@/components/webshop/ProductFitmentList';
 import StickyBuyBar from '@/components/webshop/StickyBuyBar';
 import BackToTop from '@/components/webshop/BackToTop';
@@ -332,6 +333,10 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             />
           </div>
         </div>
+      </div>
+
+      <div style={{ padding: '0 1rem' }}>
+        <ProductTrustBar />
       </div>
 
       {/* Below the Fold: Product Highlights (Beige Background) */}
