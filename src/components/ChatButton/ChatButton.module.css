@@ -1,0 +1,26 @@
+.btn {
+  position: fixed;
+  right: var(--sp-6);
+  bottom: calc(var(--sp-6) + 58px);
+  z-index: var(--z-float);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  background: var(--shop-accent, #b93c20);
+  color: #fff;
+  padding: var(--sp-3) var(--sp-5);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, .2);
+  font: inherit;
+  font-weight: 700;
+  font-size: .95rem;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, .18);
+}
+.btn:hover { background: var(--shop-accent-dark, #9a3119); }
+
+/* On phones the WhatsApp pill is hidden; the chat is a round button. */
+@media (max-width: 767px) {
+  .btn { right: 12px; bottom: 84px; padding: 14px; }
+  .label { display: none; }
+}

@@ -5,6 +5,7 @@ import Script from 'next/script';
 import { ContactClicks } from '@/components/webshop/TrackView';
 import ConsentBanner from '@/components/ConsentBanner/ConsentBanner';
 import WhatsAppButton from '@/components/WhatsAppButton/WhatsAppButton';
+import ChatButton from '@/components/ChatButton/ChatButton';
 import WebshopNavigation from '@/components/webshop/WebshopNavigation';
 import WebshopFooter from '@/components/webshop/WebshopFooter';
 import { SITE_CONFIG } from '@/config/site.config';
@@ -98,6 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="webshop-main">{children}</main>
         <WebshopFooter />
         <WhatsAppButton />
+        <ChatButton />
         <ConsentBanner />
         <ContactClicks />
       </body>

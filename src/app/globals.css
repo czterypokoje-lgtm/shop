@@ -2154,3 +2154,6 @@ details[open] summary { color: var(--orange-500); }
   .shop-nav-list { justify-content: space-between; }
   .shop-nav-link { padding: .95rem .55rem; letter-spacing: .03em; }
 }
+
+/* The ElevenLabs chat sits bottom right once opened; the WhatsApp pill steps aside. */
+body.as24-chat-open #floating-wa-btn { display: none !important; }
