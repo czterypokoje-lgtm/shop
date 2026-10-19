@@ -220,6 +220,7 @@ export function orderShipped(order: {
   postcode: string;
   carrier: string | null;
   tracking_code: string;
+  reviewUrl?: string | null;
 }): Mail {
   const url = trackingUrl(order.carrier, order.tracking_code, order.postcode);
   const text = `Beste ${order.name},
@@ -230,7 +231,7 @@ Vervoerder: ${order.carrier ?? '—'}
 Track & trace: ${order.tracking_code}${url ? `\nVolg uw pakket: ${url}` : ''}
 
 Meestal wordt het pakket binnen 1 tot 2 werkdagen bezorgd.
-
+${order.reviewUrl ? `\nTevreden? Na ontvangst kunt u hier een review schrijven, met foto's als u wilt:\n${order.reviewUrl}\n` : ''}
 Vragen? Bel ${SITE_CONFIG.phone} of antwoord op deze e-mail.
 
 ${SITE_CONFIG.fullName} · ${SITE_CONFIG.domain}`;

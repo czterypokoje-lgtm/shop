@@ -709,7 +709,7 @@ for (const p of products) {
     // A blade's number is its profile (HU83): the fit depends on it, so the text keeps it; only the article number changes.
     const flat = (x) => String(x ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
     // Tools are sold by their maker's model name (T-300+, AK90+): that name stays, only the article number changes.
-    const isProfile = ['sleutelbaarden', 'noodsleutels', 'transponders', 'programmeerapparatuur', 'gereedschap', 'accessoires'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
+    const isProfile = ['sleutelbaarden', 'noodsleutels', 'transponders', 'programmeerapparatuur', 'gereedschap', 'accessoires', 'batterijen'].includes(p.category) || (Boolean(p.blade) && flat(from) === flat(p.blade));
     if (!isProfile) for (const k of ['titleNl', 'descriptionNl', 'metaDescriptionNl', 'directAnswer', 'supplierNote']) if (typeof p[k] === 'string') p[k] = p[k].replace(re, to);
     p.specs = p.specs.map(([l, v]) => [l, l === 'Artikelnummer' ? to : isProfile ? v : String(v).replace(re, to)]);
     p.supplierCode = from;

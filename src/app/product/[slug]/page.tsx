@@ -1,4 +1,6 @@
 import React from 'react';
+import ProductReviews from '@/components/webshop/ProductReviews';
+import { reviewsFor } from '@/lib/reviews';
 import TrackView from '@/components/webshop/TrackView';
 import Link from 'next/link';
 import { notFound, permanentRedirect } from 'next/navigation';
@@ -117,6 +119,9 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
   const HEADLINE_SPECS = ['Frequentie', 'Transponder', 'Sleutelbaard', 'Aantal knoppen', 'Artikelcode'];
   const headlineSpecs = (entry.specs ?? []).filter(([label]) => HEADLINE_SPECS.includes(label));
 
+  const reviews = await reviewsFor(entry.slug);
+  const avgRating = reviews.length ? reviews.reduce((a, r) => a + r.rating, 0) / reviews.length : 0;
+
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -176,8 +181,11 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
           },
         }
       : undefined,
-    // No aggregateRating: there are no verified-purchase reviews yet, and
-    // marking up invented ones is a manual-action risk.
+    // Stars in Google only from real, verified-purchase reviews shown on this page.
+    ...(reviews.length ? {
+      aggregateRating: { '@type': 'AggregateRating', ratingValue: avgRating.toFixed(1), reviewCount: reviews.length, bestRating: 5, worstRating: 1 },
+      review: reviews.slice(0, 10).map((r) => ({ '@type': 'Review', reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 }, author: { '@type': 'Person', name: r.author_name }, datePublished: r.published_at.slice(0, 10), reviewBody: r.body, ...(r.title ? { name: r.title } : {}) })),
+    } : {}),
   };
 
   const breadcrumbSchema = {
@@ -329,6 +337,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
       <div style={{ background: '#f6f4eb', padding: 'clamp(2rem, 6vw, 4rem) 1rem', marginTop: '2rem' }}>
         <div style={{ maxWidth: 1000, margin: '0 auto' }}>
           <ProductAccordions product={entry} />
+          <ProductReviews reviews={reviews} />
         </div>
 
         <ProductAlternatives product={entry} />

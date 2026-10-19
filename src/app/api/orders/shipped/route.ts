@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { timingSafeEqual } from 'crypto';
 import { sendMail, orderShipped } from '@/lib/email';
+import { reviewToken } from '@/lib/reviewToken';
+import { SITE_CONFIG } from '@/config/site.config';
 
 /**
  * Called by the database (supabase/0077_order_shipped_webhook.sql) the moment
@@ -37,6 +39,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ skipped: 'not shipped or no tracking code' });
   }
 
-  const sent = await sendMail(orderShipped(order));
+  const token = reviewToken(id);
+  const sent = await sendMail(orderShipped({ ...order, reviewUrl: token ? `${SITE_CONFIG.domain}/review/${id}/${token}` : null }));
   return NextResponse.json({ sent }, { status: sent ? 200 : 502 });
 }
