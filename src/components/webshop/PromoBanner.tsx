@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import Link from 'next/link';
 import { shelfPrice, formatPrice } from '@/lib/catalog';
@@ -72,7 +73,7 @@ export default async function PromoBanner() {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={product.image ?? '/images/product-placeholder.svg'}
+              src={product.image ?? withBase('/images/product-placeholder.svg')}
               alt={product.titleNl}
               style={{ width: 80, height: 80, objectFit: 'contain', marginBottom: '1rem' }}
             />

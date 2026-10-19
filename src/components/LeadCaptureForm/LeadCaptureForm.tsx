@@ -1,4 +1,5 @@
 "use client";
+import { withBase } from '@/lib/base';
 import { useState, useMemo, useEffect } from "react";
 import { CAR_MODELS, BRANDS_LIST, SERVICES_LIST, YEARS_LIST } from "@/data/carModels";
 import { SITE_CONFIG } from "@/config/site.config";
@@ -54,7 +55,7 @@ export default function LeadCaptureForm({ city = "", phone, theme = 'dark', init
 
     try {
       const file = await toWebp(rawFile).catch(() => rawFile);
-      const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}`, {
+      const response = await fetch(withBase(`/api/upload?filename=${encodeURIComponent(file.name)}`), {
         method: 'POST',
         body: file,
       });
@@ -100,7 +101,7 @@ export default function LeadCaptureForm({ city = "", phone, theme = 'dark', init
     };
 
     // Fire and forget the database save
-    fetch('/api/leads', {
+    fetch(withBase('/api/leads'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

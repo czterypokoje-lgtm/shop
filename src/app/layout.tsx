@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 import './globals.css';
 import Script from 'next/script';
 import { ContactClicks } from '@/components/webshop/TrackView';
@@ -23,10 +24,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+      { url: withBase('/favicon.ico'), sizes: 'any' },
+      { url: withBase('/icon.png'), type: 'image/png', sizes: '512x512' },
     ],
-    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+    apple: [{ url: withBase('/apple-icon.png'), sizes: '180x180', type: 'image/png' }],
   },
   /*
    * Not indexed until the product copy is our own: most descriptions still come

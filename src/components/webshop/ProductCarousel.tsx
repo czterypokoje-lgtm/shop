@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import ProductCard from './ProductCard';
 import { formatPrice, facetLabel } from '@/lib/catalog';
@@ -23,7 +24,7 @@ export default function ProductCarousel({ products }: ProductCarouselProps) {
              * it was `price * 1.4` — a reference price nobody was ever charged.
              */
             price={formatPrice(p.price)}
-            img={p.image ?? '/images/product-placeholder.svg'}
+            img={p.image ?? withBase('/images/product-placeholder.svg')}
             inStock={p.inStock}
           />
         </div>

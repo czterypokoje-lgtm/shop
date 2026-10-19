@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { addToCart } from '@/lib/cart';
@@ -86,9 +87,9 @@ export default function ProductBundleSection({
         <h2 style={{ margin: '.2rem 0 0', fontSize: '1.1rem', color: '#0f172a' }}>Direct klaar voor gebruik: met de juiste batterij</h2>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '.75rem' }}>
-        <img src={mainProductImage || '/images/product-placeholder.svg'} alt="" width={72} height={72} style={{ objectFit: 'contain' }} />
+        <img src={mainProductImage || withBase('/images/product-placeholder.svg')} alt="" width={72} height={72} style={{ objectFit: 'contain' }} />
         <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#94a3b8' }}>+</span>
-        <img src={batteryData.image || '/images/product-placeholder.svg'} alt="" width={72} height={72} style={{ objectFit: 'contain' }} />
+        <img src={batteryData.image || withBase('/images/product-placeholder.svg')} alt="" width={72} height={72} style={{ objectFit: 'contain' }} />
       </div>
       <ul style={{ margin: 0, paddingLeft: '1.1rem', color: '#334155', fontSize: '.92rem', lineHeight: 1.6 }}>
         <li>{mainProductTitle} — {formatPrice(mainProductPrice)}</li>

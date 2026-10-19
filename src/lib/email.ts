@@ -188,7 +188,7 @@ Klant: ${order.name} — ${order.email}${order.phone ? ` — ${order.phone}` : '
 Bezorging: ${order.postcode} ${order.city}
 ${order.needs_technician ? 'MONTEURBEZOEK — bel de klant binnen één werkdag.' : ''}
 
-Open in het CRM: ${SITE_CONFIG.domain}/admin/orders`;
+Open in het CRM: ${SITE_CONFIG.origin}/admin/orders`;
 
   return {
     to: SITE_CONFIG.email,

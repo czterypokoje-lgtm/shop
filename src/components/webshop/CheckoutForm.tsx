@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 
 import React, { useState, useSyncExternalStore, useCallback, useEffect } from 'react';
 import Link from 'next/link';
@@ -90,7 +91,7 @@ export default function CheckoutForm({
     const fd = new FormData(e.currentTarget);
     track('add_shipping_info', { value: totals.totalInc, needs_technician: needsTechnician, items: funnelItems() });
     try {
-      const res = await fetch('/api/checkout', {
+      const res = await fetch(withBase('/api/checkout'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

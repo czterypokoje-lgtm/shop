@@ -8,6 +8,8 @@ export const SITE_CONFIG = {
   fullName: 'CarKey24', // legal entity for Mollie verification; switch back to Autosleutel24 after
   tagline: 'Mobiele Sleutelprogrammering — Alle Merken',
   // The shop runs on its own domain; set NEXT_PUBLIC_SITE_URL once it is chosen.
+  /** Scheme + host only, for absolute links to files that already carry the base path (photos). */
+  get origin(): string { try { return new URL(this.domain).origin; } catch { return this.domain; } },
   // Trimmed, https:// added, no trailing slash: a stray space or '/' made Mollie reject redirect and webhook URLs.
   domain: ((u) => (u && !/^https?:\/\//.test(u) ? `https://${u}` : u) || 'http://localhost:3000')((process.env.NEXT_PUBLIC_SITE_URL ?? '').trim().replace(/\/+$/, '')),
 

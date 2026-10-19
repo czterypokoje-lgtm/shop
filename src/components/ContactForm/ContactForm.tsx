@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 
 import React, { useState } from 'react';
 
@@ -27,7 +28,7 @@ export default function ContactForm() {
       const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
       return match ? match[2] : null;
     };
-    fetch('/api/leads', {
+    fetch(withBase('/api/leads'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

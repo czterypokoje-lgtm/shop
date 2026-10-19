@@ -1,6 +1,7 @@
 import 'server-only';
 import { PRODUCT_COPY } from '@/content/productCopy';
 import { publicImage } from '@/lib/publicImage';
+import { withBase } from '@/lib/base';
 import { cache } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import {
@@ -153,7 +154,8 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
       override?.meta_description_override ?? product.metaDescriptionNl,
     // The feed has no separate meta title, so the on-page one is the fallback.
     metaTitle: override?.meta_title_override ?? title,
-    image: publicImage(override?.image_override) ?? product.image,
+    // Shown paths carry the base (/webshop) once the shop lives under the main site.
+    image: ((u) => (u ? withBase(u) : null))(publicImage(override?.image_override) ?? product.image),
     specs: product.specs ?? [],
     /*
      * The office's photo order wins when it set one; otherwise the supplier's
@@ -163,10 +165,10 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
     images: Array.isArray(override?.images) && (override!.images as unknown[]).length
       ? (override!.images as unknown[]).filter(
           (u): u is string => typeof u === 'string'
-        ).map((u) => publicImage(u)!)
+        ).map((u) => withBase(publicImage(u)!))
       : override?.image_override
-        ? [publicImage(override.image_override)!]
-        : product.images ?? [],
+        ? [withBase(publicImage(override.image_override)!)]
+        : (product.images ?? []).map(withBase),
     price,
     priceIsManual: manual,
     // Untracked: whatever the supplier said at the last sync.

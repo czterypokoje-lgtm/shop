@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 
 import { track } from '@/lib/track';
 import React, { useState } from 'react';
@@ -66,7 +67,7 @@ export default function VehicleFitmentWidget({
     setError('');
     setResult(null);
     try {
-      const res = await fetch(`/api/kenteken?kenteken=${kenteken.replace(/[^a-zA-Z0-9]/g, '')}`);
+      const res = await fetch(withBase(`/api/kenteken?kenteken=${kenteken.replace(/[^a-zA-Z0-9]/g, '')}`));
       const data = await res.json();
       if (!res.ok || data.error) {
         setError(data.error || 'Kenteken niet gevonden');

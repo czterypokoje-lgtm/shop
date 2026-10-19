@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -36,7 +37,7 @@ export default function WebshopHero() {
 
         <div className="webshop-hero-visual">
           <Image
-            src="/images/hero-keys.webp"
+            src={withBase("/images/hero-keys.webp")}
             alt="Autosleutels uit ons assortiment: klapsleutel, smart keys en sleutelkaart"
             width={1120}
             height={920}

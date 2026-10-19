@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import ProductReviews from '@/components/webshop/ProductReviews';
 import { reviewsFor } from '@/lib/reviews';
@@ -92,7 +93,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
           slug: batteryProduct.slug,
           title: batteryProduct.titleNl,
           price: batteryProduct.price,
-          image: batteryProduct.image ?? '/images/product-placeholder.svg',
+          image: batteryProduct.image ?? withBase('/images/product-placeholder.svg'),
         }
       : null;
 
@@ -131,7 +132,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
     sku: entry.id,
     category: entry.category ?? undefined,
     image: entry.image
-      ? [entry.image.startsWith('http') ? entry.image : `${SITE_CONFIG.domain}${entry.image}`]
+      ? [entry.image.startsWith('http') ? entry.image : `${SITE_CONFIG.origin}${entry.image}`]
       : undefined,
     brand: entry.manufacturer
       ? { '@type': 'Brand', name: entry.manufacturer }
@@ -310,7 +311,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
                 mainProductSlug={entry.slug}
                 mainProductTitle={entry.titleNl}
                 mainProductPrice={sellPrice ?? 0}
-                mainProductImage={entry.image ?? '/images/product-placeholder.svg'}
+                mainProductImage={entry.image ?? withBase('/images/product-placeholder.svg')}
                 batteryData={batteryData}
                 offerBatteryLink={NEEDS_PROGRAMMING_CATEGORIES.has(entry.category ?? '')}
               />
@@ -351,7 +352,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
       <StickyBuyBar
         slug={entry.slug}
         title={entry.titleNl}
-        image={entry.image ?? '/images/product-placeholder.svg'}
+        image={entry.image ?? withBase('/images/product-placeholder.svg')}
         price={sellPrice}
         inStock={entry.inStock}
       />

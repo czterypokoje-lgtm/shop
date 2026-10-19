@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProductCardList from '@/components/webshop/ProductCardList';
@@ -90,7 +91,7 @@ export default async function OffersPage() {
                 // The price this article stands at outside the action — a real
                 // figure from the margin rule, not a decorated one.
                 oldPrice={normal}
-                img={product.image || '/images/product-placeholder.svg'}
+                img={product.image || withBase('/images/product-placeholder.svg')}
               />
             ))}
           </div>

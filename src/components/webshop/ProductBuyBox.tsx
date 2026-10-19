@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 import { formatPrice, FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/money';
 import React, { useState } from 'react';
 import {
@@ -214,7 +215,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
       <div className={styles.expert}>
         <div className={styles.expertFace}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/autosleutel-bijmaken-utrecht-amsterdam-mobiel.webp" alt="Berkan — expert autosleutels" width={64} height={64} />
+          <img src={withBase("/autosleutel-bijmaken-utrecht-amsterdam-mobiel.webp")} alt="Berkan — expert autosleutels" width={64} height={64} />
           <span>Berkan</span>
         </div>
         <div>

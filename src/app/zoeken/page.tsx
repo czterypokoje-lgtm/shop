@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import type { Metadata } from 'next';
 import TrackView from '@/components/webshop/TrackView';
 import Link from 'next/link';
@@ -188,7 +189,7 @@ export default async function SearchPage({
                 inStock={product.stockQuantity === null ? null : product.inStock}
                 category={product.category ?? 'Onderdeel'}
                 price={product.price}
-                img={product.image || '/images/product-placeholder.svg'}
+                img={product.image || withBase('/images/product-placeholder.svg')}
               />
             ))}
           </div>

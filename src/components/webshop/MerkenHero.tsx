@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 import React from 'react';
 import Link from 'next/link';
 import CarFinder from './CarFinder';
@@ -18,7 +19,7 @@ export default function MerkenHero() {
       }}>
         {/* Keys we sell, on the right; desktop only, the text needs the width on a phone. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/hero-keys.webp" alt="" className="merken-hero-keys" width={1120} height={920} />
+        <img src={withBase("/images/hero-keys.webp")} alt="" className="merken-hero-keys" width={1120} height={920} />
         {/* Dark Gradient Overlay for text readability (matches the reference's left shadow) */}
         <div style={{
           position: 'absolute',

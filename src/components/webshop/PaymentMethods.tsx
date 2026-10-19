@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import { PAYMENT_METHODS as METHODS } from '@/lib/payments';
 
@@ -25,7 +26,7 @@ const LOGOS: Record<string, { id: string; label: string }[]> = {
 const Tile = ({ id, label }: { id: string; label: string }) => (
   <li className="pay-tile" title={label}>
     {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img src={`/images/logos/${id}.svg`} alt={label} loading="lazy" />
+    <img src={withBase(`/images/logos/${id}.svg`)} alt={label} loading="lazy" />
   </li>
 );
 

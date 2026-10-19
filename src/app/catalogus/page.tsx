@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React, { Suspense } from 'react';
 import TrackView from '@/components/webshop/TrackView';
 import Link from 'next/link';
@@ -200,7 +201,7 @@ export default async function CatalogPage({
                     specs={p.specs}
                     category={p.category ? facetLabel('category', p.category) : 'Onderdeel'}
                     price={p.price}
-                    img={p.image || '/images/product-placeholder.svg'}
+                    img={p.image || withBase('/images/product-placeholder.svg')}
                   />
                 );
               })}

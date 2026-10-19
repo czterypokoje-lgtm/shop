@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import Link from 'next/link';
 import MerkenHero from '@/components/webshop/MerkenHero';
@@ -72,7 +73,7 @@ export default function MerkenPage() {
                 <Link href={`/merk/${slugify(make)}`} key={make} className="brand-square-card">
                   <div className="brand-photo">
                     {PHOTOS.has(slugify(make)) ? (
-                      <img src={`/images/brands/${slugify(make)}.webp`} alt={`${make} auto`} loading="lazy" width={320} height={200} />
+                      <img src={withBase(`/images/brands/${slugify(make)}.webp`)} alt={`${make} auto`} loading="lazy" width={320} height={200} />
                     ) : (
                       <span className="brand-wordmark">{make}</span>
                     )}

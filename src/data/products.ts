@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 export interface Product {
   id: string;
   name: string;
@@ -18,7 +19,7 @@ export const WEBSHOP_PRODUCTS: Product[] = [
     price: 89.95,
     brandSlug: 'volkswagen',
     category: 'key',
-    imageUrl: '/images/autosleutel-bijmaken-volkswagen.webp',
+    imageUrl: withBase('/images/autosleutel-bijmaken-volkswagen.webp'),
     inStock: true,
     features: ['Inclusief batterij', '3 Knoppen', '434 MHz'],
   },
@@ -29,7 +30,7 @@ export const WEBSHOP_PRODUCTS: Product[] = [
     price: 119.95,
     brandSlug: 'bmw',
     category: 'key',
-    imageUrl: '/images/autosleutel-bijmaken-bmw.webp',
+    imageUrl: withBase('/images/autosleutel-bijmaken-bmw.webp'),
     inStock: true,
     features: ['Keyless Go', '4 Knoppen', 'PCF7953 Transponder'],
   },
@@ -40,7 +41,7 @@ export const WEBSHOP_PRODUCTS: Product[] = [
     price: 24.95,
     brandSlug: 'mercedes-benz',
     category: 'shell',
-    imageUrl: '/images/autosleutel-bijmaken-mercedes.webp',
+    imageUrl: withBase('/images/autosleutel-bijmaken-mercedes.webp'),
     inStock: true,
     features: ['Chrome afwerking', 'Inclusief noodsleutel', 'Zonder elektronica'],
   },
@@ -51,7 +52,7 @@ export const WEBSHOP_PRODUCTS: Product[] = [
     price: 19.95,
     brandSlug: 'audi',
     category: 'shell',
-    imageUrl: '/images/autosleutel-bijmaken-audi.webp',
+    imageUrl: withBase('/images/autosleutel-bijmaken-audi.webp'),
     inStock: true,
     features: ['3 Knoppen', 'Inclusief ongeslepen baard'],
   },
@@ -62,7 +63,7 @@ export const WEBSHOP_PRODUCTS: Product[] = [
     price: 6.95,
     brandSlug: 'all',
     category: 'battery',
-    imageUrl: '/images/icon_insurance.webp',
+    imageUrl: withBase('/images/icon_insurance.webp'),
     inStock: true,
   }
 ];

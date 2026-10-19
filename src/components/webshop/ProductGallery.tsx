@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 import React, { useRef, useState } from 'react';
 import styles from './ProductGallery.module.css';
 
@@ -8,7 +9,7 @@ import styles from './ProductGallery.module.css';
  * quota for little gain.
  */
 export default function ProductGallery({ images, title = '' }: { images?: string[]; title?: string }) {
-  const photos = images && images.length > 0 ? images : ['/images/product-placeholder.svg'];
+  const photos = images && images.length > 0 ? images : [withBase('/images/product-placeholder.svg')];
   const [active, setActive] = useState(0);
   const touchX = useRef<number | null>(null);
   const go = (step: number) => setActive((i) => (i + step + photos.length) % photos.length);

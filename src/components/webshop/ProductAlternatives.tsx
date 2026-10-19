@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import Link from 'next/link';
 import { formatPrice } from '@/lib/catalog';
@@ -82,7 +83,7 @@ export default async function ProductAlternatives({ product }: { product: ShopPr
                 <th key={p.slug} scope="col">
                   <Link href={`/product/${p.urlSlug}`} className="shop-compare-head">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={p.image ?? '/images/product-placeholder.svg'} alt="" />
+                    <img src={p.image ?? withBase('/images/product-placeholder.svg')} alt="" />
                     <span className="shop-compare-label">
                       {i === 0 ? 'Dit artikel' : 'Alternatief'}
                     </span>

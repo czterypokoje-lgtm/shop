@@ -1,3 +1,4 @@
+import { withBase } from '@/lib/base';
 import React from 'react';
 import Link from 'next/link';
 import { existsSync } from 'fs';
@@ -64,7 +65,7 @@ export function HomeBrands({ products }: { products: Products }) {
           {top.map(([make, n]) => (
             <Link key={make} href={`/merk/${slugify(make)}`} className={s.brandCard}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`/images/brands/${slugify(make)}.webp`} alt={`${make} auto`} width={320} height={200} loading="lazy" />
+              <img src={withBase(`/images/brands/${slugify(make)}.webp`)} alt={`${make} auto`} width={320} height={200} loading="lazy" />
               <strong>{make}</strong>
               <span>{n} onderdelen</span>
             </Link>
@@ -89,7 +90,7 @@ export function HomeFavorites({ products }: { products: Products }) {
         <div className={s.fav}>
           <div className={s.favHero}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/gallery/autosleutel_specialist_mobiele_werkplaats_utrecht_leidsche_rijn.webp" alt="Onze mobiele werkplaats met sleutelapparatuur" loading="lazy" />
+            <img src={withBase("/images/gallery/autosleutel_specialist_mobiele_werkplaats_utrecht_leidsche_rijn.webp")} alt="Onze mobiele werkplaats met sleutelapparatuur" loading="lazy" />
             <div className={s.favText}>
               <span className={s.kicker}>Liever niet zelf doen?</span>
               <strong>Wij programmeren uw nieuwe sleutel ook</strong>
@@ -99,7 +100,7 @@ export function HomeFavorites({ products }: { products: Products }) {
           </div>
           <div className={s.favGrid}>
             {products.slice(0, 6).map((p) => (
-              <ProductCard key={p.slug} slug={p.slug} urlSlug={p.urlSlug} title={p.titleNl} category={p.category ?? ''} price={formatPrice(p.price)} img={p.image ?? '/images/product-placeholder.svg'} inStock={p.inStock} />
+              <ProductCard key={p.slug} slug={p.slug} urlSlug={p.urlSlug} title={p.titleNl} category={p.category ?? ''} price={formatPrice(p.price)} img={p.image ?? withBase('/images/product-placeholder.svg')} inStock={p.inStock} />
             ))}
           </div>
         </div>
@@ -109,9 +110,9 @@ export function HomeFavorites({ products }: { products: Products }) {
 }
 
 const GUIDES = [
-  { href: '/merken', img: '/images/blog/autosleutel-kenteken-1.webp', tag: 'Uitleg', title: 'Welke sleutel past op mijn auto?', text: 'Kies merk, model en bouwjaar — of zoek op kenteken.' },
-  { href: '/offerte', img: '/images/gallery/autosleutel_volkswagen_golf_reservesleutel_maarssen.webp', tag: 'Service', title: 'Niet gevonden? Wij zoeken het voor u', text: 'Binnen één werkdag een prijs, vrijblijvend.' },
-  { href: '/verzending-en-retour', img: '/images/gallery/autosleutel_toyota_corolla_reservesleutel_zeist.webp', tag: 'Info', title: 'Verzending, retour en garantie', text: 'Zo werkt bestellen, terugsturen en garantie.' },
+  { href: '/merken', img: withBase('/images/blog/autosleutel-kenteken-1.webp'), tag: 'Uitleg', title: 'Welke sleutel past op mijn auto?', text: 'Kies merk, model en bouwjaar — of zoek op kenteken.' },
+  { href: '/offerte', img: withBase('/images/gallery/autosleutel_volkswagen_golf_reservesleutel_maarssen.webp'), tag: 'Service', title: 'Niet gevonden? Wij zoeken het voor u', text: 'Binnen één werkdag een prijs, vrijblijvend.' },
+  { href: '/verzending-en-retour', img: withBase('/images/gallery/autosleutel_toyota_corolla_reservesleutel_zeist.webp'), tag: 'Info', title: 'Verzending, retour en garantie', text: 'Zo werkt bestellen, terugsturen en garantie.' },
 ];
 
 export function HomeGuides() {
@@ -163,7 +164,7 @@ const PAY_LOGOS: Record<string, { id: string; label: string }[]> = {
 const Tile = ({ id, label }: { id: string; label: string }) => (
   <li className={s.tile} title={label}>
     {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img src={`/images/logos/${id}.svg`} alt={label} loading="lazy" />
+    <img src={withBase(`/images/logos/${id}.svg`)} alt={label} loading="lazy" />
   </li>
 );
 

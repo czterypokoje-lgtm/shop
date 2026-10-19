@@ -1,4 +1,5 @@
 'use client';
+import { withBase } from '@/lib/base';
 import Link from 'next/link';
 import { readCart, CART_EVENT } from '@/lib/cart';
 import { useEffect } from 'react';
@@ -77,7 +78,7 @@ export default function WebshopNavigation() {
         {/* Logo */}
         <Link href="/" style={{ flexShrink: 0 }}>
           <Image
-            src="/images/logo/autosleutel24-logo-slotenmaker-utrecht.webp"
+            src={withBase("/images/logo/autosleutel24-logo-slotenmaker-utrecht.webp")}
             alt="Autosleutel24 Webshop"
             width={160}
             height={48}
@@ -141,7 +142,7 @@ export default function WebshopNavigation() {
         <label className="shop-expert-head" htmlFor="shop-expert-toggle">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/team/berkan-acarol-autosleutelspecialist-utrecht.webp"
+            src={withBase("/images/team/berkan-acarol-autosleutelspecialist-utrecht.webp")}
             alt=""
             className="shop-expert-photo"
           />

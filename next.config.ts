@@ -1,6 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // Set to /webshop when the shop is served at www.autosleutel24.nl/webshop through a rewrite on the main site.
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || undefined,
   // Review photos are shrunk in the browser to ~300 KB each; three plus the form fit in 4 MB (Vercel caps a request at 4.5 MB).
   experimental: { serverActions: { bodySizeLimit: '4mb' } },
   async headers() {
