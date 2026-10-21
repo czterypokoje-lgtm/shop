@@ -102,6 +102,7 @@ export default async function SearchPage({
                 specs={product.specs}
                 inStock={product.stockQuantity === null ? null : product.inStock}
                 category={product.category ?? 'Onderdeel'}
+                categorySlug={product.category}
                 price={product.price}
                 img={product.image || withBase('/images/product-placeholder.svg')}
               />

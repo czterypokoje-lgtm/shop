@@ -1,10 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { slugify } from '@/lib/utils';
-import { FREE_SHIPPING_FROM, formatPrice } from '@/lib/catalog';
+
 import AddToCartButton from '@/components/webshop/AddToCartButton';
-import WishlistHeart from '@/components/webshop/WishlistHeart';
-import { CardRating, CardRows } from '@/components/webshop/CardExtras';
+import { CardBuyBlock } from '@/components/webshop/CardExtras';
 
 /**
  * One product in a list view.
@@ -45,6 +44,8 @@ interface ProductCardProps {
   specs?: [string, string][];
   /** Only known when the office tracks stock for this product. */
   inStock?: boolean | null;
+  /** Catalogue category slug, for the service add-on line. */
+  categorySlug?: string | null;
 }
 
 export default function ProductCard({
@@ -58,6 +59,7 @@ export default function ProductCard({
   subtitle,
   specs = [],
   inStock = null,
+  categorySlug = null,
 }: ProductCardProps) {
   const href = `/product/${urlSlug ?? slug ?? slugify(title)}`;
   const amount = price ?? NaN;
@@ -67,26 +69,14 @@ export default function ProductCard({
   const hasReference =
     Number.isFinite(reference) && Number.isFinite(amount) && reference > amount;
 
-  // The real rule from the catalogue, not a badge on everything.
-  const freeShipping = Number.isFinite(amount) && amount >= FREE_SHIPPING_FROM;
 
   return (
     <div className="shop-list-card">
       {/* Image */}
       <div className="shop-list-card-media">
-        {slug && (
-          <div className="shop-list-card-badges">
-            <WishlistHeart slug={slug} title={title} />
-            {freeShipping && (
-              <span className="shop-shipping-badge" title="Gratis verzending">
-                Gratis verzending
-              </span>
-            )}
-          </div>
-        )}
         <Link href={href} style={{ display: 'flex', width: '100%', justifyContent: 'center' }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={img} alt={title} style={{ width: '100%', maxWidth: '220px', objectFit: 'contain' }} />
+          <img src={img} alt={title} loading="lazy" style={{ width: '100%', maxWidth: '220px', aspectRatio: '1', objectFit: 'contain', mixBlendMode: 'multiply' }} />
         </Link>
       </div>
 
@@ -95,7 +85,6 @@ export default function ProductCard({
         <Link href={href} style={{ textDecoration: 'none', color: '#0f172a' }}>
           <h2 className="shop-list-card-title" style={{ fontSize: '1.3rem', fontWeight: 800, marginBottom: '0.25rem' }}>{title}</h2>
         </Link>
-        <CardRating slug={slug} />
 
         {subtitle && (
           <div className="shop-list-card-subtitle" style={{ fontSize: '0.95rem', color: '#475569', marginBottom: '0.6rem', lineHeight: 1.5 }}>
@@ -135,30 +124,10 @@ export default function ProductCard({
         )}
       </div>
 
-      {/* Price */}
+      {/* Price and buy block */}
       <div className="shop-list-card-price">
-        {hasReference && (
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', marginBottom: '0.25rem' }}>
-            <div style={{ fontSize: '0.8rem', color: '#64748b', textDecoration: 'line-through' }}>
-              {formatPrice(oldPrice ?? null)}
-            </div>
-            <div style={{ background: '#16a34a', color: '#fff', fontSize: '0.75rem', fontWeight: 800, padding: '0.1rem 0.4rem', borderRadius: '4px', marginTop: '0.2rem' }}>
-              Bespaar {formatPrice(reference - amount)}
-            </div>
-          </div>
-        )}
+        <CardBuyBlock slug={slug} title={title} price={price} oldPrice={hasReference ? reference : null} category={categorySlug} />
 
-        <div style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0f172a', marginBottom: '0.25rem', letterSpacing: '-0.5px' }}>
-          {formatPrice(price)}
-        </div>
-
-        <CardRows price={price} compact />
-
-        {/*
-          * Two actions, in the order people use them: buy it, or go and read
-          * more first. The card used to offer only "Bekijken", and the button
-          * before that did nothing at all.
-          */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', width: '100%' }}>
           {slug && <AddToCartButton slug={slug} disabled={inStock === false} />}
           <Link

@@ -1,0 +1,12 @@
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1rem 1.1rem; display: flex; flex-direction: column; height: 100%; }
+/* One white, square stage for every photo; multiply hides grey photo backgrounds. */
+.media { display: grid; place-items: center; aspect-ratio: 1; background: #fff; border-radius: 8px; margin-bottom: .75rem; overflow: hidden; }
+.media img { width: 82%; height: 82%; object-fit: contain; mix-blend-mode: multiply; transition: transform .25s; }
+.card:hover .media img { transform: scale(1.04); }
+.category { font-size: .75rem; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; margin-bottom: .2rem; }
+.title { color: #111827; font-weight: 700; font-size: 1rem; line-height: 1.35; text-decoration: none; margin-bottom: .35rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.title:hover { text-decoration: underline; }
+.stock, .soldOut { font-size: .8rem; font-weight: 700; margin-bottom: .6rem; }
+.stock { color: #15803d; }
+.soldOut { color: #b45309; }
+.cta { margin-top: auto; padding-top: .5rem; }

@@ -1,11 +1,31 @@
-.rating { display: flex; align-items: center; gap: .35rem; margin: 0 0 .45rem; }
-.stars { position: relative; color: #e5e7eb; font-size: .95rem; letter-spacing: 1px; line-height: 1; }
-.stars::before { content: '★★★★★'; position: absolute; inset: 0; width: var(--fill); overflow: hidden; color: #f5b400; }
-.count { font-size: .85rem; color: #475569; }
-.rows { border-top: 1px solid #e5e7eb; margin: .25rem 0 .9rem; width: 100%; }
-.offer, .pay { display: flex; align-items: center; gap: .5rem; padding: .55rem 0; border-bottom: 1px solid #e5e7eb; font-size: .85rem; color: #1f2937; text-align: left; }
-.offer { color: #1f2937; border: 1px solid #f3c4b1; background: #fff7f3; border-radius: 6px; padding: .5rem .6rem; margin: .55rem 0 .1rem; }
-.offer svg { flex: none; color: #c2410c; }
-.offer b { color: #c2410c; }
-.logos { display: flex; flex-wrap: wrap; gap: .25rem; }
-.logos img { height: 18px; width: auto; border: 1px solid #e5e7eb; border-radius: 3px; padding: 1px 3px; background: #fff; }
+.block { width: 100%; text-align: left; color: #111827; }
+.rating { display: flex; align-items: center; gap: .4rem; padding-bottom: .55rem; border-bottom: 1px solid #d6d9de; }
+.stars { position: relative; color: #e5e7eb; font-size: 1rem; letter-spacing: 1px; line-height: 1; }
+.stars::before { content: '★★★★★'; position: absolute; inset: 0; width: var(--fill); overflow: hidden; color: #e8611a; }
+.count { font-size: .95rem; color: #4b5563; }
+
+.priceRow { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; padding: .7rem 0 .35rem; }
+.price, .priceSale { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.01em; }
+.price { color: #111827; }
+.priceSale { color: #d4251c; }
+.was { color: #6b7280; font-weight: 700; font-size: 1rem; }
+.save { background: #1f2937; color: #fff; font-weight: 800; font-size: .85rem; padding: .2rem .5rem; letter-spacing: .02em; }
+
+.addon { display: flex; align-items: center; gap: .4rem; font-size: .92rem; color: #374151; padding: .15rem 0 .65rem; }
+.plus { color: #9ca3af; }
+.addonBadge { background: #1f2a44; color: #fff; font-weight: 800; font-size: .78rem; padding: .18rem .45rem; border-radius: 4px; }
+
+.offer { display: flex; align-items: center; gap: .55rem; border: 1.5px solid #d4251c; padding: .55rem .65rem; color: #d4251c; font-size: .9rem; line-height: 1.25; }
+.offer svg { flex: none; }
+.offer b { font-weight: 800; }
+.offer span { color: #111827; }
+.offer span b { color: #d4251c; }
+
+.line { display: flex; align-items: center; gap: .7rem; padding: .75rem 0; border-bottom: 1px solid #d6d9de; font-size: .9rem; line-height: 1.3; color: #111827; text-decoration: none; }
+.line b { font-weight: 800; }
+.logos { display: flex; flex-direction: column; gap: .2rem; flex: none; }
+.logos img { height: 18px; width: 34px; object-fit: contain; border: 1px solid #e5e7eb; border-radius: 3px; padding: 1px 2px; background: #fff; }
+.help { color: #111827; }
+.help:hover b { text-decoration: underline; }
+.wa { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: #dcf8e6; color: #128c4a; }
+.chev { margin-left: auto; font-size: 1.4rem; color: #111827; }

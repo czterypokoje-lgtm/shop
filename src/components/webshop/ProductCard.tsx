@@ -1,103 +1,44 @@
 import React from 'react';
 import Link from 'next/link';
 import AddToCartButton from '@/components/webshop/AddToCartButton';
-import { CardRating, CardRows } from '@/components/webshop/CardExtras';
+import { CardBuyBlock } from '@/components/webshop/CardExtras';
+import s from './ProductCard.module.css';
 
 interface ProductCardProps {
   slug: string;
   /** The public URL segment; slug stays the basket key. */
   urlSlug?: string;
   title: string;
+  /** Display label of the category. */
   category: string;
-  /** Already formatted by formatPrice — it carries its own euro sign. */
+  /** Catalogue category slug, for the service add-on line. */
+  categorySlug?: string | null;
+  /** Already formatted by formatPrice; kept for callers, the block formats `amount`. */
   price: string;
-  /** The number behind `price`, for the free-shipping row. */
   amount?: number | null;
   img: string;
   inStock?: boolean;
 }
 
-export default function ProductCard({ slug, urlSlug, title, category, price, amount = null, img, inStock = true }: ProductCardProps) {
+/*
+ * Grid card. No invented badges or ratings: the buy block shows only facts
+ * from the catalogue and real, verified-purchase reviews (BW 6:193c).
+ */
+export default function ProductCard({ slug, urlSlug, title, category, categorySlug = null, amount = null, img, inStock = true }: ProductCardProps) {
+  const href = `/product/${urlSlug ?? slug}`;
   return (
-    <div style={{
-      background: '#fff',
-      borderRadius: '8px',
-      padding: '1.25rem',
-      position: 'relative',
-      display: 'flex',
-      flexDirection: 'column',
-      boxShadow: '0 2px 4px rgba(0,0,0,0.04)',
-      fontFamily: 'Inter, sans-serif'
-    }}>
-      {/*
-        Removed: a "Top seller" badge on every card and a "Best of 2026" badge
-        on whichever two happened to be first and fourth in the carousel.
-        Neither came from sales data.
-      */}
-
-      {/* Image */}
-      <Link href={`/product/${urlSlug ?? slug}`} style={{ display: 'block', marginBottom: '1rem', textAlign: 'center', marginTop: '1.5rem' }}>
-        <img 
-          src={img} 
-          alt={title} 
-          width={160} 
-          height={160} 
-          style={{ objectFit: 'contain', margin: '0 auto', display: 'block' }}
-        />
+    <div className={s.card}>
+      <Link href={href} className={s.media}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={img} alt={title} width={240} height={240} loading="lazy" />
       </Link>
-
-      <div style={{ fontSize: '0.8rem', color: '#64748b', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-        {category}
-      </div>
-      
-      <Link href={`/product/${urlSlug ?? slug}`} style={{ textDecoration: 'none', color: '#0f172a' }}>
-        <h3 style={{ fontSize: '1rem', fontWeight: 700, margin: '0 0 0.5rem 0', lineHeight: 1.4 }}>
-          {title}
-        </h3>
-      </Link>
-      
-      {/*
-        No rating here on purpose. Every card used to show the same
-        "★★★★☆ (59)" regardless of product — a fabricated review count is a
-        misleidende handelspraktijk (BW 6:193c). Wire this to real, verified
-        purchase reviews and it can come back.
-      */}
-
-      <CardRating slug={slug} />
-
-      <div style={{ color: inStock ? '#16a34a' : '#b45309', fontSize: '0.8rem', fontWeight: 700, marginBottom: '0.75rem' }}>
-        {inStock ? 'Op voorraad' : 'Tijdelijk uitverkocht'}
-      </div>
-
-      {/*
-        `price` arrives from formatPrice, which already writes the euro sign.
-        The extra one here rendered every card as "€€12,95".
-      */}
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', marginBottom: '0.25rem' }}>
-        <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#0f172a' }}>{price}</span>
-      </div>
-
-      <CardRows price={amount} />
-
-      {/* Buy, or read on. */}
-      <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+      <div className={s.category}>{category}</div>
+      <Link href={href} className={s.title}>{title}</Link>
+      <div className={inStock ? s.stock : s.soldOut}>{inStock ? 'Op voorraad · 2–3 werkdagen' : 'Tijdelijk uitverkocht'}</div>
+      <CardBuyBlock slug={slug} title={title} price={amount} category={categorySlug} />
+      <div className={s.cta}>
         <AddToCartButton slug={slug} disabled={!inStock} />
-        <Link href={`/product/${urlSlug ?? slug}`} style={{
-          display: 'block',
-          textAlign: 'center',
-          background: '#fff',
-          color: '#0f172a',
-          border: '1px solid #cbd5e1',
-          padding: '0.7rem',
-          borderRadius: '6px',
-          fontWeight: 700,
-          textDecoration: 'none',
-          fontSize: '0.9rem',
-        }}>
-          Bekijk product
-        </Link>
       </div>
-
     </div>
   );
 }

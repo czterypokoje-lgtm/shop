@@ -87,6 +87,7 @@ export default async function OffersPage() {
                 specs={product.specs}
                 inStock={product.stockQuantity === null ? null : product.inStock}
                 category={product.category ?? 'Onderdeel'}
+                categorySlug={product.category}
                 price={product.price}
                 // The price this article stands at outside the action — a real
                 // figure from the margin rule, not a decorated one.

@@ -200,6 +200,7 @@ export default async function CatalogPage({
                     subtitle={p.directAnswer}
                     specs={p.specs}
                     category={p.category ? facetLabel('category', p.category) : 'Onderdeel'}
+                    categorySlug={p.category}
                     price={p.price}
                     img={p.image || withBase('/images/product-placeholder.svg')}
                   />
