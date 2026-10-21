@@ -93,3 +93,6 @@
 .offer { color: #c2410c; }
 .payLogos { flex: none; display: flex; gap: .3rem; }
 .payLogos img { height: 22px; width: auto; border: 1px solid #e5e7eb; border-radius: 4px; padding: 2px 4px; background: #fff; }
+.shipNote { color: #64748b; font-size: .9rem; }
+.row { flex-wrap: wrap; }
+.payLogos { flex-wrap: wrap; }

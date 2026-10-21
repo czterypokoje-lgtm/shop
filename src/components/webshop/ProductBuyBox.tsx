@@ -95,27 +95,11 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
           {inStock ? <polyline points="20 6 9 17 4 12" /> : <><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></>}
         </svg>
-        {inStock ? 'Op voorraad' : 'Uitverkocht'}
+        {inStock ? 'Op voorraad · levertijd 2–3 werkdagen' : 'Uitverkocht'}
       </div>
 
       <hr className={styles.rule} />
 
-      <div className={styles.shipping}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-          <rect x="1" y="3" width="15" height="13" /><polygon points="16 8 20 8 23 11 23 16 16 16 16 8" /><circle cx="5.5" cy="18.5" r="2.5" /><circle cx="18.5" cy="18.5" r="2.5" />
-        </svg>
-        <div>
-          <div className={styles.shippingCost}>
-            {price >= FREE_SHIPPING_FROM ? 'Gratis verzending' : `Verzending ${formatPrice(SHIPPING_COST)}`}
-          </div>
-          <div className={styles.shippingTime}>
-            Levertijd 2 - 3 werkdagen
-            {price < FREE_SHIPPING_FROM && <> · gratis vanaf {formatPrice(FREE_SHIPPING_FROM)}</>}
-          </div>
-        </div>
-      </div>
-
-      <hr className={styles.rule} />
 
       <div className={styles.priceRow}>
         <span className={styles.price}>{formatPrice(servicePriceTotal)}</span>
@@ -130,7 +114,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
           <span>
             {servicePriceTotal >= FREE_SHIPPING_FROM
               ? <><b className={styles.offer}>Gratis verzending</b> bij deze bestelling</>
-              : <>Nog <b className={styles.offer}>{formatPrice(FREE_SHIPPING_FROM - servicePriceTotal)}</b> tot gratis verzending</>}
+              : <>Nog <b className={styles.offer}>{formatPrice(FREE_SHIPPING_FROM - servicePriceTotal)}</b> tot gratis verzending <span className={styles.shipNote}>(verzending {formatPrice(SHIPPING_COST)})</span></>}
           </span>
         </div>
         <div className={styles.row}>
