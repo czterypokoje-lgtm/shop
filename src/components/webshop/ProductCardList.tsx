@@ -4,6 +4,7 @@ import { slugify } from '@/lib/utils';
 import { FREE_SHIPPING_FROM, formatPrice } from '@/lib/catalog';
 import AddToCartButton from '@/components/webshop/AddToCartButton';
 import WishlistHeart from '@/components/webshop/WishlistHeart';
+import { CardRating, CardRows } from '@/components/webshop/CardExtras';
 
 /**
  * One product in a list view.
@@ -94,6 +95,7 @@ export default function ProductCard({
         <Link href={href} style={{ textDecoration: 'none', color: '#0f172a' }}>
           <h2 className="shop-list-card-title" style={{ fontSize: '1.3rem', fontWeight: 800, marginBottom: '0.25rem' }}>{title}</h2>
         </Link>
+        <CardRating slug={slug} />
 
         {subtitle && (
           <div className="shop-list-card-subtitle" style={{ fontSize: '0.95rem', color: '#475569', marginBottom: '0.6rem', lineHeight: 1.5 }}>
@@ -135,14 +137,6 @@ export default function ProductCard({
 
       {/* Price */}
       <div className="shop-list-card-price">
-        {/* Same fact as the badge over the image — shown as plain text here
-            on desktop, hidden on mobile where the badge already says it. */}
-        {freeShipping && (
-          <div className="shop-list-card-shipping-text" style={{ fontSize: '0.8rem', color: '#334155', fontWeight: 600, marginBottom: '0.5rem' }}>
-            Gratis verzending
-          </div>
-        )}
-
         {hasReference && (
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', marginBottom: '0.25rem' }}>
             <div style={{ fontSize: '0.8rem', color: '#64748b', textDecoration: 'line-through' }}>
@@ -154,9 +148,11 @@ export default function ProductCard({
           </div>
         )}
 
-        <div style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0f172a', marginBottom: '1rem', letterSpacing: '-0.5px' }}>
+        <div style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0f172a', marginBottom: '0.25rem', letterSpacing: '-0.5px' }}>
           {formatPrice(price)}
         </div>
+
+        <CardRows price={price} compact />
 
         {/*
           * Two actions, in the order people use them: buy it, or go and read

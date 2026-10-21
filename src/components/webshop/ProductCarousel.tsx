@@ -23,7 +23,7 @@ export default function ProductCarousel({ products }: ProductCarouselProps) {
              * the card. The struck-through "oldPrice" that used to sit next to
              * it was `price * 1.4` — a reference price nobody was ever charged.
              */
-            price={formatPrice(p.price)}
+            price={formatPrice(p.price)} amount={p.price}
             img={p.image ?? withBase('/images/product-placeholder.svg')}
             inStock={p.inStock}
           />

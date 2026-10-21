@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import AddToCartButton from '@/components/webshop/AddToCartButton';
+import { CardRating, CardRows } from '@/components/webshop/CardExtras';
 
 interface ProductCardProps {
   slug: string;
@@ -10,11 +11,13 @@ interface ProductCardProps {
   category: string;
   /** Already formatted by formatPrice — it carries its own euro sign. */
   price: string;
+  /** The number behind `price`, for the free-shipping row. */
+  amount?: number | null;
   img: string;
   inStock?: boolean;
 }
 
-export default function ProductCard({ slug, urlSlug, title, category, price, img, inStock = true }: ProductCardProps) {
+export default function ProductCard({ slug, urlSlug, title, category, price, amount = null, img, inStock = true }: ProductCardProps) {
   return (
     <div style={{
       background: '#fff',
@@ -60,6 +63,8 @@ export default function ProductCard({ slug, urlSlug, title, category, price, img
         purchase reviews and it can come back.
       */}
 
+      <CardRating slug={slug} />
+
       <div style={{ color: inStock ? '#16a34a' : '#b45309', fontSize: '0.8rem', fontWeight: 700, marginBottom: '0.75rem' }}>
         {inStock ? 'Op voorraad' : 'Tijdelijk uitverkocht'}
       </div>
@@ -68,9 +73,11 @@ export default function ProductCard({ slug, urlSlug, title, category, price, img
         `price` arrives from formatPrice, which already writes the euro sign.
         The extra one here rendered every card as "€€12,95".
       */}
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', marginBottom: '1rem' }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', marginBottom: '0.25rem' }}>
         <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#0f172a' }}>{price}</span>
       </div>
+
+      <CardRows price={amount} />
 
       {/* Buy, or read on. */}
       <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

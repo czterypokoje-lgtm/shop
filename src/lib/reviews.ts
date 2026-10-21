@@ -1,3 +1,4 @@
+import { cache } from 'react';
 import 'server-only';
 import { createClient } from '@supabase/supabase-js';
 
@@ -25,3 +26,22 @@ export const photoUrl = (path: string) => {
   const base = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.storage_SUPABASE_URL;
   return path.startsWith('http') ? path : `${base}/storage/v1/object/public/review-photos/${path}`;
 };
+
+/**
+ * Average and count per product, for the stars on product cards. One query per
+ * request (React cache), not one per card. Empty map without a database.
+ */
+export const ratingSummaries = cache(async (): Promise<Map<string, { avg: number; count: number }>> => {
+  const out = new Map<string, { avg: number; count: number }>();
+  const s = db();
+  if (!s) return out;
+  const { data, error } = await s.from('product_reviews').select('product_slug, rating').not('published_at', 'is', null).limit(10000);
+  if (error || !data) return out;
+  const sum = new Map<string, [number, number]>();
+  for (const r of data as { product_slug: string; rating: number }[]) {
+    const v = sum.get(r.product_slug) ?? [0, 0];
+    sum.set(r.product_slug, [v[0] + r.rating, v[1] + 1]);
+  }
+  for (const [slug, [total, count]] of sum) out.set(slug, { avg: total / count, count });
+  return out;
+});

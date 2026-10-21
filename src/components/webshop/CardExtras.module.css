@@ -1,0 +1,11 @@
+.rating { display: flex; align-items: center; gap: .35rem; margin: 0 0 .45rem; }
+.stars { position: relative; color: #e5e7eb; font-size: .95rem; letter-spacing: 1px; line-height: 1; }
+.stars::before { content: '★★★★★'; position: absolute; inset: 0; width: var(--fill); overflow: hidden; color: #f5b400; }
+.count { font-size: .85rem; color: #475569; }
+.rows { border-top: 1px solid #e5e7eb; margin: .25rem 0 .9rem; width: 100%; }
+.offer, .pay { display: flex; align-items: center; gap: .5rem; padding: .55rem 0; border-bottom: 1px solid #e5e7eb; font-size: .85rem; color: #1f2937; text-align: left; }
+.offer { color: #1f2937; border: 1px solid #f3c4b1; background: #fff7f3; border-radius: 6px; padding: .5rem .6rem; margin: .55rem 0 .1rem; }
+.offer svg { flex: none; color: #c2410c; }
+.offer b { color: #c2410c; }
+.logos { display: flex; flex-wrap: wrap; gap: .25rem; }
+.logos img { height: 18px; width: auto; border: 1px solid #e5e7eb; border-radius: 3px; padding: 1px 3px; background: #fff; }

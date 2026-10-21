@@ -100,7 +100,7 @@ export function HomeFavorites({ products }: { products: Products }) {
           </div>
           <div className={s.favGrid}>
             {products.slice(0, 6).map((p) => (
-              <ProductCard key={p.slug} slug={p.slug} urlSlug={p.urlSlug} title={p.titleNl} category={p.category ?? ''} price={formatPrice(p.price)} img={p.image ?? withBase('/images/product-placeholder.svg')} inStock={p.inStock} />
+              <ProductCard key={p.slug} slug={p.slug} urlSlug={p.urlSlug} title={p.titleNl} category={p.category ?? ''} price={formatPrice(p.price)} amount={p.price} img={p.image ?? withBase('/images/product-placeholder.svg')} inStock={p.inStock} />
             ))}
           </div>
         </div>
