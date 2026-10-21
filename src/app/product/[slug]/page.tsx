@@ -303,6 +303,8 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
               needsProgramming={needsProgramming}
               category={entry.category ?? ''}
               inStock={entry.inStock}
+              rating={avgRating}
+              reviewCount={reviews.length}
             />
           </div>
 

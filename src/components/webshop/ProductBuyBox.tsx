@@ -1,4 +1,6 @@
 'use client';
+import { PAYMENT_METHODS } from '@/lib/payments';
+import { LOGOS } from '@/components/webshop/PaymentMethods';
 import { withBase } from '@/lib/base';
 import { formatPrice, FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/money';
 import React, { useState } from 'react';
@@ -52,7 +54,7 @@ const CATEGORY_NOTE: Record<string, string> = {
     'op het gewenste voertuig gezet.',
 };
 
-export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice, description, slug, category, inStock = true }: { title: string, subtitle?: string, brand?: string, price: number, oldPrice: number, description?: string, slug?: string, needsProgramming?: boolean, category?: string, inStock?: boolean }) {
+export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice, description, slug, category, inStock = true, rating = 0, reviewCount = 0 }: { title: string, subtitle?: string, brand?: string, price: number, oldPrice: number, description?: string, slug?: string, needsProgramming?: boolean, category?: string, inStock?: boolean, rating?: number, reviewCount?: number }) {
   const services = servicesFor(category);
   const [purchaseType, setPurchaseType] = useState<ServiceOption>('product_only');
   const [added, setAdded] = useState(false);
@@ -78,6 +80,12 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
           <Link href={`/catalogus?manufacturer=${encodeURIComponent(brand)}`} className={styles.brand}>
             Alles van {brand}
           </Link>
+        )}
+        {reviewCount > 0 && (
+          <a href="#reviews" className={styles.rating} aria-label={`${rating.toFixed(1).replace('.', ',')} van 5 sterren, ${reviewCount} reviews`}>
+            <span className={styles.ratingStars} style={{ ['--fill' as string]: `${(rating / 5) * 100}%` }} aria-hidden="true">★★★★★</span>
+            <span className={styles.ratingCount}>({reviewCount})</span>
+          </a>
         )}
         <h1 className={styles.title}>{title}</h1>
         {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
@@ -113,6 +121,27 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
         <span className={styles.price}>{formatPrice(servicePriceTotal)}</span>
         {hasReference && <span className={styles.oldPrice}>{formatPrice(oldPrice)}</span>}
         <span className={styles.vat}>incl. btw</span>
+      </div>
+
+      {/* Offer and payment rows, the way the big shops list them under the price. Only real offers. */}
+      <div className={styles.rows}>
+        <div className={styles.row}>
+          <svg className={styles.tag} width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.4 11.6 12.4 2.6A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7c0 .5.2 1 .6 1.4l9 9a2 2 0 0 0 2.8 0l7-7a2 2 0 0 0 0-2.8ZM6.5 8a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" /></svg>
+          <span>
+            {servicePriceTotal >= FREE_SHIPPING_FROM
+              ? <><b className={styles.offer}>Gratis verzending</b> bij deze bestelling</>
+              : <>Nog <b className={styles.offer}>{formatPrice(FREE_SHIPPING_FROM - servicePriceTotal)}</b> tot gratis verzending</>}
+          </span>
+        </div>
+        <div className={styles.row}>
+          <span className={styles.payLogos} aria-hidden="true">
+            {PAYMENT_METHODS.flatMap((m) => LOGOS[m.id] ?? []).map((l) => (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img key={l.id} src={withBase(`/images/logos/${l.id}.svg`)} alt="" />
+            ))}
+          </span>
+          <span>Veilig betalen met {PAYMENT_METHODS.map((m) => m.label).join(', ').replace(/, ([^,]*)$/, ' of $1')}</span>
+        </div>
       </div>
 
       {services.length > 1 && (

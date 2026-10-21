@@ -7,5 +7,5 @@ export const PAYMENT_METHODS: { id: string; label: string }[] = [
   { id: 'ideal', label: 'iDEAL' },
   { id: 'bancontact', label: 'Bancontact' },
   { id: 'creditcard', label: 'Creditcard' },
-  // PayPal: add back once it is activated in the Mollie dashboard.
+  { id: 'paypal', label: 'PayPal' },
 ];
