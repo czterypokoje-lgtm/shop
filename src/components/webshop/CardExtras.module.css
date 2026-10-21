@@ -29,7 +29,22 @@
 .help:hover b { text-decoration: underline; }
 .wa { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: #dcf8e6; color: #128c4a; }
 .chev { margin-left: auto; font-size: 1.4rem; color: #111827; }
-.addonBadge { white-space: nowrap; font-size: .74rem; }
-.addon { flex-wrap: nowrap; }
-.addon > span:last-child { white-space: nowrap; }
-.offer b { white-space: nowrap; }
+
+/* Never wider than the card: everything wraps, sizes follow the card width. */
+.block { container-type: inline-size; min-width: 0; overflow-wrap: anywhere; }
+.addon { flex-wrap: wrap; row-gap: .3rem; }
+.addonBadge { white-space: nowrap; }
+.offer { min-width: 0; }
+.offer span { min-width: 0; }
+.offer b { display: block; overflow-wrap: normal; }
+.line > span:not(.logos):not(.wa):not(.chev) { min-width: 0; }
+@container (max-width: 260px) {
+  .price, .priceSale { font-size: 1.2rem; }
+  .addon { font-size: .82rem; }
+  .addonBadge { font-size: .7rem; }
+  .offer { font-size: .8rem; gap: .4rem; padding: .5rem; }
+  .offer svg { width: 16px; height: 16px; }
+  .line { font-size: .8rem; gap: .5rem; }
+  .logos img { width: 28px; height: 15px; }
+  .wa { width: 28px; height: 28px; }
+}
