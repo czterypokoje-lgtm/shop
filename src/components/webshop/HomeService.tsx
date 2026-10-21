@@ -28,7 +28,7 @@ const WHY: { img: string; alt: string; title: string; text: string; cta: string;
     img: '/images/brand/bestelling-inpakken.webp',
     alt: 'Een bestelling met een autosleutel wordt ingepakt',
     title: 'Binnen 2–3 werkdagen in huis',
-    text: 'Op werkdagen verzonden, met track & trace. Gratis verzending vanaf €25 en 14 dagen bedenktijd.',
+    text: 'Op werkdagen verzonden, met track & trace. Gratis verzending vanaf €50 en 14 dagen bedenktijd.',
     cta: 'Verzending en retour',
     href: '/verzending-en-retour',
   },

@@ -70,7 +70,7 @@ export default function StickyBuyBar({
       <div className="shop-sticky-buy-text">
         <span className="shop-sticky-buy-title">{title}</span>
         <span className="shop-sticky-buy-usps">
-          <span>✓ <b>Gratis</b> verzending vanaf €25</span>
+          <span>✓ <b>Gratis</b> verzending vanaf €50</span>
           <span>✓ 14 dagen bedenktijd</span>
           <span>✓ Gratis advies via WhatsApp</span>
         </span>

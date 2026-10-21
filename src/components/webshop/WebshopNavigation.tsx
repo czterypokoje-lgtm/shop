@@ -179,10 +179,10 @@ export default function WebshopNavigation() {
         </div>
       </div>
 
-      {/* The real rule from the catalogue: €5,00 shipping, free from €25,00,
+      {/* The real rule from the catalogue: €5,00 shipping, free from €50,00,
           and 2-3 working days because the parts come from Germany. */}
       <div className="shop-shipping-bar">
-        Gratis verzending vanaf €25 · levertijd 2 - 3 werkdagen
+        Gratis verzending vanaf €50 · levertijd 2 - 3 werkdagen
       </div>
 
       {/*

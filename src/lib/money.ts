@@ -5,12 +5,11 @@
  */
 
 /**
- * Shipping. The market reference charges €3 and ships free from €25 — worth
- * knowing, because a higher threshold or a higher rate is a visible
- * disadvantage on a €10 basket.
+ * Shipping: €5, free from €50 (the office's rule, October 2026). The market
+ * reference ships free from €25, so the higher threshold is a known trade-off.
  */
 export const SHIPPING_COST = 5.0;
-export const FREE_SHIPPING_FROM = 25.0;
+export const FREE_SHIPPING_FROM = 50.0;
 
 export function shippingFor(basketTotal: number): number {
   return basketTotal >= FREE_SHIPPING_FROM ? 0 : SHIPPING_COST;
