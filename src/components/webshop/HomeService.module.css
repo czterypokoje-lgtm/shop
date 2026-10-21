@@ -1,0 +1,33 @@
+.section { padding: clamp(1.75rem, 4vw, 3rem) 0; }
+.h2 { margin: 0 0 1.25rem; font-size: clamp(1.35rem, 3vw, 1.85rem); color: #111827; letter-spacing: -0.01em; }
+
+.why { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+.card { display: flex; flex-direction: column; background: #fff; border: 1px solid #e5e7eb; border-radius: 14px; overflow: hidden; text-decoration: none; color: #111827; transition: box-shadow .2s, transform .2s; }
+.card:hover { box-shadow: 0 12px 30px rgba(15, 23, 42, .1); transform: translateY(-2px); }
+.card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.whyBody { padding: 1.1rem 1.25rem 1.3rem; display: flex; flex-direction: column; gap: .45rem; flex: 1; }
+.whyBody h3 { margin: 0; font-size: 1.15rem; }
+.whyBody p { margin: 0; color: #475569; line-height: 1.55; font-size: .97rem; flex: 1; }
+.link { color: #b93c20; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+
+.banners { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.banner { position: relative; display: grid; grid-template-columns: minmax(0, 11fr) minmax(0, 9fr); min-height: 190px; background: #1f2a44; border-radius: 14px; overflow: hidden; text-decoration: none; color: #fff; }
+.banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.bannerText { display: flex; flex-direction: column; justify-content: center; gap: .3rem; padding: 1.5rem 1.6rem; }
+.bannerTitle { font-size: clamp(1.5rem, 2.6vw, 2.1rem); font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; line-height: 1.05; }
+.dot { color: #f26a2e; }
+.bannerSub { font-size: 1.15rem; color: #e2e8f0; }
+.bannerCta { margin-top: .7rem; font-weight: 600; color: #fff; }
+.banner:hover .bannerCta { text-decoration: underline; }
+
+@media (max-width: 900px) {
+  .why { grid-template-columns: 1fr; }
+  .banners { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .why { display: grid; grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 82%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; }
+  .card { scroll-snap-align: start; }
+  .banner { grid-template-columns: minmax(0, 1fr) 40%; min-height: 150px; }
+  .bannerText { padding: 1.1rem; }
+  .bannerSub { font-size: 1rem; }
+}

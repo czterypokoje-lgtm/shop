@@ -4,8 +4,9 @@ import CategoryGrid from '@/components/webshop/CategoryGrid';
 import PromoBanner from '@/components/webshop/PromoBanner';
 import TrustSection from '@/components/webshop/TrustSection';
 import ProductRow from '@/components/webshop/ProductRow';
-import { HomeTrust, HomeBrands, HomeFavorites, HomeGuides, HomePartners } from '@/components/webshop/HomeSections';
+import { HomeBrands, HomeFavorites, HomeGuides, HomePartners } from '@/components/webshop/HomeSections';
 import { getShopProducts } from '@/lib/shopCatalog';
+import { HomeWhyUs, HomeServiceBanners } from '@/components/webshop/HomeService';
 
 /*
  * The home page reads the merged catalogue — prices, hidden products and
@@ -49,7 +50,7 @@ export default async function WebshopPage() {
   return (
     <div>
       <WebshopHero count={all.length} />
-      <HomeTrust />
+      <HomeWhyUs />
 
       <HomeBrands products={all} />
 
@@ -59,6 +60,8 @@ export default async function WebshopPage() {
           <CategoryGrid />
         </div>
       </section>
+
+      <HomeServiceBanners />
 
       <HomeFavorites products={featuredProducts} />
 

@@ -45,10 +45,10 @@ export default function WebshopHero({ count }: { count: number }) {
 
         <div className="webshop-hero-visual">
           <Image
-            src={withBase('/images/hero-keys.webp')}
-            alt="Autosleutels uit ons assortiment: klapsleutel, smart keys en sleutelkaart"
-            width={1120}
-            height={920}
+            src={withBase('/images/brand/hero-monteur-wijst.webp')}
+            alt="Autosleutelspecialist met een klapsleutel wijst naar de kentekenzoeker"
+            width={1000}
+            height={1250}
             priority
             sizes="(max-width: 767px) 90vw, 45vw"
           />

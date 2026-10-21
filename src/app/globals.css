@@ -2209,3 +2209,8 @@ body.as24-chat-open #floating-wa-btn { display: none !important; }
 }
 .webshop-hero-visual img { position: relative; z-index: 1; filter: drop-shadow(0 18px 24px rgba(15, 23, 42, .14)); }
 @media (max-width: 767px) { .webshop-hero-kicker-more { display: none; } }
+
+/* Hero v4: the technician stands on the bottom edge of the hero, pointing at the search. */
+.webshop-hero-visual { align-self: end; margin-bottom: -3rem; display: flex; justify-content: center; }
+.webshop-hero-visual img { max-height: 560px; width: auto; filter: none; }
+.webshop-hero-visual::before { inset: 12% 6% 0 6%; }
