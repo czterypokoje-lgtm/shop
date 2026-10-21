@@ -1,37 +1,42 @@
 import React from 'react';
 import Link from 'next/link';
-import ProductCarousel from '@/components/webshop/ProductCarousel';
+import ProductCard from '@/components/webshop/ProductCard';
 import { facetLabel } from '@/lib/catalog';
+import { formatPrice } from '@/lib/money';
+import { withBase } from '@/lib/base';
 import { getShopProducts, type ShopProduct } from '@/lib/shopCatalog';
+import s from './ProductRow.module.css';
 
 /**
- * One shelf of the shop on the home page: a heading, a row of real products
- * and a way through to the rest of that category.
- *
- * The home page had a single row of eight products and then three blocks that
- * were either empty or editorial, so a shop with 924 articles read as though
- * it had eight. Each row here is a category someone actually arrives looking
- * for, and the "alles bekijken" link goes to that category filtered.
+ * One shelf of the shop on the home page: a photo cover tile for the category
+ * (count and "vanaf" price from the catalogue) beside four real products, the
+ * way the large retailers lay out a themed row. On a phone the cover becomes a
+ * banner and the products scroll sideways.
  */
 export default async function ProductRow({
   category,
   title,
-  limit = 10,
+  cover,
+  tagline,
+  limit = 8,
 }: {
   category: string;
   /** Overrides the category's own name when a plainer word reads better. */
   title?: string;
+  /** Photo for the cover tile, under /public. */
+  cover?: string;
+  /** One line on the cover tile. */
+  tagline?: string;
   limit?: number;
 }) {
   const all = await getShopProducts('public');
+  const inCategory = all.filter((p) => p.category === category);
 
-  const products: ShopProduct[] = all
-    .filter((p) => p.category === category)
+  const products: ShopProduct[] = inCategory
     // A row of placeholders sells nothing; photographed products first.
     .filter((p) => p.image && !p.image.includes('placeholder'))
     .sort((a, b) => {
       if (a.featured !== b.featured) return a.featured ? -1 : 1;
-      // Then the ones we can say most about — specs answer the buying question.
       return (b.specs?.length ?? 0) - (a.specs?.length ?? 0);
     })
     .slice(0, limit);
@@ -40,31 +45,49 @@ export default async function ProductRow({
 
   const heading = title ?? facetLabel('category', category);
   const href = `/categorie/${category}`;
+  const prices = inCategory.map((p) => p.price).filter((x): x is number => x != null);
+  const from = prices.length ? Math.min(...prices) : null;
 
   return (
-    <section style={{ padding: 'clamp(2rem, 6vw, 3.5rem) 0' }}>
-      <div className="container">
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'baseline',
-            justifyContent: 'space-between',
-            gap: '1rem',
-            marginBottom: '1.5rem',
-          }}
-        >
-          <h2 style={{ margin: 0, fontSize: 'clamp(1.25rem, 4vw, 1.75rem)', color: 'var(--webshop-dark)' }}>
-            {heading}
-          </h2>
-          <Link
-            href={href}
-            style={{ color: '#b93c20', fontWeight: 700, textDecoration: 'none', whiteSpace: 'nowrap', fontSize: '.9rem' }}
-          >
-            Alles bekijken →
-          </Link>
+    <section className={s.section}>
+      <div className={s.wrap}>
+        <div className={s.head}>
+          <h2>{heading}</h2>
+          <Link href={href}>Alles bekijken →</Link>
         </div>
-
-        <ProductCarousel products={products} />
+        <div className={s.row}>
+          <Link href={href} className={s.cover}>
+            {cover && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={withBase(cover)} alt="" loading="lazy" />
+            )}
+            <span className={s.coverText}>
+              <strong>{heading}<span className={s.dot}>.</span></strong>
+              {tagline && <span className={s.tagline}>{tagline}</span>}
+              <span className={s.meta}>
+                {inCategory.length} op voorraad{from != null && <> · vanaf <b>{formatPrice(from)}</b></>}
+              </span>
+              <span className={s.coverCta}>Bekijk alle →</span>
+            </span>
+          </Link>
+          <div className={s.cards}>
+            {products.map((p) => (
+              <div key={p.id} className={s.cell}>
+                <ProductCard
+                  slug={p.slug}
+                  urlSlug={p.urlSlug}
+                  title={p.titleNl}
+                  category={p.category ? facetLabel('category', p.category) : 'Auto-onderdeel'}
+                  categorySlug={p.category}
+                  price={formatPrice(p.price)}
+                  amount={p.price}
+                  img={p.image ?? withBase('/images/product-placeholder.svg')}
+                  inStock={p.inStock}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

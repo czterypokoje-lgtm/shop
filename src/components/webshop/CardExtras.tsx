@@ -16,6 +16,8 @@ import s from './CardExtras.module.css';
 
 /** The service a customer most often adds, as Halfords shows its fitting. */
 const ADDON_ORDER: ServiceOption[] = ['mobile_tech', 'send_in', 'cut_only'];
+/** Short labels that fit a card on one line. */
+const ADDON_SHORT: Partial<Record<ServiceOption, string>> = { mobile_tech: 'Monteur aan huis', send_in: 'Wij zetten over', cut_only: 'Frezen' };
 
 export async function CardBuyBlock({
   slug,
@@ -55,7 +57,7 @@ export async function CardBuyBlock({
       {addon && (
         <div className={s.addon}>
           <span className={s.plus}>+</span>
-          <span className={s.addonBadge}>{SERVICE_LABEL[addon]}</span>
+          <span className={s.addonBadge}>{ADDON_SHORT[addon] ?? SERVICE_LABEL[addon]}</span>
           <span>{formatPrice(SERVICE_SURCHARGE[addon])}</span>
         </div>
       )}

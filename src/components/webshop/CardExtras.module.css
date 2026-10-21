@@ -29,3 +29,7 @@
 .help:hover b { text-decoration: underline; }
 .wa { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: #dcf8e6; color: #128c4a; }
 .chev { margin-left: auto; font-size: 1.4rem; color: #111827; }
+.addonBadge { white-space: nowrap; font-size: .74rem; }
+.addon { flex-wrap: nowrap; }
+.addon > span:last-child { white-space: nowrap; }
+.offer b { white-space: nowrap; }

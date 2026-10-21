@@ -7,6 +7,7 @@ import ProductRow from '@/components/webshop/ProductRow';
 import { HomeBrands, HomeFavorites, HomeGuides, HomePartners } from '@/components/webshop/HomeSections';
 import { getShopProducts } from '@/lib/shopCatalog';
 import { HomeWhyUs, HomeServiceBanners } from '@/components/webshop/HomeService';
+import { HomeWhyBand, HomeReviewsBand } from '@/components/webshop/HomeTrustBands';
 
 /*
  * The home page reads the merged catalogue — prices, hidden products and
@@ -70,9 +71,11 @@ export default async function WebshopPage() {
         three blocks that were empty or editorial made a catalogue of 924
         articles read as though it had eight.
       */}
-      <ProductRow category="afstandsbedieningen" title="Autosleutels met afstandsbediening" />
+      <ProductRow category="afstandsbedieningen" title="Autosleutels met afstandsbediening" cover="/images/brand/cover-afstandsbedieningen.webp" tagline="Complete sleutel: behuizing, elektronica en baard." />
 
-      <ProductRow category="behuizingen" title="Sleutelbehuizingen" />
+      <ProductRow category="behuizingen" title="Sleutelbehuizingen" cover="/images/brand/cover-behuizingen.webp" tagline="Versleten of kapot? Uw elektronica in een nieuwe behuizing." />
+
+      <HomeWhyBand />
 
       <section className="section">
         <div className="container">
@@ -80,9 +83,11 @@ export default async function WebshopPage() {
         </div>
       </section>
 
-      <ProductRow category="printplaten" title="Printplaten (PCB)" />
+      <ProductRow category="printplaten" title="Printplaten (PCB)" cover="/images/brand/cover-printplaten.webp" tagline="Nieuwe elektronica voor uw afstandsbediening." />
 
-      <ProductRow category="universal-remotes" title="Universele sleutels — KeyDIY, Xhorse, Autel" />
+      <ProductRow category="universal-remotes" title="Universele sleutels" cover="/images/brand/cover-universele-sleutels.webp" tagline="KeyDIY, Xhorse en Autel: te programmeren voor vrijwel elk merk." />
+
+      <HomeReviewsBand />
 
       <HomeGuides />
 

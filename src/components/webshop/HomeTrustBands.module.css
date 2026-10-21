@@ -1,0 +1,32 @@
+.wrap { max-width: 1360px; margin: 0 auto; padding: 0 clamp(1rem, 3vw, 2rem); }
+.title { margin: 0 0 1.75rem; text-align: center; font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: 900; text-transform: uppercase; letter-spacing: -0.01em; color: #1f2a44; }
+
+.why { background: #f6f4f1; padding: clamp(2.25rem, 5vw, 3.75rem) 0; position: relative; overflow: hidden; }
+.why::before { content: ''; position: absolute; width: 900px; height: 900px; border-radius: 50%; border: 110px solid rgba(255, 255, 255, .55); right: -320px; top: -420px; pointer-events: none; }
+.whyGrid { position: relative; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.whyGrid li { display: flex; flex-direction: column; align-items: center; text-align: center; gap: .35rem; padding: .5rem 1rem 1.25rem; }
+.whyGrid li + li { border-left: 1px solid #ddd6cc; }
+.icon { color: #1f2a44; margin-bottom: .5rem; }
+.whyGrid strong { font-size: 1.2rem; color: #111827; }
+.whyGrid span { color: #374151; }
+
+.reviews { background: #eef1f7; padding: clamp(2.25rem, 5vw, 3.75rem) 0; }
+.score { text-align: center; font-size: clamp(1.05rem, 2.4vw, 1.5rem); color: #111827; margin: -0.75rem 0 1.75rem; }
+.stars { color: #f5b400; letter-spacing: 2px; }
+.reviewGrid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; }
+.reviewGrid li { background: #fff; border-radius: 6px; padding: 1.4rem 1.4rem 1.6rem; box-shadow: 0 1px 2px rgba(15, 23, 42, .04); }
+.reviewHead { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.reviewHead strong { font-size: 1rem; }
+.verified { display: block; margin: .35rem 0 .6rem; font-size: .88rem; color: #374151; }
+.reviewGrid p { margin: 0; color: #111827; line-height: 1.5; }
+.note { text-align: center; margin: 1.5rem 0 0; font-size: .88rem; color: #475569; }
+.note a { color: #1f2a44; font-weight: 700; }
+
+@media (max-width: 900px) {
+  .whyGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 1rem; }
+  .whyGrid li + li { border-left: 0; }
+  .reviewGrid { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 80%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; }
+  .reviewGrid li { scroll-snap-align: start; }
+}
+.why .wrap { position: relative; z-index: 1; }
+.why::before { right: -420px; top: auto; bottom: -620px; }
