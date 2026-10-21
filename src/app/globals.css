@@ -2157,3 +2157,23 @@ details[open] summary { color: var(--orange-500); }
 
 /* The ElevenLabs chat sits bottom right once opened; the WhatsApp pill steps aside. */
 body.as24-chat-open #floating-wa-btn { display: none !important; }
+
+/* ── Home hero v2: search-first ── */
+.webshop-hero { padding-top: 3rem; padding-bottom: 3rem; min-height: 0; }
+.webshop-hero-inner { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+.webshop-hero-content { max-width: 640px; }
+.webshop-hero-kicker { margin: 0 0 .6rem; font-size: .85rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--webshop-dark); opacity: .85; }
+.webshop-hero .webshop-hero-title { font-size: clamp(2rem, 4vw, 3.3rem); margin-bottom: .8rem; }
+.webshop-hero .webshop-hero-subtitle { font-size: clamp(1rem, 1.6vw, 1.2rem); margin-bottom: 1.4rem; }
+.webshop-hero-quick { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-top: 1rem; font-size: .92rem; font-weight: 600; color: var(--webshop-dark); }
+.webshop-hero-quick a { background: rgba(255, 255, 255, .9); color: #0f172a; border-radius: 999px; padding: .4rem .85rem; text-decoration: none; font-weight: 700; }
+.webshop-hero-quick a:hover { background: #fff; }
+.webshop-hero .webshop-hero-facts { margin-top: 1.1rem; }
+@media (max-width: 767px) {
+  .webshop-hero { padding: 1.4rem 1rem 1.6rem; }
+  .webshop-hero-inner { grid-template-columns: minmax(0, 1fr); padding-left: 0; padding-right: 0; }
+  .webshop-hero-visual { display: none; }
+  .webshop-hero-kicker { font-size: .75rem; }
+  .webshop-hero .webshop-hero-title { font-size: 1.65rem; }
+  .webshop-hero-quick span { width: 100%; }
+}

@@ -5,8 +5,6 @@ import PromoBanner from '@/components/webshop/PromoBanner';
 import TrustSection from '@/components/webshop/TrustSection';
 import ProductRow from '@/components/webshop/ProductRow';
 import { HomeTrust, HomeBrands, HomeFavorites, HomeGuides, HomePartners } from '@/components/webshop/HomeSections';
-import CarFinder from '@/components/webshop/CarFinder';
-import KentekenFinder from '@/components/webshop/KentekenFinder';
 import { getShopProducts } from '@/lib/shopCatalog';
 
 /*
@@ -51,8 +49,6 @@ export default async function WebshopPage() {
   return (
     <div>
       <WebshopHero />
-      <KentekenFinder />
-      <CarFinder />
       <HomeTrust />
 
       <HomeBrands products={all} />

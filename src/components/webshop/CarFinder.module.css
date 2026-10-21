@@ -14,18 +14,3 @@
   .go { width: 100%; }
 }
 
-/* Kenteken search: a Dutch number plate as the input. */
-.plateForm { max-width: 1100px; margin: 1.5rem auto 0; padding: 1rem 1.25rem; background: #fff; border: 1px solid var(--shop-line-soft); border-radius: 12px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06); display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
-.plateForm + .finder { margin-top: .75rem; }
-.plate { flex: 1 1 260px; display: flex; align-items: stretch; height: 52px; border: 2px solid #111827; border-radius: 6px; overflow: hidden; background: #f7c600; }
-.plateNl { display: flex; align-items: flex-end; justify-content: center; width: 40px; padding-bottom: 6px; background: #003399; color: #fff; font-weight: 800; font-size: .8rem; }
-.plate input { flex: 1; min-width: 0; border: 0; background: transparent; font: inherit; font-size: 1.6rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; text-align: center; color: #111827; outline: none; }
-.plate input::placeholder { color: rgba(17, 24, 39, .35); }
-.plate:focus-within { box-shadow: 0 0 0 3px rgba(185, 60, 32, .3); }
-.ok, .err { flex-basis: 100%; margin: 0; font-size: .95rem; }
-.ok { color: #15803d; font-weight: 700; }
-.err { color: #b45309; }
-@media (max-width: 640px) {
-  .plateForm { margin: 1rem 1rem 0; }
-  .plate { flex-basis: 100%; }
-}
