@@ -2227,3 +2227,19 @@ body.as24-chat-open #floating-wa-btn { display: none !important; }
   .webshop-hero-badge:hover strong { text-decoration: underline; }
 }
 @media (max-width: 767px) { .webshop-hero-badge { display: none; } }
+
+/* "Buy" is green everywhere (add to cart); orange stays the brand accent. */
+:root { --shop-buy: #2a7d2e; --shop-buy-dark: #1f6323; }
+.shop-sticky-buy-btn { background: var(--shop-buy); }
+.shop-sticky-buy-btn:hover:not(:disabled) { background: var(--shop-buy-dark); }
+.shop-sticky-buy-usps { display: none; }
+@media (min-width: 901px) {
+  .shop-sticky-buy-text { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: 1rem; }
+  .shop-sticky-buy-title { font-size: 1rem; font-weight: 700; color: #111827; flex-basis: 100%; }
+  .shop-sticky-buy-usps { display: flex; gap: 1.25rem; font-size: .88rem; color: #334155; }
+  .shop-sticky-buy-usps span { white-space: nowrap; }
+  .shop-sticky-buy-usps span::first-letter { color: #16a34a; font-weight: 800; }
+  .shop-sticky-buy-usps b { color: #c2410c; }
+  .shop-sticky-buy-price { order: 2; margin-left: auto; font-size: 1.3rem; }
+  .shop-sticky-buy-btn { padding: .85rem 1.6rem; font-size: 1rem; }
+}

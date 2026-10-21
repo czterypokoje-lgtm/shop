@@ -41,9 +41,9 @@ export default function AddToCartButton({
       disabled={disabled}
       style={{
         width: '100%',
-        background: disabled ? '#e2e8f0' : added ? '#15803d' : solid ? '#b93c20' : '#fff',
-        color: disabled ? '#94a3b8' : added || solid ? '#fff' : '#b93c20',
-        border: solid ? 'none' : '1px solid #b93c20',
+        background: disabled ? '#e2e8f0' : added ? '#15803d' : solid ? '#2a7d2e' : '#fff',
+        color: disabled ? '#94a3b8' : added || solid ? '#fff' : '#2a7d2e',
+        border: solid ? 'none' : '1px solid #2a7d2e',
         borderRadius: 4,
         fontWeight: 700,
         fontSize: '0.9rem',

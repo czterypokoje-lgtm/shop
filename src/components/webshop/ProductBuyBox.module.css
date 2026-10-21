@@ -39,11 +39,11 @@
 }
 
 .cta {
-  width: 100%; background: var(--shop-accent); color: #fff; border: none; padding: 1.1rem 2rem;
+  width: 100%; background: var(--shop-buy, #2a7d2e); color: #fff; border: none; padding: 1.1rem 2rem;
   font-size: 1.3rem; font-weight: 700; border-radius: 6px; cursor: pointer;
-  box-shadow: 0 4px 6px -1px rgba(185, 60, 32, 0.2);
+  box-shadow: 0 4px 6px -1px rgba(42, 125, 46, 0.25);
 }
-.cta:hover:not(:disabled) { background: var(--shop-accent-dark); }
+.cta:hover:not(:disabled) { background: var(--shop-buy-dark, #1f6323); }
 .cta:disabled { background: var(--shop-line); box-shadow: none; cursor: not-allowed; }
 .toCart { display: block; margin-top: 0.75rem; font-weight: 700; color: var(--shop-accent); text-decoration: underline; }
 
