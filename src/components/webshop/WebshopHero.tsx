@@ -18,12 +18,13 @@ const QUICK: [string, string][] = [
   ['batterijen', 'Batterij'],
 ];
 
-export default function WebshopHero() {
+/** `count`: products for sale right now, from the merged catalogue — never a rounded-up number. */
+export default function WebshopHero({ count }: { count: number }) {
   return (
     <section className="webshop-hero">
       <div className="container webshop-hero-inner">
         <div className="webshop-hero-content">
-          <p className="webshop-hero-kicker">Autosleutels voor minder dan bij de dealer</p>
+          <p className="webshop-hero-kicker">{count.toLocaleString('nl-NL')} autosleutels en onderdelen op voorraad · minder dan bij de dealer</p>
           <h1 className="webshop-hero-title">Vind de sleutel die past op uw auto</h1>
           <p className="webshop-hero-subtitle">Vul uw kenteken in en zie direct welke sleutels, behuizingen en onderdelen passen.</p>
 

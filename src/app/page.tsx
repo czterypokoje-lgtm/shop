@@ -48,7 +48,7 @@ export default async function WebshopPage() {
 
   return (
     <div>
-      <WebshopHero />
+      <WebshopHero count={all.length} />
       <HomeTrust />
 
       <HomeBrands products={all} />
