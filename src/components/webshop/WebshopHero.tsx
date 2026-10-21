@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/catalog';
-import { SITE_CONFIG } from '@/config/site.config';
+import { SITE_CONFIG, WHATSAPP_URL } from '@/config/site.config';
 import HeroSearch from './HeroSearch';
 
 /*
@@ -44,13 +44,17 @@ export default function WebshopHero({ count }: { count: number }) {
         </div>
 
         <div className="webshop-hero-visual">
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="webshop-hero-badge">
+            <strong>Gratis advies</strong>
+            <span>App een foto van uw sleutel</span>
+          </a>
           <Image
             src={withBase('/images/brand/hero-monteur-wijst.webp')}
             alt="Autosleutelspecialist met een klapsleutel wijst naar de kentekenzoeker"
             width={1000}
             height={1250}
             priority
-            sizes="(max-width: 767px) 90vw, 45vw"
+            sizes="(max-width: 767px) 1px, 560px"
           />
         </div>
       </div>
