@@ -16,7 +16,21 @@ const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const PAID = ['paid', 'processing', 'shipped', 'delivered'];
 const text = (f: FormData, k: string, max: number) => String(f.get(k) ?? '').trim().slice(0, max);
 
-export async function submitReview(_prev: ReviewState, form: FormData): Promise<ReviewState> {
+/*
+ * Never let an unexpected failure take the whole product page down: the form
+ * shows a short reason instead, and the full error goes to the server log.
+ */
+export async function submitReview(prev: ReviewState, form: FormData): Promise<ReviewState> {
+  try {
+    return await submitReviewInner(prev, form);
+  } catch (e) {
+    console.error('Review submit failed', e);
+    const msg = e instanceof Error ? e.message.slice(0, 80) : 'onbekend';
+    return { ok: false, error: `Versturen lukte niet (${msg}). Probeer het later opnieuw of stuur ons een WhatsApp.` };
+  }
+}
+
+async function submitReviewInner(_prev: ReviewState, form: FormData): Promise<ReviewState> {
   const orderId = text(form, 'order', 40);
   const token = text(form, 'token', 64);
   const slug = text(form, 'slug', 120);
