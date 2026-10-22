@@ -17,7 +17,7 @@ import s from './CardExtras.module.css';
 /** The service a customer most often adds, as Halfords shows its fitting. */
 const ADDON_ORDER: ServiceOption[] = ['mobile_tech', 'send_in', 'cut_only'];
 /** Short labels that fit a card on one line. */
-const ADDON_SHORT: Partial<Record<ServiceOption, string>> = { mobile_tech: 'Monteur aan huis', send_in: 'Wij zetten over', cut_only: 'Frezen' };
+const ADDON_SHORT: Partial<Record<ServiceOption, string>> = { mobile_tech: 'Monteur aan huis', send_in: 'Overzetten', cut_only: 'Frezen' };
 
 export async function CardBuyBlock({
   slug,

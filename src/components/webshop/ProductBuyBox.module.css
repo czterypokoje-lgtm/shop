@@ -96,3 +96,5 @@
 .shipNote { color: #64748b; font-size: .9rem; }
 .row { flex-wrap: wrap; }
 .payLogos { flex-wrap: wrap; }
+.serviceHint { margin: .5rem 0 0; font-size: .85rem; color: #64748b; min-height: 1em; }
+.h3Sub { font-weight: 500; font-size: .85rem; color: #64748b; }

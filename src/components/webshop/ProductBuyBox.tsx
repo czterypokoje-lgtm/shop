@@ -56,7 +56,11 @@ const CATEGORY_NOTE: Record<string, string> = {
 
 export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice, description, slug, category, inStock = true, rating = 0, reviewCount = 0 }: { title: string, subtitle?: string, brand?: string, price: number, oldPrice: number, description?: string, slug?: string, needsProgramming?: boolean, category?: string, inStock?: boolean, rating?: number, reviewCount?: number }) {
   const services = servicesFor(category);
-  const [purchaseType, setPurchaseType] = useState<ServiceOption>('product_only');
+  // Frezen and overzetten are two separate jobs (tick one or both); a technician visit does everything.
+  const [cut, setCut] = useState(false);
+  const [send, setSend] = useState(false);
+  const [tech, setTech] = useState(false);
+  const purchaseType: ServiceOption = tech ? 'mobile_tech' : cut && send ? 'cut_and_send' : cut ? 'cut_only' : send ? 'send_in' : 'product_only';
   const [added, setAdded] = useState(false);
   const [openPanel, setOpenPanel] = useState<'description' | null>('description');
 
@@ -130,28 +134,32 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
 
       {services.length > 1 && (
         <div className={styles.services}>
-          <h3 className={styles.h3}>Wat moeten wij ermee doen?</h3>
+          <h3 className={styles.h3}>Wat moeten wij ermee doen? <span className={styles.h3Sub}>(één of meer aanvinken)</span></h3>
           <div className={styles.serviceList}>
-            {services.map((option) => {
-              const fee = SERVICE_SURCHARGE[option];
-              return (
-                <label key={option} className={`${styles.service} ${purchaseType === option ? styles.serviceChosen : ''}`}>
-                  <input
-                    type="radio"
-                    name="service"
-                    value={option}
-                    checked={purchaseType === option}
-                    onChange={() => setPurchaseType(option)}
-                  />
+            {([
+              ['cut_only', cut, (v: boolean) => { setCut(v); if (v) setTech(false); }],
+              ['send_in', send, (v: boolean) => { setSend(v); if (v) setTech(false); }],
+              ['mobile_tech', tech, (v: boolean) => { setTech(v); if (v) { setCut(false); setSend(false); } }],
+            ] as [ServiceOption, boolean, (v: boolean) => void][])
+              .filter(([option]) => services.includes(option))
+              .map(([option, on, set]) => (
+                <label key={option} className={`${styles.service} ${on ? styles.serviceChosen : ''}`}>
+                  <input type="checkbox" checked={on} onChange={(e) => set(e.target.checked)} />
                   <span>
                     <span className={styles.serviceLabel}>{SERVICE_LABEL[option]}</span>
                     <span className={styles.serviceDesc}>{SERVICE_DESCRIPTION[option]}</span>
                   </span>
-                  {fee > 0 && <span className={styles.serviceFee}>+ {formatPrice(fee)}</span>}
+                  <span className={styles.serviceFee}>+ {formatPrice(SERVICE_SURCHARGE[option])}</span>
                 </label>
-              );
-            })}
+              ))}
           </div>
+          <p className={styles.serviceHint}>
+            {purchaseType === 'product_only'
+              ? 'Niets aangevinkt: u ontvangt alleen het artikel.'
+              : purchaseType === 'cut_and_send'
+                ? `Frezen + overzetten: + ${formatPrice(SERVICE_SURCHARGE.cut_and_send)}`
+                : null}
+          </p>
 
           {(SERVICE_NEEDS[purchaseType].kenteken || SERVICE_NEEDS[purchaseType].oldKey) && (
             <p className={styles.notice}>
