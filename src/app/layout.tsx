@@ -37,6 +37,8 @@ export const metadata: Metadata = {
    * line and robots.ts both read. Workshop stock stays noindex either way
    * (src/lib/focus.ts).
    */
+  // Google Merchant Center: online store claim (22-10-2026).
+  verification: { google: '9pB-P7HYgyVPFmvO7frcVHpa9y7Lv4lYy5zvjbiXXaU' },
   robots: SHOP_INDEXABLE
     ? { index: true, follow: true, googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large' } }
     : { index: false, follow: false, googleBot: { index: false, follow: false } },
