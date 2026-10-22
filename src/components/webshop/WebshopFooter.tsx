@@ -41,6 +41,7 @@ const SERVICE: [string, string][] = [
 const COMPANY: [string, string][] = [
   ['/catalogus', 'Alle producten'],
   ['/merken', 'Merken'],
+  ['/advies', 'Advies & uitleg'],
   ['/algemene-voorwaarden', 'Algemene voorwaarden'],
   ['/privacybeleid', 'Privacybeleid'],
   ['/cookiebeleid', 'Cookiebeleid'],

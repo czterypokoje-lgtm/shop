@@ -1,0 +1,51 @@
+.page { padding-bottom: 3rem; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 clamp(1rem, 3vw, 2rem); }
+.narrow { max-width: 760px; }
+.hero { background: linear-gradient(180deg, #fbf7f1 0%, #f5eee5 100%); border-bottom: 1px solid #ece3d8; padding: 1.25rem 0 2rem; margin-bottom: 2rem; }
+.crumbs { font-size: .85rem; color: #64748b; margin-bottom: 1rem; }
+.crumbs a { color: #475569; text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+.hero h1 { margin: 0 0 .7rem; font-size: clamp(1.6rem, 3.4vw, 2.4rem); line-height: 1.15; letter-spacing: -0.02em; color: #111827; }
+.lead { margin: 0; color: #475569; font-size: 1.1rem; line-height: 1.6; }
+.meta { margin-top: .75rem; font-size: .85rem; color: #94a3b8; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+.card { display: flex; flex-direction: column; gap: .5rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; text-decoration: none; color: #111827; transition: border-color .15s, box-shadow .15s; }
+.card:hover { border-color: #b93c20; box-shadow: 0 6px 18px rgba(17, 24, 39, .06); }
+.card h2 { margin: 0; font-size: 1.15rem; line-height: 1.3; }
+.card p { margin: 0; color: #475569; line-height: 1.55; font-size: .95rem; }
+.more { margin-top: auto; color: #b93c20; font-weight: 700; font-size: .92rem; }
+
+.body h2 { font-size: clamp(1.25rem, 2.4vw, 1.5rem); color: #111827; margin: 2.25rem 0 .75rem; }
+.body h2:first-child { margin-top: 0; }
+.body p, .body li { color: #334155; line-height: 1.7; font-size: 1.02rem; }
+.body p { margin: 0 0 1rem; }
+.body ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+.body li { margin-bottom: .35rem; }
+.steps { list-style: none; counter-reset: step; padding: 0 !important; margin: 0 0 1rem; display: flex; flex-direction: column; gap: .75rem; }
+.steps li { counter-increment: step; position: relative; padding: .9rem 1rem .9rem 3.25rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; margin: 0; }
+.steps li::before { content: counter(step); position: absolute; left: 1rem; top: .9rem; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: #b93c20; color: #fff; font-weight: 800; font-size: .85rem; display: grid; place-items: center; }
+.steps b { display: block; color: #111827; margin-bottom: .15rem; }
+.tip { background: #fff7ed; border: 1px solid #fed7aa; border-left: 4px solid #c2410c; border-radius: 8px; padding: .85rem 1rem; color: #7c2d12 !important; margin: 0 0 1rem; }
+.tip strong { color: #7c2d12; }
+
+.help { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin: 2.5rem 0; padding: 1.25rem 1.5rem; background: #111827; color: #fff; border-radius: 12px; }
+.help p { margin: 0; color: #e5e7eb !important; }
+.help b { color: #fff; display: block; font-size: 1.1rem; margin-bottom: .2rem; }
+.wa { background: #25d366; color: #0b2e17; font-weight: 800; text-decoration: none; padding: .75rem 1.2rem; border-radius: 8px; white-space: nowrap; }
+
+.links { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.5rem; }
+.links a { background: #fff; border: 1px solid #e6dccf; border-radius: 999px; padding: .45rem .9rem; text-decoration: none; color: #1f2937; font-weight: 600; font-size: .92rem; }
+.links a:hover { border-color: #b93c20; color: #b93c20; }
+.products h2 { font-size: 1.3rem; margin: 2.5rem 0 1rem; }
+.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+
+.faq { margin-top: 2.5rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem 1.5rem; }
+.faq h2 { margin: 0 0 .75rem; font-size: 1.3rem; }
+.faq details { border-top: 1px solid #eef0f3; padding: .75rem 0; }
+.faq summary { cursor: pointer; font-weight: 700; color: #111827; }
+.faq p { margin: .5rem 0 0; color: #475569; line-height: 1.6; }
+.related { margin-top: 2.5rem; }
+.related h2 { font-size: 1.2rem; margin: 0 0 .75rem; }
+
+@media (max-width: 900px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; } }
