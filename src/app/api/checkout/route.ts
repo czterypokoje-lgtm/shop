@@ -17,6 +17,7 @@ import {
   servicesFor,
   type ServiceOption,
 } from '@/lib/services';
+import { inCoreArea } from '@/lib/serviceArea';
 import { isB2B } from '@/lib/b2b';
 import { rateLimit, rateLimitConfigured, getClientIp, tooManyRequests } from '@/lib/rateLimit';
 
@@ -217,6 +218,8 @@ export async function POST(request: Request) {
   }
 
   const needsTechnician = items.some((i) => i.service === 'mobile_tech');
+  // Outside the standard provinces the visit is planned by phone first (src/lib/serviceArea.ts).
+  const byAppointment = needsTechnician && !inCoreArea(postcode);
   /*
    * Cutting a blade and programming a key both need the vehicle, and both are
    * work we will not do for someone who cannot show the car is theirs. The
@@ -286,6 +289,7 @@ export async function POST(request: Request) {
           total_ex_vat: totalExVat,
           total_vat: Math.round((totalInc - totalExVat) * 100) / 100,
           needs_technician: needsTechnician,
+          ...(byAppointment ? { internal_note: 'Monteur buiten vast werkgebied: op afspraak. Klant bellen om een datum te plannen.' } : {}),
         },
       ])
       .select('id, order_number')
@@ -346,7 +350,7 @@ export async function POST(request: Request) {
           model: items.map((i) => i.title).join(', ').slice(0, 80),
           // Which of the two brought this lead in — a call-out or a parcel.
           service: needsTechnician
-            ? SERVICE_LABEL.mobile_tech
+            ? `${SERVICE_LABEL.mobile_tech}${byAppointment ? ' (op afspraak, buiten werkgebied)' : ''}`
             : SERVICE_LABEL.send_in,
           location: postcode,
           postcode,

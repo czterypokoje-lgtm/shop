@@ -1,4 +1,5 @@
 'use client';
+import { CORE_PROVINCES } from '@/lib/serviceArea';
 import { PAYMENT_METHODS } from '@/lib/payments';
 import { LOGOS } from '@/components/webshop/PaymentMethods';
 import { withBase } from '@/lib/base';
@@ -158,7 +159,9 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
               ? 'Niets aangevinkt: u ontvangt alleen het artikel.'
               : purchaseType === 'cut_and_send'
                 ? `Frezen + overzetten: + ${formatPrice(SERVICE_SURCHARGE.cut_and_send)}`
-                : null}
+                : purchaseType === 'mobile_tech'
+                  ? `Monteur aan huis in ${CORE_PROVINCES}. Elders in Nederland op afspraak.`
+                  : null}
           </p>
 
           {(SERVICE_NEEDS[purchaseType].kenteken || SERVICE_NEEDS[purchaseType].oldKey) && (

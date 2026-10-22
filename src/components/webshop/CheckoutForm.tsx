@@ -12,6 +12,7 @@ import {
   SERVICE_NEEDS,
 } from '@/lib/cart';
 import { formatPrice } from '@/lib/money';
+import { inCoreArea, BY_APPOINTMENT_TEXT } from '@/lib/serviceArea';
 import { track, tagSession } from '@/lib/track';
 
 type Slim = { slug: string; titleNl: string; price: number | null; image: string | null; category: string | null };
@@ -82,6 +83,8 @@ export default function CheckoutForm({
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [honeypot, setHoneypot] = useState('');
+  const [postcode, setPostcode] = useState('');
+  const byAppointment = needsTechnician && /^\s*[1-9][0-9]{3}/.test(postcode) && !inCoreArea(postcode);
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -150,7 +153,7 @@ export default function CheckoutForm({
         <label><span className={styles.label}>Telefoonnummer</span><input name="phone" type="tel" autoComplete="tel" className={styles.field} /></label>
 
         <div className={styles.pair}>
-          <label><span className={styles.label}>Postcode *</span><input name="postcode" required autoComplete="postal-code" placeholder="1011 AB" pattern="\s*[1-9][0-9]{3}\s?[a-zA-Z]{2}\s*" title="Nederlandse postcode, bijv. 1011 AB" className={styles.field} /></label>
+          <label><span className={styles.label}>Postcode *</span><input name="postcode" required autoComplete="postal-code" placeholder="1011 AB" value={postcode} onChange={(e) => setPostcode(e.target.value)} pattern="\s*[1-9][0-9]{3}\s?[a-zA-Z]{2}\s*" title="Nederlandse postcode, bijv. 1011 AB" className={styles.field} /></label>
           <label><span className={styles.label}>Huisnummer *</span><input name="housenumber" required autoComplete="address-line2" inputMode="text" className={styles.field} /></label>
         </div>
         <label><span className={styles.label}>Straat *</span><input name="street" required autoComplete="address-line1" className={styles.field} /></label>
@@ -169,6 +172,12 @@ export default function CheckoutForm({
               monteur vraagt ter plaatse om een legitimatie; bij opsturen vragen wij een kopie
               van het kentekenbewijs.
             </p>
+          </div>
+        )}
+
+        {byAppointment && (
+          <div className={styles.info}>
+            <p><strong>Monteur op afspraak.</strong> {BY_APPOINTMENT_TEXT}</p>
           </div>
         )}
 
