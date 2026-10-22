@@ -180,8 +180,9 @@ export default function WebshopNavigation() {
         </div>
       </div>
 
-      {/* The real rule from the catalogue: €4,99 shipping, free from €49,00,
-          and 2-3 working days because the parts come from Germany. */}
+      {/* The real rule, from lib/money.ts: €4,99 shipping, free above
+          FREE_SHIPPING_FROM, and 3-5 working days because the parts come
+          from Germany. */}
       <div className="shop-shipping-bar">
         Gratis verzending vanaf {formatPrice(FREE_SHIPPING_FROM)} · levertijd 3 - 5 werkdagen
       </div>
