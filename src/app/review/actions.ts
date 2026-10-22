@@ -1,7 +1,6 @@
 'use server';
 
 import { randomUUID } from 'crypto';
-import sharp from 'sharp';
 import { headers } from 'next/headers';
 import { reviewToken, reviewTokenValid } from '@/lib/reviewToken';
 import { reviewsDb } from '@/lib/reviews';
@@ -78,8 +77,11 @@ async function submitReviewInner(_prev: ReviewState, form: FormData): Promise<Re
 /** Photos: at most 3, re-encoded here — which also drops EXIF, including the GPS location phones add. */
 async function uploadPhotos(db: NonNullable<ReturnType<typeof reviewsDb>>, form: FormData, slug: string): Promise<{ photos: string[] } | { error: string }> {
   const photos: string[] = [];
-  for (const f of form.getAll('photos').slice(0, 3)) {
-    if (!(f instanceof File) || !f.size) continue;
+  const files = form.getAll('photos').slice(0, 3).filter((f): f is File => f instanceof File && f.size > 0);
+  if (!files.length) return { photos };
+  // Loaded only when there is a photo: a native module that fails to load must not take text reviews down with it.
+  const sharp = (await import('sharp')).default;
+  for (const f of files) {
     if (f.size > 4 * 1024 * 1024 || !/^image\//.test(f.type)) return { error: 'Een foto is te groot of geen afbeelding.' };
     let webp: Buffer;
     try {
