@@ -140,7 +140,7 @@ ${
     : 'Uw bestelling is binnen 3 tot 5 werkdagen bij u. U ontvangt een bericht zodra het pakket onderweg is.'
 }
 
-Bedenktijd: u mag de bestelling binnen 14 dagen na ontvangst retourneren. Sleutels die wij op uw verzoek hebben gefreesd of ingeleerd zijn op maat gemaakt en vallen daarbuiten; heeft u een sleutel zelf ingeleerd of geprobeerd in te leren, dan is hij niet meer te verkopen en krijgt u bij retour niets terug. De volledige regeling staat op ${SITE_CONFIG.domain}/verzending-en-retour.
+Bedenktijd: u mag de bestelling binnen 14 dagen na ontvangst retourneren, zolang het artikel ongebruikt is. Uit de verpakking halen en bekijken mag. Sleutels die wij op uw verzoek hebben gefreesd of ingeleerd zijn op maat gemaakt en vallen daarbuiten. Is een sleutel ingeleerd (of is dat geprobeerd), gefreesd, geopend of is er elektronica in overgezet, dan is hij niet meer te verkopen en krijgt u bij retour niets terug. De volledige regeling staat op ${SITE_CONFIG.domain}/verzending-en-retour#retour.
 
 Vragen? Bel ${SITE_CONFIG.phone} of antwoord op deze e-mail.
 

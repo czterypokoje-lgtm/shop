@@ -81,33 +81,72 @@ export default function ShippingReturnsPage() {
         <h2 id="retour" style={{ ...h2, scrollMarginTop: 100 }}>Retourneren — 14 dagen bedenktijd</h2>
         <p style={p}>
           U mag uw bestelling binnen <strong>14 dagen</strong> na ontvangst zonder opgaaf van
-          reden retourneren. Meld dit binnen die termijn bij ons via{' '}
-          <a href={`mailto:${SITE_CONFIG.email}`} style={{ color: '#b93c20' }}>{SITE_CONFIG.email}</a>{' '}
-          of {SITE_CONFIG.phone}. Daarna heeft u nog 14 dagen om het artikel terug te sturen.
-          Wij betalen binnen 14 dagen na ontvangst van uw melding terug, inclusief de
-          standaard verzendkosten die u bij de bestelling betaalde.
+          reden retourneren, zolang de sleutel <strong>ongebruikt</strong> is. Een autosleutel die
+          is gefreesd, ingeleerd of uit elkaar gehaald, kunnen wij niet opnieuw verkopen. Daarom:
         </p>
-        <p style={p}>
-          Retouradres:{' '}
-          {SITE_CONFIG.address.street
-            ? `${SITE_CONFIG.fullName}, ${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.postal} ${SITE_CONFIG.address.city}`
-            : 'dit sturen wij u direct toe zodra u de retour meldt.'}
-        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '.75rem', margin: '0 0 1.25rem' }}>
+          <div style={{ border: '1px solid #bbf7d0', background: '#f0fdf4', borderRadius: 10, padding: '1rem 1.1rem' }}>
+            <strong style={{ color: '#166534' }}>✓ Wel retour, geld terug</strong>
+            <ul style={{ ...p, margin: '.5rem 0 0', paddingLeft: '1.1rem' }}>
+              <li>Uit de verpakking gehaald en bekeken, zoals in een winkel</li>
+              <li>Vergeleken met uw oude sleutel</li>
+              <li>Compleet en in de originele verpakking</li>
+            </ul>
+          </div>
+          <div style={{ border: '1px solid #fecaca', background: '#fef2f2', borderRadius: 10, padding: '1rem 1.1rem' }}>
+            <strong style={{ color: '#991b1b' }}>✗ Geen geld terug</strong>
+            <ul style={{ ...p, margin: '.5rem 0 0', paddingLeft: '1.1rem' }}>
+              <li>Ingeleerd of geprobeerd in te leren, door u of een ander</li>
+              <li>Baard gefreesd of ingekort</li>
+              <li>Behuizing geopend, elektronica overgezet of ingebouwd</li>
+              <li>Door ons gefreesd of ingeleerd op uw verzoek (op maat gemaakt)</li>
+            </ul>
+          </div>
+        </div>
         <ul style={{ ...p, paddingLeft: '1.2rem' }}>
-          <li>De retourkosten zijn voor uw rekening.</li>
           <li>
-            <strong>Heeft u (of iemand anders) de sleutel ingeleerd of geprobeerd in te leren, de
-            baard laten frezen of de behuizing geopend, dan krijgt u niets terug.</strong> Zo&apos;n
-            sleutel is daarna niet meer te verkopen; de waardevermindering is dan de volledige prijs
-            (BW 6:230s lid 3). Retourneren mag, maar levert geen terugbetaling op. Bekijk het artikel
-            daarom eerst zoals u dat in een winkel zou doen.
+            <strong>Gebruikt:</strong> een sleutel die is ingeleerd (of waarmee dat is geprobeerd),
+            gefreesd, geopend of waarin elektronica is overgezet, is daarna niet meer te verkopen. U
+            mag hem terugsturen, maar de waardevermindering is dan de volledige prijs en u krijgt
+            niets terug (BW 6:230s lid 3).
           </li>
           <li>
-            Heeft u ons gevraagd de sleutel te frezen op uw sleutelcode of in te leren op uw auto
-            (frezen, opsturen of monteur aan huis), dan is hij op maat gemaakt en geldt de
-            bedenktijd daarvoor niet (BW 6:230p onder c). Dat ziet u ook vóór het bestellen.
+            <strong>Op maat gemaakt:</strong> heeft u ons gevraagd de sleutel te frezen op uw
+            sleutelcode of in te leren op uw auto (frezen, opsturen of monteur aan huis), dan geldt
+            de bedenktijd daarvoor niet (BW 6:230p onder c). Dat ziet u ook vóór het bestellen.
+          </li>
+          <li>
+            <strong>Beschadigde of onvolledige retour:</strong> ontbreekt de verpakking of een
+            onderdeel, of is het artikel beschadigd, dan trekken wij de waardevermindering af van
+            het terug te betalen bedrag.
+          </li>
+          <li>
+            <strong>Zakelijke klanten:</strong> de bedenktijd geldt alleen voor consumenten. Voor
+            bestellingen door een bedrijf (garage, sleutelmaker, autobedrijf) is herroeping
+            uitgesloten.
           </li>
         </ul>
+        <h3 style={{ ...h2, fontSize: '1.1rem', margin: '1.5rem 0 .5rem' }}>Zo retourneert u</h3>
+        <ol style={{ ...p, paddingLeft: '1.2rem' }}>
+          <li>
+            Meld de retour binnen 14 dagen na ontvangst via{' '}
+            <a href={`mailto:${SITE_CONFIG.email}`} style={{ color: '#b93c20' }}>{SITE_CONFIG.email}</a>{' '}
+            of {SITE_CONFIG.phone}, met uw bestelnummer.
+          </li>
+          <li>
+            Stuur het artikel binnen 14 dagen daarna terug naar:{' '}
+            {SITE_CONFIG.address.street
+              ? `${SITE_CONFIG.fullName}, ${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.postal} ${SITE_CONFIG.address.city}`
+              : 'het adres dat wij u sturen zodra u de retour meldt.'}{' '}
+            De retourkosten zijn voor uw rekening; verstuur het bij voorkeur met track &amp; trace.
+          </li>
+          <li>
+            Wij betalen binnen 14 dagen na uw melding terug, inclusief de standaard verzendkosten
+            die u bij de bestelling betaalde. Wij mogen wachten met terugbetalen tot wij het
+            artikel hebben ontvangen en gecontroleerd, of tot u heeft aangetoond dat u het heeft
+            teruggestuurd (BW 6:230r lid 4).
+          </li>
+        </ol>
         <p style={p}>
           U kunt hiervoor het{' '}
           <a

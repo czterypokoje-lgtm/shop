@@ -37,7 +37,8 @@ export const SHOP_FAQ: { group: string; items: { q: string; a: string }[] }[] = 
   {
     group: 'Retour en garantie',
     items: [
-      { q: 'Kan ik mijn bestelling retourneren?', a: 'Ja, binnen 14 dagen na ontvangst, zonder opgaaf van reden. Een sleutel die op uw verzoek is gefreesd of waarin uw elektronica is gezet, is op maat gemaakt en valt daarbuiten.' },
+      { q: 'Kan ik mijn bestelling retourneren?', a: 'Ja, binnen 14 dagen na ontvangst, zonder opgaaf van reden, zolang het artikel ongebruikt is: uit de verpakking halen en bekijken mag. Een sleutel die is ingeleerd (of waarmee dat is geprobeerd), gefreesd, geopend of waarin elektronica is overgezet, kunnen wij niet opnieuw verkopen; dan krijgt u niets terug. Door ons gefreesd of ingeleerd is op maat gemaakt en valt buiten de bedenktijd.' },
+      { q: 'Kunnen zakelijke klanten retourneren?', a: 'De wettelijke bedenktijd geldt alleen voor consumenten. Voor bestellingen door een bedrijf is herroeping uitgesloten; bij een defect product helpen wij u natuurlijk wel.' },
       { q: 'Wat als het onderdeel niet past?', a: 'Neem contact op via WhatsApp of e-mail met een foto. Ongebruikte en niet-gefreesde artikelen kunt u binnen 14 dagen retourneren.' },
     ],
   },

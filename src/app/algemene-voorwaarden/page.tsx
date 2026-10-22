@@ -95,11 +95,15 @@ export default function TermsPage() {
 
         <h2 style={h2}>6. Bedenktijd en retour</h2>
         <p style={p}>
-          U heeft 14 dagen bedenktijd. Op maat gemaakte artikelen zijn daarvan uitgezonderd: een
-          sleutel die wij op uw verzoek frezen op uw sleutelcode of inleren op uw auto, is op uw
-          voertuig toegesneden (BW 6:230p onder c). Heeft u een sleutel zelf ingeleerd of
-          geprobeerd in te leren, dan is hij niet meer te verkopen: retourneren mag, maar de
-          waardevermindering is dan de volledige prijs en u krijgt niets terug (BW 6:230s). De volledige regeling staat op{' '}
+          Als consument heeft u 14 dagen bedenktijd. Op maat gemaakte artikelen zijn daarvan
+          uitgezonderd: een sleutel die wij op uw verzoek frezen op uw sleutelcode of inleren op uw
+          auto, is op uw voertuig toegesneden (BW 6:230p onder c). Een sleutel die is ingeleerd
+          (of waarmee dat is geprobeerd), gefreesd, geopend of waarin elektronica is overgezet, is
+          niet meer te verkopen: retourneren mag, maar de waardevermindering is dan de volledige
+          prijs en u krijgt niets terug (BW 6:230s lid 3). Bij een beschadigde of onvolledige
+          retour trekken wij de waardevermindering af. Wij mogen met terugbetalen wachten tot wij
+          het artikel hebben ontvangen (BW 6:230r lid 4). Voor zakelijke klanten is herroeping
+          uitgesloten. De volledige regeling staat op{' '}
           <Link href="/verzending-en-retour" style={{ color: '#b93c20' }}>verzending en retour</Link>.
         </p>
 

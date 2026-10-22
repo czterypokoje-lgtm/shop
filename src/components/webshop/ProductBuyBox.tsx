@@ -221,7 +221,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
           <h3 className={styles.includesTitle}>Bij elke bestelling</h3>
           <ul className={styles.includes}>
             {[
-              ['14 dagen bedenktijd', 'M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'],
+              ['14 dagen bedenktijd, mits ongebruikt (niet ingeleerd, gefreesd of geopend)', 'M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'],
               ['12 maanden garantie op elektronica', 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'],
               ['Gratis hulp via WhatsApp bij het inleren', 'M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'],
               ['Levertijd 3 - 5 werkdagen', 'M1 3h15v13H1zM16 8h4l3 3v5h-7V8z'],
@@ -232,7 +232,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
               </li>
             ))}
           </ul>
-          <Link href="/verzending-en-retour" className={styles.policyLink}>Verzending, retour en garantie</Link>
+          <Link href="/verzending-en-retour#retour" className={styles.policyLink}>Verzending, retour en garantie</Link>
         </div>
       </div>
 

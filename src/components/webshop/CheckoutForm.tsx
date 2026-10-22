@@ -203,8 +203,9 @@ export default function CheckoutForm({
           Door te bestellen gaat u akkoord met onze{' '}
           <Link href="/algemene-voorwaarden">algemene voorwaarden</Link> en{' '}
           <Link href="/privacybeleid">privacybeleid</Link>. U heeft 14 dagen
-          herroepingsrecht (<Link href="/verzending-en-retour">retourneren</Link>); een sleutel die is
-          ingeleerd of waarvan dat is geprobeerd, levert bij retour niets meer op.
+          herroepingsrecht (<Link href="/verzending-en-retour#retour">retourneren</Link>) zolang het
+          artikel ongebruikt is; een sleutel die is ingeleerd (of waarmee dat is geprobeerd),
+          gefreesd, geopend of waarin elektronica is overgezet, levert bij retour niets meer op.
           {totals.lines.some((l) => l.service !== 'product_only') &&
             ' Let op: een sleutel die wij voor u frezen of inleren wordt op maat gemaakt; daarvoor geldt geen herroepingsrecht.'}
         </p>

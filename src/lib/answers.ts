@@ -128,7 +128,7 @@ export function productAnswer(p: ShopProduct, batteryTitle?: string | null): Pro
   if (price) {
     faq.push({
       q: 'Wat kost het en wanneer heb ik het?',
-      a: `${price} inclusief btw, ${shipping}. ${p.inStock ? 'Op voorraad, levertijd 3–5 werkdagen' : 'Op dit moment niet op voorraad'}. U heeft 14 dagen bedenktijd.`,
+      a: `${price} inclusief btw, ${shipping}. ${p.inStock ? 'Op voorraad, levertijd 3–5 werkdagen' : 'Op dit moment niet op voorraad'}. U heeft 14 dagen bedenktijd, zolang het artikel ongebruikt is (niet ingeleerd, gefreesd of geopend).`,
     });
   }
   return { summary, faq };
