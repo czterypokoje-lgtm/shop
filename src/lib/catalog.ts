@@ -1,4 +1,5 @@
 import catalogJson from './catalog.json';
+import { keyTypeFacet, electronicsFacet } from './keyType';
 // Price and shipping helpers live apart so client components can use them without bundling the catalogue.
 export { SHIPPING_COST, FREE_SHIPPING_FROM, shippingFor, formatPrice } from './money';
 
@@ -87,12 +88,23 @@ export interface CatalogProduct {
   } | null;
   /** The supplier's own article code, when their export carries one. */
   articleCode?: string | null;
+  /** Derived at load (src/lib/keyType.ts): klapsleutel, smart key, … */
+  keyType?: string | null;
+  /** Derived at load: whether the electronics come with it ('ja' / 'nee'). */
+  electronics?: 'ja' | 'nee' | null;
 }
 
-const catalog = catalogJson as unknown as {
+const rawCatalog = catalogJson as unknown as {
   generatedAt: string;
   count: number;
   products: CatalogProduct[];
+};
+
+/* The two filters people use on a key shop that the supplier feed does not
+   carry as fields: what kind of key, and whether the electronics come with it. */
+const catalog = {
+  ...rawCatalog,
+  products: rawCatalog.products.map((p) => ({ ...p, keyType: keyTypeFacet(p), electronics: electronicsFacet(p) })),
 };
 
 /**
@@ -218,6 +230,8 @@ export interface Filters {
    */
   chip?: string;
   blade?: string;
+  keyType?: string;
+  electronics?: string;
   maxPrice?: number;
   /** Free-text, matched against title and fitment. */
   q?: string;
@@ -233,6 +247,8 @@ function matches(p: CatalogProduct, f: Filters): boolean {
   if (f.frequency && p.frequency?.toLowerCase() !== f.frequency.toLowerCase()) return false;
   if (f.chip && p.chip?.toLowerCase() !== f.chip.toLowerCase()) return false;
   if (f.blade && p.blade?.toLowerCase() !== f.blade.toLowerCase()) return false;
+  if (f.keyType && p.keyType !== f.keyType) return false;
+  if (f.electronics && p.electronics !== f.electronics) return false;
   if (f.maxPrice != null) {
     const price = shelfPrice(p.costPrice, p.marketPrice);
     if (price == null || price > f.maxPrice) return false;
@@ -256,7 +272,8 @@ export function filterProducts<T extends CatalogProduct>(products: T[], filters:
 
 export type FacetKey =
   | 'category' | 'subcategory' | 'make'
-  | 'manufacturer' | 'condition' | 'buttons' | 'frequency' | 'chip' | 'blade';
+  | 'manufacturer' | 'condition' | 'buttons' | 'frequency' | 'chip' | 'blade'
+  | 'keyType' | 'electronics';
 
 export interface FacetOption {
   value: string;
@@ -300,6 +317,8 @@ const LABELS: Record<string, string> = {
 
 export const facetLabel = (key: FacetKey, value: string): string => {
   if (key === 'buttons') return `${value} knoppen`;
+  if (key === 'electronics') return value === 'ja' ? 'Ja, met elektronica' : 'Nee, zonder elektronica';
+  if (key === 'keyType') return ({ klapsleutel: 'Klapsleutel', 'smart key': 'Smart key (keyless)', 'met afstandsbediening': 'Sleutel met afstandsbediening', behuizing: 'Sleutelbehuizing' } as Record<string, string>)[value] ?? value;
   if (key === 'chip' || key === 'blade') return value;
   // Subcategories are stored as the plain Dutch word ("cilindersleutel") so
   // the catalogue stays readable; a filter label starts with a capital.

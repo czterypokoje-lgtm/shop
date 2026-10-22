@@ -49,7 +49,7 @@ export async function generateMetadata({
  * questions a customer actually arrives with.
  */
 const FACET_ORDER: FacetKey[] = [
-  'make', 'manufacturer', 'category', 'subcategory', 'buttons', 'frequency', 'chip', 'blade',
+  'make', 'keyType', 'electronics', 'manufacturer', 'category', 'subcategory', 'buttons', 'frequency', 'chip', 'blade',
   'condition',
 ];
 

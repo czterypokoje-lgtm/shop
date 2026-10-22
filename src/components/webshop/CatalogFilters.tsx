@@ -41,6 +41,8 @@ const GROUP_TITLES: Record<FacetKey, string> = {
   frequency: 'Frequentie',
   chip: 'Transponder',
   blade: 'Sleutelbaard',
+  keyType: 'Soort sleutel',
+  electronics: 'Elektronica meegeleverd',
 };
 
 /** Long lists collapse; short ones never need to. */
@@ -55,7 +57,7 @@ interface Props {
 
 export default function CatalogFilters({
   facets,
-  order = ['make', 'category', 'subcategory', 'buttons', 'frequency', 'chip', 'blade', 'condition', 'manufacturer'],
+  order = ['make', 'keyType', 'electronics', 'category', 'subcategory', 'buttons', 'frequency', 'chip', 'blade', 'condition', 'manufacturer'],
   resultCount,
 }: Props) {
   const pathname = usePathname();

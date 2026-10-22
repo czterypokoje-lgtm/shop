@@ -20,6 +20,8 @@ export function parseFilters(sp: Record<string, string | string[] | undefined>):
     frequency: one('frequency'),
     chip: one('chip'),
     blade: one('blade'),
+    keyType: one('keyType'),
+    electronics: one('electronics'),
     q: one('q'),
   };
 }

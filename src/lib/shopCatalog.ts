@@ -3,6 +3,7 @@ import { PRODUCT_COPY } from '@/content/productCopy';
 import { publicImage } from '@/lib/publicImage';
 import { withBase } from '@/lib/base';
 import { cache } from 'react';
+import { customerTitle } from '@/lib/keyType';
 import { createClient } from '@supabase/supabase-js';
 import {
   getProducts,
@@ -139,7 +140,8 @@ function merge(product: CatalogProduct, override: OverrideRow | undefined): Shop
   const tracked = override?.track_stock === true;
   const quantity = tracked ? Number(override!.stock_quantity) : null;
 
-  const title = override?.title_override ?? product.titleNl;
+  // The office's own title wins; otherwise the search words, then the feed's.
+  const title = override?.title_override ?? customerTitle(product) ?? product.titleNl;
 
   return {
     ...product,
