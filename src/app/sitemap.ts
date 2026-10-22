@@ -9,7 +9,7 @@ import { isConsumerProduct, isProCategory } from '@/lib/focus';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = SITE_CONFIG.domain;
-  const pages = ['', '/catalogus', '/merken', '/aanbiedingen', '/contact', '/verzending-en-retour', '/advies', '/veelgestelde-vragen',
+  const pages = ['', '/catalogus', '/merken', '/aanbiedingen', '/contact', '/verzending-en-retour', '/advies', '/veelgestelde-vragen', '/bestellen', '/betaalmethoden', '/over-ons', '/zakelijk-bestellen',
     '/algemene-voorwaarden', '/privacybeleid', '/cookiebeleid'];
   // Only what a car owner buys; workshop stock is for sale but not advertised.
   const products = (await getShopProducts()).filter(isConsumerProduct);

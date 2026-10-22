@@ -32,13 +32,17 @@ const Logo = ({ id, label }: { id: string; label: string }) => (
 );
 
 const SERVICE: [string, string][] = [
-  ['/verzending-en-retour', 'Betaling & verzending'],
-  ['/verzending-en-retour', 'Retourneren (14 dagen)'],
+  ['/bestellen', 'Hoe bestellen'],
+  ['/betaalmethoden', 'Betaalmethoden'],
+  ['/verzending-en-retour', 'Verzending & levertijd'],
+  ['/verzending-en-retour#retour', 'Retourneren (14 dagen)'],
+  ['/zakelijk-bestellen', 'Zakelijk bestellen'],
   ['/offerte', 'Prijsaanvraag'],
   ['/contact', 'Contact'],
   ['/account', 'Zakelijk inloggen'],
 ];
 const COMPANY: [string, string][] = [
+  ['/over-ons', 'Over ons'],
   ['/catalogus', 'Alle producten'],
   ['/merken', 'Merken'],
   ['/advies', 'Advies & uitleg'],

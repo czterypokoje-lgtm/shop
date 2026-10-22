@@ -78,7 +78,7 @@ export default function ShippingReturnsPage() {
           <strong>{formatPrice(SERVICE_SURCHARGE.send_in)}</strong>.
         </p>
 
-        <h2 style={h2}>Retourneren — 14 dagen bedenktijd</h2>
+        <h2 id="retour" style={{ ...h2, scrollMarginTop: 100 }}>Retourneren — 14 dagen bedenktijd</h2>
         <p style={p}>
           U mag uw bestelling binnen <strong>14 dagen</strong> na ontvangst zonder opgaaf van
           reden retourneren. Meld dit binnen die termijn bij ons via{' '}
