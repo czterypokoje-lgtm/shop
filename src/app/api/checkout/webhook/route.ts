@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { mollieKey as getMollieKey } from '@/lib/mollieKey';
 import { createClient } from '@supabase/supabase-js';
 import { sendMail, orderConfirmation, orderNotification } from '@/lib/email';
+import { notifySlackOrder } from '@/lib/slack';
 
 interface OrderLine {
   title: string;
@@ -147,6 +148,7 @@ export async function POST(request: Request) {
       await Promise.allSettled([
         sendMail(orderConfirmation(payload)),
         sendMail(orderNotification({ ...payload, phone: order.phone ?? null })),
+        notifySlackOrder({ ...payload, phone: order.phone ?? null }),
       ]);
     }
 
