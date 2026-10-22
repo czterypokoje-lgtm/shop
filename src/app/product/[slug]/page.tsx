@@ -177,8 +177,9 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'NL' },
             deliveryTime: {
               '@type': 'ShippingDeliveryTime',
-              handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
-              transitTime: { '@type': 'QuantitativeValue', minValue: 3, maxValue: 5, unitCode: 'DAY' },
+              // Same as Merchant Center: A-Key hands over in 1–2 working days, the carrier needs 2–3 (3–5 in total).
+              handlingTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 2, unitCode: 'DAY' },
+              transitTime: { '@type': 'QuantitativeValue', minValue: 2, maxValue: 3, unitCode: 'DAY' },
             },
           },
           hasMerchantReturnPolicy: {
