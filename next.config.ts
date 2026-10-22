@@ -4,7 +4,19 @@ const nextConfig: NextConfig = {
   // Set to /webshop when the shop is served at www.autosleutel24.nl/webshop through a rewrite on the main site.
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || undefined,
   // Review photos are shrunk in the browser to ~300 KB each; three plus the form fit in 4 MB (Vercel caps a request at 4.5 MB).
-  experimental: { serverActions: { bodySizeLimit: '4mb' } },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '4mb',
+      /*
+       * The shop is served at www.autosleutel24.nl/webshop through the main
+       * site's rewrite, so the browser's Origin is the main domain while this
+       * deployment's host is its own. Next refuses a server action whose
+       * Origin does not match the host — every form here (reviews, business
+       * login) failed with a 500 on the live site and worked locally.
+       */
+      allowedOrigins: ['www.autosleutel24.nl', 'autosleutel24.nl'],
+    },
+  },
   // Make slugs used to drop accented letters (citron, koda); keep the old URLs working.
   async redirects() {
     return [
