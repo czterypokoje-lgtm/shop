@@ -4,10 +4,9 @@ import Link from 'next/link';
 import { existsSync } from 'fs';
 import path from 'path';
 import ProductCard from '@/components/webshop/ProductCard';
-import { PAYMENT_METHODS } from '@/lib/payments';
 import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/catalog';
 import { slugify } from '@/lib/utils';
-import { SITE_CONFIG, WHATSAPP_URL } from '@/config/site.config';
+import { WHATSAPP_URL } from '@/config/site.config';
 import type { getShopProducts } from '@/lib/shopCatalog';
 import s from './HomeSections.module.css';
 
@@ -138,61 +137,3 @@ export function HomeGuides() {
   );
 }
 
-const BAND = [
-  { icon: 'ship', title: 'Snel verzonden', text: 'Levertijd 3–5 werkdagen' },
-  { icon: '247', title: '24/7 bereikbaar', text: 'Snel antwoord via WhatsApp' },
-  { icon: 'pay', title: 'Veilig online betalen', text: 'Eenvoudig en vertrouwd afrekenen' },
-  { icon: 'box', title: 'Bezorgd in NL & BE', text: `Gratis vanaf ${formatPrice(FREE_SHIPPING_FROM)}` },
-];
-
-const BAND_ICON: Record<string, React.ReactNode> = {
-  ship: <><path d="M20 22h26v20H20z" /><path d="M46 28h8l6 7v7H46" /><circle cx="27" cy="45" r="4" /><circle cx="53" cy="45" r="4" /><path d="M4 26h11M7 32h8M2 38h13" /></>,
-  '247': <><path d="M14 18a18 18 0 1 0 5-4" /><path d="M10 10v8h8" /><text x="32" y="38" fontSize="17" fontWeight="700" textAnchor="middle" fill="currentColor" stroke="none">24/7</text></>,
-  pay: <><rect x="10" y="16" width="36" height="24" rx="4" /><path d="M10 24h36M16 33h8" /><path d="M48 30l10 4v8c0 6-4 10-10 12-6-2-10-6-10-12v-8z" /><path d="M44 42l3 3 6-6" /></>,
-  box: <><path d="M14 26l18-9 18 9-18 9z" /><path d="M14 26v18l18 9 18-9V26M32 35v18" /><path d="M6 12l4 4M58 12l-4 4M32 4v6" /></>,
-};
-
-/* Official logos (Wikimedia Commons, vector). Carriers we ship with; methods enabled at Mollie. */
-const CARRIER_LOGOS = [
-  { id: 'dhl', label: 'DHL' }, { id: 'postnl', label: 'PostNL' }, { id: 'ups', label: 'UPS' }, { id: 'gls', label: 'GLS' },
-];
-const PAY_LOGOS: Record<string, { id: string; label: string }[]> = {
-  ideal: [{ id: 'ideal', label: 'iDEAL' }],
-  bancontact: [{ id: 'bancontact', label: 'Bancontact' }],
-  creditcard: [{ id: 'visa', label: 'Visa' }, { id: 'mastercard', label: 'Mastercard' }],
-};
-const Tile = ({ id, label }: { id: string; label: string }) => (
-  <li className={s.tile} title={label}>
-    {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img src={withBase(`/images/logos/${id}.svg`)} alt={label} loading="lazy" />
-  </li>
-);
-
-export function HomePartners() {
-  const methods = PAYMENT_METHODS.flatMap((m) => PAY_LOGOS[m.id] ?? []);
-  return (
-    <section className={s.band} aria-label="Verzenden en betalen">
-      <div className="container">
-        <div className={s.bandRow}>
-          {BAND.map((b) => (
-            <div key={b.title} className={s.bandItem}>
-              <svg viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{BAND_ICON[b.icon]}</svg>
-              <div><strong>{b.title}</strong><span>{b.text}</span></div>
-            </div>
-          ))}
-        </div>
-        <div className={s.bandBottom}>
-          <p className={s.copy}><b>{SITE_CONFIG.name.toUpperCase()}</b> © {new Date().getFullYear()} ALLE RECHTEN VOORBEHOUDEN.</p>
-          <div className={s.bandBox}>
-            <h3>VERZENDPARTNERS</h3>
-            <ul>{CARRIER_LOGOS.map((c) => <Tile key={c.id} {...c} />)}</ul>
-          </div>
-          <div className={`${s.bandBox} ${s.bandPay}`}>
-            <h3>VEILIGE BETAALMETHODEN</h3>
-            <ul>{methods.map((m) => <Tile key={m.id} {...m} />)}</ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
