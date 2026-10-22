@@ -79,16 +79,28 @@ async function uploadPhotos(db: NonNullable<ReturnType<typeof reviewsDb>>, form:
   const photos: string[] = [];
   const files = form.getAll('photos').slice(0, 3).filter((f): f is File => f instanceof File && f.size > 0);
   if (!files.length) return { photos };
-  // Loaded only when there is a photo: a native module that fails to load must not take text reviews down with it.
-  const sharp = (await import('sharp')).default;
+  // Loaded only when there is a photo, and optional: on the Vercel runtime the
+  // native module does not load. The browser already re-encodes every photo to
+  // a 1600px JPEG (ReviewForm's shrink), which drops EXIF and its GPS position,
+  // so that JPEG is stored as it is when sharp is unavailable.
+  const sharp = await import('sharp').then((m) => m.default).catch(() => null);
   for (const f of files) {
     if (f.size > 4 * 1024 * 1024 || !/^image\//.test(f.type)) return { error: 'Een foto is te groot of geen afbeelding.' };
-    let webp: Buffer;
-    try {
-      webp = await sharp(Buffer.from(await f.arrayBuffer())).rotate().resize(1600, 1600, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 80 }).toBuffer();
-    } catch { return { error: 'Een foto kon niet worden gelezen. Probeer JPG of PNG.' }; }
-    const path = `${slug}/${randomUUID()}.webp`;
-    const up = await db.storage.from('review-photos').upload(path, webp, { contentType: 'image/webp' });
+    const raw = Buffer.from(await f.arrayBuffer());
+    let body: Buffer;
+    let ext: 'webp' | 'jpg';
+    if (sharp) {
+      try {
+        body = await sharp(raw).rotate().resize(1600, 1600, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 80 }).toBuffer();
+        ext = 'webp';
+      } catch { return { error: 'Een foto kon niet worden gelezen. Probeer JPG of PNG.' }; }
+    } else {
+      if (f.type !== 'image/jpeg') return { error: 'Een foto kon niet worden gelezen. Probeer JPG of PNG.' };
+      body = raw;
+      ext = 'jpg';
+    }
+    const path = `${slug}/${randomUUID()}.${ext}`;
+    const up = await db.storage.from('review-photos').upload(path, body, { contentType: ext === 'webp' ? 'image/webp' : 'image/jpeg' });
     if (up.error) return { error: 'Foto uploaden lukte niet. Probeer het zonder foto of later opnieuw.' };
     photos.push(path);
   }
