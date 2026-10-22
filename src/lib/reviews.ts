@@ -2,7 +2,7 @@ import { cache } from 'react';
 import 'server-only';
 import { createClient } from '@supabase/supabase-js';
 
-export type Review = { id: string; rating: number; title: string | null; body: string; author_name: string; photos: string[]; published_at: string };
+export type Review = { id: string; rating: number; title: string | null; body: string; author_name: string; photos: string[]; published_at: string; verified: boolean };
 
 const db = () => {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.storage_SUPABASE_URL;
@@ -16,10 +16,15 @@ export async function reviewsFor(slug: string): Promise<Review[]> {
   const s = db();
   if (!s) return [];
   const { data, error } = await s.from('product_reviews')
-    .select('id, rating, title, body, author_name, photos, published_at')
+    .select('*')
     .eq('product_slug', slug).not('published_at', 'is', null)
     .order('published_at', { ascending: false }).limit(50);
-  return error ? [] : (data as Review[]);
+  // select('*') so this keeps working before the open-reviews SQL adds `verified`: a review without it was a buyer's.
+  // Picked field by field: the row also holds the reviewer's e-mail, which never leaves the server.
+  return error ? [] : (data as (Review & { verified?: boolean | null })[]).map((r) => ({
+    id: r.id, rating: r.rating, title: r.title, body: r.body, author_name: r.author_name,
+    photos: r.photos ?? [], published_at: r.published_at, verified: r.verified !== false,
+  }));
 }
 
 export const photoUrl = (path: string) => {

@@ -349,7 +349,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
         <ProductTrustBar />
         {/* Reviews straight under the product, where a buyer still decides. */}
         <div style={{ maxWidth: 1136, margin: '0 auto' }}>
-          <ProductReviews reviews={reviews} />
+          <ProductReviews reviews={reviews} slug={entry.slug} title={entry.titleNl} />
         </div>
         <ProductAnswers title={entry.titleNl} answer={answer} />
       </div>

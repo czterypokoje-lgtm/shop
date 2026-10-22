@@ -97,3 +97,10 @@ export function isBtwConfigured(): boolean {
 
 /** Whether search engines may index the shop. Set SHOP_INDEXABLE=1 in Vercel and redeploy to open it. */
 export const SHOP_INDEXABLE = process.env.SHOP_INDEXABLE === '1';
+
+/**
+ * Reviews from anyone, not only buyers, while the shop has none yet. They are
+ * labelled "Niet geverifieerd" and go online only after the office approves
+ * them. Set SHOP_OPEN_REVIEWS=0 in Vercel to go back to buyers only.
+ */
+export const OPEN_REVIEWS = process.env.SHOP_OPEN_REVIEWS !== '0';

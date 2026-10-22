@@ -16,9 +16,11 @@ async function shrink(file: File): Promise<Blob> {
   } catch { return file; }
 }
 
-export default function ReviewForm({ orderId, token, slug, title, image, defaultName, done }: {
-  orderId: string; token: string; slug: string; title: string; image: string | null; defaultName: string; done: boolean;
+/** With an order and token: a buyer's review from the e-mail link. Without: an open review from the product page, approved by the office first. */
+export default function ReviewForm({ orderId, token, slug, title, image, defaultName = '', done = false }: {
+  orderId?: string; token?: string; slug: string; title: string; image: string | null; defaultName?: string; done?: boolean;
 }) {
+  const open = !orderId;
   const [state, action, pending] = useActionState<ReviewState, FormData>(submitReview, { ok: false });
   const [rating, setRating] = useState(0);
   const [files, setFiles] = useState<File[]>([]);
@@ -27,7 +29,7 @@ export default function ReviewForm({ orderId, token, slug, title, image, default
     return (
       <div className={s.formCard}>
         <div className={s.formHead}>{image && <img src={image} alt="" width={64} height={64} />}<strong>{title}</strong></div>
-        <p className={s.thanks}>✓ Bedankt voor uw review! Hij staat op de productpagina.</p>
+        <p className={s.thanks}>{open ? '✓ Bedankt! Wij controleren uw review en plaatsen hem binnen één werkdag.' : '✓ Bedankt voor uw review! Hij staat op de productpagina.'}</p>
       </div>
     );
   }
@@ -42,9 +44,9 @@ export default function ReviewForm({ orderId, token, slug, title, image, default
 
   return (
     <form className={s.formCard} onSubmit={submit}>
-      <div className={s.formHead}>{image && <img src={image} alt="" width={64} height={64} />}<strong>{title}</strong></div>
-      <input type="hidden" name="order" value={orderId} />
-      <input type="hidden" name="token" value={token} />
+      {!open && <div className={s.formHead}>{image && <img src={image} alt="" width={64} height={64} />}<strong>{title}</strong></div>}
+      {!open && <input type="hidden" name="order" value={orderId} />}
+      {!open && <input type="hidden" name="token" value={token} />}
       <input type="hidden" name="slug" value={slug} />
       <input type="hidden" name="rating" value={rating || ''} />
       <fieldset className={s.stars} aria-label="Uw beoordeling">
@@ -55,6 +57,8 @@ export default function ReviewForm({ orderId, token, slug, title, image, default
       <label>Titel (optioneel)<input name="title" maxLength={120} placeholder="Bijv. Past perfect op mijn Golf" /></label>
       <label>Uw ervaring *<textarea name="body" required minLength={10} maxLength={2000} rows={4} placeholder="Wat vond u van het product, de levering en het passen?" /></label>
       <label>Naam (zo zichtbaar) *<input name="name" required maxLength={40} defaultValue={defaultName} /></label>
+      {open && <label>E-mailadres * <span className={s.small}>(wordt niet getoond)</span><input name="email" type="email" required maxLength={120} autoComplete="email" /></label>}
+      {open && <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className={s.hp} />}
       <label>Foto&apos;s (optioneel, max. 3)
         <input type="file" accept="image/*" multiple onChange={(e) => setFiles([...(e.target.files ?? [])].slice(0, 3))} />
       </label>
