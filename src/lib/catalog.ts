@@ -295,7 +295,7 @@ const LABELS: Record<string, string> = {
   diensten: 'Diensten',
   'overige-sleutels': 'Overige sleutels',
   motorsleutels: 'Motorsleutels',
-  afstandsbedieningen: 'Afstandsbedieningen',
+  afstandsbedieningen: 'Autosleutels met afstandsbediening',
   'smart-keys': 'Smart keys / keyless',
   sleutelbaarden: 'Sleutelbaarden',
   behuizingen: 'Sleutelbehuizingen',

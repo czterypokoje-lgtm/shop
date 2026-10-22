@@ -76,7 +76,7 @@ export const ADVIES: AdviceArticle[] = [
     ],
     links: [
       { href: '/categorie/behuizingen', label: 'Sleutelbehuizingen' },
-      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Autosleutels met afstandsbediening' },
       { href: '/categorie/smart-keys', label: 'Smart keys' },
     ],
   },
@@ -246,7 +246,7 @@ export const ADVIES: AdviceArticle[] = [
       { q: 'Mijn auto is een import uit de VS. Welke frequentie heb ik nodig?', a: 'Waarschijnlijk 315 MHz. Controleer het op de printplaat van uw huidige sleutel of vraag het ons.' },
     ],
     links: [
-      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Autosleutels met afstandsbediening' },
       { href: '/categorie/universal-remotes', label: 'Universele sleutels' },
     ],
   },
@@ -280,7 +280,7 @@ export const ADVIES: AdviceArticle[] = [
       { q: 'Moet de auto naar de dealer?', a: 'Meestal niet. Een mobiele monteur met diagnoseapparatuur kan de sleutel ter plekke maken en inleren.' },
     ],
     links: [
-      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Autosleutels met afstandsbediening' },
       { href: '/categorie/smart-keys', label: 'Smart keys' },
       { href: '/categorie/transpondersleutels', label: 'Transpondersleutels' },
     ],
@@ -317,7 +317,7 @@ export const ADVIES: AdviceArticle[] = [
       { q: 'Blijven mijn andere sleutels werken?', a: 'Meestal wel, tenzij u ze bewust laat wissen, bijvoorbeeld omdat er één is gestolen.' },
     ],
     links: [
-      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Autosleutels met afstandsbediening' },
       { href: '/categorie/smart-keys', label: 'Smart keys' },
     ],
   },
@@ -374,7 +374,7 @@ export const ADVIES: AdviceArticle[] = [
       { q: 'Kan ik een reservesleutel zonder chip laten maken?', a: 'Alleen voor auto\'s zonder startonderbreker. Bij een auto met startonderbreker opent zo\'n sleutel het portier maar start hij de motor niet.' },
     ],
     links: [
-      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Autosleutels met afstandsbediening' },
       { href: '/categorie/transpondersleutels', label: 'Transpondersleutels' },
     ],
   },
@@ -459,7 +459,7 @@ export const ADVIES: AdviceArticle[] = [
     ],
     links: [
       { href: '/categorie/behuizingen', label: 'Behuizingen' },
-      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Autosleutels met afstandsbediening' },
       { href: '/categorie/smart-keys', label: 'Smart keys' },
     ],
   },

@@ -15,7 +15,7 @@ import { FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/money';
 export const revalidate = 3600;
 
 const CATEGORY_NAME: Record<string, string> = {
-  afstandsbedieningen: 'Afstandsbedieningen',
+  afstandsbedieningen: 'Autosleutels met afstandsbediening',
   behuizingen: 'Sleutelbehuizingen',
   transpondersleutels: 'Transpondersleutels',
   'smart-keys': 'Smart keys',

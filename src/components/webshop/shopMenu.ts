@@ -63,7 +63,7 @@ export const MENU: MenuGroup[] = [
       {
         title: 'Naar type',
         links: keep(
-          byCategory('Afstandsbedieningen', 'afstandsbedieningen', 'Complete sleutel met afstandsbediening'),
+          byCategory('Autosleutels met afstandsbediening', 'afstandsbedieningen', 'Complete sleutel: behuizing, elektronica en baard'),
           bySubcategory('Smart keys / keyless', 'smart key', 'Instappen zonder de sleutel te pakken'),
           bySubcategory('Transpondersleutels', 'transpondersleutel', 'Sleutel met chip, zonder afstandsbediening'),
           bySubcategory('Zonder startonderbreker', 'sleutel zonder startonderbreker'),
