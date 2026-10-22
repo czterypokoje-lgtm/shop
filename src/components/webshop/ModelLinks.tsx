@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import { getShopProducts } from '@/lib/shopCatalog';
 import { modelPages } from '@/lib/models';
+import { isConsumerProduct } from '@/lib/focus';
 import { slugify } from '@/lib/utils';
 import s from './ModelLinks.module.css';
 
 /** "Kies uw model": links from a make page to its model pages, most products first. */
 export default async function ModelLinks({ make }: { make: string }) {
   const makeSlug = slugify(make);
-  const models = modelPages(await getShopProducts())
+  const models = modelPages((await getShopProducts()).filter(isConsumerProduct))
     .filter((m) => m.makeSlug === makeSlug)
     .sort((a, b) => b.products.length - a.products.length || a.model.localeCompare(b.model, 'nl'));
   if (!models.length) return null;

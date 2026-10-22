@@ -119,8 +119,8 @@ export const ADVIES: AdviceArticle[] = [
       { q: 'Werkt mijn auto met een sleutel zonder chip?', a: 'U kunt er de deuren mee openen, maar starten lukt niet bij een auto met startonderbreker.' },
     ],
     links: [
-      { href: '/categorie/transponders', label: 'Transponders' },
       { href: '/categorie/transpondersleutels', label: 'Transpondersleutels' },
+      { href: '/categorie/transponders', label: 'Losse transponders' },
     ],
   },
   {
@@ -248,6 +248,219 @@ export const ADVIES: AdviceArticle[] = [
     links: [
       { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
       { href: '/categorie/universal-remotes', label: 'Universele sleutels' },
+    ],
+  },
+  {
+    slug: 'autosleutel-kwijt-wat-nu',
+    title: 'Autosleutel kwijt: wat nu? Stappenplan en kosten',
+    seoTitle: 'Autosleutel kwijt? Stappenplan en kosten',
+    description: 'Alle sleutels van uw auto kwijt, of nog één over? Wat u direct doet, wat een nieuwe sleutel kost en waarom u de oude sleutel laat wissen.',
+    intro: 'Een kwijtgeraakte autosleutel is vervelend, maar bijna altijd op te lossen zonder de auto naar de dealer te slepen. Wat u moet doen hangt af van één vraag: heeft u nog een werkende sleutel?',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'Nog één werkende sleutel over', blocks: [
+        { type: 'p', text: 'Dan is het eenvoudig en het goedkoopst: er wordt een extra sleutel bijgemaakt. De nieuwe sleutel wordt gefreesd en aan de auto geleerd, terwijl de bestaande sleutel blijft werken. Wacht hier niet mee: als ook de laatste sleutel kwijtraakt, wordt het duurder.' },
+      ] },
+      { h2: 'Alle sleutels kwijt', blocks: [
+        { type: 'steps', items: [
+          { title: 'Zoek gericht', text: 'Jaszakken, tassen, de auto zelf (als die open is), werk en de plek waar u het laatst reed. Een smart key ligt vaak nog in de auto.' },
+          { title: 'Gestolen? Doe aangifte', text: 'Bij diefstal samen met papieren of adres: doe aangifte en laat de verloren sleutel uit de auto wissen, zodat hij de auto niet meer opent of start.' },
+          { title: 'Laat een nieuwe sleutel maken', text: 'De monteur leest de sleutelcode uit het slot of via het kenteken, freest een nieuwe sleutel en leert hem aan de auto. Dit kan meestal ter plekke, de auto hoeft niet weg.' },
+          { title: 'Laat meteen een reservesleutel maken', text: 'Een tweede sleutel tegelijk maken kost veel minder dan later opnieuw beginnen.' },
+        ] },
+      ] },
+      { h2: 'Wat kost een nieuwe autosleutel?', blocks: [
+        { type: 'p', text: 'Dat hangt af van het type sleutel en of er nog een werkende sleutel is. Een sleutel zonder chip is goedkoop; een transpondersleutel of afstandsbediening moet ook worden ingeleerd; een smart key is het duurst. Bij de dealer betaalt u vaak meerdere honderden euro\'s en wacht u dagen. In onze webshop koopt u het onderdeel en kiest u zelf: frezen, elektronica overzetten of een monteur aan huis.' },
+        { type: 'tip', text: 'Zet uw sleutel niet bij uw adres aan een sleutelbos met naamlabel. Een losse sleutel zonder adres is voor een vinder waardeloos.' },
+      ] },
+    ],
+    faq: [
+      { q: 'Kan een nieuwe sleutel worden gemaakt zonder de oude?', a: 'Ja. De sleutelcode wordt uit het slot of via het kenteken bepaald en de nieuwe sleutel wordt aan de auto geleerd.' },
+      { q: 'Werkt de verloren sleutel daarna nog?', a: 'Bij het inleren kunnen alle oude sleutels uit de auto worden gewist. Dan opent en start de verloren sleutel de auto niet meer.' },
+      { q: 'Moet de auto naar de dealer?', a: 'Meestal niet. Een mobiele monteur met diagnoseapparatuur kan de sleutel ter plekke maken en inleren.' },
+    ],
+    links: [
+      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/smart-keys', label: 'Smart keys' },
+      { href: '/categorie/transpondersleutels', label: 'Transpondersleutels' },
+    ],
+  },
+  {
+    slug: 'autosleutel-inleren-programmeren',
+    title: 'Autosleutel inleren of programmeren: hoe werkt het?',
+    seoTitle: 'Autosleutel inleren of programmeren uitgelegd',
+    description: 'Waarom een nieuwe autosleutel moet worden ingeleerd, hoe dat gaat, hoe lang het duurt en wanneer het niet nodig is.',
+    intro: 'Een nieuwe afstandsbediening of transpondersleutel past misschien in het slot, maar de auto kent hem nog niet. Inleren (programmeren) is de stap waarmee de auto de sleutel accepteert.',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'Wat gebeurt er bij inleren?', blocks: [
+        { type: 'p', text: 'Via de diagnose-aansluiting (OBD) onder het dashboard wordt de code van de nieuwe sleutel opgeslagen in de startonderbreker en, bij een afstandsbediening, in de centrale vergrendeling. Bij sommige auto\'s moet daarvoor eerst een pincode of beveiligingscode worden uitgelezen.' },
+        { type: 'p', text: 'Het duurt meestal tussen tien minuten en een uur, afhankelijk van merk en model.' },
+      ] },
+      { h2: 'Wanneer is inleren nodig?', blocks: [
+        { type: 'list', items: [
+          'Nieuwe complete afstandsbediening: ja',
+          'Nieuwe smart key: ja',
+          'Nieuwe transpondersleutel of losse transponder: ja',
+          'Nieuwe printplaat: ja',
+          'Alleen een nieuwe behuizing met uw eigen elektronica: nee',
+          'Alleen een nieuwe batterij: bij vrijwel alle auto\'s nee',
+          'Sleutel zonder chip: nee, alleen frezen',
+        ] },
+      ] },
+      { h2: 'Kan ik het zelf?', blocks: [
+        { type: 'p', text: 'Bij een beperkt aantal oudere auto\'s bestaat een procedure met het contactslot en een of twee werkende sleutels. Bij de meeste auto\'s is professionele apparatuur nodig. Kies bij een sleutel in onze webshop voor "Monteur aan huis": die freest en leert de sleutel bij u in.' },
+      ] },
+    ],
+    faq: [
+      { q: 'Kan elke sleutel worden ingeleerd?', a: 'Alleen een sleutel met de juiste transponder en frequentie voor uw auto. Daarom staan chip en frequentie bij elk artikel.' },
+      { q: 'Blijven mijn andere sleutels werken?', a: 'Meestal wel, tenzij u ze bewust laat wissen, bijvoorbeeld omdat er één is gestolen.' },
+    ],
+    links: [
+      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/smart-keys', label: 'Smart keys' },
+    ],
+  },
+  {
+    slug: 'afstandsbediening-auto-werkt-niet',
+    title: 'Afstandsbediening van de auto werkt niet: 6 oorzaken',
+    seoTitle: 'Afstandsbediening auto werkt niet? 6 oorzaken',
+    description: 'Gaat de auto niet meer open met de afstandsbediening? Van lege batterij tot kapotte microschakelaar: zo vindt u de oorzaak en de oplossing.',
+    intro: 'Een afstandsbediening die het niet meer doet, is in de meeste gevallen met een klein onderdeel te repareren. Loop deze oorzaken van boven naar beneden af.',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'De oorzaken, van vaak naar zelden', blocks: [
+        { type: 'steps', items: [
+          { title: 'Lege batterij', text: 'Bereik wordt steeds kleiner, of een lampje knippert zwak. Vervang de knoopcel (meestal CR2032 of CR2025).' },
+          { title: 'Versleten knopjes of microschakelaar', text: 'Eén knop werkt niet of alleen als u hard drukt. Een nieuwe behuizing met nieuwe rubbers lost het vaak op.' },
+          { title: 'Losgeraakte batterijcontacten', text: 'Na een val werkt de sleutel soms wel, soms niet. Contacten of soldeerpunten op de printplaat zijn los.' },
+          { title: 'Waterschade', text: 'Na de wasmachine: batterij eruit, laten drogen. Corrosie op de printplaat betekent vaak een nieuwe printplaat of sleutel.' },
+          { title: 'Sleutel is uit de auto gevallen', text: 'Na een batterijwissel bij sommige merken: de knoppen moeten opnieuw worden gesynchroniseerd (zie instructieboekje).' },
+          { title: 'Probleem in de auto', text: 'Werkt ook de reservesleutel niet? Dan ligt het aan de auto (accu, ontvanger of vergrendeling), niet aan de sleutel.' },
+        ] },
+        { type: 'tip', text: 'Test altijd eerst de reservesleutel. Werkt die wel, dan zit het probleem in uw sleutel; werkt die ook niet, dan in de auto.' },
+      ] },
+    ],
+    faq: [
+      { q: 'De auto gaat open maar start niet. Wat nu?', a: 'Dan ligt het meestal aan de transponder: los, beschadigd of na een nieuwe behuizing vergeten over te zetten.' },
+      { q: 'Is repareren goedkoper dan een nieuwe sleutel?', a: 'Vaak wel. Een batterij of behuizing kost een fractie van een nieuwe afstandsbediening die ook ingeleerd moet worden.' },
+    ],
+    links: [
+      { href: '/categorie/batterijen', label: 'Sleutelbatterijen' },
+      { href: '/categorie/behuizingen', label: 'Sleutelbehuizingen' },
+      { href: '/categorie/printplaten', label: 'Printplaten' },
+    ],
+  },
+  {
+    slug: 'reservesleutel-laten-maken',
+    title: 'Reservesleutel voor de auto laten maken: zo werkt het',
+    seoTitle: 'Reservesleutel auto laten maken',
+    description: 'Waarom een tweede autosleutel slim is, wat het kost ten opzichte van alle sleutels kwijt, en hoe u er een laat maken.',
+    intro: 'Veel tweedehands auto\'s worden met maar één sleutel verkocht. Zolang die werkt merkt u niets, maar raakt hij kwijt, dan wordt een nieuwe sleutel ineens een stuk ingewikkelder.',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'Waarom nu, en niet pas als hij kwijt is', blocks: [
+        { type: 'p', text: 'Met een werkende sleutel kan een nieuwe sleutel eenvoudig worden bijgeleerd. Zijn alle sleutels kwijt, dan moet de sleutelcode eerst worden bepaald en moet de auto soms worden geopend zonder schade. Dat kost meer tijd en geld.' },
+      ] },
+      { h2: 'Zo laat u een reservesleutel maken', blocks: [
+        { type: 'steps', items: [
+          { title: 'Kies het juiste onderdeel', text: 'Zoek op kenteken, of vergelijk vorm, knoppen en baard met uw huidige sleutel.' },
+          { title: 'Kies de dienst', text: 'Frezen op sleutelcode, of een monteur aan huis die freest en inleert.' },
+          { title: 'Inleren', text: 'De nieuwe sleutel wordt aan de auto geleerd. Uw bestaande sleutel blijft werken.' },
+        ] },
+      ] },
+    ],
+    faq: [
+      { q: 'Kan ik een reservesleutel zonder chip laten maken?', a: 'Alleen voor auto\'s zonder startonderbreker. Bij een auto met startonderbreker opent zo\'n sleutel het portier maar start hij de motor niet.' },
+    ],
+    links: [
+      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/transpondersleutels', label: 'Transpondersleutels' },
+    ],
+  },
+  {
+    slug: 'smart-key-keyless-uitgelegd',
+    title: 'Smart key en keyless entry: hoe het werkt en wat u moet weten',
+    seoTitle: 'Smart key en keyless entry uitgelegd',
+    description: 'Hoe een smart key werkt, wat u doet bij een lege batterij, hoe u zich beschermt tegen diefstal met een relay-aanval en wat een nieuwe kost.',
+    intro: 'Met een smart key blijft de sleutel in uw zak: de auto merkt dat hij dichtbij is, opent de deur en start met een knop. Handig, maar er zijn een paar dingen om te weten.',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'Hoe werkt het?', blocks: [
+        { type: 'p', text: 'De auto zendt via antennes in deuren en interieur een zwak signaal uit. De smart key antwoordt met een versleutelde code. Klopt die en is de sleutel dichtbij genoeg, dan gaat de deur open of start de auto.' },
+      ] },
+      { h2: 'Batterij leeg', blocks: [
+        { type: 'p', text: 'In bijna elke smart key zit een noodsleutel waarmee u het portier opent. Starten lukt meestal door de sleutel tegen de startknop of tegen een gemarkeerde plek te houden. Het instructieboekje noemt de juiste plek.' },
+      ] },
+      { h2: 'Diefstal met een relay-aanval', blocks: [
+        { type: 'p', text: 'Dieven kunnen het signaal van een smart key in huis doorgeven aan de auto op de oprit. Bescherm u door de sleutel niet bij de voordeur te bewaren, een afschermend etui (Faraday-zakje) te gebruiken, of keyless entry uit te zetten als uw auto dat toestaat.' },
+      ] },
+    ],
+    faq: [
+      { q: 'Moet een nieuwe smart key worden ingeleerd?', a: 'Ja, altijd, met diagnoseapparatuur. De noodsleutel erin wordt op uw sleutelcode gefreesd.' },
+      { q: 'Kan ik alleen de behuizing van mijn smart key vervangen?', a: 'Bij veel modellen wel. U zet de printplaat over en de auto hoeft de sleutel niet opnieuw te leren.' },
+    ],
+    links: [
+      { href: '/categorie/smart-keys', label: 'Smart keys' },
+      { href: '/categorie/noodsleutels', label: 'Noodsleutels' },
+      { href: '/categorie/behuizingen', label: 'Behuizingen' },
+    ],
+  },
+  {
+    slug: 'klapsleutel-kapot-repareren',
+    title: 'Klapsleutel kapot: scharnier, baard of knoppen repareren',
+    seoTitle: 'Klapsleutel kapot? Zo repareert u hem',
+    description: 'Klapt de baard niet meer uit, zit hij los of is de behuizing gebroken? Welke onderdelen u nodig heeft om een klapsleutel te repareren.',
+    intro: 'Bij een klapsleutel gaat vooral het scharnier stuk: de baard klapt niet meer uit of zit los. Meestal is de elektronica nog prima en is alleen de behuizing of de baard aan vervanging toe.',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'Wat is er kapot?', blocks: [
+        { type: 'list', items: [
+          'Baard klapt niet uit of blijft niet staan: veer of scharnierpen versleten. Oplossing: nieuwe behuizing.',
+          'Baard afgebroken: nieuwe ongefreesde baard, gefreesd op uw sleutelcode.',
+          'Knoppen versleten of gescheurd: nieuwe behuizing met nieuwe rubbers.',
+          'Behuizing gebroken: nieuwe behuizing, elektronica overzetten.',
+        ] },
+      ] },
+      { h2: 'Zelf doen of laten doen', blocks: [
+        { type: 'p', text: 'De elektronica overzetten kunt u met een klein schroevendraaiertje zelf (zie ons stappenplan). De baard moet worden gefreesd op uw sleutelcode; dat doen wij als u "Frezen op sleutelcode" kiest. Liever alles laten doen? Kies "Elektronica overzetten" en stuur uw oude sleutel op.' },
+      ] },
+    ],
+    faq: [
+      { q: 'Kan ik de oude baard in de nieuwe behuizing zetten?', a: 'Bij sommige modellen wel, met een pinnetje. Vaak is frezen op sleutelcode netter, omdat de oude baard ook versleten is.' },
+    ],
+    links: [
+      { href: '/categorie/behuizingen', label: 'Behuizingen' },
+      { href: '/categorie/sleutelbaarden', label: 'Sleutelbaarden' },
+    ],
+  },
+  {
+    slug: 'kosten-nieuwe-autosleutel',
+    title: 'Wat kost een nieuwe autosleutel? Prijzen per type',
+    seoTitle: 'Wat kost een nieuwe autosleutel?',
+    description: 'Van sleutel zonder chip tot smart key: waar de prijs van een nieuwe autosleutel van afhangt en waar u op kunt besparen.',
+    intro: 'De prijs van een nieuwe autosleutel loopt sterk uiteen. Drie dingen bepalen hem: het type sleutel, of hij moet worden ingeleerd, en of u nog een werkende sleutel heeft.',
+    updated: '2026-10-22',
+    sections: [
+      { h2: 'Waar de prijs van afhangt', blocks: [
+        { type: 'list', items: [
+          'Type: sleutel zonder chip < transpondersleutel < afstandsbediening < smart key',
+          'Werk: alleen frezen, of ook inleren met diagnoseapparatuur',
+          'Situatie: bijmaken met een werkende sleutel is goedkoper dan alle sleutels kwijt',
+          'Origineel of vervangend: een dealersleutel kost meestal een veelvoud van een vervangende sleutel met dezelfde functies',
+        ] },
+      ] },
+      { h2: 'Besparen', blocks: [
+        { type: 'p', text: 'Werkt de elektronica nog en is alleen de buitenkant kapot? Dan is een nieuwe behuizing veruit de goedkoopste oplossing. Bij een lege batterij is een knoopcel genoeg. In onze webshop ziet u bij elk artikel de prijs inclusief btw, en de prijs van frezen, overzetten of een monteur aan huis staat erbij.' },
+      ] },
+    ],
+    faq: [
+      { q: 'Is een vervangende sleutel even goed als een originele?', a: 'Functioneel doet hij hetzelfde: openen, sluiten en starten. Het verschil zit vooral in prijs en soms in de afwerking.' },
+    ],
+    links: [
+      { href: '/categorie/behuizingen', label: 'Behuizingen' },
+      { href: '/categorie/afstandsbedieningen', label: 'Afstandsbedieningen' },
+      { href: '/categorie/smart-keys', label: 'Smart keys' },
     ],
   },
 ];

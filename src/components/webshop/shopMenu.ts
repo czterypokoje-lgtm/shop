@@ -122,7 +122,8 @@ export const MENU: MenuGroup[] = [
     ],
   },
   {
-    label: 'Gereedschap',
+    // Workshop stock, named for who it is for (see src/lib/focus.ts).
+    label: 'Vakhandel',
     href: '/categorie/accessoires',
     columns: [
       {

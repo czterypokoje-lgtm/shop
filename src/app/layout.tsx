@@ -9,7 +9,7 @@ import ChatButton from '@/components/ChatButton/ChatButton';
 import AdVisitBeacon from '@/components/Tracking/AdVisitBeacon';
 import WebshopNavigation from '@/components/webshop/WebshopNavigation';
 import WebshopFooter from '@/components/webshop/WebshopFooter';
-import { SITE_CONFIG } from '@/config/site.config';
+import { SITE_CONFIG, SHOP_INDEXABLE } from '@/config/site.config';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.domain),
@@ -32,11 +32,14 @@ export const metadata: Metadata = {
     apple: [{ url: withBase('/apple-icon.png'), sizes: '180x180', type: 'image/png' }],
   },
   /*
-   * Not indexed until the product copy is our own: most descriptions still come
-   * from the supplier, and publishing that is a duplicate-content problem for
-   * the whole domain. Remove together with the Disallow in robots.ts.
+   * Closed until the first real orders have gone through end to end. Opening
+   * is one switch, SHOP_INDEXABLE=1 in Vercel plus a redeploy, which this
+   * line and robots.ts both read. Workshop stock stays noindex either way
+   * (src/lib/focus.ts).
    */
-  robots: { index: false, follow: false, googleBot: { index: false, follow: false } },
+  robots: SHOP_INDEXABLE
+    ? { index: true, follow: true, googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large' } }
+    : { index: false, follow: false, googleBot: { index: false, follow: false } },
 };
 
 const storeSchema = {

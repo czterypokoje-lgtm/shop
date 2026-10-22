@@ -42,6 +42,7 @@ const COMPANY: [string, string][] = [
   ['/catalogus', 'Alle producten'],
   ['/merken', 'Merken'],
   ['/advies', 'Advies & uitleg'],
+  ['/veelgestelde-vragen', 'Veelgestelde vragen'],
   ['/algemene-voorwaarden', 'Algemene voorwaarden'],
   ['/privacybeleid', 'Privacybeleid'],
   ['/cookiebeleid', 'Cookiebeleid'],

@@ -94,3 +94,6 @@ export const WHATSAPP_URL = `https://wa.me/${SITE_CONFIG.whatsapp}`;
 export function isBtwConfigured(): boolean {
   return /^NL\d{9}B\d{2}$/.test(SITE_CONFIG.btw ?? '');
 }
+
+/** Whether search engines may index the shop. Set SHOP_INDEXABLE=1 in Vercel and redeploy to open it. */
+export const SHOP_INDEXABLE = process.env.SHOP_INDEXABLE === '1';

@@ -8,6 +8,7 @@ import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
 import { SERVICE_SURCHARGE } from '@/lib/services';
 import { getShopProducts } from '@/lib/shopCatalog';
 import { modelPage } from '@/lib/models';
+import { isConsumerProduct } from '@/lib/focus';
 import { withBase } from '@/lib/base';
 import { SITE_CONFIG } from '@/config/site.config';
 import s from './ModelPage.module.css';
@@ -20,7 +21,7 @@ type Props = { params: Promise<{ merk: string; model: string }> };
    key made by a technician; these are about buying the part. */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { merk, model } = await params;
-  const page = modelPage(await getShopProducts(), merk, model);
+  const page = modelPage((await getShopProducts()).filter(isConsumerProduct), merk, model);
   if (!page) return {};
   const from = Math.min(...page.products.map((p) => p.price!).filter(Boolean));
   const name = `${page.make} ${page.model}`;
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ModelPage({ params }: Props) {
   const { merk, model } = await params;
-  const page = modelPage(await getShopProducts(), merk, model);
+  const page = modelPage((await getShopProducts()).filter(isConsumerProduct), merk, model);
   if (!page) notFound();
 
   const name = `${page.make} ${page.model}`;
@@ -50,7 +51,23 @@ export default async function ModelPage({ params }: Props) {
   const chips = uniq(page.products.map((p) => p.chip)).slice(0, 5);
   const blades = uniq(page.products.map((p) => p.blade)).slice(0, 5);
 
+  // Per type: how many, and the price range — the facts an answer is made of.
+  const types = ordered.map(([cat, list]) => {
+    const ps = list.map((p) => p.price!).filter(Boolean);
+    return { label: facetLabel('category', cat).toLowerCase(), n: list.length, min: Math.min(...ps), max: Math.max(...ps) };
+  });
+  const typeText = types.map((x) => `${x.label} (${x.n}, ${x.min === x.max ? formatPrice(x.min) : `${formatPrice(x.min)}–${formatPrice(x.max)}`})`).join(', ');
+  const batteries = uniq(page.products.map((p) => p.battery?.toUpperCase())).slice(0, 3);
+  const needsLearning = ordered.some(([cat]) => ['afstandsbedieningen', 'smart-keys', 'transpondersleutels', 'printplaten'].includes(cat));
+  const answer = `Voor de ${name} hebben wij ${page.products.length} artikelen: ${typeText}. Alle prijzen inclusief btw, levering in 3–5 werkdagen.`;
+
   const faq = [
+    { q: `Welke sleutels en onderdelen zijn er voor de ${name}?`, a: answer },
+    ...(blades.length ? [{ q: `Welke sleutelbaard heeft de ${name}?`, a: `De sleutels voor de ${name} in ons assortiment hebben baard ${blades.join(', ')}. Welke uw auto heeft, hangt af van bouwjaar en uitvoering; vergelijk met uw huidige sleutel of zoek op kenteken.` }] : []),
+    ...(freqs.length ? [{ q: `Op welke frequentie werkt de afstandsbediening van de ${name}?`, a: `${freqs.join(' of ')}, afhankelijk van bouwjaar en uitvoering. Neem een sleutel met dezelfde frequentie als uw huidige.` }] : []),
+    ...(chips.length ? [{ q: `Welke transponder zit in de sleutel van de ${name}?`, a: `${chips.join(', ')}. De transponder moet aan de startonderbreker van de auto worden geleerd voordat de auto start.` }] : []),
+    ...(batteries.length ? [{ q: `Welke batterij zit in de sleutel van de ${name}?`, a: `Meestal een ${batteries.join(' of ')}. Het type staat op de oude batterij.` }] : []),
+    ...(needsLearning ? [{ q: `Moet een nieuwe sleutel voor de ${name} worden ingeleerd?`, a: `Een nieuwe afstandsbediening, smart key of transpondersleutel wel: die wordt gefreesd en met diagnoseapparatuur aan de auto geleerd. Vervangt u alleen de behuizing en zet u uw eigen elektronica over, dan is inleren niet nodig.` }] : []),
     { q: `Welke sleutel past op mijn ${name}?`, a: `Let op het aantal knoppen, de vorm (klapsleutel of vaste sleutel) en de sleutelbaard. Vul hierboven uw kenteken in, dan tonen wij alleen wat past. Twijfelt u? Stuur een foto van uw sleutel via WhatsApp, dan zoeken wij het voor u op.` },
     { q: `Wat kost een sleutel voor de ${name}?`, a: `Wij hebben ${page.products.length} artikelen voor de ${name}, vanaf ${formatPrice(from)} inclusief btw — van een losse behuizing tot een complete afstandsbediening.` },
     { q: 'Kunnen jullie de sleutel ook frezen en de elektronica overzetten?', a: `Ja. Frezen op uw sleutelcode kost ${formatPrice(SERVICE_SURCHARGE.cut_only)}, de elektronica uit uw oude sleutel overzetten ${formatPrice(SERVICE_SURCHARGE.send_in)}. Liever alles in één keer bij u aan huis? Onze monteur komt voor ${formatPrice(SERVICE_SURCHARGE.mobile_tech)}.` },
@@ -94,7 +111,7 @@ export default async function ModelPage({ params }: Props) {
             <div>
               <h1>Sleutels &amp; behuizingen voor de {name}</h1>
               <p className={s.lead}>
-                {page.products.length} artikelen die passen op de {name}, vanaf <b>{formatPrice(from)}</b>. Zoek op kenteken om zeker te zijn, of kies hieronder.
+                {page.products.length} artikelen die passen op de {name}, vanaf <b>{formatPrice(from)}</b>: {typeText}. Zoek op kenteken om zeker te zijn, of kies hieronder.
               </p>
               {(freqs.length > 0 || chips.length > 0 || blades.length > 0) && (
                 <ul className={s.facts}>

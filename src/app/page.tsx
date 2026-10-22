@@ -85,7 +85,7 @@ export default async function WebshopPage() {
 
       <ProductRow category="printplaten" title="Printplaten (PCB)" cover="/images/brand/cover-printplaten.webp" tagline="Nieuwe elektronica voor uw afstandsbediening." />
 
-      <ProductRow category="universal-remotes" title="Universele sleutels" cover="/images/brand/cover-universele-sleutels.webp" tagline="KeyDIY, Xhorse en Autel: te programmeren voor vrijwel elk merk." />
+      <ProductRow category="smart-keys" title="Smart keys (keyless)" cover="/images/brand/cover-universele-sleutels.webp" tagline="Instappen en starten zonder de sleutel te pakken." />
 
       <HomeReviewsBand />
 

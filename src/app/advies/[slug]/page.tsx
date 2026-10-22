@@ -6,6 +6,7 @@ import { ADVIES, adviceBySlug, type Block } from '@/content/advies';
 import { facetLabel } from '@/lib/catalog';
 import { formatPrice } from '@/lib/money';
 import { getShopProducts } from '@/lib/shopCatalog';
+import { isConsumerProduct } from '@/lib/focus';
 import { withBase } from '@/lib/base';
 import { SITE_CONFIG, WHATSAPP_URL } from '@/config/site.config';
 import s from '../Advies.module.css';
@@ -44,7 +45,7 @@ export default async function AdviesArticle({ params }: { params: Promise<{ slug
 
   // A few products from the first linked category, so the reader can go on to buy.
   const cat = a.links[0]?.href.split('/').pop();
-  const products = (await getShopProducts()).filter((p) => p.category === cat && p.image).slice(0, 4);
+  const products = (await getShopProducts()).filter((p) => p.category === cat && p.image && isConsumerProduct(p)).slice(0, 4);
 
   const base = SITE_CONFIG.domain;
   const url = `${base}/advies/${a.slug}`;

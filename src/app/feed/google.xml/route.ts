@@ -1,5 +1,6 @@
 import { SITE_CONFIG } from '@/config/site.config';
 import { getShopProducts } from '@/lib/shopCatalog';
+import { isConsumerProduct } from '@/lib/focus';
 import { FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/money';
 
 /*
@@ -40,7 +41,7 @@ const plain = (html: string) =>
 const abs = (path: string) => (path.startsWith('http') ? path : `${SITE_CONFIG.origin}${path}`);
 
 export async function GET() {
-  const products = (await getShopProducts()).filter((p) => p.price && p.image);
+  const products = (await getShopProducts()).filter((p) => p.price && p.image && isConsumerProduct(p));
 
   const items = products.map((p) => {
     const price = p.price!;

@@ -21,6 +21,9 @@ import PaymentMethods from '@/components/webshop/PaymentMethods';
 import type { Metadata } from 'next';
 import { SITE_CONFIG } from '@/config/site.config';
 import { getShopProductBySlug } from '@/lib/shopCatalog';
+import { productAnswer } from '@/lib/answers';
+import { isConsumerProduct } from '@/lib/focus';
+import ProductAnswers from '@/components/webshop/ProductAnswers';
 import { facetLabel, formatPrice, FREE_SHIPPING_FROM, SHIPPING_COST } from '@/lib/catalog';
 
 /** Categories that require programming after installation. */
@@ -49,8 +52,9 @@ export async function generateMetadata(
     return { title: { absolute: 'Product niet gevonden | Autosleutel24' } };
   }
 
+  // Answer first: the first sentence is what a search result or an AI answer quotes.
   const description = [
-    entry.metaDescriptionNl,
+    productAnswer(entry).summary.split(/(?<=\.) /)[0],
     entry.price != null ? `${formatPrice(entry.price)} incl. btw, levertijd 3–5 werkdagen.` : null,
   ].filter(Boolean).join(' ').slice(0, 160);
 
@@ -58,6 +62,8 @@ export async function generateMetadata(
     title: { absolute: `${entry.titleNl} | Autosleutel24` },
     description,
     alternates: { canonical: url },
+    // Workshop stock stays for sale but out of the index (see src/lib/focus.ts).
+    ...(isConsumerProduct(entry) ? {} : { robots: { index: false, follow: true } }),
     openGraph: {
       title: entry.titleNl,
       description,
@@ -98,6 +104,8 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
         }
       : null;
 
+  const answer = productAnswer(entry, batteryProduct?.titleNl);
+
   // Already merged with the office's overrides; the margin rule is the fallback.
   const sellPrice = entry.price;
 
@@ -129,7 +137,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
     '@type': 'Product',
     '@id': `${SITE_CONFIG.domain}/product/${entry.urlSlug}#product`,
     name: entry.titleNl,
-    description: entry.descriptionNl,
+    description: answer.summary,
     sku: entry.id,
     category: entry.category ?? undefined,
     image: entry.image
@@ -289,7 +297,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             <ProductBuyBox
               slug={entry.slug}
               title={entry.titleNl}
-              subtitle={entry.directAnswer}
+              subtitle={answer.summary.split(/(?<=\.) /)[0]}
               brand={entry.manufacturer ?? undefined}
               price={sellPrice || 0}
               oldPrice={oldPriceNum || 0}
@@ -343,6 +351,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
         <div style={{ maxWidth: 1136, margin: '0 auto' }}>
           <ProductReviews reviews={reviews} />
         </div>
+        <ProductAnswers title={entry.titleNl} answer={answer} />
       </div>
 
       {/* Below the Fold: Product Highlights (Beige Background) */}
