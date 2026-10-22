@@ -5,11 +5,11 @@
  */
 
 /**
- * Shipping: €5, free from €50 (the office's rule, October 2026). The market
+ * Shipping: €4,99, free from €49 (the office's rule, October 2026). The market
  * reference ships free from €25, so the higher threshold is a known trade-off.
  */
-export const SHIPPING_COST = 5.0;
-export const FREE_SHIPPING_FROM = 50.0;
+export const SHIPPING_COST = 4.99;
+export const FREE_SHIPPING_FROM = 49.0;
 
 export function shippingFor(basketTotal: number): number {
   return basketTotal >= FREE_SHIPPING_FROM ? 0 : SHIPPING_COST;

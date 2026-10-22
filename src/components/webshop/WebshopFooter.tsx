@@ -118,7 +118,7 @@ export default function WebshopFooter() {
           <section>
             <h4 className={styles.head}><Icon d={TRUCK} />Snel geleverd</h4>
             <ul className={styles.tiles}>{CARRIERS.map((c) => <Logo key={c.id} {...c} />)}</ul>
-            <p className={styles.note}>2–3 werkdagen · gratis vanaf €{FREE_SHIPPING_FROM} · met track &amp; trace</p>
+            <p className={styles.note}>3–5 werkdagen · gratis vanaf €{FREE_SHIPPING_FROM} · met track &amp; trace</p>
           </section>
           <section>
             <h4 className={styles.head}><Icon d={INFO} />Klantenservice</h4>

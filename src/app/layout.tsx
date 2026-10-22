@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: '%s | Autosleutel24 Shop',
     default: 'Autosleutels, behuizingen en afstandsbedieningen | Autosleutel24 Shop',
   },
-  description: 'Autosleutels, sleutelbehuizingen, afstandsbedieningen en batterijen voor alle merken. Prijzen incl. btw, verzonden binnen 2-3 werkdagen.',
+  description: 'Autosleutels, sleutelbehuizingen, afstandsbedieningen en batterijen voor alle merken. Prijzen incl. btw, verzonden binnen 3–5 werkdagen.',
   openGraph: {
     type: 'website',
     locale: 'nl_NL',

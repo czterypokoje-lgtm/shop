@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
 import { withBase } from '@/lib/base';
 import { WHATSAPP_URL } from '@/config/site.config';
 import s from './HomeService.module.css';
@@ -27,8 +28,8 @@ const WHY: { img: string; alt: string; title: string; text: string; cta: string;
   {
     img: '/images/brand/bestelling-inpakken.webp',
     alt: 'Een bestelling met een autosleutel wordt ingepakt',
-    title: 'Binnen 2–3 werkdagen in huis',
-    text: 'Op werkdagen verzonden, met track & trace. Gratis verzending vanaf €50 en 14 dagen bedenktijd.',
+    title: 'Binnen 3–5 werkdagen in huis',
+    text: `Op werkdagen verzonden, met track & trace. Gratis verzending vanaf ${formatPrice(FREE_SHIPPING_FROM)} en 14 dagen bedenktijd.`,
     cta: 'Verzending en retour',
     href: '/verzending-en-retour',
   },

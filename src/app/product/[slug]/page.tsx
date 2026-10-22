@@ -51,7 +51,7 @@ export async function generateMetadata(
 
   const description = [
     entry.metaDescriptionNl,
-    entry.price != null ? `${formatPrice(entry.price)} incl. btw, levertijd 2-3 werkdagen.` : null,
+    entry.price != null ? `${formatPrice(entry.price)} incl. btw, levertijd 3–5 werkdagen.` : null,
   ].filter(Boolean).join(' ').slice(0, 160);
 
   return {
@@ -170,7 +170,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             deliveryTime: {
               '@type': 'ShippingDeliveryTime',
               handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
-              transitTime: { '@type': 'QuantitativeValue', minValue: 2, maxValue: 3, unitCode: 'DAY' },
+              transitTime: { '@type': 'QuantitativeValue', minValue: 3, maxValue: 5, unitCode: 'DAY' },
             },
           },
           hasMerchantReturnPolicy: {

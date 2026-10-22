@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
-import { formatPrice } from '@/lib/money';
+import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
 import { addToCart } from '@/lib/cart';
 
 /**
@@ -70,7 +70,7 @@ export default function StickyBuyBar({
       <div className="shop-sticky-buy-text">
         <span className="shop-sticky-buy-title">{title}</span>
         <span className="shop-sticky-buy-usps">
-          <span>✓ <b>Gratis</b> verzending vanaf €50</span>
+          <span>✓ <b>Gratis</b> verzending vanaf {formatPrice(FREE_SHIPPING_FROM)}</span>
           <span>✓ 14 dagen bedenktijd</span>
           <span>✓ Gratis advies via WhatsApp</span>
         </span>

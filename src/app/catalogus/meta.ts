@@ -48,7 +48,7 @@ export function catalogMetadata(sp: Params, path?: string): Metadata {
   return {
     title,
     description: onlyMake
-      ? `Autosleutels, behuizingen en afstandsbedieningen voor ${f.make}. Prijzen incl. btw, levertijd 2-3 werkdagen.`
+      ? `Autosleutels, behuizingen en afstandsbedieningen voor ${f.make}. Prijzen incl. btw, levertijd 3–5 werkdagen.`
       : 'Sleutelbehuizingen, afstandsbedieningen, smart keys, transponders en batterijen. Filter op automerk, type en aantal knoppen.',
     alternates: { canonical: `${SITE_CONFIG.domain}${canonical}` },
     ...(extra.length || (f.category && f.make) ? { robots: { index: false, follow: true } } : {}),

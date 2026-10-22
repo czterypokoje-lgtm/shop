@@ -95,7 +95,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
           {inStock ? <polyline points="20 6 9 17 4 12" /> : <><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></>}
         </svg>
-        {inStock ? 'Op voorraad · levertijd 2–3 werkdagen' : 'Uitverkocht'}
+        {inStock ? 'Op voorraad · levertijd 3–5 werkdagen' : 'Uitverkocht'}
       </div>
 
       <hr className={styles.rule} />
@@ -213,7 +213,7 @@ export default function ProductBuyBox({ title, subtitle, brand, price, oldPrice,
               ['14 dagen bedenktijd', 'M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'],
               ['12 maanden garantie op elektronica', 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'],
               ['Gratis hulp via WhatsApp bij het inleren', 'M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'],
-              ['Levertijd 2 - 3 werkdagen', 'M1 3h15v13H1zM16 8h4l3 3v5h-7V8z'],
+              ['Levertijd 3 - 5 werkdagen', 'M1 3h15v13H1zM16 8h4l3 3v5h-7V8z'],
             ].map(([label, path]) => (
               <li key={label}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><path d={path} /></svg>

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE_CONFIG } from '@/config/site.config';
 import { SHIPPING_COST, FREE_SHIPPING_FROM, formatPrice } from '@/lib/catalog';
-import { SERVICE_SURCHARGE } from '@/lib/cart';
+import { SERVICE_SURCHARGE } from '@/lib/services';
 
 /**
  * Shipping, returns and warranty.
@@ -57,7 +57,7 @@ export default function ShippingReturnsPage() {
             Gratis verzending vanaf <strong>{formatPrice(FREE_SHIPPING_FROM)}</strong>.
           </li>
           <li>
-            Levertijd: <strong>2 tot 3 werkdagen</strong>. Onze onderdelen komen van onze
+            Levertijd: <strong>3 tot 5 werkdagen</strong>. Onze onderdelen komen van onze
             leverancier in Duitsland; is een artikel daar niet op voorraad, dan laten wij
             u dat dezelfde werkdag weten.
           </li>

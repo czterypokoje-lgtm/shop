@@ -15,7 +15,7 @@ type Products = Awaited<ReturnType<typeof getShopProducts>>;
 
 /* Every promise here is one the shop already makes elsewhere: 2-3 days, Mollie's methods, BW 6:230o. */
 const TRUST = [
-  { icon: 'truck', title: 'Levertijd 2–3 werkdagen', text: `Gratis verzending vanaf ${formatPrice(FREE_SHIPPING_FROM)}` },
+  { icon: 'truck', title: 'Levertijd 3–5 werkdagen', text: `Gratis verzending vanaf ${formatPrice(FREE_SHIPPING_FROM)}` },
   { icon: 'chat', title: 'Hulp via WhatsApp', text: 'Twijfelt u welke sleutel past? Stuur een foto.' },
   { icon: 'lock', title: 'Veilig betalen', text: 'iDEAL, Bancontact of creditcard' },
   { icon: 'return', title: '14 dagen bedenktijd', text: 'Ongebruikt retour, geld terug' },
@@ -139,7 +139,7 @@ export function HomeGuides() {
 }
 
 const BAND = [
-  { icon: 'ship', title: 'Snel verzonden', text: 'Levertijd 2–3 werkdagen' },
+  { icon: 'ship', title: 'Snel verzonden', text: 'Levertijd 3–5 werkdagen' },
   { icon: '247', title: '24/7 bereikbaar', text: 'Snel antwoord via WhatsApp' },
   { icon: 'pay', title: 'Veilig online betalen', text: 'Eenvoudig en vertrouwd afrekenen' },
   { icon: 'box', title: 'Bezorgd in NL & BE', text: `Gratis vanaf ${formatPrice(FREE_SHIPPING_FROM)}` },

@@ -70,7 +70,7 @@ export default async function ThankYouPage({
           <h1 className={styles.title}>Bedankt, uw betaling is ontvangen</h1>
           <p className={styles.number}>{order.order_number}</p>
           <p className={styles.text}>
-            U ontvangt een bevestiging per e-mail. Wij verzenden binnen 2 - 3 werkdagen.
+            U ontvangt een bevestiging per e-mail. Wij verzenden binnen 3 - 5 werkdagen.
           </p>
           <ul className={styles.lines}>
             {order.items.map((l, i) => (

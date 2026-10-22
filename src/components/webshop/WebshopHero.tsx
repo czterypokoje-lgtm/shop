@@ -37,7 +37,7 @@ export default function WebshopHero({ count }: { count: number }) {
 
           <ul className="webshop-hero-facts">
             <li><strong>★ {SITE_CONFIG.rating.replace('.', ',')}</strong> op Google</li>
-            <li>2–3 werkdagen in huis</li>
+            <li>3–5 werkdagen in huis</li>
             <li>Gratis vanaf {formatPrice(FREE_SHIPPING_FROM)}</li>
             <li>14 dagen bedenktijd</li>
           </ul>

@@ -187,7 +187,8 @@ export async function getShopProducts(
   return getProducts(audience)
     .filter((p) => map.get(p.supplierSlug ?? p.slug)?.published !== false)
     .map((p) => merge(p, map.get(p.supplierSlug ?? p.slug)))
-    .filter((p) => p.inStock);
+    // No price, no sale: a card saying "op aanvraag" with a buy button cannot be checked out.
+    .filter((p) => p.inStock && p.price != null);
 }
 
 /**

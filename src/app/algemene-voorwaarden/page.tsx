@@ -88,7 +88,7 @@ export default function TermsPage() {
 
         <h2 style={h2}>5. Levering</h2>
         <p style={p}>
-          Wij leveren binnen 2 tot 3 werkdagen, en in elk geval binnen 30 dagen. Lukt dat niet,
+          Wij leveren binnen 3 tot 5 werkdagen, en in elk geval binnen 30 dagen. Lukt dat niet,
           dan mag u de koop kosteloos ontbinden. Het risico van beschadiging of verlies ligt bij
           ons tot het moment dat u — of iemand die u aanwijst — het pakket ontvangt.
         </p>

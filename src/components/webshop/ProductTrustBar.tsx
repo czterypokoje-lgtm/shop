@@ -28,7 +28,7 @@ export default function ProductTrustBar() {
           <path d="M1 3h15v13H1zM16 8h4l3 3v5h-7zM5.5 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM18.5 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
         </svg>
         <span>
-          <strong className={styles.title}>2–3 werkdagen in huis</strong>
+          <strong className={styles.title}>3–5 werkdagen in huis</strong>
           <span className={styles.sub}>Gratis vanaf €{FREE_SHIPPING_FROM} · track &amp; trace</span>
         </span>
       </div>

@@ -137,7 +137,7 @@ export default async function CatalogPage({
       </h1>
       <p style={{ color: '#475569', marginBottom: '1.75rem', maxWidth: '62ch' }}>
         {copy?.intro ?? (filters.make && filters.category
-          ? `${results.length} ${facetLabel('category', filters.category).toLowerCase()} voor ${filters.make}, op voorraad en binnen 2–3 werkdagen bij u. Twijfelt u welke past? Kies hieronder een ander type of app ons een foto.`
+          ? `${results.length} ${facetLabel('category', filters.category).toLowerCase()} voor ${filters.make}, op voorraad en binnen 3–5 werkdagen bij u. Twijfelt u welke past? Kies hieronder een ander type of app ons een foto.`
           : undefined) ??
           'Sleutelbehuizingen, afstandsbedieningen, smart keys, transponders en batterijen. Filter op automerk en type — of laat onze monteur het hele werk doen.'}
       </p>

@@ -34,7 +34,7 @@ export default function ProductCard({ slug, urlSlug, title, category, categorySl
       </Link>
       <div className={s.category}>{category}</div>
       <Link href={href} className={s.title}>{title}</Link>
-      <div className={inStock ? s.stock : s.soldOut}>{inStock ? 'Op voorraad · 2–3 werkdagen' : 'Tijdelijk uitverkocht'}</div>
+      <div className={inStock ? s.stock : s.soldOut}>{inStock ? 'Op voorraad · 3–5 werkdagen' : 'Tijdelijk uitverkocht'}</div>
       <CardBuyBlock slug={slug} title={title} price={amount} category={categorySlug} />
       <div className={s.cta}>
         <AddToCartButton slug={slug} disabled={!inStock} />

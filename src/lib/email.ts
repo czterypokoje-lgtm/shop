@@ -137,7 +137,7 @@ ${order.postcode} ${order.city}
 ${
   order.needs_technician
     ? 'U heeft gekozen voor een monteurbezoek. Wij bellen u binnen één werkdag om een tijd af te spreken. Houd uw kenteken en een legitimatiebewijs bij de hand — zonder eigendomsbewijs werken wij niet aan een voertuig.'
-    : 'Wij verzenden uw bestelling binnen 2 tot 3 werkdagen. U ontvangt een bericht zodra het pakket onderweg is.'
+    : 'Uw bestelling is binnen 3 tot 5 werkdagen bij u. U ontvangt een bericht zodra het pakket onderweg is.'
 }
 
 Bedenktijd: u mag de bestelling binnen 14 dagen na ontvangst retourneren. Sleutels die wij op uw verzoek hebben gefreesd of ingeleerd zijn op maat gemaakt en vallen daarbuiten; heeft u een sleutel zelf ingeleerd of geprobeerd in te leren, dan is hij niet meer te verkopen en krijgt u bij retour niets terug. De volledige regeling staat op ${SITE_CONFIG.domain}/verzending-en-retour.
