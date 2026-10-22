@@ -10,7 +10,7 @@ import { sendMail } from '@/lib/email';
 import { SITE_CONFIG, OPEN_REVIEWS } from '@/config/site.config';
 import { getProductBySlug } from '@/lib/catalog';
 
-export type ReviewState = { ok: boolean; error?: string };
+export type ReviewState = { ok: boolean; error?: string; published?: boolean };
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const PAID = ['paid', 'processing', 'shipped', 'delivered'];
@@ -109,15 +109,42 @@ async function submitOpenReview(form: FormData, slug: string): Promise<ReviewSta
 
   const db = reviewsDb();
   if (!db) return { ok: false, error: 'Reviews zijn nog niet beschikbaar.' };
+
+  /*
+   * An order number turns this into a buyer's review: the order must exist,
+   * be paid, belong to the same e-mail address and contain this product.
+   * Both together, so a number read off someone else's parcel is not enough.
+   * Then it is verified and goes online at once, like the e-mail link.
+   */
+  const orderNumber = text(form, 'orderNumber', 30).toUpperCase().replace(/\s+/g, '');
+  let order: { id: string; order_number: string } | null = null;
+  if (orderNumber) {
+    const { data: o } = await db.from('orders').select('id, order_number, status, email, items').eq('order_number', orderNumber).maybeSingle();
+    const hasProduct = (o?.items as { slug?: string }[] | undefined)?.some((l) => l.slug === slug || (l.slug && getProductBySlug(l.slug, true)?.slug === slug));
+    if (!o || !PAID.includes(o.status) || String(o.email).toLowerCase() !== email.toLowerCase() || !hasProduct) {
+      return { ok: false, error: 'Dit bestelnummer hoort niet bij dit e-mailadres of dit product. Controleer het, of laat het veld leeg.' };
+    }
+    order = { id: o.id, order_number: o.order_number };
+  }
+
   const uploaded = await uploadPhotos(db, form, slug);
   if ('error' in uploaded) return { ok: false, error: uploaded.error };
 
   const { data, error } = await db.from('product_reviews').insert({
-    product_slug: slug, order_id: null, verified: false, email, rating,
+    product_slug: slug, order_id: order?.id ?? null, verified: Boolean(order), email, rating,
     title: text(form, 'title', 120) || null, body, author_name: name, photos: uploaded.photos,
-    published_at: null,
+    published_at: order ? new Date().toISOString() : null,
   }).select('id').single();
-  if (error || !data) return { ok: false, error: 'Opslaan lukte niet. Probeer het later opnieuw.' };
+  if (error || !data) return { ok: false, error: error?.code === '23505' ? 'U heeft dit product al beoordeeld. Bedankt!' : 'Opslaan lukte niet. Probeer het later opnieuw.' };
+
+  if (order) {
+    await sendMail({
+      to: SITE_CONFIG.email,
+      subject: `Nieuwe review (${rating}★, geverifieerd): ${product.titleNl}`,
+      text: `${name} gaf ${rating} van 5 sterren voor ${product.titleNl} (bestelling ${order.order_number}).\n\n${body}\n\n${uploaded.photos.length} foto('s). Staat direct online: ${SITE_CONFIG.domain}/product/${product.urlSlug}#reviews`,
+    });
+    return { ok: true, published: true };
+  }
 
   const token = reviewToken(`approve:${data.id}`);
   await sendMail({

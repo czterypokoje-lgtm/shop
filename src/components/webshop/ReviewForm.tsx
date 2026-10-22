@@ -29,7 +29,7 @@ export default function ReviewForm({ orderId, token, slug, title, image, default
     return (
       <div className={s.formCard}>
         <div className={s.formHead}>{image && <img src={image} alt="" width={64} height={64} />}<strong>{title}</strong></div>
-        <p className={s.thanks}>{open ? '✓ Bedankt! Wij controleren uw review en plaatsen hem binnen één werkdag.' : '✓ Bedankt voor uw review! Hij staat op de productpagina.'}</p>
+        <p className={s.thanks}>{open && !state.published ? '✓ Bedankt! Wij controleren uw review en plaatsen hem binnen één werkdag.' : '✓ Bedankt voor uw review! Hij staat op de productpagina.'}</p>
       </div>
     );
   }
@@ -58,6 +58,7 @@ export default function ReviewForm({ orderId, token, slug, title, image, default
       <label>Uw ervaring *<textarea name="body" required minLength={10} maxLength={2000} rows={4} placeholder="Wat vond u van het product, de levering en het passen?" /></label>
       <label>Naam (zo zichtbaar) *<input name="name" required maxLength={40} defaultValue={defaultName} /></label>
       {open && <label>E-mailadres * <span className={s.small}>(wordt niet getoond)</span><input name="email" type="email" required maxLength={120} autoComplete="email" /></label>}
+      {open && <label>Bestelnummer (optioneel) <span className={s.small}>bijv. AS24-26-ABC123, dan krijgt uw review het label &quot;Geverifieerde aankoop&quot;</span><input name="orderNumber" maxLength={30} autoComplete="off" /></label>}
       {open && <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className={s.hp} />}
       <label>Foto&apos;s (optioneel, max. 3)
         <input type="file" accept="image/*" multiple onChange={(e) => setFiles([...(e.target.files ?? [])].slice(0, 3))} />
