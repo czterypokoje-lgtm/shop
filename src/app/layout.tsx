@@ -47,6 +47,11 @@ const storeSchema = {
   '@type': 'OnlineStore',
   '@id': `${SITE_CONFIG.domain}/#store`,
   name: `${SITE_CONFIG.name} Shop`,
+  // The seller of record; the shop trades under the Autosleutel24 name.
+  legalName: SITE_CONFIG.fullName,
+  identifier: { '@type': 'PropertyValue', propertyID: 'KvK', value: SITE_CONFIG.kvk },
+  // One stock, shipped nationwide: no city pages, the whole country is the area.
+  areaServed: { '@type': 'Country', name: 'Nederland', identifier: 'NL' },
   url: SITE_CONFIG.domain,
   email: SITE_CONFIG.email,
   telephone: SITE_CONFIG.phoneTel,
