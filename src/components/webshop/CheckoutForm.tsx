@@ -150,7 +150,7 @@ export default function CheckoutForm({
         <label><span className={styles.label}>Telefoonnummer</span><input name="phone" type="tel" autoComplete="tel" className={styles.field} /></label>
 
         <div className={styles.pair}>
-          <label><span className={styles.label}>Postcode *</span><input name="postcode" required autoComplete="postal-code" placeholder="1011 AB" pattern="\s*[1-9][0-9]{3}\s?[a-zA-Z]{0,2}\s*" className={styles.field} /></label>
+          <label><span className={styles.label}>Postcode *</span><input name="postcode" required autoComplete="postal-code" placeholder="1011 AB" pattern="\s*[1-9][0-9]{3}\s?[a-zA-Z]{2}\s*" title="Nederlandse postcode, bijv. 1011 AB" className={styles.field} /></label>
           <label><span className={styles.label}>Huisnummer *</span><input name="housenumber" required autoComplete="address-line2" inputMode="text" className={styles.field} /></label>
         </div>
         <label><span className={styles.label}>Straat *</span><input name="street" required autoComplete="address-line1" className={styles.field} /></label>

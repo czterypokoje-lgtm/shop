@@ -208,7 +208,11 @@ export async function POST(request: Request) {
   if (!EMAIL.test(email)) {
     return NextResponse.json({ error: 'Controleer uw e-mailadres' }, { status: 400 });
   }
-  if (!POSTCODE_NL.test(postcode) && !POSTCODE_BE.test(postcode)) {
+  // Netherlands only for now (Belgium follows); a Belgian postcode gets a clear answer, not a parcel we cannot send for €4,99.
+  if (POSTCODE_BE.test(postcode)) {
+    return NextResponse.json({ error: 'Wij verzenden op dit moment alleen binnen Nederland. België volgt binnenkort.' }, { status: 400 });
+  }
+  if (!POSTCODE_NL.test(postcode)) {
     return NextResponse.json({ error: 'Controleer uw postcode (bijv. 1234 AB)' }, { status: 400 });
   }
 

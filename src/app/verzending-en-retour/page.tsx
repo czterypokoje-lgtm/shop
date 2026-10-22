@@ -61,7 +61,7 @@ export default function ShippingReturnsPage() {
             leverancier in Duitsland; is een artikel daar niet op voorraad, dan laten wij
             u dat dezelfde werkdag weten.
           </li>
-          <li>Wij verzenden op dit moment alleen binnen Nederland en België.</li>
+          <li>Wij verzenden op dit moment alleen binnen Nederland. België volgt binnenkort.</li>
         </ul>
 
         <h2 style={h2}>Monteur aan huis</h2>
