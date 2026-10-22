@@ -2,9 +2,8 @@ import React from 'react';
 import WebshopHero from '@/components/webshop/WebshopHero';
 import CategoryGrid from '@/components/webshop/CategoryGrid';
 import PromoBanner from '@/components/webshop/PromoBanner';
-import TrustSection from '@/components/webshop/TrustSection';
 import ProductRow from '@/components/webshop/ProductRow';
-import { HomeBrands, HomeFavorites, HomeGuides, HomePartners } from '@/components/webshop/HomeSections';
+import { HomeBrands, HomeFavorites, HomeGuides } from '@/components/webshop/HomeSections';
 import { getShopProducts } from '@/lib/shopCatalog';
 import { HomeWhyUs, HomeServiceBanners } from '@/components/webshop/HomeService';
 import { HomeWhyBand, HomeReviewsBand } from '@/components/webshop/HomeTrustBands';
@@ -90,11 +89,6 @@ export default async function WebshopPage() {
       <HomeReviewsBand />
 
       <HomeGuides />
-
-      {/* Real figures only — 5.0 from the Google profile, linked. */}
-      <TrustSection />
-
-      <HomePartners />
     </div>
   );
 }
