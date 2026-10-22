@@ -95,8 +95,8 @@ export function isBtwConfigured(): boolean {
   return /^NL\d{9}B\d{2}$/.test(SITE_CONFIG.btw ?? '');
 }
 
-/** Whether search engines may index the shop. Set SHOP_INDEXABLE=1 in Vercel and redeploy to open it. */
-export const SHOP_INDEXABLE = process.env.SHOP_INDEXABLE === '1';
+/** Whether search engines may index the shop. Open since 22-10-2026; SHOP_INDEXABLE=0 in Vercel closes it again. */
+export const SHOP_INDEXABLE = process.env.SHOP_INDEXABLE !== '0';
 
 /**
  * Reviews from anyone, not only buyers, while the shop has none yet. They are

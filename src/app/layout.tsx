@@ -32,9 +32,8 @@ export const metadata: Metadata = {
     apple: [{ url: withBase('/apple-icon.png'), sizes: '180x180', type: 'image/png' }],
   },
   /*
-   * Closed until the first real orders have gone through end to end. Opening
-   * is one switch, SHOP_INDEXABLE=1 in Vercel plus a redeploy, which this
-   * line and robots.ts both read. Workshop stock stays noindex either way
+   * Open to search engines since 22-10-2026. SHOP_INDEXABLE=0 in Vercel plus
+   * a redeploy closes it again; this line and robots.ts both read it. Workshop stock stays noindex either way
    * (src/lib/focus.ts).
    */
   // Google Merchant Center: online store claim (22-10-2026).
