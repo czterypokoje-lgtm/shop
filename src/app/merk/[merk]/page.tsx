@@ -4,6 +4,7 @@ import CatalogPage from '../../catalogus/page';
 import { catalogMetadata } from '../../catalogus/meta';
 import brands from '@/lib/brands.json';
 import { slugify } from '@/lib/utils';
+import ModelLinks from '@/components/webshop/ModelLinks';
 
 type Props = {
   params: Promise<{ merk: string }>;
@@ -24,5 +25,12 @@ export default async function BrandPage({ params, searchParams }: Props) {
   const { merk } = await params;
   const make = makeFor(merk);
   if (!make) notFound();
-  return CatalogPage({ searchParams: Promise.resolve({ ...(await searchParams), make }) });
+  const catalog = await CatalogPage({ searchParams: Promise.resolve({ ...(await searchParams), make }) });
+  return (
+    <>
+      {/* Model pages first: "Golf", "Polo" is how people narrow down, before any filter. */}
+      <ModelLinks make={make} />
+      {catalog}
+    </>
+  );
 }

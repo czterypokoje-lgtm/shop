@@ -1,0 +1,11 @@
+.box { max-width: 1360px; margin: 0 auto 1.5rem; padding: 1.1rem clamp(1rem, 3vw, 2rem); }
+.box h2 { margin: 0 0 .75rem; font-size: 1.15rem; color: #111827; }
+.box ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.box a { display: inline-flex; gap: .4rem; align-items: center; background: #fff; border: 1px solid #e6dccf; border-radius: 999px; padding: .4rem .85rem; text-decoration: none; color: #1f2937; font-weight: 600; font-size: .9rem; }
+.box a span { color: #94a3b8; font-weight: 500; }
+.box a:hover { border-color: #b93c20; color: #b93c20; }
+@media (max-width: 760px) {
+  .box { padding-bottom: .25rem; margin-bottom: .5rem; }
+  .box ul { flex-wrap: nowrap; overflow-x: auto; padding-bottom: .5rem; scrollbar-width: none; }
+  .box li { flex: none; }
+}

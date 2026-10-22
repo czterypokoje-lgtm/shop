@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || undefined,
   // Review photos are shrunk in the browser to ~300 KB each; three plus the form fit in 4 MB (Vercel caps a request at 4.5 MB).
   experimental: { serverActions: { bodySizeLimit: '4mb' } },
+  // Make slugs used to drop accented letters (citron, koda); keep the old URLs working.
+  async redirects() {
+    return [
+      { source: '/merk/citron/:path*', destination: '/merk/citroen/:path*', permanent: true },
+      { source: '/merk/citron', destination: '/merk/citroen', permanent: true },
+      { source: '/merk/koda/:path*', destination: '/merk/skoda/:path*', permanent: true },
+      { source: '/merk/koda', destination: '/merk/skoda', permanent: true },
+    ];
+  },
   async headers() {
     return [
       {

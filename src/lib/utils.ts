@@ -1,6 +1,9 @@
 export function slugify(text: string): string {
   return text
     .toString()
+    // "Citroën" → "citroen", "Škoda" → "skoda": accents dropped, not the whole letter.
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .trim()
     .replace(/\s+/g, '-')        // Replace spaces with -
