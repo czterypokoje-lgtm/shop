@@ -1,4 +1,5 @@
 import type { CatalogProduct } from '@/lib/catalog';
+import { KEY_FORM } from '@/content/keyForms';
 
 /*
  * What kind of key an article is, in the words people search for:
@@ -10,7 +11,10 @@ import type { CatalogProduct } from '@/lib/catalog';
  * false word in the title of a product someone then returns.
  */
 
-type Raw = Pick<CatalogProduct, 'category' | 'titleNl' | 'title' | 'excerpt'>;
+type Raw = Pick<CatalogProduct, 'category' | 'titleNl' | 'title' | 'excerpt' | 'slug'>;
+
+/** The form read from the photo (src/content/keyForms.ts), when it has been. */
+export const keyForm = (p: Pick<CatalogProduct, 'slug'>) => KEY_FORM[p.slug];
 
 const text = (p: Raw) => `${p.titleNl} ${p.title ?? ''} ${p.excerpt ?? ''}`;
 const isFlip = (p: Raw) => /klapp?(schl|sleutel)|flip/i.test(text(p)) && !/stift|körner/i.test(text(p));
@@ -18,6 +22,18 @@ const isSmart = (p: Raw) => /keyless|smart ?key|proximity|kessy/i.test(text(p));
 
 /** The search word for this article, or null where none fits. */
 export function keyKind(p: Raw): string | null {
+  const form = keyForm(p);
+  if (form && (p.category === 'smart-keys' || p.category === 'afstandsbedieningen')) {
+    // A flip key that A-Key also calls KeylessGo (VW Kessy) is still a flip key in the hand.
+    if (form === 'klap') return isSmart(p) ? 'Klapsleutel met keyless go' : 'Klapsleutel met afstandsbediening';
+    if (form === 'smart') return 'Smart key (keyless)';
+    return 'Autosleutel met afstandsbediening';
+  }
+  if (form && p.category === 'behuizingen') {
+    if (form === 'klap') return 'Klapsleutel behuizing';
+    if (form === 'smart') return 'Smart key behuizing';
+    return 'Sleutelbehuizing';
+  }
   switch (p.category) {
     case 'smart-keys': return 'Smart key (keyless)';
     case 'afstandsbedieningen': return isFlip(p) ? 'Klapsleutel met afstandsbediening' : isSmart(p) ? 'Smart key (keyless)' : 'Autosleutel met afstandsbediening';
@@ -36,7 +52,7 @@ export function keyTypeFacet(p: Raw): string | null {
   if (!kind) return null;
   if (kind.startsWith('Klapsleutel')) return 'klapsleutel';
   if (kind.startsWith('Smart key')) return 'smart key';
-  if (p.category === 'afstandsbedieningen') return 'met afstandsbediening';
+  if (p.category === 'afstandsbedieningen' || p.category === 'smart-keys') return 'met afstandsbediening';
   if (p.category === 'behuizingen') return 'behuizing';
   return null;
 }

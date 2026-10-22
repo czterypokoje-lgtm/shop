@@ -1,5 +1,5 @@
 import catalogJson from './catalog.json';
-import { keyTypeFacet, electronicsFacet } from './keyType';
+import { keyTypeFacet, electronicsFacet, keyForm } from './keyType';
 // Price and shipping helpers live apart so client components can use them without bundling the catalogue.
 export { SHIPPING_COST, FREE_SHIPPING_FROM, shippingFor, formatPrice } from './money';
 
@@ -104,7 +104,14 @@ const rawCatalog = catalogJson as unknown as {
    carry as fields: what kind of key, and whether the electronics come with it. */
 const catalog = {
   ...rawCatalog,
-  products: rawCatalog.products.map((p) => ({ ...p, keyType: keyTypeFacet(p), electronics: electronicsFacet(p) })),
+  products: rawCatalog.products.map((raw) => {
+    // A-Key's "KeylessGo" filed flip and fixed-blade remotes as smart keys; the photo says otherwise.
+    const form = keyForm(raw);
+    const p = raw.category === 'smart-keys' && form && form !== 'smart'
+      ? { ...raw, category: 'afstandsbedieningen', subcategory: 'afstandsbediening' }
+      : raw;
+    return { ...p, keyType: keyTypeFacet(p), electronics: electronicsFacet(p) };
+  }),
 };
 
 /**
