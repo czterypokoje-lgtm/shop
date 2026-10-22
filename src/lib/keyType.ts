@@ -50,6 +50,8 @@ export function keyKind(p: Raw): string | null {
 export function keyTypeFacet(p: Raw): string | null {
   const kind = keyKind(p);
   if (!kind) return null;
+  // A shell is never "a klapsleutel": someone filtering for a key wants a whole one.
+  if (p.category === 'behuizingen') return kind.startsWith('Klapsleutel') ? 'klapsleutel behuizing' : kind.startsWith('Smart key') ? 'smart key behuizing' : 'behuizing';
   if (kind.startsWith('Klapsleutel')) return 'klapsleutel';
   if (kind.startsWith('Smart key')) return 'smart key';
   if (p.category === 'afstandsbedieningen' || p.category === 'smart-keys') return 'met afstandsbediening';

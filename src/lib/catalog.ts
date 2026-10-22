@@ -325,7 +325,7 @@ const LABELS: Record<string, string> = {
 export const facetLabel = (key: FacetKey, value: string): string => {
   if (key === 'buttons') return `${value} knoppen`;
   if (key === 'electronics') return value === 'ja' ? 'Ja, met elektronica' : 'Nee, zonder elektronica';
-  if (key === 'keyType') return ({ klapsleutel: 'Klapsleutel', 'smart key': 'Smart key (keyless)', 'met afstandsbediening': 'Sleutel met afstandsbediening', behuizing: 'Sleutelbehuizing' } as Record<string, string>)[value] ?? value;
+  if (key === 'keyType') return ({ klapsleutel: 'Klapsleutel (compleet)', 'smart key': 'Smart key (compleet)', 'met afstandsbediening': 'Sleutel met afstandsbediening (compleet)', 'klapsleutel behuizing': 'Klapsleutel behuizing (leeg)', 'smart key behuizing': 'Smart key behuizing (leeg)', behuizing: 'Sleutelbehuizing (leeg)' } as Record<string, string>)[value] ?? value;
   if (key === 'chip' || key === 'blade') return value;
   // Subcategories are stored as the plain Dutch word ("cilindersleutel") so
   // the catalogue stays readable; a filter label starts with a capital.
