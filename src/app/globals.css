@@ -1863,16 +1863,6 @@ details[open] summary { color: var(--orange-500); }
 }
 .shop-expert-action svg { color: #b93c20; flex-shrink: 0; }
 
-.shop-shipping-bar {
-  background: #b93c20;
-  color: #fff;
-  text-align: center;
-  font-weight: 700;
-  font-size: clamp(.85rem, 3.2vw, 1rem);
-  padding: .65rem 1rem;
-  line-height: 1.35;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .shop-expert-panel,
   .shop-expert-caret { transition: none; }

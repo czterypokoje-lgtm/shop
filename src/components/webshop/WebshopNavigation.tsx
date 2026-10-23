@@ -1,5 +1,4 @@
 'use client';
-import { formatPrice, FREE_SHIPPING_FROM } from '@/lib/money';
 import { withBase } from '@/lib/base';
 import Link from 'next/link';
 import { readCart, CART_EVENT } from '@/lib/cart';
@@ -178,13 +177,6 @@ export default function WebshopNavigation() {
           </a>
           </div>
         </div>
-      </div>
-
-      {/* The real rule, from lib/money.ts: €4,99 shipping, free above
-          FREE_SHIPPING_FROM, and 3-5 working days because the parts come
-          from Germany. */}
-      <div className="shop-shipping-bar">
-        Gratis verzending vanaf {formatPrice(FREE_SHIPPING_FROM)} · levertijd 3 - 5 werkdagen
       </div>
 
       {/*
