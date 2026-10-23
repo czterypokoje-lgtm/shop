@@ -4,9 +4,7 @@ import { SITE_CONFIG } from '@/config/site.config';
 import ConsentPreferencesButton from '@/components/ConsentBanner/ConsentPreferencesButton';
 
 export const metadata: Metadata = {
-  title: {
-    absolute: 'Cookiebeleid | Autosleutel24',
-  },
+  title: 'Cookiebeleid',
   description:
     'Welke cookies Autosleutel24 gebruikt, waarvoor, hoe lang ze bewaard blijven en hoe u uw toestemming wijzigt of intrekt.',
   alternates: { canonical: `${SITE_CONFIG.domain}/cookiebeleid` },
