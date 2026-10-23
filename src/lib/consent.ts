@@ -152,13 +152,17 @@ export function applyConsent(state: ConsentState | null): void {
     consent_marketing: marketing,
   });
 
-  if (statistics) loadClarity();
+  if (statistics) { loadClarity(); loadWebshopClarity(); }
   if (marketing) loadOpenAIPixel();
 }
 
 /**
  * Microsoft Clarity records sessions and is not Consent Mode aware, so unlike
  * the Google tags it must not be loaded at all until the visitor agrees.
+ *
+ * This is the project shared with the service site (same ID there, same
+ * reasoning in that repo's consent.ts) -- one continuous session as a
+ * visitor moves from the service site into the shop.
  */
 const CLARITY_ID = 'y9gjejwp8z';
 let clarityRequested = false;
@@ -175,6 +179,30 @@ export function loadClarity(): void {
   s.id = 'ms-clarity';
   s.async = true;
   s.src = `https://www.clarity.ms/tag/${CLARITY_ID}`;
+  document.head.appendChild(s);
+}
+
+/**
+ * A second, webshop-only Clarity project (23 Oct) -- this repo only ever
+ * serves /webshop, so loading it here needs no path check to stay scoped to
+ * the shop. Added alongside the shared project above, not instead of it: it
+ * does not replace the cross-site session continuity, it is a clean,
+ * unambiguous second signal with no legacy data or other project's history
+ * to second-guess while that's being sorted out.
+ */
+const WEBSHOP_CLARITY_ID = 'z2c9g6qdhj';
+let webshopClarityRequested = false;
+
+export function loadWebshopClarity(): void {
+  if (typeof window === 'undefined' || webshopClarityRequested) return;
+  if (!PROD_HOSTNAMES.includes(window.location.hostname)) return;
+  if (document.getElementById('ms-clarity-webshop')) return;
+  webshopClarityRequested = true;
+
+  const s = document.createElement('script');
+  s.id = 'ms-clarity-webshop';
+  s.async = true;
+  s.src = `https://www.clarity.ms/tag/${WEBSHOP_CLARITY_ID}`;
   document.head.appendChild(s);
 }
 
