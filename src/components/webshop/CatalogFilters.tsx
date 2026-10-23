@@ -99,6 +99,23 @@ export default function CatalogFilters({
    */
   const hrefFor = useCallback(
     (key: string, value: string | null) => {
+      /*
+       * A category choice is a different page, not a query on this one. On
+       * /categorie/afstandsbedieningen a "?category=behuizingen" link used to
+       * keep the path, so the slug won, the visitor still saw remotes, and the
+       * crawler found a pile of URLs canonicalised to the wrong page
+       * (Screaming Frog, 23 Oct 2026). It now goes to /categorie/{value}, or to
+       * /catalogus when the category is cleared.
+       */
+      if (key === 'category' && (pathname === '/catalogus' || pathname.startsWith('/categorie/'))) {
+        const current = params.get('category') ?? pathname.match(/^\/categorie\/([^/?]+)/)?.[1] ?? null;
+        const next = new URLSearchParams(params.toString());
+        next.delete('category');
+        next.delete('page');
+        const target = value === null || value === current ? '/catalogus' : `/categorie/${encodeURIComponent(value)}`;
+        const qs = next.toString();
+        return qs ? `${target}?${qs}` : target;
+      }
       const next = new URLSearchParams(params.toString());
       if (value === null || next.get(key) === value) next.delete(key);
       else next.set(key, value);
