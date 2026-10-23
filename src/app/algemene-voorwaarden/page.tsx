@@ -18,7 +18,7 @@ import { SHIPPING_COST, FREE_SHIPPING_FROM, VAT_RATE, formatPrice } from '@/lib/
  */
 
 export const metadata: Metadata = {
-  title: { absolute: 'Algemene voorwaarden | Autosleutel24' },
+  title: 'Algemene voorwaarden',
   description:
     'De voorwaarden waaronder Autosleutel24 autosleutels, onderdelen en montage aan huis levert.',
   alternates: { canonical: `${SITE_CONFIG.domain}/algemene-voorwaarden` },

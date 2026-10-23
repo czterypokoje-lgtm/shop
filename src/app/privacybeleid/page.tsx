@@ -2,9 +2,7 @@ import type { Metadata } from 'next';
 import { SITE_CONFIG } from '@/config/site.config';
 
 export const metadata: Metadata = {
-  title: {
-    absolute: 'Privacybeleid (AVG conform) | Autosleutel24',
-  },
+  title: 'Privacybeleid',
   description: `Privacybeleid van ${SITE_CONFIG.fullName}. GDPR/AVG conform.`,
   alternates: { canonical: `${SITE_CONFIG.domain}/privacybeleid` },
 };
