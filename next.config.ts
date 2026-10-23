@@ -37,31 +37,16 @@ const nextConfig: NextConfig = {
           { key: 'Strict-Transport-Security', value: 'max-age=31536000; includeSubDomains' },
           { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=(self)' },
           /*
-           * Same policy as the service site's next.config.ts, same reasoning
-           * there in full. The one real difference: this app loads IBM Plex
-           * Sans from Google Fonts via a <link> (layout.tsx), not next/font,
-           * so style-src/font-src actually need fonts.googleapis.com /
-           * fonts.gstatic.com here, not just defensively. Mollie's checkout
-           * is a full top-level redirect (window.location.href in
-           * CheckoutForm.tsx), never an iframe, so it needs nothing in this
-           * policy — once the browser leaves for Mollie, Mollie's own CSP
-           * applies, not this one.
+           * A Content-Security-Policy was added here (23 Oct) and reverted
+           * the same day: confirmed, via real console CSP violations on the
+           * live service site (this app shares the exact same policy), that
+           * it silently blocked GA4 (region1.google-analytics.com, not
+           * www.google-analytics.com), Clarity (s.clarity.ms, not the host
+           * guessed), and most of Google Ads' conversion/remarketing pixels
+           * for hours. See next.config.ts in the autoslutel repo for the
+           * full account. Re-add only as Content-Security-Policy-Report-Only
+           * first, watched for a few days, before ever enforcing again.
            */
-          {
-            key: 'Content-Security-Policy',
-            value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.clarity.ms https://scripts.clarity.ms https://bat.bing.net https://bat.bing.com https://bzrcdn.openai.com",
-              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-              "img-src 'self' data: blob: https://upload.wikimedia.org https://cdn.simpleicons.org https://omqnxprotjfbyqqq.public.blob.vercel-storage.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://bat.bing.com",
-              "font-src 'self' https://fonts.gstatic.com",
-              "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://bzrcdn.openai.com https://*.supabase.co wss://*.supabase.co",
-              "frame-ancestors 'none'",
-              "object-src 'none'",
-              "base-uri 'self'",
-              "form-action 'self' https://wa.me https://api.whatsapp.com",
-            ].join('; '),
-          },
         ],
       },
     ];
