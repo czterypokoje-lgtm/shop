@@ -152,7 +152,15 @@ export function applyConsent(state: ConsentState | null): void {
     consent_marketing: marketing,
   });
 
-  if (statistics) { loadClarity(); loadWebshopClarity(); }
+  /*
+   * One Clarity project per page. Both projects used to load here; Clarity
+   * runs a single recorder per page, so one of the two never received the
+   * shop's sessions -- the dedicated webshop project stayed empty. The shop
+   * now records only into its own project (z2c9g6qdhj); the service site keeps
+   * y9gjejwp8z. A visitor moving from a service page into the shop becomes two
+   * recordings, one per project; GA4 still has the whole journey.
+   */
+  if (statistics) loadWebshopClarity();
   if (marketing) loadOpenAIPixel();
 }
 
@@ -169,6 +177,7 @@ let clarityRequested = false;
 
 export const PROD_HOSTNAMES = ['www.autosleutel24.nl', 'autosleutel24.nl'];
 
+/** Not called any more (see applyConsent); kept so the service-site project can be restored in one line. */
 export function loadClarity(): void {
   if (typeof window === 'undefined' || clarityRequested) return;
   if (!PROD_HOSTNAMES.includes(window.location.hostname)) return;
