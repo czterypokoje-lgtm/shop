@@ -161,7 +161,7 @@ export function applyConsent(state: ConsentState | null): void {
    * recordings, one per project; GA4 still has the whole journey.
    */
   if (statistics) loadWebshopClarity();
-  if (marketing) loadOpenAIPixel();
+  if (marketing) { loadOpenAIPixel(); loadConvaiWidget(); }
 }
 
 /**
@@ -242,6 +242,34 @@ export function loadOpenAIPixel(): void {
   document.head.appendChild(s);
 
   window.oaiq('init', { pixelId: OPENAI_PIXEL_ID });
+}
+
+/**
+ * ElevenLabs Convai widget — the same "Telefoniste" agent that answers the
+ * phone, embedded as a chat/voice widget. Same ID here as the main repo: one
+ * agent, shown on whichever zone the visitor is on. Not Consent Mode aware
+ * and it carries on a conversation (collects name, phone, address), so like
+ * Clarity and the OpenAI pixel it must not load before the visitor agrees.
+ */
+const CONVAI_AGENT_ID = 'agent_4601m1skjvkbepzv91tczsd4ma4h';
+let convaiRequested = false;
+
+export function loadConvaiWidget(): void {
+  if (typeof window === 'undefined' || convaiRequested) return;
+  if (!PROD_HOSTNAMES.includes(window.location.hostname)) return;
+  if (document.getElementById('elevenlabs-convai-widget')) return;
+  convaiRequested = true;
+
+  const widget = document.createElement('elevenlabs-convai');
+  widget.id = 'elevenlabs-convai-widget';
+  widget.setAttribute('agent-id', CONVAI_AGENT_ID);
+  document.body.appendChild(widget);
+
+  const s = document.createElement('script');
+  s.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
+  s.async = true;
+  s.type = 'text/javascript';
+  document.head.appendChild(s);
 }
 
 /** Opens the preferences panel from anywhere (footer link, cookie policy page). */
