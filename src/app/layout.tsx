@@ -100,6 +100,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           GA4 straight through gtag.js, into the same property as the service site (G-C4WR7TYCTV): one
           journey from ad or search through service page and shop to payment. Only on the real domain —
           the Vercel demo and localhost never count as visitors. Consent Mode above decides what is stored.
+
+          The Ads conversion ID (AW-18511036958) rides the same gtag.js load — one script, two
+          `config` calls, per Google's own multi-product setup.
         */}
         <Script id="ga4">
           {`
@@ -109,6 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               document.head.appendChild(g);
               gtag('js', new Date());
               gtag('config', 'G-C4WR7TYCTV', { content_group: 'webshop' });
+              gtag('config', 'AW-18511036958');
             }
           `}
         </Script>
