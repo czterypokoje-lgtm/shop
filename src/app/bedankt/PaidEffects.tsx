@@ -2,9 +2,12 @@
 
 import { useEffect } from 'react';
 import { clearCart } from '@/lib/cart';
-import { track, tagSession } from '@/lib/track';
+import { track, tagSession, trackAdsConversion } from '@/lib/track';
 
-/** Once per paid order: empty the basket and report the purchase to GA4 (key event) and Clarity. */
+/** Ads conversion action: Purchase, AW-18511036958. */
+const ADS_PURCHASE_SEND_TO = 'AW-18511036958/6ySuCKero7AdEJ6E4PpE';
+
+/** Once per paid order: empty the basket and report the purchase to GA4 (key event), Google Ads, and Clarity. */
 export default function PaidEffects({ orderNumber, value, items }: {
   orderNumber: string;
   value: number;
@@ -18,6 +21,7 @@ export default function PaidEffects({ orderNumber, value, items }: {
       localStorage.setItem(key, '1');
     } catch {}
     track('purchase', { transaction_id: orderNumber, value, items });
+    trackAdsConversion(ADS_PURCHASE_SEND_TO, value, orderNumber);
     tagSession('order', orderNumber);
   }, [orderNumber, value, items]);
   return null;

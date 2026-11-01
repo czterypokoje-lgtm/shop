@@ -34,6 +34,22 @@ export function track(event: string, params: Params = {}): void {
   window.clarity?.('event', event);
 }
 
+/**
+ * A Google Ads conversion (e.g. Purchase). Separate from track() above: Ads
+ * conversions use send_to + a conversion label, not the GA4 event schema.
+ */
+export function trackAdsConversion(sendTo: string, value: number, transactionId: string): void {
+  if (typeof window === 'undefined') return;
+  if (debug()) { console.info('[track] ads-conversion', sendTo, value, transactionId); return; }
+  if (!PROD_HOSTNAMES.includes(window.location.hostname)) return;
+  window.gtag?.('event', 'conversion', {
+    send_to: sendTo,
+    value,
+    currency: 'EUR',
+    transaction_id: transactionId,
+  });
+}
+
 /** A Clarity tag on this session (e.g. step=checkout), to filter recordings. */
 export function tagSession(key: string, value: string | number): void {
   if (typeof window === 'undefined' || !PROD_HOSTNAMES.includes(window.location.hostname)) return;
